@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logger_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/settings_details_background"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="8dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp"
+        >
+
+        <View
+            style="@style/SettingsDetailsSeparator"
+            android:background="@color/settings_view_separator" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/enable_log"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+         >
+
+        <TextView
+            android:id="@+id/logger_enable_logs"
+            style="@style/ConnectionListElementsSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dp"
+            android:paddingStart="30dp"
+            android:text="@string/log_enable"
+            android:textColor="@color/settings_view_text" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/enable_log_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/checkbox"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+           >
+        </CheckBox>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingRight="8dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp"
+
+        >
+
+        <View
+            style="@style/SettingsDetailsSeparator"
+            android:background="@color/settings_view_separator" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sendclearlog_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/aec_send_log_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/logger_separator2"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+             >
+
+            <TextView
+                android:id="@+id/logger_sendlog"
+                style="@style/ConnectionListElementsSmall"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/logger_separator2"
+                android:paddingLeft="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/log_sendlog"
+                android:textColor="@color/settings_view_text"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="8dp"
+            >
+
+            <View
+                style="@style/SettingsDetailsSeparator"
+                android:background="@color/settings_view_separator" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/aec_clear_log_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/logger_separator3"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+             >
+
+            <TextView
+                android:id="@+id/logger_clearlog"
+                style="@style/ConnectionListElementsSmall"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/logger_separator3"
+                android:paddingLeft="30dp"
+                android:paddingStart="30dp"
+                android:text="@string/log_clearlog"
+                android:textColor="@color/settings_view_text"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingRight="8dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp"
+            >
+
+        <View
+            style="@style/SettingsDetailsSeparator"
+            android:background="@color/settings_view_separator" />
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

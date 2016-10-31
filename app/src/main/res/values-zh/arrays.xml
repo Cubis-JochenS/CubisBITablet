@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+
+
+--><resources>
+
+    <!-- XLST: Different ways of creating connection -->
+    <string-array name="select_dialog_items2">
+        <item>"创建新连接"</item>
+        <item>"从服务器导入"</item>
+    </string-array>
+
+    <!--
+     <string-array name="select_dialog_items3">
+        <item>None</item>
+        <item>Error</item>
+        <item>Information</item>
+        <item>Debug</item>
+        <item>Warning</item>
+     </string-array>
+
+
+
+    -->
+    <!-- XLST: Yes or No Options -->
+    <string-array name="select_dialog_items3">
+        <item>"否"</item>
+        <item>"是"</item>
+    </string-array>
+
+    <!-- XLST: To edit or delete an existing connection -->
+    <string-array name="select_dialog_items4">
+        <item>"编辑"</item>
+        <item>"删除"</item>
+    </string-array>
+
+    <!-- XLST: Choose Reconnect or Work Offline -->
+    <string-array name="select_dialog_items5">
+        <item>"重新连接"</item>
+        <item>"离线工作"</item>
+    </string-array>
+
+    <!-- XHED: header of Logout Dialog -->
+    <string-array name="select_dialog_items6">
+        <item>"登出"</item>
+    </string-array>
+
+    <!-- XLST: Choose Edit or DeRegister for SUP CONNECTION -->
+    <string-array name="sup_options">
+        <item>"编辑"</item>
+        <item>"取消注册"</item>
+    </string-array>
+
+    <!-- Choose Log Level in Application Settings -->
+    <!-- Not intended for translation -->
+    <string-array name="log_level">
+        <item>"500 KB"</item>
+        <item>"1 MB"</item>
+        <item>"2 MB"</item>
+    </string-array>
+
+    <!-- XLST: Below are the various options available for users in the Settings page -->
+	<string-array name="settings">
+        <item>"常规设置"</item>
+        <item>"查看选项"</item>
+        <item>"快速提示"</item>
+        <item>"日志"</item>
+        <item>"仪表盘"</item>
+        <item>"关于"</item>
+    </string-array>
+    <!-- XLST: Choose either of the themes for the application -->
+    <string-array name="theme">
+        <item>"象牙白"</item>
+        <item>"石墨黑"</item>
+    </string-array>
+    
+    <!-- XLST: Offline Dataset Number -->
+	<!-- Not intended for translation -->
+    <string-array name="offline_dataset_num">
+        <item>"50"</item>
+        <item>"100"</item>
+        <item>"200"</item>
+        <item>"500"</item>
+    </string-array>
+
+     <!-- XLST: SDK Offline Storage -->
+	 <!-- Not intended for translation -->
+    <string-array name="sdk_offline_storage">
+        <item>"30 MB"</item>
+        <item>"50 MB"</item>
+        <item>"100 MB"</item>
+        <item>"200 MB"</item>
+    </string-array>
+    
+    <!-- XLST: App Password Timeout Options -->
+    <string-array name="app_pwd_timeout_val">
+        <item>"始终"</item>
+        <item>"1 分钟"</item>
+        <item>"5 分钟"</item>
+        <item>"15 分钟"</item>
+        <item>"60 分钟"</item>
+        <item>"从不"</item>
+    </string-array>
+
+</resources>

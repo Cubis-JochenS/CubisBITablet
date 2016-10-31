@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/home_menu_notification_custom"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <Button
+    android:id="@+id/actionbar_notification_button"
+    android:paddingTop="5dp"
+    android:layout_width="50dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/home_menu_notification"
+    />
+  <TextView
+    android:id="@+id/actionbar_notification_textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@id/actionbar_notification_button"
+    android:layout_alignRight="@id/actionbar_notification_button"
+    android:layout_alignEnd="@id/actionbar_notification_button"
+    android:gravity="center"
+    android:textColor="#FFF"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:background="@drawable/home_menu_notification_count_single"/>
+  <!-- <ImageView
+    android:id="@+id/actionbar_notification_arrow"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="12dp"
+    android:background="@drawable/notification_panel_arrow"
+    android:layout_alignParentBottom="true"
+    android:visibility="gone"/> -->
+</RelativeLayout>

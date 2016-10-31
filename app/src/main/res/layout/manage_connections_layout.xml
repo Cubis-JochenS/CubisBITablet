@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conlist_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- header -->
+
+    <LinearLayout 
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/top_bar_conn">
+	
+        <TextView
+            android:id="@+id/conn_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:text="@string/manage_connections"
+            android:textColor="@color/title_blue"
+            android:textSize="20sp"
+            android:gravity="bottom"/>"
+         <TextView
+            android:id="@+id/conn_sub_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="18dp"
+            android:textColor="@color/dimgrey"
+            android:textSize="12sp"
+            android:gravity="bottom"
+             />
+
+        <View
+            android:id="@+id/seperator1"
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="@color/lightgrey" />
+   
+    </LinearLayout>
+    
+<!-- Content -->
+
+     <LinearLayout 
+        android:id="@+id/Content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">      
+		    <ListView
+		        android:id="@+id/connections_list"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:divider="@color/lightgrey"
+		        android:dividerHeight="1dp"
+		        android:visibility="visible"
+		        android:listSelector="@drawable/button_selector"
+		  		android:cacheColorHint="@color/transparent"
+		       	android:scrollingCache="false"
+		         >
+		    </ListView>		
+
+     </LinearLayout>
+      <!-- footer -->
+      
+     <LinearLayout
+         android:id="@+id/footer"
+         android:layout_width="fill_parent"
+         android:layout_height="54dp"
+         android:orientation="vertical" >
+        <EditText
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:visibility="gone" />         
+	    <View
+            android:id="@+id/seperator3"
+            android:layout_height="1dp"
+            android:layout_width="fill_parent"
+            android:background="@color/lightgrey" />
+    
+	    <LinearLayout
+	        android:id="@+id/conlist_multi_footer"
+	        android:layout_width="fill_parent"
+	        android:layout_height="54dp"
+	        android:orientation="horizontal"
+            android:layoutDirection="locale"
+	        >
+	        
+	        <Button
+	            android:id="@+id/conn_add"
+	            style="@style/TextMedium.gridDoc"
+	            android:layout_width="0px"
+	            android:layout_height="54dp"
+	            android:layout_weight="0.3"
+	            android:layout_gravity="center_vertical"
+	            android:background="@drawable/button_selector_white"
+	            android:text="@string/new_txt" />
+	
+	        <View
+	            android:id="@+id/ver_seperator1"
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/lightgrey" />
+	
+	        <Button
+	            android:id="@+id/conn_import"
+	            style="@style/TextMedium.gridDoc"
+	            android:layout_width="0px"
+	            android:layout_height="54dp"
+	             android:layout_weight="0.3"
+	            android:layout_gravity="center_vertical"
+	            android:background="@drawable/button_selector_white"
+	            android:text="@string/import_txt" />
+	
+	        <View
+	            android:id="@+id/ver_seperator2"
+	            android:layout_width="1dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/lightgrey" />
+	
+	        <Button
+	            android:id="@+id/conn_done"
+	            android:layout_width="0px"
+	            android:layout_height="54dp"
+	             android:layout_weight="0.3"
+	            android:layout_gravity="center_vertical"
+	            android:background="@drawable/button_selector_white"
+	            style="@style/TextMedium.gridDoc"
+	            android:text="@string/done" />
+	    </LinearLayout> 
+	  </LinearLayout> 
+
+
+</LinearLayout>

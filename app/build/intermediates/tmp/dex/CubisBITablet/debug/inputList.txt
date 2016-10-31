@@ -1,0 +1,1 @@
+/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/multi-dex/CubisBITablet/debug/allclasses.jar

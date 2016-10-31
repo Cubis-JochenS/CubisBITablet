@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conlist_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+	android:background="@color/white">
+
+    <!-- header -->
+
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:orientation="vertical" >
+        <RelativeLayout
+            android:id="@+id/Header"
+             android:layout_weight="0.03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            >
+
+            <TextView
+                android:id="@+id/groupslist_header_text"
+                style="@style/TextLarge.Header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jam"
+                android:textColor="@color/text_header" />
+
+            <ImageButton
+                android:id="@+id/jam_signout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/jam_logout_grey" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/seperator1"
+            style="@style/DialogTitleSeperator" />
+    </LinearLayout>
+
+    <!-- Content -->
+
+    <LinearLayout
+        android:id="@+id/Content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.965"
+        android:orientation="vertical" >
+        
+               
+         <Button
+                android:id="@+id/jam_create_group"
+                style="@style/TextMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"    
+                android:layout_gravity="center"  
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:background="@drawable/jam_button_dialog"
+                android:text="@string/create_new_group" 
+                android:textColor="@color/black"/>
+         
+         <TextView
+                android:id="@+id/groupslist_header_text"
+                style="@style/TextSmall.SubHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              	android:layout_margin="10dp"
+                android:text="@string/jam_current_groups"
+                android:textColor="@color/text_subheader" />
+        <View
+            android:id="@+id/seperator2"
+            style="@style/DialogFooterSeperator" />
+         
+      
+        <ListView
+            android:id="@+id/groups_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" 
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp">
+        </ListView>
+    </LinearLayout>
+    <!-- footer -->
+
+ <!--    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.015"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/seperator2"
+            style="@style/DialogFooterSeperator"/>
+
+     
+    </LinearLayout> -->
+
+</LinearLayout>

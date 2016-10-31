@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/esb_enable_app_pwd_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp" >
+
+            <!-- Enable/Disable App password -->
+
+            <RelativeLayout
+                android:id="@+id/esb_enableapppwdlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layoutDirection="locale"
+                >
+
+                <CheckBox
+                    android:id="@+id/esb_enable_app_pwd_toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/checkbox"
+                    android:padding="10dp" >
+                </CheckBox>
+
+                <TextView
+                    android:id="@+id/esb_textView2"
+                    style="@style/ConnectionListElements"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="3dp"
+                    android:layout_toLeftOf="@id/esb_enable_app_pwd_toggle"
+                    android:layout_toStartOf="@id/esb_enable_app_pwd_toggle"
+                    android:text="@string/use_app_pwd"
+                    android:textColor="@color/settings_view_text" >
+                </TextView>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/esb_separator2"
+                style="@style/ConnectionLineSep"
+                android:layout_below="@id/esb_enableapppwdlayout"
+                android:background="@color/settings_view_separator" >
+            </View>
+
+            <!-- SAP BI Password -->
+
+            <LinearLayout
+                android:id="@+id/esb_apppwd_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/esb_separator2"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <!-- Password timeout -->
+
+                <LinearLayout
+                    android:id="@+id/esb_apppwdtimeoutlayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp" >
+
+                    <TextView
+                        style="@style/ConnectionListElements"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_pwd_timeout"
+                        android:textColor="@color/settings_view_text" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/esb_apppwdtimeout"
+                        style="@style/ConnectionListElements"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:background="@drawable/spinner"
+                        android:textColor="@color/settings_view_text" >
+                    </TextView>
+                </LinearLayout>
+
+                <View
+                    style="@style/ConnectionLineSep"
+                    android:background="@color/settings_view_separator" >
+                </View>
+                <!-- Change App Password -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp" >
+
+                    <TextView
+                        style="@style/ConnectionListElements"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_pwd_set"
+                        android:textColor="@color/settings_view_text" >
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/esb_change_cmd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:background="@drawable/button"
+                        android:gravity="left|start"
+                        android:textAlignment="viewStart"
+                        android:text="@string/change_cmd"
+                        android:textColor="@color/dimgrey" >
+                    </Button>
+                </LinearLayout>
+
+                <View
+                    style="@style/ConnectionLineSep"
+                    android:background="@color/settings_view_separator" >
+                </View>
+                <!-- Reset App Password -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp" >
+
+                    <TextView
+                        style="@style/ConnectionListElements"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reset_application"
+                        android:textColor="@color/settings_view_text" >
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/esb_reset_cmd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:background="@drawable/button"
+                        android:gravity="left|start"
+                        android:textAlignment="viewStart"
+                        android:text="@string/reset_cmd"
+                        android:textColor="@color/dimgrey" >
+                    </Button>
+                </LinearLayout>
+
+                <View
+                    style="@style/ConnectionLineSep"
+                    android:background="@color/settings_view_separator" >
+                </View>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

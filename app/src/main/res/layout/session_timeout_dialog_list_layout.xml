@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sessiontimeout_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" 
+	android:background="@color/white">
+
+
+    <!-- Header -->
+
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        >
+        
+	        
+	        <TextView
+	            android:id="@+id/session_timeout_header_text"
+	            style="@style/TextMedium"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingBottom="5dp"
+	            android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+	            android:paddingTop="12dp"
+	            android:textColor="@color/text_header" />        
+	</LinearLayout>          
+    <!-- content -->
+        
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+	        
+        <View
+            android:id="@+id/seperator"
+            style="@style/DialogTitleSeperator" />
+		
+        <ListView
+            android:id="@+id/session_timeout_dialog_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+        </ListView>       
+        
+    </LinearLayout>   
+    
+</LinearLayout>

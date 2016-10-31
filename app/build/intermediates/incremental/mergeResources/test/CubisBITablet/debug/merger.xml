@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Jochen/StudioProjects/CubisBITablet/app/src/androidTest/res"/><source path="/Users/Jochen/StudioProjects/CubisBITablet/app/build/generated/res/rs/test/CubisBITablet/debug"/><source path="/Users/Jochen/StudioProjects/CubisBITablet/app/build/generated/res/generated/test/CubisBITablet/debug"/></dataSet><dataSet config="androidTestCubisBITablet"><source path="/Users/Jochen/StudioProjects/CubisBITablet/app/src/androidTestCubisBITablet/res"/></dataSet><mergedItems/></merger>

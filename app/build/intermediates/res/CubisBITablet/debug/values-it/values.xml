@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="ALL">"TUTTI"</string>
+    <string name="AM">"AM"</string>
+    <string name="BIInbox">"BI Inbox"</string>
+    <string name="Login_credentials">"User credentials"</string>
+    <string name="Minutes">"Minutes"</string>
+    <string name="Mobile_lbl">"Telefono cellulare"</string>
+    <string name="MultipleDimensions">"Dimensioni multiple"</string>
+    <string name="PM">"PM"</string>
+    <string name="Reselect">"Reselect"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="about">"Informazioni su"</string>
+    <string name="add_alias">"Add Alias"</string>
+    <string name="add_conn_connected">"Impossibile aggiungere la connessione quando l\'utente è collegato; logout e riprovare"</string>
+    <string name="add_connection_android">"Tap to add a connection in the SAP BI application in Android"</string>
+    <string name="add_connection_ios">"Tap to add a connection in the SAP BI application in iOS"</string>
+    <string name="add_default_category">"Set Default Category"</string>
+    <string name="add_doc">"Aggiungere documento"</string>
+    <string name="add_existing_connection">"Questa connessione è già esistente"</string>
+    <string name="add_home">"Aggiungere Home"</string>
+    <string name="add_new_cnx">"Aggiungere connessione"</string>
+    <string name="add_to_device">"Add to Device"</string>
+    <string name="add_to_favorites">"Add to Favorites"</string>
+    <string name="additional_authcred">"Additional Authentication Credentials"</string>
+    <string name="alias">"Alias"</string>
+    <string name="all_objects">"Tutti gli oggetti"</string>
+    <string name="all_reports">"All Reports"</string>
+    <string name="all_values">"Tutti i valori"</string>
+    <string name="annotations">"Annotazione"</string>
+    <string name="app_cur_pwd">"Modificare password"</string>
+    <string name="app_cur_pwd_text">"Inserisci password applicazione attuale"</string>
+    <string name="app_disable_pwd">"Disattiva password applicazione"</string>
+    <string name="app_enter_pwd">"Password applicazione"</string>
+    <string name="app_enter_pwd_text">"Password should contain at least %1$d characters"</string>
+    <string name="app_exit_message_heaad">"Accesso applicazione illecito"</string>
+    <string name="app_name">"SAP BI"</string>
+    <string name="app_new_pwd">"Nuova password applicazione"</string>
+    <string name="app_pwd">"Password applicazione"</string>
+    <string name="app_pwd_exit_text">"L\'applicazione si chiuderà tra 5 secondi"</string>
+    <string name="app_pwd_login">"You must set an application password to establish BI platform connection. Using the password you can secure your offline data. \n\nDo you want to continue?"</string>
+    <string name="app_pwd_security">"Sicurezza ridotta"</string>
+    <string name="app_pwd_security_text">"Quest\'azione riduce la sicurezza dell\'applicazione"</string>
+    <string name="app_pwd_set">"Record password applicazione"</string>
+    <string name="app_pwd_timeout">"Password: timeout"</string>
+    <string name="app_reenter_pwd">"Conferma password applicazione"</string>
+    <string name="app_reenter_pwd_text">"Reinserisci password applicazione"</string>
+    <string name="application_related">"Relativo all\'applicazione"</string>
+    <string name="applicationid">"ID applicazione"</string>
+    <string name="apply_filter">"Apply Filter"</string>
+    <string name="assign_categories">"Assign Categories"</string>
+    <string name="auth_det">"AUTHENTICATION DETAILS"</string>
+    <string name="auth_mode">"Authentication Mode"</string>
+    <string name="auth_type">"Tipo di autenticazione"</string>
+    <string name="authentication_details">"AUTHENTICATION DETAILS"</string>
+    <string name="author">"Autore"</string>
+    <string name="author1">"Autore"</string>
+    <string name="authored_by">"Author"</string>
+    <string name="back">"Indietro"</string>
+    <string name="basic_auth">"Autenticazione richiesta"</string>
+    <string name="between">"Fra"</string>
+    <string name="bi_auto_update">"Auto Update"</string>
+    <string name="bi_auto_update_Wifi_and_Cellular">"Update on Wi-Fi and Cellular Data"</string>
+    <string name="bi_auto_update_wiFi">"Update on Wi-Fi Only"</string>
+    <string name="black">"Black"</string>
+    <string name="blue">"Blu"</string>
+    <string name="blur">"Effetto flou"</string>
+    <string name="both">"Entrambi"</string>
+    <string name="browse">"Sfogliare"</string>
+    <string name="build">"Strutt.:"</string>
+    <string name="cancel">"Annullare"</string>
+    <string name="cannot_expand_this_node">"Cannot expand this node"</string>
+    <string name="cannot_save_doc">"Impossibile salvare il documento"</string>
+    <string name="cannot_save_doc_connection_not_available">"The document cannot be saved. Currently there might not be an active connection available or document is not present in mobile category."</string>
+    <string name="cannot_save_doc_generic_error">"Impossibile salvare il documento. Si è verificato un errore generico"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-it/values.xml -->
+    <eat-comment/>
+    <string msgid="4778414446709286370" name="cast_ad_label">"Annuncio"</string>
+    <string msgid="366047012176970604" name="cast_casting_to_device">"Trasmissione a %1$s"</string>
+    <string msgid="2888745622334830481" name="cast_closed_captions">"Sottotitoli"</string>
+    <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"Sottotitoli non disponibili"</string>
+    <string msgid="4431992200264667209" name="cast_disconnect">"Disconnetti"</string>
+    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"Annuncio in corso…"</string>
+    <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"Copertina"</string>
+    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"Live stream"</string>
+    <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"Caricamento…"</string>
+    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"Ignora"</string>
+    <string msgid="7884080323096468593" name="cast_forward">"Avanti"</string>
+    <string msgid="6424889955881797947" name="cast_forward_10">"Avanti di dieci secondi"</string>
+    <string msgid="7868672855975238403" name="cast_forward_30">"Avanti di trenta secondi"</string>
+    <string msgid="6885943100773268783" name="cast_intro_overlay_button_text">"@android:string/ok"</string>
+    <string msgid="5637297909372905371" name="cast_mute">"Disattiva audio"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/res/values-it/values.xml -->
+    <eat-comment/>
+    <string msgid="5319032370587661362" name="cast_notification_connected_message">"Connesso a <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="2758865089947797888" name="cast_notification_connecting_message">"Connessione a <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="5232008641593292969" name="cast_notification_disconnect">"Disconnetti"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-it/values.xml -->
+    <eat-comment/>
+    <string msgid="5308503786390460607" name="cast_pause">"Pausa"</string>
+    <string msgid="5906987965619702702" name="cast_play">"Riproduci"</string>
+    <string msgid="1739665135565985480" name="cast_rewind">"Indietro"</string>
+    <string msgid="6432793028560778843" name="cast_rewind_10">"Indietro di dieci secondi"</string>
+    <string msgid="4677199707225681325" name="cast_rewind_30">"Indietro di 30 secondi"</string>
+    <string msgid="9078075166993780241" name="cast_seek_bar">"Controllo riproduzione"</string>
+    <string msgid="3991548379225047363" name="cast_skip_next">"Vai all\'elemento successivo"</string>
+    <string msgid="8369073097776576935" name="cast_skip_prev">"Vai all\'elemento precedente"</string>
+    <string msgid="9191388946729723891" name="cast_stop">"Interrompi"</string>
+    <string msgid="1219622777438777099" name="cast_stop_live_stream">"Interrompi live stream"</string>
+    <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"Audio"</string>
+    <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"Annulla"</string>
+    <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"Traccia <ns1:g id="POSITION">%1$d</ns1:g>"</string>
+    <string msgid="5563446400083425854" name="cast_tracks_chooser_dialog_no_audio_tracks">"Nessuna traccia audio disponibile"</string>
+    <string msgid="7413336699113748535" name="cast_tracks_chooser_dialog_no_text_tracks">"Nessuna traccia di testo disponibile"</string>
+    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"Nessuna"</string>
+    <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"OK"</string>
+    <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"Sottotitoli"</string>
+    <string msgid="2913461521603516868" name="cast_unmute">"Riattiva audio"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="categories">"Categorie"</string>
+    <string name="category">"Categoria"</string>
+    <string name="category_all">"Tutto"</string>
+    <string name="category_delete_message">"Are you sure you want to delete the category"</string>
+    <string name="category_empty_message">"Category name is empty;enter a different name for the category."</string>
+    <string name="category_exist_message">"Category name already exists;enter a different name for the category."</string>
+    <string name="category_others">"Altri"</string>
+    <string name="cert_auth_cancelled">"Validazione certificato annullata"</string>
+    <string name="certificate_error">"Certificate error"</string>
+    <string name="change_cmd">"Modificare"</string>
+    <string name="change_view">"Modifica view"</string>
+    <string name="choose_connection">"Seleziona la connessione"</string>
+    <string name="choose_date">"Selezionare data"</string>
+    <string name="choose_value">"Selezionare valore"</string>
+    <string name="choose_values">"Selezionare valori"</string>
+    <string name="cms">"CMS"</string>
+    <string name="cms_name">"CMS Name"</string>
+    <string name="cnx_name_already_exists">"Il nome di questa connessione esiste già"</string>
+    <string name="collaborate">"Collabora"</string>
+    <string name="collapse_all">"Comprimere tutto"</string>
+    <string name="column">"Colonna"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-it/values.xml -->
+    <eat-comment/>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Attiva"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà se non attivi Google Play Services."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Attiva Google Play Services"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installa"</string>
+    <string msgid="1666261992894286769" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà senza Google Play Services, non presente sul tuo telefono."</string>
+    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà senza Google Play Services, non presente sul tuo tablet."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Installa Google Play Services"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Errore Google Play Services"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/res/values-it/values.xml -->
+    <eat-comment/>
+    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> sta riscontrando problemi con Google Play Services. Se il problema persiste, contatta lo sviluppatore per ricevere assistenza."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-it/values.xml -->
+    <eat-comment/>
+    <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> si basa su Google Play Services, che non è supportato sul tuo dispositivo. Contatta il produttore per ricevere assistenza."</string>
+    <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play Services"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Aggiorna"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà se non aggiorni Google Play Services."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Aggiorna Google Play Services"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà senza Google Play Services, attualmente in fase di aggiornamento."</string>
+    <string msgid="2270671469198016014" name="common_google_play_services_updating_title">"Aggiornamento di Google Play Services"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"È richiesta una nuova versione di Google Play Services. L\'aggiornamento automatico verrà eseguito a breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Apri sul telefono"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Accedi"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Accedi con Google"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="confirm">"Confermare"</string>
+    <string name="confirm_delete_all_connection">"Vuoi eliminare tutte le connessioni?"</string>
+    <string name="confirm_delete_connection">"Do you want to delete the selected connection: %1$s ?"</string>
+    <string name="confirm_delete_document">"Vuoi eliminare il documento?"</string>
+    <string name="confirm_deregister">"Confermare annullamento registrazione da SUP?"</string>
+    <string name="confirm_logout_1">"Quest\'operazione ti scollegherà da"</string>
+    <string name="confirm_logout_2">"Continuare?"</string>
+    <string name="confirm_save_password">"Confermi di voler salvare la password?"</string>
+    <string name="conn_det">"CONNECTION DETAILS"</string>
+    <string name="conn_password">"Password"</string>
+    <string name="conn_server_URL">"Server URL"</string>
+    <string name="conn_type">"Connection Type"</string>
+    <string name="conn_type_phone">"CONNECTION TYPE"</string>
+    <string name="conn_username">"Username"</string>
+    <string name="connected">"Connesso"</string>
+    <string name="connected_already">"Sei già connesso/a"</string>
+    <string name="connection">"Nuova connessione"</string>
+    <string name="connection_details">"CONNECTION DETAILS"</string>
+    <string name="connection_name">"Nome della connessione"</string>
+    <string name="connection_options">"Opzioni"</string>
+    <string name="connection_related">"Relativo alla connessione"</string>
+    <string name="connection_save">"SAVE"</string>
+    <string name="connection_saveconnect">"SAVE &amp; CONNECT"</string>
+    <string name="connection_server_URL">"URL server di connessione"</string>
+    <string name="connection_share">"SHARE"</string>
+    <string name="connections">"Connessioni"</string>
+    <string name="content_data_exceeding_limit">"Impossibile visualizzare il grafico a causa di punti di dati grandi"</string>
+    <string name="content_not_supported">"Contenuto non supportato"</string>
+    <string name="create_connection">"Crea connessione per visualizzare i documenti"</string>
+    <string name="create_new_category">"Create New Category"</string>
+    <string name="create_new_cnx">"Creare nuova connessione"</string>
+    <string name="create_new_cnx_desc1">"e sfoglia i documenti."</string>
+    <string name="create_new_cnx_desc2">"Puoi anche farlo dalla videata \"Impostazioni\"."</string>
+    <string name="create_new_group">"Crea nuovo gruppo"</string>
+    <string name="crop">"Taglia"</string>
+    <string name="ctb_app_settings">"Application Settings"</string>
+    <string name="ctb_con_set">"Impostazioni di connessione"</string>
+    <string name="ctb_create_con">"Crea connessione"</string>
+    <string name="ctb_document_name">"Nome documento"</string>
+    <string name="ctb_log_set">"Impostazioni registro"</string>
+    <string name="ctb_net_set">"Parametrizzazione rete"</string>
+    <string name="ctb_reports">"Reports"</string>
+    <string name="ctb_settings">"Settings"</string>
+    <string name="ctb_sup_con_set">"Connessione SUP"</string>
+    <string name="ctb_view_set">"Opzione di visualizzazione"</string>
+    <string name="customview">"CustomView"</string>
+    <string name="dashboard">"Dashboard Settings"</string>
+    <string name="dashboard_type">"Dashboard"</string>
+    <string name="date">"Data"</string>
+    <string name="date_modified">"Date Modified"</string>
+    <string name="day">"day"</string>
+    <string name="days">"days"</string>
+    <string name="default_conn">"Default Connection"</string>
+    <string name="default_connect">"Default Connection"</string>
+    <string name="default_connection">"(default)"</string>
+    <string name="delete">"Cancellare"</string>
+    <string name="delete_category">"Delete Category"</string>
+    <string name="delete_conn_connected">"Impossibile eliminare la connessione; logout e riprovare"</string>
+    <string name="delete_conn_notexisting">"La connessione non esiste"</string>
+    <string name="delete_connection">"Eliminare connessione"</string>
+    <string name="delete_document">"Cancellare documento"</string>
+    <string name="deregister">"Cancella registrazione"</string>
+    <string name="deregister_with_sup">"Cancellazione registrazione con SUP in corso..."</string>
+    <string name="deregistration_success">"Deregistration Successful"</string>
+    <string name="description">"Descrizione"</string>
+    <string name="description_home">"Pagina iniziale"</string>
+    <string name="description_search">"Cercare"</string>
+    <string name="designstudio_type">"Analysis Application"</string>
+    <string name="display_help_page">"Visualizza pagina Help"</string>
+    <string name="doc_delete">"Documento eliminato correttamente"</string>
+    <string name="doc_delete_fail">"Impossibile eliminare documento"</string>
+    <string name="doc_info_header">"Informazioni documento"</string>
+    <string name="doc_metadata_not_found">"Informazioni sul documento non trovate."</string>
+    <string name="doc_not_found">"Impossibile aprire il documento"</string>
+    <string name="doc_not_saved">"Impossibile scaricare questo documento a causa delle norme configurate per la sicurezza ampliata"</string>
+    <string name="document_delete">"Il documento sarà eliminato il"</string>
+    <string name="document_inforation_not_available">"The document information is not available. Currently there might not be an active connection available or document is not present in mobile category."</string>
+    <string name="document_no_category">"Il documento non è attribuito ad alcuna categoria mobile"</string>
+    <string name="document_title">"Document Title"</string>
+    <string name="done">"Fatto"</string>
+    <string name="download_failed">"Impossibile salvare il documento"</string>
+    <string name="downloaded_at">"Download alle"</string>
+    <string name="dril_temp_file_extension">".tmp"</string>
+    <string name="drill_down">"Drill down a"</string>
+    <string name="drill_focus_in">"Drill down focus"</string>
+    <string name="drill_focus_out">"Drill up focus"</string>
+    <string name="drill_from">"from"</string>
+    <string name="drill_options">"Opzioni drill"</string>
+    <string name="drill_up">"Drill up a"</string>
+    <string name="edit">"Elaborare"</string>
+    <string name="edit_category">"Edit Category"</string>
+    <string name="edit_cnx">"Edit Connection"</string>
+    <string name="edit_filter">"Edit Filter"</string>
+    <string name="edit_group">"Elabora gruppo"</string>
+    <string name="email_menu">"E-mail"</string>
+    <string name="empty_data">"Empty"</string>
+    <string name="empty_log">"No Logs Available"</string>
+    <string name="endpoint_error">"Fetching endpoints Proxy Failed."</string>
+    <string name="enter_alias">"Enter the Alias"</string>
+    <string name="enter_server_url">"Inserisci URL del server"</string>
+    <string name="enter_valid_url">"Inserisci un URL valido"</string>
+    <string name="equal">"Uguale"</string>
+    <string name="erase">"Cancella"</string>
+    <string name="error">"Messaggio di errore"</string>
+    <string name="establish_connection">"Stabilisci la connessione per eseguire il download dei documenti"</string>
+    <string name="eula_accept">"Accettare"</string>
+    <string name="eula_mobi_updates"/>
+    <string name="eula_reject">"Rifiutare"</string>
+    <string name="eula_title">"Contratto di licenza utente finale"</string>
+    <string name="except">"Eccetto"</string>
+    <string name="exist_conn">"Existing Connections"</string>
+    <string name="existing_conn_header">"Existing Connections"</string>
+    <string name="exit_full_screen">"Termina immagine a tutto schermo"</string>
+    <string name="expand_all">"Espandi tutto"</string>
+    <string name="expires_in">"Expires in"</string>
+    <string name="failure">"Fallim."</string>
+    <string name="farmid">"ID Farm"</string>
+    <string name="favorites">"Favorites"</string>
+    <string name="filter_clear">"Cancellare"</string>
+    <string name="filter_menu">"Filtro"</string>
+    <string name="filter_revert">"Indietro"</string>
+    <string name="first_time_work_offline">"Per accedere al contenuto in modalità offline, esegui il login al server per la prima volta"</string>
+    <string name="freeze">"Congela"</string>
+    <string name="full_screen">"Tutto schermo"</string>
+    <string name="general_settings">"General Settings"</string>
+    <string name="generic_error">"Impossibile elaborare la richiesta; riprova più tardi."</string>
+    <string name="geomap_not_supported">"Impossibile visualizzare GeoMap poiché il dispositivo non ha accesso alle librerie delle mappe"</string>
+    <string name="get_started">"Get Started"</string>
+    <string name="getting_started_auto_update_wifi">"Use Auto-Update settings to automatically update all offline documents on availability of Wi-Fi."</string>
+    <string name="getting_started_bi_connection">"To access your BI content, create a new connection using one of the available connection types."</string>
+    <string name="getting_started_bi_inbox_download">"BI Inbox documents can be downloaded on to the device, and marked as read OR unread."</string>
+    <string name="getting_started_dashboard">"You can view and interact with SAP Business Objects Analysis Application."</string>
+    <string name="getting_started_default_filter">"Configure default filter value in the Geo Analysis document."</string>
+    <string name="getting_started_display_category">"Display categories as flat list or as nested structure."</string>
+    <string name="getting_started_geo">"Tap on each Point of Interest (POI) to view the detailed information of the associated values."</string>
+    <string name="getting_started_microbarchart">"Tap on the Micro bar chart, to view the chart in zoom mode."</string>
+    <string name="getting_started_notification_badge">"Notification badge shows alerts if modified document or a new instance is available in the server."</string>
+    <string name="getting_started_notification_panel">"Notification panel enables you to manage document updates conveniently."</string>
+    <string name="getting_started_personal_view">"Save document as a personal view to retain all the analytical actions and view them in offline."</string>
+    <string name="getting_started_share_connection">"Share connection details via eMail."</string>
+    <string name="getting_started_share_document_link">"You can Share document link through e-mail, retaining current navigation context."</string>
+    <string name="getting_started_show_only_downloaded">"Use Show only downloaded reports option to see all documents that are added to device."</string>
+    <string name="getting_started_tablestyling">"Customize the font style of the Table cell to Bold, Italics or Underline."</string>
+    <string name="getting_started_toggle_group_by_sort">"Toggle between Group by and sort options help to organize the document listing conveniently."</string>
+    <string name="getting_started_trend_icons">"Use Trend icons to highlight data."</string>
+    <string name="google_play_services_not_available">"Google Play services not available"</string>
+    <string name="graphite">"Grafite"</string>
+    <string name="greater">"Maggiore di"</string>
+    <string name="greater_or_equal">"Maggiore o uguale a"</string>
+    <string name="green">"Verde"</string>
+    <string name="grid_menu">"Griglia"</string>
+    <string name="grid_view">"View griglia"</string>
+    <string name="gridview">"Griglia"</string>
+    <string name="group_is_private">"È privato"</string>
+    <string name="group_name">"Nome gruppo"</string>
+    <string name="group_objective">"Obiettivo"</string>
+    <string name="group_participants">"Partecipanti"</string>
+    <string name="group_reports_by">"Group Reports By"</string>
+    <string name="hide">"Nascondere"</string>
+    <string name="home">"HOME"</string>
+    <string name="home_lbl">"Pagina iniziale"</string>
+    <string name="hyperlink_type">"Hyperlink"</string>
+    <string name="imageeditor_title">"Editor immagini"</string>
+    <string name="import_cnx">"Importare dal server"</string>
+    <string name="import_txt">"Importare"</string>
+    <string name="in_list">"In lista"</string>
+    <string name="info">"Informazioni"</string>
+    <string name="input_control">"Filtri"</string>
+    <string name="input_control_title">"Filtri: selezionare valore/i"</string>
+    <string name="instance_file_extension">"_instance"</string>
+    <string name="is_default_conn">"Default"</string>
+    <string name="is_null">"È zero"</string>
+    <string name="items">"ITEMS"</string>
+    <string name="ivory">"Ivory"</string>
+    <string name="jam">"SAP JAM"</string>
+    <string name="jam_Send">"Inviare"</string>
+    <string name="jam_current_groups">"GRUPPI ATTUALI"</string>
+    <string name="jam_oauth_header">"SAP JAM Login"</string>
+    <string name="jam_sendtojam">"Inviare a SAP JAM"</string>
+    <string name="label_sso_authenticate_at_logon">"Authenticate at Logon"</string>
+    <string name="label_sso_certificate">"SSO Enabled (Select Certificate)"</string>
+    <string name="label_sso_cookie_Based">"SSO ENABLED"</string>
+    <string name="label_sso_cookie_enabled">"Cookie enabled"</string>
+    <string name="label_sso_reauthenticate_at_logon">"Reauthenticate at logon"</string>
+    <string name="legal">"Legal"</string>
+    <string name="less">"Minore di"</string>
+    <string name="less_or_equal">"Minore o uguale a"</string>
+    <string name="like">"Come"</string>
+    <string name="limit">"Limit"</string>
+    <string name="link">"Collegamento"</string>
+    <string name="list_view">"View della lista"</string>
+    <string name="listview">"Lista"</string>
+    <string name="loading">"In caricamento..."</string>
+    <string name="log">"Registri"</string>
+    <string name="log_clear_logs_confirm">"Confermi cancellazione registri?"</string>
+    <string name="log_clearlog">"Cancella registro"</string>
+    <string name="log_enable">"Abilita registri"</string>
+    <string name="log_mail_subject">"Files logger per applicazioni mobili"</string>
+    <string name="log_message">"Confermi abilitazione dei registri?"</string>
+    <string name="log_nologs_exists">"I registri sono già stati cancellati"</string>
+    <string name="log_nologs_tosend">"Non esistono registri da inviare"</string>
+    <string name="log_sendlog">"Invia file di registro"</string>
+    <string name="log_title">"Impostazioni registro"</string>
+    <string name="login">"Logon"</string>
+    <string name="login_cmd">"Eseguire logon"</string>
+    <string name="login_mesg">"Log in; attendere..."</string>
+    <string name="login_mesglist">"Elenco dei documenti in corso..."</string>
+    <string name="login_string">"Connessione a"</string>
+    <string name="logon">"Log On"</string>
+    <string name="logout">"Effettuare il logoff"</string>
+    <string name="logout_title">"Effettuare logout"</string>
+    <string name="lov_error">"Impossibile chiamare la lista di valori dal server; contattare l\'amministratore se il problema persiste"</string>
+    <string name="manage_categories">"Manage Categories"</string>
+    <string name="manage_connections">"Manage Connections"</string>
+    <string name="mark_as_read">"Mark As Read"</string>
+    <string name="mark_as_unread">"Mark As UnRead"</string>
+    <string name="media_player_codecs">"Nota: per avviare questo file audio, accertati di aver scaricato i codec più recenti per il media player disponibile"</string>
+    <string name="mem_used">"0MB of 100 MB used"</string>
+    <string name="menu_notification">"Notifications"</string>
+    <string name="mesg_already_downloaded">"Download di questo documento già effettuato"</string>
+    <string name="mesg_clearing_filters">"Ripulitura filtri in corso..."</string>
+    <string name="mesg_create_groups_error">"Errore durante la creazione del gruppo"</string>
+    <string name="mesg_document_downloading">"Document download has been triggered."</string>
+    <string name="mesg_dowloading_document_offline">"Download del documento su Home in corso..."</string>
+    <string name="mesg_download_failure">"Error durante il download"</string>
+    <string name="mesg_download_in_progress">"Operation cannot be performed; download is in progress"</string>
+    <string name="mesg_download_success">"Download effettuato correttamente"</string>
+    <string name="mesg_downloading_pending_reports">"Downloading. Please wait..."</string>
+    <string name="mesg_drill_down_document">"Drill down in corso..."</string>
+    <string name="mesg_drill_up_document">"Drill up in corso..."</string>
+    <string name="mesg_failer_xcelsius">"Impossibile eseguire l\'operazione. Riprova più tardi."</string>
+    <string name="mesg_filtering_document">"Filtraggio del documento in corso..."</string>
+    <string name="mesg_getting_content">"Ricezione contenuti dal server in corso..."</string>
+    <string name="mesg_getting_prompts">"Chiamata prompts..."</string>
+    <string name="mesg_groups_error">"Errore durante il reperimento dei gruppi dal server SAP JAM"</string>
+    <string name="mesg_groups_exists_error">"Gruppo con lo stesso nome già esistente"</string>
+    <string name="mesg_invalid_oauth_details">"Dettagli OAUTH non validi. Configura i dettagli OAUTH esatti in CMS"</string>
+    <string name="mesg_logoff">"Log off; attendere..."</string>
+    <string name="mesg_lov_document">"Chiamata lista dei valori in corso..."</string>
+    <string name="mesg_opening_document">"Apertura documento in corso..."</string>
+    <string name="mesg_opening_report">"Opening report..."</string>
+    <string name="mesg_processing_data">"Elaborazione dati in corso..."</string>
+    <string name="mesg_prompt_document">"Applicazione prompts al documento in corso..."</string>
+    <string name="mesg_recieve_accesstoken">"Si è verificato un errore durante la chiamata del token di accesso dal server SAP JAM"</string>
+    <string name="mesg_recieve_oauthtoken">"Si è verificato un errore durante la chiamata del token di richiesta dal server SAP JAM"</string>
+    <string name="mesg_refresh_document">"Refresh del documento in corso..."</string>
+    <string name="mesg_refresh_lov_document">"Refresh lista dei valori in corso..."</string>
+    <string name="mesg_remove_sort_document">"Rimozione classificazione in corso..."</string>
+    <string name="mesg_send_invite_error">"Errore durante l\'invio dell\'invito all\'utente"</string>
+    <string name="mesg_sorting_document">"Classificazione documento in corso..."</string>
+    <string name="mesg_syncing_with_server">"Syncing with server..."</string>
+    <string name="mesg_update_xcelsius">"Aggiornamento in corso. Attendere..."</string>
+    <string name="mesg_update_xcelsius_backup">"Impossibile eseguire il backup del documento. Ritentare successivamente"</string>
+    <string name="mesg_upload_photo_error">"Errore durante l\'upload dello screenshot sul server SAP JAM"</string>
+    <string name="mesg_xcelsius">"Download in corso. Attendere..."</string>
+    <string name="mesg_xcelsius_documentuncompatible">"Il documento di collegamento è incompatibile con l\'applicazione attuale e non può essere visualizzato"</string>
+    <string name="mesg_xcelsius_initialize">"Inizializzazione"</string>
+    <string name="mesg_xcelsius_load">"In caricamento"</string>
+    <string name="mobi_legal">"Informazioni giuridiche"</string>
+    <string name="mobile_server_URL">"Mobile Server URL"</string>
+    <string name="modified_at">"Modificato alle"</string>
+    <string name="modify_conn_connected">"Impossibile modificare la connessione; logout e riprovare"</string>
+    <string name="modify_connection">"Modifica la connessione"</string>
+    <string name="more">"More"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string msgid="3698378085901466129" name="mr_button_content_description">"Pulsante Trasmetti"</string>
+    <string msgid="6349900579507521956" name="mr_chooser_searching">"Ricerca di dispositivi in corso"</string>
+    <string msgid="414301941546135990" name="mr_chooser_title">"Trasmetti a"</string>
+    <string msgid="6422801843540543585" name="mr_controller_album_art">"Copertina"</string>
+    <string msgid="4868457957151124867" name="mr_controller_casting_screen">"Trasmissione dello schermo in corso"</string>
+    <string msgid="7333862312480583260" name="mr_controller_close_description">"Chiudi"</string>
+    <string msgid="7924809056904240926" name="mr_controller_collapse_group">"Comprimi"</string>
+    <string msgid="1227264889412989580" name="mr_controller_disconnect">"Scollega"</string>
+    <string msgid="8062427022744266907" name="mr_controller_expand_group">"Espandi"</string>
+    <string msgid="5585418471741142924" name="mr_controller_no_info_available">"Nessuna informazione disponibile"</string>
+    <string msgid="6547130360349182381" name="mr_controller_no_media_selected">"Nessun contenuto multimediale selezionato"</string>
+    <string msgid="5451884435510905406" name="mr_controller_pause">"Pausa"</string>
+    <string msgid="683634565969987458" name="mr_controller_play">"Riproduci"</string>
+    <string msgid="4570331844078181931" name="mr_controller_stop">"Interrompi trasmissione"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Sistema"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Dispositivi"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="msg_added_to_favourite">"is added to favourites"</string>
+    <string name="my_connections">"Connessioni"</string>
+    <string name="name">"Nome"</string>
+    <string name="nav_close">"Close"</string>
+    <string name="nav_open">"open"</string>
+    <string name="network">"Opzioni rete"</string>
+    <string name="network_notification_connected">"Rete disponibile; vuoi lavorare in modalità online?"</string>
+    <string name="network_notification_disconnected">"Rete non disponibile; vuoi lavorare in modalità offline?"</string>
+    <string name="network_options">"Opzioni rete"</string>
+    <string name="new_txt">"New"</string>
+    <string name="next">"Successivo"</string>
+    <string name="no_active_connection_available">"Per eseguire quest\'azione è necessaria una connessione attiva"</string>
+    <string name="no_conn">"Non esistono connessioni"</string>
+    <string name="no_connections">"No connections defined.\n \nTo create new connection go to: \nMenu > Settings > Connections"</string>
+    <string name="no_downloaded_docs">"Download dei documenti non eseguito"</string>
+    <string name="no_filters">"Nessun filtro applicato"</string>
+    <string name="no_filters_saved">"No Filters saved"</string>
+    <string name="noconnections">"Nessuna connessione"</string>
+    <string name="none">"Ness."</string>
+    <string name="not_between">"Non tra"</string>
+    <string name="not_connected">"Non collegato"</string>
+    <string name="not_equal">"Diverso"</string>
+    <string name="not_in_list">"Non in lista"</string>
+    <string name="not_like">"Non uguale"</string>
+    <string name="not_recording">"Pronto per registrare..."</string>
+    <string name="notification_Auto_Update_Is_Disabled">"Auto-Update is not available for this connection"</string>
+    <string name="notification_available">"updates available"</string>
+    <string name="notification_available_single">"update available"</string>
+    <string name="notification_cancel_all">"Cancel All"</string>
+    <string name="notification_clear_all">"Clear All"</string>
+    <string name="notification_not_available">"No notifications available"</string>
+    <string name="notification_update_all">"Update All"</string>
+    <string name="notification_updated_count">"documents recently updated"</string>
+    <string name="notification_updated_count_single">"document recently updated"</string>
+    <string name="notification_updating">"documents are updating"</string>
+    <string name="notification_updating_single">"document is updating"</string>
+    <string name="object_not_supported">"Il tipo di oggetto non è supportato"</string>
+    <string name="off">"Disattivato"</string>
+    <string name="offline_alert">"OFFLINE ALERT"</string>
+    <string name="offline_connection">"Non può importare le connessioni in modalità offline"</string>
+    <string name="offline_filter">"Impossibile eseguire quest\'operazione in modalità offline"</string>
+    <string name="ok">"OK"</string>
+    <string name="older">"Precedente"</string>
+    <string name="open_browser">"Tocca per aprire il report nel browser"</string>
+    <string name="open_device_android">"Tap to open the report in the SAP BI application in Android device"</string>
+    <string name="open_device_ios">"Tap to open the report in the SAP BI application in iOS device"</string>
+    <string name="open_doc_back_msg">"You will be navigated back to the Home Screen"</string>
+    <string name="orientation_lock">"Orientamento bloccato!! Non  è possibile modificare l\'orientamento del dispositivo mentre si annota un report."</string>
+    <string name="orientation_unlock">"Orientamento sbloccato"</string>
+    <string name="osdeprecated">"This application is not supported on Android 2.2 Version"</string>
+    <string name="oshoneycombnotsupported">"%1$s app is compatible with android OS version 4.0 and above."</string>
+    <string name="osnotsupported">"Quest\'applicazione non è supportata su Android 4.4 o superiore"</string>
+    <string name="page">"Pagina"</string>
+    <string name="page_indicator">"Indicatore pagina"</string>
+    <string name="page_loading">"Pagina ..."</string>
+    <string name="paint">"Disegna"</string>
+    <string name="parent_doc_name">"Parent Doc Name"</string>
+    <string name="password">"Password"</string>
+    <string name="pdf_pop_up_install_app">"Viewer unavailable; install a PDF Viewer to view the document"</string>
+    <string name="pdf_pop_up_select_app">"Select a Viewer"</string>
+    <string name="pdf_type">"PDF Documents"</string>
+    <string name="per_view_storage">"Personal View Storage"</string>
+    <string name="personal_view">"Personal View Storage"</string>
+    <string name="personal_view_category">"Personal Views"</string>
+    <string name="personal_view_create">"Personal View"</string>
+    <string name="personal_view_size_exceeding">"Space insufficient for saving; create space by deleting existing personal views or increase the storage capacity using Settings."</string>
+    <string name="pg_show_add_home">"Download e aggiunta del documento a Home in corso..."</string>
+    <string name="pg_show_insatance">"Chiamata dell\'ultima istanza..."</string>
+    <string name="pg_show_server_call">"Ricezione dettagli dal server in corso..."</string>
+    <string name="pg_show_update">"Aggiornamento del documento..."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/res/values-it/values.xml -->
+    <eat-comment/>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Cancella ricerca"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Cerca"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="playing">"In fase di riproduzione..."</string>
+    <string name="port">"Porta"</string>
+    <string name="post">"POST"</string>
+    <string name="previous">"Precedente"</string>
+    <string name="prompt_add_values">"Aggiungi valore"</string>
+    <string name="prompt_error">"Tutti i prompt obbligatori non sono inseriti"</string>
+    <string name="prompt_optional">"opzionale"</string>
+    <string name="prompt_values">"Prompts"</string>
+    <string name="proxy">"Proxy"</string>
+    <string name="pv_create_title">"Save View"</string>
+    <string name="pv_description">"Personal View Description"</string>
+    <string name="pv_mem_usage">"(%1$s of %2$s used)"</string>
+    <string name="pv_name">"Personal View Name"</string>
+    <string name="pv_setting">"Personal View Settings"</string>
+    <string name="pv_setting_limit_none">"None"</string>
+    <string name="quick_hints">"Note rapide"</string>
+    <string name="quickeref_txt1"><b>"Long press"</b>" on the required document to access context menu. "<b>"Tap"</b>" on the option to perform the desired action."</string>
+    <string name="quickeref_txt10"><b>"Drag"</b>" the Blur slider to distort the report before sharing."</string>
+    <string name="quickeref_txt11"><b>"Tap"</b>" on each Point Of Interests (POIs) to view the associated value."</string>
+    <string name="quickeref_txt12"><b>"Tap"</b>" on the value to view detailed information."</string>
+    <string name="quickeref_txt13"><b>"Tap"</b>" on the arrow to navigate through the hierarchical data of the table."</string>
+    <string name="quickeref_txt14">"In the Prompts Hierarchy pop over, "<b>"tap"</b>" on the arrow to navigate through the hierarchy to select the prompt value(s)."</string>
+    <string name="quickeref_txt15"><b>"Tap"</b>" on the "<i>"Show/Hide"</i>" icon to access the Action Bar while viewing a Dashboard."</string>
+    <string name="quickeref_txt16"><b>"Tap"</b>" on the "<i>"Pin"</i>" icon to lock the Action Bar when viewing a Dashboard."</string>
+    <string name="quickeref_txt2"><b>"Tap"</b>" on the page indicator to view the page navigation slider. On a smartphone, you can also use the seek bar for this."</string>
+    <string name="quickeref_txt3"><b>"Double tap"</b>" on a chart or "<b>"Tap"</b>" on table (with text in blue) to perform drill."</string>
+    <string name="quickeref_txt4"><b>"Double tap"</b>" on the table column header to access "<i>"Table Actions"</i>"."</string>
+    <string name="quickeref_txt5"><b>"Tap"</b>" on the icon to perform desired action on the report part."</string>
+    <string name="quickeref_txt6">"Select "<i>"Table Actions"</i>" to perform tasks such as Reorder, Freeze/Unfreeze or Hide/Unhide the columns or rows."</string>
+    <string name="quickeref_txt7"><b>"Tap"</b>" on the "<i>"Sections"</i>" icon to access the section options available on the report."</string>
+    <string name="quickeref_txt8">"On the "<i>"Sections"</i>" pop over, "<b>"Tap"</b>" on radio button to view the section information of the report or "<b>"Tap"</b>" on the arrow to view next level information of the report."</string>
+    <string name="quickeref_txt9"><b>"Tap"</b>" on "<i>"Share"</i>" icon and Select "<i>"Annotation"</i>" to annotate the report before sharing."</string>
+    <string name="quickref_checkbox_text">"Non visualizzare di nuovo"</string>
+    <string name="quickref_exitbutton_text">"Terminare"</string>
+    <string name="quickref_launch_text">"Welcome to "<b>"SAP BusinessObjects Mobile"</b>". This quick hints wizard help you to understand how to interact with the application."</string>
+    <string name="quickref_launchbutton_text">"Visualizza note rapide"</string>
+    <string name="quickref_skipbutton_text">"Ignorare"</string>
+    <string name="reconnect">"Riconnettersi"</string>
+    <string name="record">"Registra un promemoria vocale"</string>
+    <string name="recorded_file_attached">"Il file registrato sarà allegato all\'e-mail."</string>
+    <string name="recorded_file_deleted">"Il file registrato è stato eliminato."</string>
+    <string name="recorded_file_not_attached">"Il file registrato non è stato allegato."</string>
+    <string name="recording">"In fase di registrazione...."</string>
+    <string name="red">"Rosso"</string>
+    <string name="refresh">"Aggiornare"</string>
+    <string name="refresh_confirm_msg">"Il refresh rimuoverà il contesto attuale del documento"</string>
+    <string name="refresh_confirm_title">"Esegui il refresh del documento"</string>
+    <string name="refresh_mesg">"Refresh lista dei documenti in corso..."</string>
+    <string name="refresh_to_view_content">"Esegui il refresh per visualizzare il contenuto"</string>
+    <string name="register_with_sup">"Registrazione con SUP in corso..."</string>
+    <string name="registration_success">"Registrazione corretta"</string>
+    <string name="remember_pwd">"Ricordare password"</string>
+    <string name="remove_document">"Remove from Device"</string>
+    <string name="remove_filter">"Remove Filter"</string>
+    <string name="remove_from_favorites">"Remove from Favorites"</string>
+    <string name="remove_sort">"Rimuovi classificazione"</string>
+    <string name="report_filter">"Filtro"</string>
+    <string name="report_list">"Reports"</string>
+    <string name="report_part_filter_menu">"Report filtro parziale"</string>
+    <string name="report_part_menu">"Menu"</string>
+    <string name="required">"Necessario"</string>
+    <string name="reset_app_text">"Resetting the application will delete all local data, including connection details and application settings. You can access the application after reset without using application password.\n\nDo you want to proceed to reset the application?"</string>
+    <string name="reset_app_warning">"Messaggio di avvertimento"</string>
+    <string name="reset_app_warning_text">"You have entered incorrect application password 9 times. If you enter incorrect password next time, the application will reset and the local data, including connection details and settings will be lost.\n\nTo access the application after reset, establish a new connection and enter a valid application password."</string>
+    <string name="reset_application">"Resetta applicazione"</string>
+    <string name="reset_cmd">"Resettare"</string>
+    <string name="row">"Riga"</string>
+    <string name="sample">"Campioni"</string>
+    <string name="sample_doc1">"Bank Management: riepilogo"</string>
+    <string name="sample_doc2">"Analisi distribuzione lavoro"</string>
+    <string name="sample_doc3">"Dettagliante: launchpad"</string>
+    <string name="sample_doc4">"Redditività vendite"</string>
+    <string name="sample_doc5">"Direttore PdV"</string>
+    <string name="sample_doc6">"Sostenibilità"</string>
+    <string name="sampledoc_header">"Documenti campione"</string>
+    <string name="sapbi_delete">"An external program wants to delete a connection. Do you want to proceed?"</string>
+    <string name="sapbi_modify">"An external program wants to modify a connection. Do you want to proceed?"</string>
+    <string name="save_cmd">"Salvare"</string>
+    <string name="save_error_string">"Inserire le informazioni nei campi richiesti"</string>
+    <string name="save_pass">"Save Password"</string>
+    <string name="save_password">"Salvare password"</string>
+    <string name="saved_connection">"Saved Connection"</string>
+    <string name="saved_connections">"Saved Connections"</string>
+    <string name="savepasswordforms">"Password CMS non salvata a causa delle norme di sicurezza impostate dall\'amministratore"</string>
+    <string name="savepw">"Salvare password"</string>
+    <string name="search_hint">"Cercare"</string>
+    <string name="searchresults">"Risultati della ricerca"</string>
+    <string name="sections">"Sezioni"</string>
+    <string name="security_configname">"Nome configurazione di sicurezza"</string>
+    <string name="select_default_category">"Select Category to set as default"</string>
+    <string name="select_theme">"Seleziona tema"</string>
+    <string name="send_cnx_options">"Share connection via:"</string>
+    <string name="send_options">"Inviare screenshot via:"</string>
+    <string name="sender">"Sender"</string>
+    <string name="sent_at">"Sent at"</string>
+    <string name="sent_from">"Inviato dal dispositivo del mio Android"</string>
+    <string name="server">"Server"</string>
+    <string name="session_timeout">"Sessione scaduta"</string>
+    <string name="set_as_default">"Connessione di default"</string>
+    <string name="share_connection">"Share"</string>
+    <string name="show_downloaded">"Show only downloaded reports"</string>
+    <string name="skip">"Ignorare"</string>
+    <string name="smp_config">"SMP CONFIGURATION"</string>
+    <string name="smp_connection">"SMP Connection"</string>
+    <string name="smpcloud_connection">"SMP Cloud Connection"</string>
+    <string name="snapshot_drill">"This drill operation is not saved"</string>
+    <string name="snapshot_hierarchy">"Hierarchy operation is not supported for personal view documents"</string>
+    <string name="snapshot_name_exists">"Specify a different name; the name already exists for a different personal view"</string>
+    <string name="snapshot_opendoc">"Open document URL operation is not supported for personal view documents"</string>
+    <string name="snapshot_rel">"Report element linking operation is not supported for personal view documents"</string>
+    <string name="sort">"Classificare"</string>
+    <string name="sort_asc">"Classificare in ordine crescente"</string>
+    <string name="sort_desc">"Classificare in ordine decrescente"</string>
+    <string name="sorting_order">"Sorting Order"</string>
+    <string name="splash_docs_to_be_upgraded">"%1$s documents to be upgraded"</string>
+    <string name="splash_number_of_docs_upgraded">"%1$s of %2$s documents upgraded..."</string>
+    <string name="splash_upgrade_docs">"Upgrading Documents.."</string>
+    <string name="ssl_alert_title">"Alert"</string>
+    <string name="ssl_alertmessge">"This connection may be untrusted. Do you want to proceed?"</string>
+    <string name="ssl_date_invalid_error">"The date of the certificate is invalid"</string>
+    <string name="ssl_expired_error">"The certificate has expired"</string>
+    <string name="ssl_idmismatch_error">"Hostname mismatch"</string>
+    <string name="ssl_invalid_error">"A generic error occurred"</string>
+    <string name="ssl_notyetvalid_error">"The certificate is not yet valid"</string>
+    <string name="ssl_untrusted_error">"The certificate authority is not trusted"</string>
+    <string name="sso_X509_Certificate_Title">"Certificate Error"</string>
+    <string name="sso_X509_Mandatory_certifcate">"Certificate is mandatory for this connection"</string>
+    <string name="sso_X509_authentication">"Authentication"</string>
+    <string name="sso_X509_certificate_invalid">"The selected certificate may be invalid or corrupt.What would you like to do?"</string>
+    <string name="sso_X509_certificate_not_required">"How would you sign into the connection"</string>
+    <string name="sso_X509_certiifcate_unavailable">"No Certificates installed for SAP BusinessObjects Mobile.What would you like to do?"</string>
+    <string name="sso_X509_unauthorised_connection_sso">"Offline access is disabled for SSO"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="success">"Corretta esecuzione"</string>
+    <string name="sup_accessdetail">"Dettagli di accesso"</string>
+    <string name="sup_config">"Configurazione SUP"</string>
+    <string name="sup_configaration">"Configurazione SUP"</string>
+    <string name="sup_connection">"Connessione SUP"</string>
+    <string name="sup_deregister">"Cancella registrazione"</string>
+    <string name="sup_deregister_success">"Cancellazione registrazione corretta"</string>
+    <string name="sup_error_HTTP">"Errore HTTP"</string>
+    <string name="sup_error_authentication">"Errore autenticazione"</string>
+    <string name="sup_error_mobile_client">"Errore nel Mobile Client"</string>
+    <string name="sup_error_network">"Errore nella connessione di rete"</string>
+    <string name="sup_error_parse">"Errore nell\'analisi sintattica della risposta dal server"</string>
+    <string name="sup_error_unknown">"Errore sconosciuto."</string>
+    <string name="sup_instructedbyadmin">"Modifica i valori sopra indicati solo se hai ricevuto istruzioni dall\'amministratore"</string>
+    <string name="sup_register">"Cassa"</string>
+    <string name="sup_register_success">"Registrazione corretta"</string>
+    <string name="sup_serverdetail">"Dettagli SUP server"</string>
+    <string name="table_actions">"Azioni tabella"</string>
+    <string name="tap">"Tocca per inserire testo"</string>
+    <string name="tap_string">"(Tocca per invertire ordine)"</string>
+    <string name="tap_to_connect">"Tap to connect"</string>
+    <string name="temp_file_extension">"_temp"</string>
+    <string name="thismonth">"Mese attuale"</string>
+    <string name="thisweek">"Settimana attuale"</string>
+    <string name="title">"Titolo"</string>
+    <string name="today">"Oggi"</string>
+    <string name="toggle_no">"No"</string>
+    <string name="toggle_off">"OFF"</string>
+    <string name="toggle_on">"ON"</string>
+    <string name="toggle_yes">"Sì"</string>
+    <string name="type">"Type"</string>
+    <string name="type_value">"Valore tipo"</string>
+    <string name="unable_to_drill">"Impossibile eseguire il drill del documento"</string>
+    <string name="unfreeze">"Scongela"</string>
+    <string name="unhide_all">"Visualizza tutto"</string>
+    <string name="unknown_document_type">"Il tipo di documento selezionato è sconosciuto."</string>
+    <string name="unwrap">"Rendere noto"</string>
+    <string name="update">"Aggiornamento"</string>
+    <string name="update_available">": aggiornamento disponibile"</string>
+    <string name="update_document">"Aggiornamento disponibile"</string>
+    <string name="update_document_instance">"Aggiornamento &amp; istanza"</string>
+    <string name="update_instance">"Istanza disponibile"</string>
+    <string name="uploading">"Upload in corso..."</string>
+    <string name="url_start_string">"http://"</string>
+    <string name="use_app_pwd">"Utilizza password applicazione"</string>
+    <string name="user_name">"Nome utente"</string>
+    <string name="user_profile">"Profilo utente"</string>
+    <string name="version">"Versione:"</string>
+    <string name="view">"View"</string>
+    <string name="view_doc">"Visualizzare documento"</string>
+    <string name="view_doc_instance_online">"Visualizza l\'ultima istanza disponibile"</string>
+    <string name="view_instance">"View Instance"</string>
+    <string name="view_instance_download_message">"Vuoi eseguire il download dell\'ultima istanza?"</string>
+    <string name="view_instance_title">"Visualizzare istanza documento"</string>
+    <string name="view_log">"View log"</string>
+    <string name="viewing">"Opzioni di visualizzazione"</string>
+    <string name="viewing_options">"Opzioni di visualizzazione"</string>
+    <string name="wait">"Attendere..."</string>
+    <string name="wait_string">"..."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.1/res/values-it/values.xml -->
+    <eat-comment/>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Acquista con Google"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="webi_type">"Web Intelligence"</string>
+    <string name="whats_new">"What\'s new"</string>
+    <string name="white">"Bianco"</string>
+    <string name="work_lbl">"Lavoro"</string>
+    <string name="work_offline">"Lavorare offline"</string>
+    <string name="wrap">"Testo a capo"</string>
+    <string name="wrong_pwd">"Password non valida"</string>
+    <string name="wrong_pwd_text">"You have entered the wrong password %1$d times. \n\nDo you want to reset the application?"</string>
+    <string name="xc_fitToScreen">"Adattare alla videata"</string>
+    <string name="xc_fit_to_screen">"Adattare alla videata"</string>
+    <string name="xc_hideToolBar">"Nascondi barra degli strumenti"</string>
+    <string name="xc_offline_dataset">"Numero set di dati offline"</string>
+    <string name="xc_pin_unpin">"Blocca/Sblocca"</string>
+    <string name="xc_sdk_storage">"Set Development Kit: archivio offline"</string>
+    <string name="xc_setting">"Dashboard Settings"</string>
+    <string name="yellow">"Giallo"</string>
+    <string name="yesterday">"Ieri"</string>
+    <string name="you">"Tu"</string>
+</resources>

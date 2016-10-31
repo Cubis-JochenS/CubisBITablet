@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quickeref_tablandlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layoutDirection="locale"
+     >
+
+    <LinearLayout
+        android:id="@+id/quickeref_tabland_linearlayout1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/quickeref_image1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:contentDescription="@string/app_name"
+            android:padding="25dp"/>
+
+        <TextView
+            android:id="@+id/quickeref_text1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:typeface="sans"
+       		android:textSize="18sp"
+            android:textColor="@color/darkgrey"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quickeref_tabland_linearlayout2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/quickeref_image2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:contentDescription="@string/app_name"
+            android:padding="25dp"/>
+
+        <TextView
+            android:id="@+id/quickeref_text2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:typeface="sans"
+       		android:textSize="18sp"
+            android:textColor="@color/darkgrey"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

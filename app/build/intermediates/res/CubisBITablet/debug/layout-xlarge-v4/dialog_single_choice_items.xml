@@ -1,0 +1,8 @@
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checkMark="@drawable/button_radio"  
+    android:background="@drawable/list_selector" 
+    style="@style/Dialoglistitem"/>
+<!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/layout-xlarge/dialog_single_choice_items.xml -->

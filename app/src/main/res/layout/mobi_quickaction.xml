@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+
+	<LinearLayout
+	    android:id="@+id/action_bar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/arrow_up"
+	    android:background="@drawable/quickactions_panel"
+	    android:orientation="vertical" >
+	    
+		<HorizontalScrollView
+	        android:id="@+id/scroll"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:scrollbars="none">
+	        
+				<LinearLayout android:id="@+id/actions_container"
+					android:layout_width="wrap_content"
+					android:layout_height="65dip"
+					android:orientation="horizontal"
+                    android:layoutDirection="locale"
+                    />
+							
+		</HorizontalScrollView>
+	</LinearLayout>
+	
+	<ImageView android:id="@+id/arrow_down" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_below="@id/action_bar"
+		android:layout_marginTop="-7dp" 
+		android:src="@drawable/quickactions_arrow_down"
+		android:visibility="gone"/>
+	
+	<ImageView 
+		android:id="@id/arrow_up"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="-7dp"
+		android:src="@drawable/quickactions_arrow_up" />
+	
+</RelativeLayout>

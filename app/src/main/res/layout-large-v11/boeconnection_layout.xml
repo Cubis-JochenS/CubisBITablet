@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aec_corpcnxlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+     >
+
+    <RelativeLayout
+        android:id="@+id/amc_hiddenviewslayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <LinearLayout
+        android:id="@+id/cl_header_bg_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/greydark" >
+        <TextView
+            android:id="@+id/connection_dtls"
+            style="@style/TextMediumTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:gravity="left|start|center_vertical"
+            android:textAllCaps="true"
+            android:text="@string/conn_det"
+             />
+
+        </LinearLayout>
+
+        <!-- Connection Name -->
+
+        <LinearLayout
+            android:id="@+id/amc_cnxamelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_below="@+id/cl_header_bg_layout"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/TextMediumTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom" 
+                android:text="@string/connection_name"
+               >
+            </TextView>
+
+            <EditText
+                android:id="@+id/amc_connname"
+                style="@style/TextMedium.EditTextBoxStyle"
+                android:layout_width="0dp"
+                android:layout_weight="0.65"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:layout_height="wrap_content"
+                android:hint="@string/required"
+                android:imeOptions="actionNext"
+                android:inputType="textNoSuggestions|textFilter"
+                android:maxLength="70"
+                
+                 >
+            </EditText>
+        </LinearLayout>
+        <!-- Mobile Server URL -->
+
+        <LinearLayout
+            android:id="@+id/amc_mobileserverurllayout"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_below="@+id/amc_cnxamelayout"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:visibility="gone" >
+
+            <!-- Mobile Server URL -->
+
+            <TextView
+                style="@style/TextMediumTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:text="@string/mobile_server_URL"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/amc_mobile_server_url"
+                style="@style/TextMedium.EditTextBoxStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="0.65"
+                android:background="@drawable/editbox"
+                android:hint="@string/required"
+                android:inputType="textNoSuggestions|textFilter"
+                android:maxLength="281"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom" >
+            </EditText>
+        </LinearLayout>
+        <!-- Cms -->
+
+        <LinearLayout
+            android:id="@+id/amc_cmslayout"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/amc_mobileserverurllayout"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginBottom="36dp"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/TextMediumTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/cms"
+                android:textAlignment="viewStart"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom|left|start" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/amc_cms"
+                style="@style/TextMedium.EditTextBoxStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="0.65"
+                android:autoText="false"
+                android:background="@drawable/editbox"
+                android:hint="@string/required"
+                android:inputType="textNoSuggestions|textFilter"
+                android:maxLength="261"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom" >
+            </EditText>
+        </LinearLayout>
+        <!-- AUTH HEADING -->
+        
+         <LinearLayout
+        android:id="@+id/cl_header1_bg_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/greydark"
+        android:layout_below="@+id/amc_cmslayout"
+         >
+       
+        <TextView
+            android:id="@+id/auth_detls"
+            style="@style/TextMediumTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:gravity="left|start|center_vertical"
+            android:textAllCaps="true"
+            android:text="@string/auth_det"
+             />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/amc_usernamelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/cl_header1_bg_layout"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <!-- User name -->
+
+            <TextView
+                style="@style/TextMediumTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:text="@string/user_name"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/amc_username"
+                style="@style/TextMedium.EditTextBoxStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="0.65"
+                android:background="@drawable/editbox"
+                android:hint="@string/required"
+                android:inputType="textNoSuggestions|textFilter"
+                android:maxLength="100"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom" >
+            </EditText>
+        </LinearLayout>
+        <!-- Password -->
+
+        <LinearLayout
+            android:id="@+id/amc_pwdlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/amc_usernamelayout"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <TextView
+                style="@style/TextMediumTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/password"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/amc_pwd"
+                style="@style/TextMedium.EditTextBoxStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:background="@drawable/editbox"
+                android:inputType="textPassword"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom" >
+            </EditText>
+        </LinearLayout>
+        <!-- AUTH TYPE -->
+
+        <LinearLayout
+            android:id="@+id/amc_authtypelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/amc_pwdlayout"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginBottom="36dp"
+            android:visibility="gone" >
+
+            <!-- Authentication Type -->
+
+            <TextView
+                style="@style/TextMediumTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/auth_type"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/amc_authtype"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:background="@drawable/spinner"
+                android:prompt="@string/auth_type"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom"
+                android:dropDownWidth="592dp"
+                android:dropDownVerticalOffset="-15dp" >
+            </Spinner>
+        </LinearLayout>
+        
+        <View
+          android:id="@+id/cl_separator"
+          android:layout_width="fill_parent"
+          android:layout_height="2dp"
+          android:layout_below="@+id/amc_authtypelayout"
+          android:background="@color/lightgrey"  >
+        </View>
+        
+        <!-- DEFAULT CONNECTION -->
+
+        <LinearLayout
+            android:id="@+id/cl_default_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="68dp"
+            android:layout_below="@+id/cl_separator"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp" >
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/TextMediumTitle"
+                android:layout_width="190dp"
+                android:paddingRight="10dp"
+                android:paddingEnd="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/set_as_default"
+                android:layout_gravity="left|start|bottom"
+                android:gravity="bottom" />
+
+            <Switch
+                android:id="@+id/cl_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|start|bottom"
+                android:gravity="bottom"
+                android:minWidth="80dp"
+                android:minHeight="18dp"
+                android:switchTextAppearance="@style/SwitchTextAppearance"
+                android:textOff="@string/toggle_no"
+                android:textOn="@string/toggle_yes" >
+            </Switch>
+        </LinearLayout>
+        <!-- SAVE PASSWORD -->
+
+        <LinearLayout
+            android:id="@+id/cl_savepassword_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="78dp"
+            android:layout_below="@+id/cl_default_layout"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="30dp" >
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/TextMediumTitle"
+                android:layout_width="190dp"
+                android:paddingRight="10dp"
+                android:paddingEnd="10dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/save_password"
+                android:layout_gravity="left|start|bottom"
+                android:gravity="bottom" />
+
+            <Switch
+                android:id="@+id/cl_save_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|start|bottom"
+                android:gravity="bottom"
+                android:minWidth="80dp"
+                android:minHeight="18dp"
+                android:switchTextAppearance="@style/SwitchTextAppearance"
+                android:textOff="@string/toggle_no"
+                android:textOn="@string/toggle_yes" >
+            </Switch>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cl_cnxlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/cl_cnxlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="afterDescendants"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/cl_separator_belowList"
+                style="@style/ConnectionLineSeperator"
+                android:paddingTop="5dp"
+                android:visibility="invisible" >
+            </View>
+
+            <LinearLayout
+                android:id="@+id/connectionlistLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cl_separator_belowList"
+                android:gravity="left|start"
+                android:textAlignment="viewStart"
+                android:orientation="vertical"
+                android:paddingTop="19dp" >
+
+                <TextView
+                    android:id="@+id/exist_conn"
+                    style="@style/ConnectionListTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:paddingLeft="31dp"
+                    android:paddingStart="31dp"
+                    android:text="@string/exist_conn"
+                    android:textColor="@color/home_view_section_text" />
+
+                <View
+                    android:id="@+id/cl_separator_conn_ex_below"
+                    style="@style/ConnectionLineSeperator"
+                    android:layout_below="@+id/aec_new_import_server_layout"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/home_view_section_text"
+                    android:paddingBottom="10dp" >
+                </View>
+
+                <ListView
+                    android:id="@+id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|start"
+                    android:layout_weight="0.50"
+                    android:cacheColorHint="@color/transparent"
+                    android:divider="@color/lightgrey"
+                    android:dividerHeight="0.10px" >
+                </ListView>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/cl_separator_abovelist"
+                style="@style/ConnectionLineSeperator"
+                android:layout_below="@id/connectionlistLayout"
+                android:background="@color/home_view_section_text"
+                android:visibility="invisible" >
+            </View>
+
+            <LinearLayout
+                android:id="@+id/aec_new_connection_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@id/cl_separator_abovelist"
+                android:orientation="vertical"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+
+                <TextView
+                    android:id="@+id/cl_createnewcnxlayout"
+                    style="@style/ConnectionAddElements"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:gravity="left|start"
+                    android:textAlignment="viewStart"
+                    android:paddingLeft="29dp"
+                    android:paddingStart="29dp"
+                    android:text="@string/create_new_cnx"
+                    android:textColor="@color/settings_view_text"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <View
+                    android:id="@+id/cl_separator_createnewbelow"
+                    style="@style/ConnectionLineSep"
+                    android:background="@color/settings_view_separator" >
+                </View>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aec_new_import_server_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/aec_new_connection_layout"
+                android:orientation="vertical"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp" >
+
+                <TextView
+                    android:id="@+id/cl_importnewcnxlayout"
+                    style="@style/ConnectionAddElements"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:gravity="left|start"
+                    android:textAlignment="viewStart"
+                    android:paddingLeft="29dp"
+                    android:paddingStart="29dp"
+                    android:text="@string/import_cnx"
+                    android:textColor="@color/settings_view_text"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/hc"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+    
+    <ImageView
+        android:id="@+id/ctb_categoriesIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="1dp"
+        android:src="@drawable/leftpanel_icon_phone_disabled"
+        android:clickable="false"
+        android:enabled="false"/>
+    
+    <ImageView
+        android:id="@+id/ctb_appIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ctb_categoriesIcon"
+        android:layout_marginRight="8dp"
+        android:layout_toEndOf="@+id/ctb_categoriesIcon"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/appicon"/>
+    
+    <TextView
+        android:id="@+id/ctb_applebel"
+        style="@style/TextMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ctb_appIcon"
+        android:layout_toEndOf="@+id/ctb_appIcon"
+        android:paddingTop="3dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/gold"
+        android:text="@string/ctb_title"
+        android:visibility="gone"/>
+    
+    <ImageView
+        android:id="@+id/ctb_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="3dp"
+        android:gravity="center_vertical"
+		android:layout_toLeftOf="@+id/ctb_sort"
+        android:layout_toStartOf="@+id/ctb_sort"
+        android:src="@drawable/refresh_icon" />
+
+    <ImageView
+        android:id="@+id/ctb_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="3dp"
+        android:gravity="center_vertical"        
+        android:layout_toLeftOf="@+id/ctb_connection"
+        android:layout_toStartOf="@+id/ctb_connection"
+        android:src="@drawable/home_menu_sort"
+        android:visibility="gone" />
+           
+    <ImageView
+        android:id="@+id/ctb_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+		android:gravity="center_vertical"       
+        android:src="@drawable/home_menu_connection_inactive" />     
+</RelativeLayout>

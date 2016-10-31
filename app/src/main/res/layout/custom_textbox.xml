@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/participants_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layoutDirection="locale"
+    >
+<ImageButton
+        android:id="@+id/addparticipantbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/add_icon"
+        android:clickable="false"
+        android:visibility="invisible" />
+
+ <EditText  android:id="@+id/edittext"
+     		style="@style/TextButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editbox"
+            android:layout_toLeftOf="@id/addparticipantbtn"
+            android:layout_toStartOf="@id/addparticipantbtn"
+            android:inputType="textEmailAddress" 
+            android:textCursorDrawable="@null">
+ </EditText>
+ 
+ </RelativeLayout>

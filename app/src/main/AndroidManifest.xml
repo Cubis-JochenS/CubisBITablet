@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sap.mobi"
+    android:versionCode="21"
+    android:versionName="6.2.16">
+
+    <!-- Keeping the min sdk and target sdk as 13 although we support 4.0 onwards. This is required to provide menu options for content on phone-->
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- Maps API needs OpenGL ES 2.0. -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="com.sap.mobi.cache.MobiContext"
+        android:icon="@drawable/appicon_tablet"
+        android:label="Cubis BI"
+        android:debuggable="false"
+        android:supportsRtl="true"
+        android:logo="@drawable/appicon_tablet">
+        <service android:name="com.sap.performance.android.lib.PhoneStateService"></service>
+
+        <activity
+            android:name=".MobiActivity"
+            android:theme="@style/CustomTheme.Grey"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"></activity>
+        <activity
+            android:name=".ui.SplashActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ui.HomeStartUpActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="http"
+                    android:host="sapbi" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="sapbi" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.QuickRefActivity"
+            android:theme="@style/CustomTheme.Grey"
+            android:launchMode="singleTop"></activity>
+        <activity android:name=".ui.HomeActivity"></activity>
+        <activity
+            android:name=".viewer.xcelsius.XCDViewerActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/CustomTheme.Grey"
+            android:hardwareAccelerated="true"></activity>
+        <activity
+            android:name=".viewer.hyperlink.HyperlinkViewerActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/CustomTheme.Grey"
+            android:hardwareAccelerated="true"></activity>
+        <activity
+            android:name=".viewer.zen.ZenViewerActivity"
+            android:theme="@style/CustomTheme.Grey"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"></activity>
+        <activity
+            android:name=".viewer.pdf.PdfViewerActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/CustomTheme.Grey"
+            android:hardwareAccelerated="true"></activity>
+        <activity
+            android:name=".ui.HomeActionBarActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:theme="@style/CustomTheme.White"
+            android:launchMode="singleTask">
+        </activity>
+        <activity
+            android:name=".ui.BaseMultiPaneActivity"
+            android:theme="@style/CustomTheme.White"></activity>
+        <activity
+            android:name=".ui.SettingsMultiPaneActivity"
+            android:theme="@style/CustomTheme.White"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:launchMode="singleTask"></activity>
+        <activity
+            android:name=".ui.SettingsSinglePaneDetailsActivity"
+            android:theme="@style/CustomThemeNew"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:launchMode="singleTask"></activity>
+        <activity
+            android:name=".ui.SettingsSinglePaneListActivity"
+            android:theme="@style/CustomThemeNew"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:launchMode="singleTask"></activity>
+        <activity
+            android:name=".ui.MobiReportHolder"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"></activity>
+        <activity
+            android:name=".annotations.ImageEditorActivity"
+            android:theme="@style/CustomTheme.Grey"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"></activity>
+        <activity
+            android:name="com.sap.mobi.jam.JAMWebViewActivity"
+            android:theme="@style/CustomTheme.Grey"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:label="@string/jam_oauth_header"></activity>
+        <activity
+            android:name=".annotations.CropEditorActivity"
+            android:theme="@style/CustomTheme.Grey"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"></activity>
+        <activity
+            android:name=".geo.GeoMapActivity"
+            android:theme="@style/CustomTheme.Grey"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"></activity>
+        <activity
+            android:name=".ui.FormWebViewActivity"
+            android:theme="@style/CustomTheme.Grey"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"></activity>
+        <activity
+            android:name=".ui.InAppBrowsingActivity"
+            android:theme="@style/CustomTheme.Grey"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"></activity>
+        <activity
+            android:name=".ui.AppPasswordSwitchActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".ui.ConnectionDetailsActivity"
+            android:theme="@style/CustomTheme.White"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:launchMode="singleTop"></activity>
+        <activity
+            android:name=".ui.ImportConnectionActivity"
+            android:theme="@style/CustomTheme.White"
+            android:configChanges="keyboard|keyboardHidden|screenSize"
+            android:launchMode="singleTop"></activity>
+        <activity
+            android:name="com.sap.mobi.ui.ManageConnectionListActivity"
+            android:theme="@style/CustomTheme.White"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+            android:label="@string/manage_connections"
+            android:launchMode="singleTop"></activity>
+
+        <receiver android:name=".utils.ConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <!-- Content provider for mobidata database -->
+        <provider
+            android:name=".providers.ModiDataDbProvider"
+            android:authorities="be.cubis.mobitablet.docsprovider"
+            android:exported="false"></provider>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="REPLACE_WITH_YOUR_MAPS_API_KEY" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

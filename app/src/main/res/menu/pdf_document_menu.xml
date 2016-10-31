@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/addhome_report"
+        android:icon="@drawable/add_to_home_tablet"
+        android:showAsAction="always"
+        android:title="@string/add_home">
+    </item>
+    <item
+        android:id="@+id/info_report"
+        android:icon="@drawable/report_menu_info"
+        android:showAsAction="always"
+        android:title="@string/info">
+    </item>
+    <item
+        android:id="@+id/actions_report"
+        android:icon="@drawable/menu_more_actions_tablet"
+        android:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/annotations"
+                android:showAsAction="ifRoom"
+                android:title="@string/annotations"/>
+            <item
+                android:id="@+id/email"
+                android:showAsAction="ifRoom"
+                android:title="@string/email_menu"/>
+            <item
+                android:id="@+id/jam"
+                android:showAsAction="ifRoom"
+                android:title="@string/collaborate"
+                android:visible="false"/>
+        </menu>
+    </item>
+
+</menu>

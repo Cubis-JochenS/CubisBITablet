@@ -1,0 +1,31 @@
+
+   <resources>
+        <dimen name="actionbar_compat_height">45dp</dimen>
+         <dimen name="text_size_medium">18sp</dimen>
+         <dimen name="colorstrip_height">6dp</dimen>
+         <dimen name="build_version_padding">12dp</dimen>
+         
+         <!-- phone land -->
+         <dimen name="build_version_margin_width_pl">15dp</dimen>
+         <dimen name="version_margin_height_pl">65dp</dimen>
+         <dimen name="build_margin_height_pl">45dp</dimen>
+         
+         <!-- phone potrait -->
+         <dimen name="build_version_margin_width_pp">0dp</dimen>
+         <dimen name="version_margin_height_ph">45dp</dimen>
+         <dimen name="build_margin_height_ph">30dp</dimen>
+         
+          <!-- tab land -->
+         <dimen name="build_version_margin_width_tl">11dp</dimen>
+         <dimen name="version_margin_height_tl">94dp</dimen>
+         <dimen name="build_margin_height_tl">74dp</dimen>
+
+         
+         <!-- tab potrait-->
+         <dimen name="build_version_margin_width_tp">45dp</dimen>
+         <dimen name="version_margin_height_tp">130dp</dimen>
+         <dimen name="build_margin_height_tp">110dp</dimen>
+
+         
+    </resources>
+

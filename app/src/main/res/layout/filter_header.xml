@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_header_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_marginRight="5dip"
+    android:layout_marginLeft="5dip"
+    android:background="#585858"
+    >
+    
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/filters_header"
+	    style="@style/TextMediumPrompt"
+	    android:paddingLeft="14dp"
+        android:paddingStart="14dp"
+	    android:textColor ="#ffffff"
+	    android:layout_width="fill_parent"  
+	    android:layout_height="32dip"
+	    android:background="#585858"
+	    android:gravity="center_vertical"/>
+	<View
+        android:id="@+id/cl_separator_adv"
+        style="@style/FilterLineSeperator"/>
+</LinearLayout>

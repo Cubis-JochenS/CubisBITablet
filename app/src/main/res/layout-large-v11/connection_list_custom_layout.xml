@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conlist_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+	android:background="@color/white">
+
+    <!-- header -->
+
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/conlist_header_text"
+            style="@style/TextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="12dp"
+            android:text="@string/connections"
+            android:textColor="@color/text_header" />
+
+        <View
+            android:id="@+id/seperator1"
+            style="@style/DialogTitleSeperator" />
+    </LinearLayout>
+
+    <!-- Content -->
+
+    <LinearLayout
+        android:id="@+id/Content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.965"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/connections_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+        </ListView>
+    </LinearLayout>
+    <!-- footer -->
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.015"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/seperator2"
+            style="@style/DialogFooterSeperator" />
+
+        <LinearLayout
+            android:id="@+id/conlist_multi_footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            >
+
+            <Button
+                android:id="@+id/conlist_pos"
+                style="@style/TextMedium"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.45"
+                android:background="@drawable/button_dialog"
+                android:text="@string/logout" />
+
+            <ImageView
+                android:id="@+id/ver_seperator"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/text_subheader" />
+
+            <Button
+                android:id="@+id/conlist_neg"
+                style="@style/TextMedium"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.45"
+                android:background="@drawable/button_dialog"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

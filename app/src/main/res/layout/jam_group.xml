@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/group_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp" 
+	android:background="@color/white">
+    <!-- Header -->
+
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/header_text"
+            style="@style/TextMedium.Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/text_header" />
+
+        <View
+            android:id="@+id/hor_seperator"
+            style="@style/DialogTitleSeperator" />
+    </LinearLayout>
+
+    <!-- content -->
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/groupname_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <!-- group name -->
+
+                    <TextView
+                        style="@style/TextMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/group_name" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/group_name"
+                        style="@style/TextButton"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/editbox"
+                        android:inputType="textNoSuggestions" >
+                    </EditText>
+                </LinearLayout>
+
+                <!--
+            <View
+            android:id="@+id/hor_seperator"
+            style="@style/DialogFooterSeperator" />
+                -->
+
+                <LinearLayout
+                    android:id="@+id/group_description_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <!-- description -->
+
+                    <TextView
+                        style="@style/TextMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/group_objective" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/group_description"
+                        style="@style/TextButton"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/editbox"
+                        android:inputType="textNoSuggestions" >
+                    </EditText>
+                </LinearLayout>
+                <!--
+            <View
+            android:id="@+id/hor_seperator"
+            style="@style/DialogFooterSeperator" />
+                -->
+
+                <LinearLayout
+                    android:id="@+id/participants"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <!-- partcicpants -->
+
+                    <TextView
+                        style="@style/TextMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/group_participants" >
+                    </TextView>
+
+                    <RelativeLayout
+                        android:id="@+id/participants_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layoutDirection="locale"
+                        >
+
+                        <ImageButton
+                            android:id="@+id/addparticipantbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:background="@drawable/add_icon" />
+
+                        <EditText
+                            android:id="@+id/edittext"
+                            style="@style/TextButton"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_toLeftOf="@id/addparticipantbtn"
+                            android:layout_toStartOf="@id/addparticipantbtn"
+                            android:background="@drawable/editbox"
+                            android:inputType="textEmailAddress" >
+                        </EditText>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/hor_seperator"
+                    style="@style/DialogFooterSeperator" />
+            </LinearLayout>
+
+            <!-- footer -->
+
+            <LinearLayout
+                android:id="@+id/footer"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layoutDirection="locale"
+                >
+
+                <Button
+                    android:id="@+id/btn_reset"
+                    style="@style/TextSmall"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.45"
+                    android:background="@drawable/button_dialog"
+                    android:text="@string/reset_cmd" />
+
+                <ImageView
+                    android:id="@+id/ver_seperator"
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/text_subheader" />
+
+                <Button
+                    android:id="@+id/btn_save"
+                    style="@style/TextSmall"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.45"
+                    android:background="@drawable/button_dialog"
+                    android:text="@string/save_cmd" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

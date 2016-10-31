@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <!-- Server Error messages -->
+	<!-- XMSG -->
+    <string name="mob06004">"تعذر تأسيس اتصال بالخادم؛ اتصل بالمسؤول لديك في حالة استمرار المشكلة(MOB06004)"</string>
+	<!-- XMSG -->
+    <string name="mob06005">"تعذر تأسيس اتصال بالخادم؛ أعد المحاولة أو اتصل بالمسؤول لديك(MOB06005)"</string>
+	<!-- XMSG -->
+    <string name="mob06006">"انتهت مهلة الطلب؛ أعد المحاولة أو اتصل بالمسؤول لديك(MOB06006)"</string>
+	<!-- XMSG -->
+    <string name="mob06007">"طلبك غير صالح؛ تحقق من تفاصيل الاتصال أو اتصل بالمسؤول لديك(MOB06007)"</string>
+	<!-- XMSG -->
+    <string name="mob06008">"أنت لست مفوضًا بالقيام بهذا الطلب(MOB06008)"</string>
+	<!-- XMSG -->
+    <string name="mob06009">"طلبك غير صالح؛ تحقق من تفاصيل الاتصال أو اتصل بالمسؤول لديك(MOB06009)"</string>
+	<!-- XMSG -->
+    <string name="mob06010">"حدث خطأ داخلي في الخادم أثناء معالجة طلبك؛ أعد المحاولة أو اتصل بالمسؤول لديك(MOB06010)"</string>
+	<!-- XMSG -->
+    <string name="mob06011">"قيمة الطلب الفوري غير موجودة؛ حدد قيمة واحدة على الأقل للطلب الفوري(MOB06011)"</string>
+	<!-- XMSG -->
+    <string name="mob06021">"تحقق من اتصال الشبكة(MOB06021)"</string>
+	<!-- XMSG -->
+    <string name="mob06022">"حدث خطأ داخلي أثناء معالجة طلب العميل(MOB06022)"</string>
+	<!-- XMSG -->
+    <string name="mob06031">"تعذر تأسيس الاتصال بالخادم؛ أعد المحاولة أو اتصل بالمسؤول لديك(MOB06031)"</string>
+     
+    <!-- Client Error messages -->
+	 <!-- XMSG -->
+    <string name="mob08001">"لم يتم تكوين البريد الإلكتروني على هذا الجهاز(MOB08001)"</string>
+	<!-- XMSG -->
+    <string name="mob08002">"حدث خطأ داخلي في الخادم أثناء معالجة طلبك؛ اتصل بالمسؤول لديك(MOB08002)"</string>
+	<!-- XMSG -->
+    <string name="mob08003">"حال خطأ في الخادم دون تحديث المستند؛ أعد المحاولة(MOB08003)"</string>
+	<!-- XMSG -->
+    <string name="mob08004">"لم يتم ملء كل الطلبات الفورية الإلزامية(MOB08004)"</string>
+	<!-- XMSG -->
+    <string name="mob08005">"هذا الطلب الفوري غير مدعوم(MOB08005)"</string>
+	<!-- XMSG -->
+    <string name="mob08006">"الرجاء التحقق من معلومات تسجيل الدخول الخاصة بك(MOB08006)"</string>    
+	<!-- XMSG -->
+    <string name="mob08007">"لا يدعم التطبيق هذا الإصدار للخادم؛ اتصل بالمسؤول لديك(MOB08007)"</string> 
+    <!-- XMSG -->
+    <string name="mob08008">"استثناء SUP(MOB08008)"</string>
+    <!-- XMSG -->
+    <!--  This is a client sid emessage as below for the document not  found in server 
+    for content types like XC where we don;t get XML response. This is the same message which comes from Webi server for doc not found-->
+    <string name="mob00006">"المستند غير موجود على الخادم. (MOB00006)"</string>
+    <!-- XMSG -->
+    <string name="mob06099">"حدث خطأ؛ الرجاء الاتصال بالمسؤول"</string>
+     
+</resources>

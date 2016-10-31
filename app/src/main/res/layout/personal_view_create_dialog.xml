@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+  <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/pv_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <!-- Name -->
+
+            <TextView
+                style="@style/TextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pv_name"
+                android:textColor="@color/black" >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/pvName"
+                style="@style/TextSmall.EditTextBoxStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editbox"
+                android:hint="@string/required"
+                android:inputType="textFilter"
+                android:maxLength="100" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pv_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <!-- description -->
+
+            <TextView
+                style="@style/TextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pv_description"
+                android:textColor="@color/black" >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/pvDescription"
+                style="@style/TextSmall.EditTextBoxStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editbox"
+                android:inputType="textMultiLine|textFilter"
+                android:minLines="2" >
+
+            </EditText>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/hor_seperator"
+            style="@style/DialogFooterSeperator" />
+    </LinearLayout>
+
+</LinearLayout>

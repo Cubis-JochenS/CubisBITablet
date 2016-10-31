@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <!-- Server Error messages -->
+	<!-- XMSG -->
+    <string name="mob06004">"Não foi possível estabelecer conexão com servidor; contate seu administradorthe se o problema persistir (MOB06004)"</string>
+	<!-- XMSG -->
+    <string name="mob06005">"Não foi possível estabelecer conexão com servidor; tente novamente ou contate seu administrador (MOB06005)"</string>
+	<!-- XMSG -->
+    <string name="mob06006">"Timeout da solicitação; tente novamente ou contate seu administrador de sistema (MOB06006)"</string>
+	<!-- XMSG -->
+    <string name="mob06007">"Solicitação inválida; verifique os detalhes de conexão ou contate seu administrador (MOB06007)"</string>
+	<!-- XMSG -->
+    <string name="mob06008">"Sem autorização para essa solicitação (MOB06008)"</string>
+	<!-- XMSG -->
+    <string name="mob06009">"Solicitação inválida; verifique os detalhes de conexão ou contate seu administrador (MOB06009)"</string>
+	<!-- XMSG -->
+    <string name="mob06010">"Erro interno do servidor ao processar sua solicitação; tente novamente ou contate seu administrador de sistema (MOB06010)"</string>
+	<!-- XMSG -->
+    <string name="mob06011">"Falta valor de consulta; selecione pelo menos um valor (MOB06011)"</string>
+	<!-- XMSG -->
+    <string name="mob06021">"Verificar conectividade de rede (MOB06021)"</string>
+	<!-- XMSG -->
+    <string name="mob06022">"Erro interno do servidor ao processar a solicitação do cliente (MOB06022)"</string>
+	<!-- XMSG -->
+    <string name="mob06031">"Não foi possível estabelecer conexão com servidor; tente novamente ou contate seu administrador (MOB06031)"</string>
+     
+    <!-- Client Error messages -->
+	 <!-- XMSG -->
+    <string name="mob08001">"E-mail não configurado neste dispositivo (MOB08001)"</string>
+	<!-- XMSG -->
+    <string name="mob08002">"Erro interno do servidor ao processar sua solicitação; contate seu administrador (MOB08002)"</string>
+	<!-- XMSG -->
+    <string name="mob08003">"Erro do servidor impediu atualização do documento; tente novamente (MOB08003)"</string>
+	<!-- XMSG -->
+    <string name="mob08004">"Nem todas as consultas obrigatórias foram preenchidas (MOB08004)"</string>
+	<!-- XMSG -->
+    <string name="mob08005">"Essa consulta não é suportada (MOB08005)"</string>
+	<!-- XMSG -->
+    <string name="mob08006">"Verifique informações de início de sessão (MOB08006)"</string>    
+	<!-- XMSG -->
+    <string name="mob08007">"Essa versão de servidor não é suportada pelo aplicativo; contate seu administrador (MOB08007)"</string> 
+    <!-- XMSG -->
+    <string name="mob08008">"Exceção SUP (MOB08008)"</string>
+    <!-- XMSG -->
+    <!--  This is a client sid emessage as below for the document not  found in server 
+    for content types like XC where we don;t get XML response. This is the same message which comes from Webi server for doc not found-->
+    <string name="mob00006">"O documento não existe no servidor. (MOB00006)"</string>
+    <!-- XMSG -->
+    <string name="mob06099">"Um erro foi encontrado; contate seu administrador"</string>
+     
+</resources>

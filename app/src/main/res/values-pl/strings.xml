@@ -1,0 +1,2809 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+
+
+
+    <!-- XTXT: title for the launcher icon of app -->
+
+    <string name="app_name">"SAP BI"</string>
+
+    <!-- XMSG: message says on which android sdk the app is not supported -->
+
+    <string name="osnotsupported">"Ta aplikacja nie jest obsługiwana w systemie Android 4.4 lub nowszym"</string>
+
+    <!-- XMSG: message says on which android sdk the app is not supported -->
+
+    <string name="osdeprecated">"Ta aplikacja nie jest obsługiwana w wersji 2.2 systemu Android"</string>
+
+    <!-- XMSG: message says android api level less than 14 is not supported -->
+
+    <string name="oshoneycombnotsupported">"Aplikacja %1$s jest kompatybilna z systemem operacyjnym Android w wersji 4.0 lub nowszej."</string>
+
+    <!-- XBUT: Text for HOME Button -->
+
+    <string name="description_home">"Zapisane"</string>
+
+    <!-- XMIT: Menu item for Search -->
+
+    <string name="description_search">"Szukaj"</string>
+
+    <!-- XTBS: Title for Browse Tab -->
+
+    <string name="browse">"Szukaj"</string>
+
+    <!-- XTBS,10: Title for Home Tab -->
+
+    <string name="home">"Zapisane"</string>
+
+    <!-- XMSG: login -->
+
+    <string name="login">"Zaloguj"</string>
+
+    <!-- XTXT: Text for new instance of ConnectionListDialogFragment -->
+
+    <string name="add_new_cnx">"Dodaj połączenie"</string>
+
+    <!-- XTXT: Text used for Import -->
+
+    <string name="import_txt">"Importuj"</string>
+
+    <!-- XTXT: Text used for Add connection -->
+
+    <string name="new_txt">"Nowe"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="alias">"Alias"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="add_alias">"Dodaj alias"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="enter_alias">"Wprowadź alias"</string>
+
+    <!-- XBUT: OK -->
+
+    <string name="ok">"OK"</string>
+
+    <!-- XBUT: cancel -->
+
+    <string name="cancel">"Anuluj"</string>
+
+    <!-- XBUT: XCPin -->
+
+    <string name="xc_pin_unpin">"Ustawianie/usuwanie pinezki"</string>
+
+    <!-- XBUT: FitToScreen -->
+
+    <string name="xc_fit_to_screen">"Dopasuj do ekranu"</string>
+
+
+
+    <!-- XBUT: Done -->
+
+    <string name="done">"Gotowe"</string>
+
+    <!-- XBUT: Previous -->
+
+    <string name="previous">"Poprzednie"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_instance_title">"Wyświetl instancję dokumentu"</string>
+
+    <!-- XHED: heading for Categories -->
+
+    <string name="categories">"Kategorie"</string>
+
+    <!-- XHED: heading for Search Results -->
+
+    <string name="searchresults">"Wyniki wyszukiwania"</string>
+
+    <!-- XHED: heading for Dailog while sending an email -->
+
+    <string name="send_options">"Wyślij zrzut ekranu za pomocą:"</string>
+
+    <!-- XHED: heading for Dialog while sending an email to share connection -->
+
+    <string name="send_cnx_options">"Udostępnij połączenie za pomocą:"</string>
+
+    <!-- XBUT: Skip -->
+
+    <string name="skip">"Pomiń"</string>
+
+    <!-- XHED: heading for Sample Documents -->
+
+    <string name="sampledoc_header">"Przykładowe dokumenty"</string>
+
+    <!-- XTXT -->
+
+    <string name="create_new_cnx_desc1">"i przeglądaj dokumenty."</string>
+
+    <!-- XTXT -->
+
+    <string name="create_new_cnx_desc2">"Możesz to także zrobić z ekranu \'Ustawienia\'."</string>
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    <!-- Build number format is YYMM fo  every release year-month -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XBUT: Accept buttion in Eula Screen -->
+
+    <string name="eula_accept">"Akceptuj"</string>
+
+    <!-- XBUT: Reject buttion in Eula Screen -->
+
+    <string name="eula_reject">"Odrzuć"</string>
+
+    <!-- XHED: Heading for Eula Screen -->
+
+    <string name="eula_title">"Licencja użytkownika końcowego"</string>
+
+    <string name="eula_mobi_updates"/>
+
+
+
+    <!-- Menu options for annotations -->
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="paint">"Maluj"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="erase">"Usuń"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="customview">"Wgląd niestandardowy"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="crop">"Przytnij"</string>
+
+    <!-- XMIT : menu item  used to blur the image -->
+
+    <string name="blur">"Rozmarz"</string>
+
+    <!-- XTXT -->
+
+    <string name="record">"Zapisz notatkę głosową"</string>
+
+    <!-- XTXT -->
+
+    <string name="recording">"Zapisywanie..."</string>
+
+    <!-- XTXT -->
+
+    <string name="not_recording">"Gotowe do zapisu..."</string>
+
+    <!-- XTXT -->
+
+    <string name="playing">"Odtwarzanie..."</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_deleted">"Usunięto zapisany plik."</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_attached">"Zapisany plik zostanie dołączony do tego e-maila."</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_not_attached">"Brak zapisanego pliku załącznika."</string>
+
+    <!-- XMSG: message for indicating if orientation was locked -->
+
+    <string name="orientation_lock">"Orientacja zablokowana!! Nie możesz zmieniać orientacji urządzenia podczas adnotowania raportu."</string>
+
+    <!-- XMSG: message for indicatiing if orientation was locked -->
+
+    <string name="orientation_unlock">"Orientacja odblokowana"</string>
+
+    <!-- XLST: Edit -->
+
+    <string name="annotations">"Adnotacja"</string>
+
+    <!-- XHED: Heading for ImageEditor -->
+
+    <string name="imageeditor_title">"Edytor obrazu"</string>
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- choose color to Paint which comes in the menu -->
+
+    <!-- XMIT : menu item  for white color -->
+
+    <string name="white">"Biały"</string>
+
+    <!-- XMIT : menu item  for black color -->
+
+    <string name="black">"Czarny"</string>
+
+    <!-- XMIT : menu item  for red color -->
+
+    <string name="red">"Czerwony"</string>
+
+    <!-- XMIT : menu item  for Blue color -->
+
+    <string name="blue">"Niebieski"</string>
+
+    <!-- XMIT : menu item  for Green color -->
+
+    <string name="green">"Zielony"</string>
+
+    <!-- XMIT : menu item  for Yellow color -->
+
+    <string name="yellow">"Żółty"</string>
+
+
+
+    <!-- Menu options -->
+
+    <!-- XMIT : menu item  used to add the document to home tab -->
+
+    <string name="add_home">"Dodaj Stronę główną"</string>
+
+    <!-- XMSG:title of create personal view fragment -->
+
+    <string name="pv_create_title">"Zapis wglądu"</string>
+
+    <!-- XMIT: category for Personal view -->
+
+    <string name="personal_view_category">"Wglądy osobiste"</string>
+
+     <!-- XMIT: menu item used to create Personal view in the document -->
+
+    <string name="personal_view_create">"Wgląd osobisty"</string>
+
+    <!-- XTXT menu item used to create Personal view Name -->
+
+    <string name="pv_name">"Nazwa wglądu osobistego"</string>
+
+    <!-- XTXT menu item used to create Personal view Description -->
+
+    <string name="pv_description">"Opis wglądu osobistego"</string>
+
+    <!-- XMIT: menu item used to refresh the document -->
+
+    <string name="refresh">"Odśwież"</string>
+
+    <!-- XMIT: menu item used for filters in the document -->
+
+    <string name="filter_menu">"Filtruj"</string>
+
+    <!-- XMIT: menu item used for filters for report parts -->
+
+    <string name="report_part_filter_menu">"Filtr części raportu"</string>
+
+    <!-- XMIT: menu item used to send the screenshot of the report through email -->
+
+    <string name="email_menu">"E-mail"</string>
+
+    <!-- XMIT: menu item used to switch between list and grid views for tablets  with action bar -->
+
+    <string name="grid_menu">"Siatka"</string>
+
+    <!-- XMIT: menu item used to switch between list and grid views for phone devices where custom title bar is used -->
+
+    <string name="change_view">"Zmien wgląd"</string>
+
+    <string name="xc_hideToolBar">"Ukryj pasek narzędzi"</string>
+
+    <string name="xc_fitToScreen">"Dopasuj do ekranu"</string>
+
+    <!-- XMIT: menu item used to indicate sections in report -->
+
+    <string name="sections">"Sekcje"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="existing_conn_header">"Istniejące połączenia"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="tap_to_connect">"Stuknij, aby połączyć"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="more">"Więcej"</string>       
+
+    <!-- Doc info related strings -->
+
+    <!-- XTXT: name of the textView which displays name of the document -->
+
+    <string name="name">"Nazwa"</string>
+
+    <!-- XHED: heading for the dailog which displays document information -->
+
+    <string name="doc_info_header">"Informacje o dokumencie"</string>
+
+    <!-- XTXT: name of the textView which displays author of the document -->
+
+    <string name="author">"Autor"</string>
+
+    <!-- XTXT: name of the textView which displays parent doc name personal view doc -->
+
+    <string name="parent_doc_name">"Nazwa dokumentu nadrzędnego"</string>
+
+    <!-- XTXT: name of the textView which displays sender of the document -->
+
+    <string name="sender">"Nadawca"</string>
+
+    <!-- XTXT: name of the textView which displays downloaded date&time of the document -->
+
+    <string name="downloaded_at">"Zapisano o"</string>
+
+    <!-- XTXT: name of the textView which displays the last modified date&time of the document -->
+
+    <string name="modified_at">"Zmodyfikowano o"</string>
+
+    <!-- XTXT: name of the textView which displays the last sent at date&time of the document -->
+
+    <string name="sent_at">"Wysłano o"</string>
+
+    <!-- XTXT: name of the textView which displays description of the document -->
+
+    <string name="description">"Opis"</string>
+
+    <!-- XTXT: name of the textView which displays deletion date&time  of the document -->
+
+    <string name="document_delete">"Dokument zostanie usunięty"</string>
+
+
+
+    <!-- Quick Action options -->
+
+    <!-- XBUT: used to open a document in quick actions -->
+
+    <string name="view">"Widok"</string>
+
+    <!-- XBUT: used to update the document in quick actions -->
+
+    <string name="update">"Aktualizuj"</string>
+
+    <!-- XBUT: used to view an instance of the document in quick actions -->
+
+    <string name="view_instance">"Wyświetl instancję"</string>
+
+    <!-- XBUT: used to view the document information in quick actions -->
+
+    <string name="info">"Informacje"</string>
+
+    <!-- XBUT: used to remove the document in quick actions -->
+
+    <string name="remove_document">"Usuń z urządzenia"</string>
+
+    <!-- XBUT: used to add  the document to home tab in quick actions -->
+
+    <string name="add_to_device">"Dodaj do urządzenia"</string>
+
+    <!-- XTXT: used to show remaining days before expire the document -->
+
+    <string name="days">"Dni"</string>
+
+    <!-- XTXT: used to show one day to expire the document-->
+
+    <string name="day">"Dzień"</string>
+
+    <!--XFLD: document quick info popup field for author  -->
+
+	<string name="authored_by">"Autorstwo"</string>
+
+	<!--XFLD: document quick info popup field for Expire date  -->
+
+	<string name="expires_in">"Wygasa za"</string>
+
+
+
+
+
+    <!-- <string name="eula_mobi_updates">&lt;b>&lt;u>bold, underline &lt;/u>&lt;/b></string> -->
+
+    <!-- Create, Edit or Import Connection -->
+
+    <!-- XFLD:field for Connection Server URL -->
+
+    <string name="connection_server_URL">"URL serwera połączenia"</string>
+
+    <!-- XTXT: "http://" is appended to the mobile server details entered by the user -->
+
+    <string name="url_start_string">"http://"</string>
+
+    <!-- XTXT -->
+
+    <string name="connection">"Nowe połączenie"</string>
+
+    <!-- XMSG -->
+
+    <string name="enter_valid_url">"Wprowadź prawidłowy URL"</string>
+
+    <!-- XBUT:SAP BI Application password Reset -->
+
+    <string name="reset_cmd">"Resetuj"</string>
+
+    <!-- XBUT:Share connection details -->
+
+    <string name="share_connection">"Udostępnij"</string>
+
+    <!-- XBUT:SAP BI Application password Save -->
+
+    <string name="save_cmd">"Zapisz"</string>
+
+    <!-- XFLD:field for Save Password by choosing yes or no -->
+
+    <string name="save_password">"Zapisz hasło"</string>
+
+    <!-- XFLD:field for Additional Credentials by choosing yes or no -->
+
+    <string name="additional_authcred">"Dodatkowe dane uwierzytelniające"</string>
+
+    <!-- XFLD:field for enterting the CMS -->
+
+    <string name="cms">"CMS"</string>
+
+    <!-- XFLD:field for Mobile Server URL -->
+
+    <string name="mobile_server_URL">"URL serwera mobilnego"</string>
+
+    <!-- XTXT:default text to appear where the user has to enter the mobile server url -->
+
+    <string name="enter_server_url">"Wprowadź URL serwera"</string>
+
+    <!-- XHED:used as dailog title  where you can choose a connection -->
+
+    <string name="choose_connection">"Wybierz połączenie"</string>
+
+    <!-- XTXT:default text appears in the mandatory fields which needs to be entered by the user -->
+
+    <string name="required">"Wymagane"</string>
+
+    <!-- XFLD:field for enetring the Connection Name -->
+
+    <string name="connection_name">"Nazwa połączenia"</string>
+
+    <!-- XFLD:field for entering the USer Name -->
+
+    <string name="user_name">"Użytkownik"</string>
+
+    <!-- XFLD:field for selecting Authentication Types -->
+
+    <string name="auth_type">"Typ uwierzytelniania"</string>
+
+    <!-- XFLD:field for Remember Password -->
+
+    <string name="remember_pwd">"Pamiętaj hasło"</string>
+
+    <!-- XFLD:field for setting this connection as Default Connection by choosing Yes or No -->
+
+    <string name="set_as_default">"Połączenie domyślne"</string>
+
+    <!-- XMSG:msg displayed on click of import in offline mode -->
+
+    <string name="offline_connection">"Nie można zaimportować połączeń w trybie offline"</string>
+
+    <!-- XMSG:msg displayed on click of drill on snapshot -->
+
+    <string name="snapshot_drill">"Ta operacja drążenia nie jest zapisana"</string>
+
+    <!-- XMSG:msg displayed on click of hierarchy on snapshot -->
+
+    <string name="snapshot_hierarchy">"Operacja hierarchii nie jest obsługiwana dla dokumentów wglądu osobistego"</string>
+
+    <!-- XMSG:msg displayed on click of REL on snapshot -->
+
+    <string name="snapshot_rel">"Operacja łączenia elementów raportu nie jest obsługiwana dla dokumentów wglądu osobistego"</string>
+
+    <!-- XMSG:msg displayed on click of opendoc on snapshot -->
+
+    <string name="snapshot_opendoc">"Operacja otwierania URL dokumentu nie jest obsługiwana dla dokumentów wglądu osobistego"</string>
+
+    <!-- XMSG:msg displayed if the personal view name exists -->
+
+    <string name="snapshot_name_exists">"Wprowadź inną nazwę; nazwa już istnieje dla innego wglądu osobistego"</string>
+
+    <!-- XMSG:msg displayed while drilling -->
+
+    <string name="drill_from">"Od"</string>
+
+    <!-- XLST: Edit -->
+
+    <string name="edit">"Edycja"</string>
+
+    <!-- XLST:Delete -->
+
+    <string name="delete">"Usuń"</string>
+
+    <!-- XLST:Deregister -->
+
+    <string name="deregister">"Wyrejestruj"</string>
+
+    <!-- XLFD:field for Password -->
+
+    <string name="password">"Hasło"</string>
+
+
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    
+
+
+
+    <!-- Settings List Fragment elements -->
+
+    <!-- XHED: used as title for dailog for Edit and Delete -->
+
+    <string name="connection_options">"Opcje"</string>
+
+    <!-- XTXT -->
+
+    <string name="display_help_page">"Wyświetl stronę pomocy"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_doc">"Wyświetl dokument"</string>
+
+    <!-- XMSG -->
+
+    <string name="generic_error">"Nie można przetworzyć żądania; spróbuj ponownie później."</string>
+
+    <!-- XMSG -->
+
+    <string name="mesg_already_downloaded">"Ten dokument został już zapisany"</string>
+
+     <!-- XMSG -->
+
+    <string name="mesg_document_downloading">"Wyzwolono pobieranie dokumentu."</string>
+
+     <!-- XMSG -->
+
+    <string name="mesg_download_in_progress">"Nie można wykonać operacji; trwa pobieranie"</string>
+
+    <!-- XMSG -->
+
+    <string name="unknown_document_type">"Nieznany typ wybranego dokumentu."</string>
+
+    <!-- XMSG -->
+
+    <string name="doc_metadata_not_found">"Nie znaleziono informacji o dokumencie."</string>
+
+    <!-- XMSG -->
+
+    <string name="save_error_string">"Wprowadź informacje w polach obowiązkowych"</string>
+
+    <!-- XMSG -->
+
+    <string name="cnx_name_already_exists">"Ta nazwa połączenia już istnieje"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_filters_saved">"Nie zapisano filtrów"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="doc_not_found">"Nie można otworzyć dokumentu"</string>
+
+    <!-- XMSG -->
+
+    <string name="unable_to_drill">"Nie można drążyć dokumentu"</string>
+
+    <!-- XMSG -->
+
+    <string name="document_no_category">"Dokument nie jest przypisany do żadnej mobilnej kategorii"</string>
+
+
+
+    <!-- Progress Dialog messages -->
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_opening_document">"Otwieranie dokumentu..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_opening_report">"Otwieranie raportu..."</string>
+
+     <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_downloading_pending_reports">"Trwa pobieranie. Czekaj..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_syncing_with_server">"Synchronizowanie z serwerem..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_processing_data">"Przetwarzanie danych..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_getting_prompts">"Wywoływanie monitów..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_filtering_document">"Filtrowanie dokumentu..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_clearing_filters">"Czyszczenie filtrów..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_prompt_document">"Przejmowanie monitów do dokumentu..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_lov_document">"Wywoływanie listy wartości..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_getting_content">"Odbieranie zawartości z serwera..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_dowloading_document_offline">"Zapisywanie dokumentu do Zapisanych..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_logoff">"Trwa wylogowywanie; czekaj..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <!-- XMSG: message for XC Downloading dialogs -->
+
+    <string name="mesg_xcelsius_initialize">"Inicjalizacja"</string>
+
+    <string name="mesg_xcelsius_load">"Wczytywanie"</string>
+
+    <string name="mesg_xcelsius_documentuncompatible">"Dokument powiązania nie jest kompatybilny z bieżącą aplikacją i nie można go wyświetlić"</string>
+
+    <!-- XMSG: message for XC Loading dialogs -->
+
+    <string name="pg_show_server_call">"Odczytywanie szczegółów z serwera..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_drill_up_document">"Zwijanie..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_drill_down_document">"Rozwijanie..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="register_with_sup">"Rejestrowanie do SUP..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="deregister_with_sup">"Wyrejestrowywanie z SUP..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_mesg">"Trwa logowanie; czekaj"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_mesglist">"Tworzenie listy dokumentów..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="refresh_mesg">"Odświeżanie listy dokumentów..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_refresh_document">"Odświeżanie dokumentu..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_add_home">"Zapisywanie i dodawanie dokumentu do Zapisanych..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_insatance">"Wywoływanie najnowszej instancji..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_update">"Aktualizowanie dokumentu..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="loading">"Wczytywanie..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_string">"Łączenie z"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="wait_string">"..."</string>
+
+    <!-- XMSG: message for indicatiing if SUP registration was successful -->
+
+    <string name="registration_success">"Rejestracja pomyślna"</string>
+
+    <!-- XMSG: message for indicatiing if SUP deregistration was successful -->
+
+    <string name="deregistration_success">"Wyrejestrowano pomyślnie"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_sorting_document">"Sortowanie dokumentu..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_remove_sort_document">"Usuwanie sortowania..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_refresh_lov_document">"Odświeżanie listy wartości..."</string>
+
+    <!-- Dialog and Toast messages -->
+
+    <!-- XMSG -->
+
+    <string name="view_instance_download_message">"Czy chcesz zapisać najnowszą instancję?"</string>
+
+    <!-- XMSG: A multi-line message -->
+
+    <string name="no_connections">"Nie zdefiniowano połączeń.\n \nAby utworzyć nowe połączenie, przejdź do: \nMenu &gt; Ustawienia &gt; Połączenia"</string>
+
+    <!-- XMSG -->
+
+    <string name="network_notification_disconnected">"Sieć niedostępna; czy chcesz pracować w trybie offline?"</string>
+
+    <!-- XMSG -->
+
+    <string name="network_notification_connected">"Sieć dostępna; czy chcesz pracować w trybie online?"</string>
+
+    <!-- XMSG -->
+
+    <string name="first_time_work_offline">"Aby uzyskać dostęp do zawartości w trybie offline, zaloguj się po raz pierwszy do serwera"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_logout_1">"Ta operacja spowoduje wylogowanie z"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_logout_2">"Czy kontynuować?"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_connection">"Czy chcesz usunąć wybrane połączenie %1$s?"</string>
+
+    <!-- XMSG -->
+
+    <string name="add_existing_connection">"To połączenie już istnieje"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_all_connection">"Czy usunąć wszystkie połączenia?"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_document">"Czy chcesz usunąć dokument:"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_conn_connected">"Nie można usunąć połączenia; wyloguj się i spróbuj ponownie"</string>
+
+    <!-- XMSG -->
+
+    <string name="add_conn_connected">"Nie można dodać połączenia, gdy użytkownik jest zalogowany; wyloguj się i spróbuj ponownie"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_conn">"Połączenie nie istnieje"</string>
+
+    <!-- XMSG -->
+
+    <string name="modify_conn_connected">"Nie można zmienić połączenia; wyloguj się i spróbuj ponownie"</string>
+
+    <!-- XMSG -->
+
+    <string name="modify_connection">"Zmień połączenie"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_conn_notexisting">"Połączenie nie istnieje"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_save_password">"Czy na pewno chcesz zapamiętać hasło?"</string>
+
+    <!-- XMSG -->
+
+    <string name="refresh_confirm_msg">"Odświeżenie spowoduje usunięcie aktualnej zawartości dokumentu"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_deregister">"Czy chcesz się wyrejestrować z SUP?"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_connection">"Usuń połączenie"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_document">"Usuń dokument"</string>
+
+    <!-- XMSG -->
+
+    <string name="basic_auth">"Wymagane uwierzytelnianie"</string>
+
+    <!-- XMSG -->
+
+    <string name="cert_auth_cancelled">"Anulowana walidacja certyfikatu"</string>
+
+    <!-- XMSG -->
+
+    <string name="savepasswordforms">"Nie zapisano hasła CMS z powodu zabezpieczeń skonfigurowanych przez administratora"</string>
+
+    <!-- XMSG -->
+
+    <string name="lov_error">"Nie można wywołać listy wartości z serwera; jeśli problem nie ustąpi, skontaktuj się z administratorem"</string>
+
+    <!-- XMSG -->
+
+    <string name="offline_filter">"Nie można wykonać tej operacji w trybie offline"</string>
+
+    <!-- XMSG -->
+
+    <string name="download_failed">"Nie można zapamiętać dokumentu"</string>
+
+    <!-- XMSG -->
+
+    <string name="prompt_error">"Nie wprowadzono wszystkich obowiązkowych monitów"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_active_connection_available">"Aby wykonać tę czynność, wymagane jest aktywne połączenie"</string>
+
+    <!-- XMSG -->
+
+    <string name="document_inforation_not_available">"Informacje o dokumencie są niedostępne. Aktywne połączenie może być obecnie niedostępne lub dokument obecnie nie znajduje się w kategorii mobilnej."</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc">"Nie można zapamiętać dokumentu"</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc_connection_not_available">"Nie można zapisać dokumentu. Aktywne połączenie może być obecnie niedostępne lub dokument obecnie nie znajduje się w kategorii mobilnej."</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc_generic_error">"Nie można zapisać dokumentu. Wystąpił ogólny błąd."</string>
+
+    <!-- XMSG -->
+
+    <string name="sup_register_success">"Rejestracja pomyślna"</string>
+
+    <!-- XMSG -->
+
+    <string name="sup_deregister_success">"Wyrejestrowano pomyślnie"</string>
+
+    <!-- XMSG -->
+
+    <string name="personal_view_size_exceeding">"Niewystarczająca pamięć do zapisu; zwolnij pamięć, usuwając istniejące wglądy osobiste lub zwiększ pojemność pamięci w Ustawieniach."</string>
+
+	<!-- XMSG -->
+
+    <string name="msg_added_to_favourite">"dodano do ulubionych"</string>
+
+    
+
+    <!-- Settings options -->
+
+     <!-- XLST: General Settings -->
+
+    <string name="general_settings">"Ustawienia ogólne"</string>
+
+    <!-- XLST: connections -->
+
+    <string name="connections">"Połączenia"</string>
+
+    <!-- XLST: Network Options -->
+
+    <string name="network">"Opcje sieci"</string>
+
+    <!-- XLST: SAP BI Application Password -->
+
+    <string name="app_pwd">"Wprowadź hasło aplikacji"</string>
+
+    <!-- XLST: Viewing Options -->
+
+    <string name="viewing">"Opcje wyświetlania"</string>
+
+    <!-- XLST: Logs -->
+
+    <string name="log">"Logi"</string>
+
+    <!-- XLST: xc setting -->
+
+    <string name="xc_setting">"Ustawienia pulpitu"</string>
+
+    <!-- XLST: Legal -->
+
+    <string name="legal">"Aspekty prawne"</string>
+
+    <!-- XLST: personal_view -->
+
+    <string name="personal_view">"Pamięć wglądów osobistych"</string>
+
+    <!-- XLST: memused -->
+
+    <string name="mem_used">"Wykorzystano 0 MB ze 100 MB"</string>
+
+
+
+    <!-- XLST: dashboard settings -->
+
+    <string name="dashboard">"Ustawienia pulpitu"</string>
+
+    <!-- XLST:Personal View Storage -->
+
+    <string name="per_view_storage">"Pamięć wglądów osobistych"</string>
+
+    <!-- XLST:Personal View Storage Limit -->
+
+    <string name="limit">"Limit"</string>
+
+
+
+    <!-- XLST: Personal View storage settings -->
+
+    <string name="pv_setting">"Ustawienia wglądów osobistych"</string>
+
+    <!-- XLST: Personal View storage Limit option -->
+
+    <string name="pv_setting_limit_none">"Brak"</string>
+
+    <!-- XLST: Offline Dataset Number -->
+
+    <string name="xc_offline_dataset">"Liczba zbiorów danych offline"</string>
+
+    <!-- XLST: SDK Offline storage -->
+
+    <string name="xc_sdk_storage">"Archiwum offline SDK"</string>
+
+    <!-- XLST: Personal View Memory Usage Text -->
+
+    <string name="pv_mem_usage">"(w użyciu: %1$s z %2$s)"</string>
+
+    <!-- XLST: about -->
+
+    <string name="about">"Informacje"</string>
+
+    <!-- XLST: Quick Hints -->
+
+    <string name="quick_hints">"Teksty objaśniające"</string>
+
+    <!-- XHED: heading for connections related items in the settings screeen -->
+
+    <string name="connection_related">"Związane z połączeniem"</string>
+
+    <!-- XHED: heading for Application related items in the settings screeen -->
+
+    <string name="application_related">"Związane z aplikacją"</string>
+
+
+
+    <!-- Connection Settings Options -->
+
+    <!-- XHED: heading for the list which gaves different ways to create connections -->
+
+    <string name="my_connections">"Połączenia"</string>
+
+    <!-- XLST: Existing Connections -->
+
+    <string name="exist_conn">"Istniejące połączenia"</string>
+
+    <!-- XLST: Creat New Connection Manually -->
+
+    <string name="create_new_cnx">"Utwórz nowe połączenie"</string>
+
+    <!-- XLST: Creat New Connection Manually -->
+
+    <string name="edit_cnx">"Edytuj połączenie"</string>
+
+    <!-- XLST: Import Connection from server by mentioning mobile server url -->
+
+    <string name="import_cnx">"Importuj za pomocą URL"</string>
+
+    <!-- XLST: SUP Connection -->
+
+    <string name="sup_connection">"Połączenie SUP"</string>
+
+    <!-- XLST: SMP Connection -->
+
+    <string name="smp_connection">"Połączenie SMP"</string>
+
+    <!-- XLST: SMP Cloud Connection -->
+
+    <string name="smpcloud_connection">"Połączenie SMP Cloud"</string>
+
+    <!-- XTXT: used to show below the connection name if it is not connected -->
+
+    <string name="not_connected">"Połącz"</string>
+
+    <!-- XTXT: used to show below the connection name  if it is connected -->
+
+    <string name="connected">"Połączony"</string>
+
+    <!-- XTXT: used to show below the connection if it is set as default connection -->
+
+    <string name="default_connection">"(domyślne)"</string>
+
+
+
+    <!-- SSO Strings -->
+
+
+
+
+
+    <!-- XMSG: sso Login -->
+
+    <string name="Login_credentials">"Dane uwierzytelniające użytkownika"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="Reselect">"Wybierz ponownie"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_authentication">"Uwierzytelnianie"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_Certificate_Title">"Błąd certyfikatu"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_Mandatory_certifcate">"Certyfikat jest obowiązkowy dla tego połączenia"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certificate_invalid">"Wybrany certyfikat prawdopodobnie jest nieprawidłowy lub uszkodzony; jaką czynność wykonać?"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certiifcate_unavailable">"Nie zainstalowano certyfikatów dla SAP BusinessObjects Mobile; jaką czynność wykonać?"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certificate_not_required">"Jak chcesz utworzyć połączenie"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_unauthorised_connection_sso">"Dostęp offline jest wyłączony dla SSO"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_certificate">"SSO włączony (wybierz certyfikat)"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_cookie_Based">"SSO włączony"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_authenticate_at_logon">"Uwierzytelnij podczas logowania"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_cookie_enabled">"Cookie włączone"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_reauthenticate_at_logon">"Uwierzytelnij ponownie podczas logowania"</string>
+
+
+
+    <!-- Network Settings Options -->
+
+    <!-- XHED: heading for the list which gaves Network Options -->
+
+    <string name="network_options">"Opcje sieci"</string>
+
+    <!-- XLST: choose to WorkOffline vy selecting yes or no -->
+
+    <string name="work_offline">"Pracuj offline"</string>
+
+     <!-- XMSG: auto update -->
+
+    <string name="bi_auto_update">"Automatyczna aktualizacja"</string>
+
+    <!-- XMSG: auto update with wifi-->
+
+    <string name="bi_auto_update_wiFi">"Aktualizacja tylko z siecią Wi-Fi"</string>
+
+    <!-- XMSG: auto update with wifi and cellular dats-->
+
+    <string name="bi_auto_update_Wifi_and_Cellular">"Aktualizacja z siecią Wi-Fi i komórkową"</string>
+
+    <!-- to be removed Later -->
+
+    <!-- XHED: heading for Offline Alert Dailog -->
+
+    <string name="offline_alert">"ALARM OFFLINE"</string>
+
+
+
+    <!-- Viewing Options -->
+
+    <!-- XHED: heading for the list which gaves Viewing Options -->
+
+    <string name="viewing_options">"Opcje wyświetlania dokumentu"</string>
+
+    <!-- XHED: Select Theme -->
+
+    <string name="select_theme">"Wybierz temat"</string>
+
+    <!-- Theme text -->
+
+    <!-- XLST:  sets the Ivory Theme -->
+
+    <string name="ivory">"Kość słoniowa"</string>
+
+    <!-- XLST: sets the Graphite Theme -->
+
+    <string name="graphite">"Grafit"</string>
+
+
+
+    <!-- About -->
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XFLD: Version info in splash screen -->
+
+    <string name="version">"Wersja:"</string>
+
+    <!-- XFLD: Build info in splash screen -->
+
+    <string name="build">"Kompilacja:"</string>
+
+
+
+    <!-- Quick Hint related strings -->
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickref_launch_text">"Witaj w "<b>"SAP BusinessObjects Mobile"</b>". Ten asystent tekstów objaśniających dostarcza wskazówki dotyczące użytkowania aplikacji."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt1">"Aby uzyskać dostęp do menu kontekstowego, "<b>"naciśnij i przytrzymaj"</b>" pożądany dokument. Aby wykonać pożądaną czynność, "<b>"dotknij"</b>" opcji."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt2">"Aby wyświetlić suwak nawigacji po stronie,"<b>"dotknij"</b>" wskaźnik stron. Na smartphone możesz również użyć w tym celu paska wyszukiwania."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt3">"Aby drążyć "<b>"dotknij dwukrotnie"</b>" wykres lub "<b>"dotknij"</b>" tabelę (z niebieskim tekstem)."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt4">"Aby uzyskać dostęp do "<i>"Czynności tabeli"</i>", "<b>"dotknij dwukrotnie"</b>" nagłówek kolumny tabeli."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt5">"Aby wykonać pożądaną czynność na części raportu, "<b>"dotknij"</b>" ikonę."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt6">"Aby wykonać zadania dla kolumn lub wierszy, takie jak zmiana kolejności, blokowanie/odblokowanie lub ukrywanie/wyświetlanie, wybierz opcję "<i>"Czynności tabeli"</i>"."</string>
+
+    <string name="quickeref_txt7"><b>"Dotknij "</b>"ikony "<i>"Sekcje"</i>", aby uzyskać dostęp do opcji sekcji dostępnych dla raportu."</string>
+
+    <string name="quickeref_txt8">"W oknie "<i>"Sekcje"</i>" "<b>"dotknij"</b>" przycisku wyboru, aby zobaczyć informacje dot. sekcji raportu lub "<b>"dotknij"</b>" strzałki, aby zobaczyć informacje dot. następnego poziomu raportu."</string>
+
+    <string name="quickeref_txt9"><b>"Dotknij"</b>" ikony "<i>"Udostępnij"</i>", a następnie wybierz "<i>"Adnotacja"</i>", aby utworzyć adnotację dla raportu przed udostępnieniem."</string>
+
+    <string name="quickeref_txt10"><b>"Przeciągnij"</b>" suwak rozmazujący, aby zniekształcić obraz raportu przed udostępnieniem."</string>
+
+    <string name="quickeref_txt11"><b>"Dotknij"</b>" każdego punktu orientacyjnego (POI), aby zobaczyć powiązaną wartość."</string>
+
+    <string name="quickeref_txt12"><b>"Dotknij"</b>" wartości, aby zobaczyć szczegółowe informacje."</string>
+
+    <string name="quickeref_txt13"><b>"Dotknij"</b>" strzałki, aby przeglądać dane hierarchiczne tabeli."</string>
+
+    <string name="quickeref_txt14">"W oknie Monity hierarchii produktu "<b>"dotknij"</b>" strzałki, aby przejrzeć hierarchię i wybrać wartości monitu."</string>
+
+    <string name="quickeref_txt15"><b>"Dotknij"</b>" ikony "<i>"Wyświetl/ukryj"</i>", aby uzyskać dostęp do paska czynności podczas wyświetlania pulpitu."</string>
+
+    <string name="quickeref_txt16"><b>"Dotknij"</b>" ikony "<i>"Przypnij"</i>", aby zablokować pasek czynności podczas wyświetlania pulpitu."</string>
+
+
+
+    <!-- XCKL -->
+
+    <string name="quickref_checkbox_text">"Nie wyświetlaj ponownie"</string>
+
+    <!-- XBUT: Skip -->
+
+    <string name="quickref_skipbutton_text">"Pomiń"</string>
+
+    <!-- XBUT: Exit -->
+
+    <string name="quickref_exitbutton_text">"Zakończ"</string>
+
+    <!-- XBUT: Show Quick Hints -->
+
+    <string name="quickref_launchbutton_text">"Wyświetl teksty objaśniające"</string>
+
+
+
+    <!-- Legal Information -->
+
+    <!-- XLST: Legal information -->
+
+    <string name="mobi_legal">"Informacje prawne"</string>
+
+    <!-- EULA Updates if any Goes here -->
+
+    <!-- XMSG: Eula Agreement Terms and Conditions -->
+
+    
+
+    <!-- Log Settings -->
+
+    <!-- XHED: heading for log settings -->
+
+    <string name="log_title">"Ustawienia logu"</string>
+
+    <!-- XMSG: for enabling the logs -->
+
+    <string name="log_message">"Czy na pewno chcesz aktywować logi?"</string>
+
+    <!-- XLST: Send Log File -->
+
+    <string name="log_sendlog">"Wyślij plik logu"</string>
+
+    <!-- XLST: clear Log -->
+
+    <string name="log_clearlog">"Wyczyść log"</string>
+
+     <!-- XLST: view log -->
+
+    <string name="view_log">"Wyświetl log"</string>
+
+     <!-- XLST: empty log -->
+
+    <string name="empty_log">"Brak dostępnych logów"</string>
+
+    
+
+
+
+    <!-- XMSG -->
+
+    <string name="log_nologs_exists">"Logi zostały już wyczyszczone"</string>
+
+    <!-- XMSG -->
+
+    <string name="log_nologs_tosend">"Brak dostępnych logów do wysłania"</string>
+
+    <!-- XTXT -->
+
+    <string name="log_mail_subject">"Pliki rejestratora Mobi"</string>
+
+    <!-- XMSG -->
+
+    <string name="log_clear_logs_confirm">"Czy na pewno chcesz wyczyścić logi?"</string>
+
+    <!-- XLST: Enable Logs -->
+
+    <string name="log_enable">"Aktywuj logi"</string>
+
+    <!-- Browse Tab Connection Strings -->
+
+    <!-- XHED: heading in the browse tab when there are no connections -->
+
+    <string name="noconnections">"Brak połączeń"</string>
+
+    <!-- XLST: showed in the browse tab to create connection when there are no connections -->
+
+    <string name="create_connection">"Utwórz połączenie, aby wyświetlić dokumenty"</string>
+
+    <!-- XLST: showed in the browse tab to establish connection when you are not connected -->
+
+    <string name="establish_connection">"Utwórz połączenie, aby pobrać dokumenty"</string>
+
+
+
+    <!-- Table Header Options -->
+
+    <!-- XTXT -->
+
+    <string name="freeze">"Zablokuj"</string>
+
+    <!-- XTXT -->
+
+    <string name="hide">"Ukryj"</string>
+
+    <!-- XTXT -->
+
+    <string name="wrap">"Zawijaj"</string>
+
+    <!-- XTXT -->
+
+    <string name="unfreeze">"Odblokuj"</string>
+
+    <!-- XTXT -->
+
+    <string name="unhide_all">"Odkryj wszystkie"</string>
+
+    <!-- XTXT -->
+
+    <string name="unwrap">"Rozwiń"</string>
+
+    <!-- XTXT -->
+
+    <string name="row">"Linia"</string>
+
+    <!-- XTXT -->
+
+    <string name="column">"Kolumna"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_up">"Zwiń do"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_down">"Rozwiń do"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort_asc">"Rosnąco"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort_desc">"Malejąco"</string>
+
+    <!-- XTXT -->
+
+    <string name="remove_sort">"Usuń sortowanie"</string>
+
+    <!-- Hierarchical Navigations Options -->
+
+    <!-- XTXT -->
+
+    <string name="drill_focus_in">"Drążenie fokusu - wejśc."</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_focus_out">"Drążenie fokusu — wyjśc."</string>
+
+    <!-- XTXT -->
+
+    <string name="expand_all">"Rozwijanie wszystkich"</string>
+
+    <!-- XTXT -->
+
+    <string name="collapse_all">"Zwijanie wszystkich"</string>
+
+    <!-- XTXT -->
+
+    <string name="apply_filter">"Zastosuj filtr"</string>
+
+    <!-- XTXT -->
+
+    <string name="edit_filter">"Edytuj filtr"</string>
+
+    <!-- XTXT -->
+
+    <string name="remove_filter">"Usuń filtr"</string>
+
+
+
+    <!-- Create SUP Connection -->
+
+    <!-- XHED: heading for Sup configuration section -->
+
+    <string name="sup_configaration">"Konfiguracja SUP"</string>
+
+    <!-- XBUT: Register -->
+
+    <string name="sup_register">"Rejestruj"</string>
+
+    <!-- XBUT: Deregister -->
+
+    <string name="sup_deregister">"Wyrejestruj"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_instructedbyadmin">"Powyższe wartości należy zmieniać wyłącznie na polecenie administratora"</string>
+
+    <!-- XHED: heading for sup server details section -->
+
+    <string name="sup_serverdetail">"SZCZEGÓŁY SERWERA SUP"</string>
+
+    <!-- XHED: heading for sup Access details section -->
+
+    <string name="sup_accessdetail">"SZCZEGÓŁY DOSTĘPU"</string>
+
+
+
+    <!-- SUP Error Messages -->
+
+    <!-- XTXT -->
+
+    <string name="sup_error_authentication">"Błąd uwierzytelniania"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_mobile_client">"Błąd w mobilnym kliencie!"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_HTTP">"Błąd HTTP"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_network">"Błąd połączenia sieciowego"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_parse">"Błąd podczas analizy składni odpowiedzi z serwera"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_unknown">"Nieznany błąd."</string>
+
+
+
+    <!-- Sorting Options -->
+
+    <!-- XTXT -->
+
+    <string name="today">"Dzisiaj"</string>
+
+    <!-- XTXT -->
+
+    <string name="yesterday">"Wczoraj"</string>
+
+    <!-- XTXT -->
+
+    <string name="thisweek">"Ten tydzień"</string>
+
+    <!-- XTXT -->
+
+    <string name="thismonth">"Ten miesiąc"</string>
+
+    <!-- XTXT -->
+
+    <string name="older">"Starsze"</string>
+
+    <!-- XLST: sets the sort order by Category -->
+
+    <string name="category">"Kategoria"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample">"Próbki"</string>
+
+    <!-- XLST: sets the sort order by date -->
+
+    <string name="date">"Data"</string>
+
+    <!-- XLST: sets the sort order by date -->
+
+    <string name="date_modified">"Data modyfikacji"</string>
+
+    <!-- XLST: sets the sort order by Title -->
+
+    <string name="title">"Tytuł"</string>
+
+    <!-- XLST: sets the sort order by Title -->
+
+    <string name="document_title">"Tytuł dokumentu"</string>
+
+    <!-- XLST: sets the sort order by Author -->
+
+    <string name="author1">"Autor"</string>
+
+    <!-- XTXT -->
+
+    <string name="group_reports_by">"Grupuj raporty wg"</string>
+
+    <!-- XTXT -->
+
+    <string name="sorting_order">"Kolejność sortowania"</string>
+
+    <!-- XTXT -->
+
+    <string name="show_downloaded">"Pokaż tylko zapisane raporty"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort">"Sortuj"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="temp_file_extension">"_temp"</string>
+
+    <!-- XTXT -->
+
+    <string name="instance_file_extension">"_instance"</string>
+
+    <!-- XTXT: appears in the search box -->
+
+    <string name="search_hint">"Szukanie"</string>
+
+    <!-- XTXT: for creating input dialog fragment -->
+
+    <string name="input_control">"Filtry"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_values">"Wybierz wartości"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="type_value">"Wprowadź wartość"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="input_control_title">"Filtry: Wybierz wartości"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_value">"Wybierz wartość"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_date">"Wybierz datę"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="all_values">"Wszystkie wartości"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="gridview">"Siatka"</string>
+
+    <!-- XTXT -->
+
+    <string name="listview">"Lista"</string>
+
+    <!-- XTXT -->
+
+    <string name="grid_view">"Wgląd siatki"</string>
+
+    <!-- XTXT -->
+
+    <string name="list_view">"Wgląd listy"</string>
+
+    <!-- XTXT -->
+
+    <string name="success">"Powodzenie"</string>
+
+    <!-- XTXT -->
+
+    <string name="failure">"Niepowodzenie"</string>
+
+    <!-- XTXT: used in custom title bar to select the report -->
+
+    <string name="report_list">"Raporty"</string>
+
+    <!-- XTXT -->
+
+    <string name="report_part_menu">"Menu"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_values">"Monity"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_add_values">"Dodaj wartość"</string>
+
+    <!-- XMSG -->
+
+    <string name="session_timeout">"Przek. czas sesji"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_available">": Aktualizacja dostępna"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_document">"Aktualizacja dostępna"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_instance">"Instancja dostępna"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_document_instance">"Dostępna aktualizacja i instancja"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_doc_instance_online">"Wyświetl najnowszą dostępną instancję"</string>
+
+
+
+    <!-- SUP Connection details -->
+
+    <!-- to be removed later -->
+
+    <!-- Dont change the below mobi_app value i.e., MobiApp -->
+
+    <!-- Not intended for translation -->
+
+    
+
+
+
+    <!-- XFLD: sets the Application Id for SUP Configuration -->
+
+    <string name="applicationid">"ID aplikacji"</string>
+
+    <!-- XFLD: sets the Security configuration Name for SUP Configuration -->
+
+    <string name="security_configname">"Konfiguracja zabezpieczeń"</string>
+
+    <!-- XFLD: sets the server for SUP Server Details -->
+
+    <string name="server">"Serwer"</string>
+
+    <!-- XFLD: sets the port for SUP Server Details -->
+
+    <string name="port">"Port"</string>
+
+    <!-- XFLD: sets the proxy for SMP Server Details -->
+
+    <string name="proxy">"Proxy"</string>
+
+    <!-- XFLD: sets the farm id for SUP Server Details -->
+
+    <string name="farmid">"ID farmy"</string>
+
+    <!-- XLST: sup configuration -->
+
+    <string name="sup_config">"KONFIGURACJA SUP"</string>
+
+    <!-- XLST: smp configuration -->
+
+    <string name="smp_config">"KONFIGURACJA SMP"</string>
+
+    <!-- XBUT: SAP BI Application Password Yes button -->
+
+    <string name="toggle_yes">"Tak"</string>
+
+    <!-- XBUT: SAP BI Application Password No button -->
+
+    <string name="toggle_no">"Nie"</string>
+
+    <!-- XLST: connection details -->
+
+    <string name="conn_det">"SZCZEGÓŁY POŁĄCZENIA"</string>
+
+    <!-- XLST: authentication details -->
+
+    <string name="auth_det">"SZCZEGÓŁY UWIERZYTELNIANIA"</string>
+
+
+
+    <!-- Custom Title Bar -->
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XTXT -->
+
+    <string name="ctb_document_name">"Nazwa dokumentu"</string>
+
+    <!-- XMIT:menu item for settings -->
+
+    <string name="ctb_app_settings">"Ustawienia aplikacji"</string>
+
+    <!-- added to be in sync with perforce strings to avoid compilation error , not used -->
+
+    <!-- XMIT:menu item for settings -->
+
+    <string name="ctb_settings">"Ustawienia"</string>
+
+    <!-- XTXT: used in custom title bar to select the report -->
+
+    <string name="ctb_reports">"Raporty"</string>
+
+    <!-- XHED: heading for SUP COnnection window in phones -->
+
+    <string name="ctb_sup_con_set">"Połączenie SUP"</string>
+
+    <!-- XHED: heading for Connections Settings window in phones -->
+
+    <string name="ctb_con_set">"Ustawienia połączenia"</string>
+
+    <!-- XHED: heading for NetWork Settings window in phones -->
+
+    <string name="ctb_net_set">"Ustawienia sieci"</string>
+
+    <!-- XHED: heading for Viewing  options in phones -->
+
+    <string name="ctb_view_set">"Opcja wyświetlania"</string>
+
+    <!-- XHED: heading for Log Settings window in phones -->
+
+    <string name="ctb_log_set">"Ustawienia logu"</string>
+
+    <!-- XHED: heading for creaing  connection window in phones -->
+
+    <string name="ctb_create_con">"Utwórz połączenie"</string>
+
+
+
+    <!-- Dialog text -->
+
+    <!-- XTXT -->
+
+    <string name="table_actions">"Czynności tabeli"</string>
+
+    <!-- XMSG -->
+
+    <string name="connected_already">"Jesteś już połączony"</string>
+
+    <!-- XBUT: log off -->
+
+    <string name="logout">"Wyloguj"</string>
+
+    <!-- XBUT: log on -->
+
+    <string name="logon">"Zaloguj"</string>
+
+    <!-- XMSG -->
+
+    <string name="tap_string">"(Dotknij, aby odwrócić kolejność)"</string>
+
+    <!-- XLST: choose yes or no to save Password -->
+
+    <string name="savepw">"Zapisz hasło"</string>
+
+    <!-- XTXT -->
+
+    <string name="off">"Wyłączone"</string>
+
+    <!-- XTXT -->
+
+    <string name="error">"Komunikat błędu"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_optional">"Opcjonalne"</string>
+
+    <!-- XHED: heading for logout dialog -->
+
+    <string name="logout_title">"Wyloguj"</string>
+
+    <!-- XHED: title for drill options dailog -->
+
+    <string name="drill_options">"Opcje drążenia"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="filter_clear">"Wyczyść"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="filter_revert">"Cofnij"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="no_filters">"Nie zastosowano filtrów"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="all_objects">"Wszystkie obiekty"</string>
+
+
+
+    <!-- Annotations -->
+
+    <!-- XTXT -->
+
+    <string name="tap">"Dotknij, aby wprowadzić tekst"</string>
+
+
+
+    <!-- Page Indicator -->
+
+    <!-- XTXT -->
+
+    <string name="page_indicator">"Wskaźnik stron"</string>
+
+
+
+    <!-- Session timeout -->
+
+    <!-- XTXT -->
+
+    <string name="reconnect">"Połącz ponownie"</string>
+
+
+
+    <!-- Report Part Quick Action -->
+
+    <!-- XLST: full screen option in report part quick action dialog for tablets -->
+
+    <string name="full_screen">"Pełny ekran"</string>
+
+    <!-- XLST: exit full screen option in report part quick action dialog for tablets -->
+
+    <string name="exit_full_screen">"Zamknij pełny ekran"</string>
+
+    <!-- XLST: filter option in report part quick action dialog for tablets -->
+
+    <string name="report_filter">"Filtruj"</string>
+
+    <!-- XMSG: related to Input control -->
+
+    <string name="object_not_supported">"Typ obiektu nie jest obsługiwany"</string>
+
+    <!-- Content not supported strings -->
+
+    <!-- XMSG: related to charts -->
+
+    <string name="content_not_supported">"Zawartość nie jest obsługiwana"</string>
+
+    <!-- XMSG: related to geo map -->
+
+    <string name="geomap_not_supported">"Nie można wyświetlić mapy, ponieważ urządzenie nie ma dostępu do wymaganych bibliotek map"</string>
+
+    <!-- XMSG: related to charts -->
+
+    <string name="content_data_exceeding_limit">"Nie można wyświetlić wykresu, zbyt duże punkty danych"</string>
+
+    <!-- XMSG: related to section -->
+
+    <string name="refresh_to_view_content">"Odśwież, aby wyświetlić zawartość"</string>
+
+    <!-- XMSG:  google play services not available -->
+
+    <string name="google_play_services_not_available">"Usługi Google Play są niedostępne"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="refresh_confirm_title">"Odśwież dokument"</string>
+
+    <!-- XTXT -->
+
+    <string name="dril_temp_file_extension">".tmp"</string>
+
+    <!-- XHED:heading in home tab when you are connected and not downloaded any docs yet -->
+
+    <string name="no_downloaded_docs">"Brak dostępnych dokumentów"</string>
+
+    <!-- XLST:shown in home tab when you have not downloaded any docs -->
+
+    <string name="add_doc">"Dodaj dokument"</string>
+
+
+
+    <!-- XBUT: Back in sections dialog -->
+
+    <string name="back">"Wróć"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="page">"Strona"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="page_loading">"Strona..."</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="MultipleDimensions">"Kilka wymiarów"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="ALL">"WSZYSTKIE"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="link">"Link"</string>
+
+
+
+    <!-- IC operators -->
+
+    <!-- XTXT -->
+
+    <string name="equal">"Równe"</string>
+
+    <!-- XTXT -->
+
+    <string name="in_list">"Na liście"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_equal">"Nierówne"</string>
+
+    <!-- XTXT -->
+
+    <string name="greater">"Większe niż"</string>
+
+    <!-- XTXT -->
+
+    <string name="greater_or_equal">"Większe niż lub równe"</string>
+
+    <!-- XTXT -->
+
+    <string name="less">"Mniejsze niż"</string>
+
+    <!-- XTXT -->
+
+    <string name="between">"Pomiędzy"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_between">"Poza przedziałem"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_in_list">"Poza listą"</string>
+
+    <!-- XTXT -->
+
+    <string name="is_null">"Null"</string>
+
+    <!-- XTXT -->
+
+    <string name="like">"Jak"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_like">"Nie jak"</string>
+
+    <!-- XTXT -->
+
+    <string name="both">"Oba"</string>
+
+    <!-- XTXT -->
+
+    <string name="except">"Z wyjątkiem"</string>
+
+    <!-- XTXT -->
+
+    <string name="less_or_equal">"Mniejsze niż lub równe"</string>
+
+
+
+    <!-- Application password strings -->
+
+    <!-- XTXT SAP BI password dialog header -->
+
+    <string name="app_enter_pwd">"Hasło aplikacji"</string>
+
+    <!-- XTXT SAP BI password is mandatory by server -->
+
+    <string name="app_pwd_login">"Aby utworzyć połączenie z platformą BI, ustaw hasło aplikacji. Dane offline można zabezpieczyć hasłem. \n\nCzy chcesz kontynuować?"</string>
+
+    <!-- XTXT SAP BI password limit text -->
+
+    <string name="app_enter_pwd_text">"Hasło powinno zawierać co najmniej następującą liczbę znaków: %1$d"</string>
+
+    <!-- XTXT SAP BI re-enter password dialog -->
+
+    <string name="app_reenter_pwd">"Potwierdź Hasło Aplikacji"</string>
+
+    <!-- XTXT SAP BI re-enter password text -->
+
+    <string name="app_reenter_pwd_text">"Wprowadź ponownie hasło aplikacji"</string>
+
+    <!-- XTXT SAP BI password change dialog -->
+
+    <string name="app_cur_pwd">"Zmień hasło"</string>
+
+    <!-- XTXT SAP BI password change text -->
+
+    <string name="app_cur_pwd_text">"Wprowadź aktualne hasło aplikacji"</string>
+
+    <!-- XTXT SAP BI disable password dialog -->
+
+    <string name="app_disable_pwd">"Dezaktywuj Hasło Aplikacji"</string>
+
+    <!-- XTXT SAP BI new password dialog -->
+
+    <string name="app_new_pwd">"Nowe Hasło Aplikacji"</string>
+
+
+
+    <!-- XBUT: Login button application password dialog -->
+
+    <string name="login_cmd">"Kontynuuj"</string>
+
+    <!-- XBUT: Confirm button application passsword disable or change password dialog -->
+
+    <string name="confirm">"Potwierdź"</string>
+
+    <!-- XBUT: Next button to switch application passsword dialogs -->
+
+    <string name="next">"Następne"</string>
+
+    <!-- XTXT SAP BI password toggle text -->
+
+    <string name="use_app_pwd">"Użyj hasła aplikacji"</string>
+
+    <!-- XTXT SAP BI password change set text -->
+
+    <string name="app_pwd_set">"Ustawiono hasło aplikacji"</string>
+
+    <!-- XBUT SAP BI password change password -->
+
+    <string name="change_cmd">"Zmień"</string>
+
+    <!-- XTXT SAP BI password timeout -->
+
+    <string name="app_pwd_timeout">"Przekroczenie czasu hasła"</string>
+
+    <!-- XTXT SAP BI password security lowered when selected value > previous value -->
+
+    <string name="app_pwd_security">"Obniżone bezpieczeństwo"</string>
+
+    <!-- XTXT SAP BI password security lowered text -->
+
+    <string name="app_pwd_security_text">"Ta czynność obniża bezpieczeństwo aplikacji"</string>
+
+
+
+    <!-- Reset Application password strings -->
+
+    <!-- XTXT SAP BI application reset password -->
+
+    <string name="reset_application">"Resetuj aplikację"</string>
+
+    <!-- XTXT SAP BI reset password text -->
+
+    <string name="reset_app_text">"Ponowne ustawienie aplikacji spowoduje usunięcie wszystkich lokalnych danych, w tym szczegółów połączenia i ustawień aplikacji. Po ponownym ustawieniu aplikacji można uzyskać do niej dostęp bez użycia hasła aplikacji.\n\nCzy chcesz kontynuować ponowne ustawianie aplikacji?"</string>
+
+    <!-- XTXT SAP BI application reset password warning -->
+
+    <string name="reset_app_warning">"Ostrzeżenie"</string>
+
+    <!-- XTXT SAP BI application reset password warning text -->
+
+    <string name="reset_app_warning_text">"Wprowadzono nieprawidłowe hasło aplikacji 9 razy. Ponowne wprowadzenie nieprawidłowego hasła spowoduje zresetowanie aplikacji i utratę wszystkich dane lokalnych, w tym szczegółów i ustawień połączenia.\n\nAby uzyskać dostęp do aplikacji po jej zresetowaniu, utwórz nowe połączenie i wprowadź prawidłowe hasło aplikacji."</string>
+
+
+
+    <!-- Wrong Application password -->
+
+    <!-- XTXT SAP BI wrong password warning -->
+
+    <string name="wrong_pwd">"Nieprawidłowe hasło"</string> 
+
+    <!-- XTXT SAP BI wrong password warning text -->
+
+    <string name="wrong_pwd_text">"Wprowadzono błędne hasło %1$d razy. \n\nCzy chcesz zresetować aplikację?"</string>
+
+    <!-- XTXT Illegal access of application -->
+
+    <string name="app_exit_message_heaad">"Niedozwolony dostęp do aplikacji"</string>
+
+
+
+    <!-- XTXT SAP BI exit app message -->
+
+    <string name="app_pwd_exit_text">"Aplikacja zostanie zamknięta za 5 sekund"</string>
+
+
+
+    <!-- Email options -->
+
+    <!-- XTXT -->
+
+    <string name="open_browser">"Dotknij, aby otworzyć raport w przeglądarce"</string>
+
+    <!-- XTXT -->
+
+    <string name="add_connection_android">"Dotknij, aby dodać połączenie z aplikacją SAP BI dla systemu Android"</string>
+
+    <!-- XTXT -->
+
+    <string name="add_connection_ios">"Dotknij, aby dodać połączenie z aplikacją SAP BI dla systemu iOS"</string>
+
+    <!-- XTXT -->
+
+    <string name="media_player_codecs">"Uwaga: Aby odtworzyć klip, upewnij się, że pobrane zostały najnowsze kodeki dla dostępnego odtwarzacza multimedialnego."</string>
+
+    <!-- XTXT -->
+
+    <string name="sent_from">"Wysłano z urządzenia z systemem Android"</string>
+
+    <!-- XTXT -->
+
+    <string name="open_device_android">"Dotknij, aby otworzyć raport w aplikacji SAP BI na urządzeniu z systemem Android"</string>
+
+    <!-- XTXT -->
+
+    <string name="open_device_ios">"Dotknij, aby otworzyć raport w aplikacji SAP BI na urządzeniu z systemem iOS"</string>
+
+
+
+    <!-- Deleting documents -->
+
+    <!-- XTXT -->
+
+    <string name="doc_delete">"Usuwanie dokumentu powiodło się"</string>
+
+    <!-- XTXT -->
+
+    <string name="doc_delete_fail">"Nie można było usunąć dokumentu"</string>
+
+
+
+    <!-- Sample Doc Names -->
+
+    <!-- XTXT -->
+
+    <string name="sample_doc1">"Podsumowanie zarządzania bankiem"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc2">"Analiza rozdziału pracowników"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc3">"Okno wywołań detalisty"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc4">"Rentowność sprzedaży"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc5">"Kierownik sklepu"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc6">"Zrównoważony rozwój"</string>
+
+    <!-- Categories -->
+
+    <!-- XTXT -->
+
+    <string name="category_all">"Wszystkie"</string>
+
+    <!-- XTXT -->
+
+    <string name="category_others">"Inne"</string>
+
+    <!-- XTXT if the document cannot be saved due to last refresh date + TTL being expired -->
+
+    <string name="doc_not_saved">"Nie można pobrać tego dokumentu z powodu polityk skonfigurowanych dla rozszerzonego bezpieczeństwa"</string>
+
+     <!-- XTXT -->
+
+  	<string name="open_doc_back_msg">"Nastąpi powrót do ekranu głównego"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_xcelsius">"Trwa pobieranie. Czekaj..."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_update_xcelsius">"Trwa aktualizacja. Czekaj..."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_update_xcelsius_backup">"Nie można odczytać kopii zapasowej dokumentu. Spróbuj ponownie później."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_failer_xcelsius">"Nie można wykonać operacji. Spróbuj ponownie później."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_download_success">"Zapis pomyślny"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_download_failure">"Błąd zapisu"</string>
+
+
+
+    <!-- XMIT : menu item  used to collaborate with JAM -->
+
+    <string name="collaborate">"Współpraca"</string>
+
+    <!-- XHED : menu item  used to collaborate with JAM -->
+
+    <string name="jam">"SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_recieve_oauthtoken">"Wystąpił błąd podczas pobierania tokena żądania z serwera SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_recieve_accesstoken">"Wystąpił błąd podczas pobierania tokena dostępu z serwera SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_groups_error">"Wystąpił błąd podczas pobierania grup z serwera SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_groups_exists_error">"Istnieje już grupa o tej samej nazwie"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_create_groups_error">"Wystąpił błąd podczas tworzenia grupy"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_upload_photo_error">"Wystąpił błąd podczas przesyłania zrzutu ekranu na serwer SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_send_invite_error">"Wystąpił błąd podczas wysyłania zaproszenia do użytkownika"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_invalid_oauth_details">"Nieprawidłowe dane OAUTH. Skonfiguruj prawidłowe dane OAUTH w CMS"</string>
+
+
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="jam_oauth_header">"Logowanie do SAP JAM"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="jam_sendtojam">"Wyślij do SAP JAM"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="create_new_group">"Utwórz nową grupę"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="edit_group">"Edytuj grupę"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_name">"Nazwa grupy"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_objective">"Cel"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_participants">"Uczestnicy"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="jam_current_groups">"AKTUALNE GRUPY"</string>
+
+    <!-- XTXT: text for posting the discussion -->
+
+    <string name="post">"PUBLIKUJ"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="group_is_private">"Prywatnie"</string>
+
+    <!-- XTXT: text for posting the discussion -->
+
+    <string name="you">"Ty"</string>
+
+    <!-- XBUT: send button in send dialog -->
+
+    <string name="jam_Send">"Wyślij"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="uploading">"Wczytywanie..."</string>
+
+    <!-- XTXT: label for work phone number -->
+
+    <string name="home_lbl">"Prywatny"</string>
+
+    <!-- XTXT: label for home phone number -->
+
+    <string name="work_lbl">"Służbowy"</string>
+
+    <!-- XTXT: label for mobile number -->
+
+    <string name="Mobile_lbl">"Telefon komórkowy"</string>
+
+    <!-- XHED: heading for user profile diaglog fragment -->
+
+    <string name="user_profile">"Profil użytkownika"</string>
+
+    <!-- XHED: heading for user profile diaglog fragment -->
+
+    <string name="wait">"Czekaj..."</string>
+
+    <!-- XTXT: text for none -->
+
+    <string name="none">"Brak"</string>
+
+    <!-- XTXT :AM I will be appeding this date based on format -->
+
+    <string name="AM">"AM"</string>
+
+    <!-- XTXT :PM I will be appeding this date based on format -->
+
+    <string name="PM">"PM"</string>
+
+
+
+    <!-- XTXT : Message to show in SSLConnectivityDialogFragment -->
+
+    <string name="ssl_alertmessge">"To połączenie może być niezaufane; czy chcesz kontynuować?"</string>
+
+    <!-- XHED : heading for SSLConnectivityDialogFragment -->
+
+    <string name="ssl_alert_title">"Alert"</string>
+
+    <!-- XTXT : Alert Message -->
+
+    <string name="sapbi_delete">"Zewnętrzny program chce usunąć połączenie; czy chcesz kontynuować?"</string>
+
+    <!-- XTXT : Alert Message -->
+
+    <string name="sapbi_modify">"Zewnętrzny program chce zmodyfikować połączenie; czy chcesz kontynuować?"</string>
+
+    <!-- new connection for BOE -->
+
+    <string name="conn_server_URL">"URL serwera"</string>
+
+    <!-- XTXT : CMS name -->
+
+    <string name="cms_name">"Nazwa CMS"</string>
+
+    <!-- XTXT : authentication mode -->
+
+    <string name="auth_mode">"Tryb uwierzytelniania"</string>
+
+    <!-- XTXT : Default Connection -->
+
+    <string name="default_connect">"Połączenie domyślne"</string>
+
+    <!-- XTXT : Connection Details -->
+
+    <string name="connection_details">"SZCZEGÓŁY POŁĄCZENIA"</string>
+
+    <!-- XTXT : Authentication Details -->
+
+    <string name="authentication_details">"SZCZEGÓŁY UWIERZYTELNIANIA"</string>
+
+    <!-- XTXT : Username -->
+
+    <string name="conn_username">"Użytkownik"</string>
+
+    <!-- XTXT : Password -->
+
+    <string name="conn_password">"Hasło"</string>
+
+    <!-- XTXT : Default connection -->
+
+    <string name="default_conn">"Połączenie domyślne"</string>
+
+    <!-- XTXT : Save password -->
+
+    <string name="save_pass">"Zapisz hasło"</string>
+
+    <!-- XTXT : Connection Type -->
+
+    <string name="conn_type">"Typ połączenia"</string>
+
+    <!-- XTXT : Connection Type Phone -->
+
+    <string name="conn_type_phone">"TYP POŁĄCZENIA"</string>
+
+    
+
+    <!-- Manage Connections -->
+
+    <!-- XTXT : Indicate Default connection -->
+
+    <string name="is_default_conn">"Domyślne"</string>
+
+
+
+    <!-- Connection Action Bar SAVE -->
+
+    <string name="connection_save">"ZAPISZ"</string>
+
+    <!-- Connection Action Bar SHARE -->
+
+    <string name="connection_share">"UDOSTĘPNIJ"</string>
+
+    <!-- Connection Action Bar SAVE CONNECT -->
+
+    <string name="connection_saveconnect">"ZAPISZ I POŁĄCZ"</string>
+
+
+
+    <!-- XTXT : BI Inbox -->
+
+    <string name="BIInbox">"Folder wejściowy BI"</string>
+
+    <!-- XTXT : BI Inbox Option to make it read -->
+
+    <string name="mark_as_read">"Zaznacz jako przeczytane"</string>
+
+    <!-- XTXT : BI Inbox Option to make it unread -->
+
+    <string name="mark_as_unread">"Zaznacz jako nieprzeczytane"</string>
+
+    <!-- Personal Categories Related Strings -->
+
+    <!-- XTXT : Manage Connections -->
+
+    <string name="manage_connections">"Zarządzaj połączeniami"</string>
+
+    <!-- XTXT : Saved Connections -->
+
+    <string name="saved_connections">"Zapisane połączenia"</string>
+
+    <!-- XTXT : Saved Connection -->
+
+    <string name="saved_connection">"Zapisane połączenie"</string>
+
+    <!-- XTXT : Manage Categories -->
+
+    <string name="manage_categories">"Zarządzaj kategoriami"</string>
+
+    <!-- XMSG: Add Default Category -->
+
+    <string name="add_default_category">"Ustaw kategorię domyślną"</string>
+
+    <!-- XMSG: Select Category as  Default-->
+
+    <string name="select_default_category">"Wybierz domyślną kategorię"</string>
+
+    <!-- XTXT : Assign Categories -->
+
+    <string name="assign_categories">"Przypisz kategorie"</string>
+
+    <!-- XTXT : Create New Category -->
+
+    <string name="create_new_category">"Utwórz nową kategorię"</string>
+
+    <!-- XTXT : Edit Category -->
+
+    <string name="edit_category">"Edytuj kategorię"</string>
+
+    <!-- XTXT : Delete Category -->
+
+    <string name="delete_category">"Usuń kategorię"</string>
+
+    <!-- XTXT :Category Exists Message -->
+
+    <string name="category_exist_message">"Nazwa kategorii już istnieje; wprowadź inną nazwę dla kategorii"</string>
+
+    <!-- XTXT :Category Name Empty Message -->
+
+    <string name="category_empty_message">"Nazwa kategorii jest pusta; wprowadź inną nazwę dla kategorii"</string>
+
+    <!-- XTXT :Category Delete Message -->
+
+    <string name="category_delete_message">"Czy na pewno chcesz usunąć tę kategorię?"</string>
+
+
+
+    <!-- XTXT : Items -->
+
+    <string name="items">"POZYCJE"</string>
+
+    <!-- XTXT : Get Started -->
+
+    <string name="get_started">"Wprowadzenie"</string>
+
+    <!-- XTXT : Whats new -->
+
+    <string name="whats_new">"Co nowego?"</string>
+
+    <!-- XTXT : All Reports -->
+
+    <string name="all_reports">"Wszystkie raporty"</string>
+
+    <!-- XTXT : Favorites -->
+
+    <string name="favorites">"Ulubione"</string>
+
+    <!-- XMIT : Add to Favorites -->
+
+    <string name="add_to_favorites">"Dodaj do Ulubionych"</string>
+
+    <!-- XMIT : Remove from Favorites -->
+
+    <string name="remove_from_favorites">"Usuń z Ulubionych"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="endpoint_error">"Pobieranie proxy punktu końcowego nie powiodło się."</string>
+
+
+
+    <!-- XLBL : Type in Info Screen -->
+
+    <string name="type">"Typ"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="webi_type">"Web Intelligence"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="dashboard_type">"Pulpit"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="designstudio_type">"Aplikacja analityczna"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="hyperlink_type">"Hiperlink"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="pdf_type">"Dokumenty PDF"</string>    
+
+ 
+
+    <!-- Navigation Drawer Strings -->
+
+    <!-- XMSG -->
+
+    <string name="nav_open">"Otwórz"</string>
+
+    <!-- XMSG -->
+
+     <string name="nav_close">"Zamknij"</string>
+
+    
+
+    <!-- Table filter Message -->
+
+	<!-- XMSG -->
+
+	<string name="empty_data">"Puste"</string>
+
+	
+
+	<!-- Notifications -->
+
+	<!-- XTXT -->
+
+	<string name="menu_notification">"Zawiadomienia"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updating">"Trwa aktualizacja dokumentów"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updating_single">"Trwa aktualizacja dokumentu"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_available">"Dostępne aktualizacje"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_available_single">"Dostępna aktualizacja"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_update_all">"Aktualizuj wszystkie"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_cancel_all">"Anuluj wszystkie"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updated_count">"Ostatnio zaktualizowane dokumenty"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updated_count_single">"Ostatnio zaktualizowany dokument"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_clear_all">"Wyczyść wszystko"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_not_available">"Brak dostępnych zawiadomień"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_Auto_Update_Is_Disabled">"Automatyczna aktualizacja jest niedostępna dla tego połączenia"</string>
+
+	<!-- XTXT -->
+
+	<string name="Minutes">"Minuty"</string>
+
+	<!-- XBUT: AutoUpdate On button -->
+
+    <string name="toggle_on">"WŁĄCZONE"</string>
+
+    <!-- XBUT: AutoUpdate Off button -->
+
+    <string name="toggle_off">"WYŁĄCZONE"</string>
+
+    
+
+     <!-- Getting Started Message -->
+
+	<!-- XMSG -->
+
+	<string name="getting_started_trend_icons">"Użyj ikon trendu, aby wyróżnić dane."</string>
+
+	<!-- XMSG: A styled string -->
+
+    <string name="getting_started_show_only_downloaded">"Użyj opcji Wyświetlaj tylko pobrane raporty, aby wyświetlić wszystkie dokumenty dodane do urządzenia."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_personal_view">"Zapisz dokument jako wgląd osobisty, aby zachować wszystkie czynności analityczne i wyświetlać je w trybie offline."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_notification_badge">"Plakietka powiadomienia informuje, gdy na serwerze jest dostępna nowa instancja dokumentu lub zmodyfikowana wersja dokumentu."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_notification_panel">"Panel powiadomień umożliwia wygodne zarządzanie aktualizacjami dokumentów."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_display_category">"Wyświetlaj kategorie jako płaską listę lub w formie struktury zagnieżdżonej."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_share_connection">"Udostępniaj szczegóły połączenia przez e-mail."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_bi_inbox_download">"Dokumenty skrzynki odbiorczej BI można pobierać na urządzenie i oznaczać jako przeczytane LUB nieprzeczytane."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_dashboard">"Za pomocą aplikacji SAP Business Objects Analysis można wyświetlać analizy oraz ich interaktywnie używać."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_bi_connection">"Aby uzyskać dostęp do zawartości BI, utwórz nowe połączenie, korzystając jednego z dostępnych typów połączeń"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_geo">"Dotknij każdego punktu zainteresowania (POI), aby wyświetlić szczegółowe informacje dla powiązanych wartości."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_tablestyling">"Skonfiguruj styl czcionki komórki tabeli na pogrubienie, kursywę lub podkreślenie."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_microbarchart">"Dotknij mikrowykresu słupkowego, aby wyświetlić wykres w trybie powiększenia."</string>
+
+   
+
+	<!-- XMSG -->
+
+	<string name="getting_started_toggle_group_by_sort">"Przełączanie między opcją Grupuj wg i opcjami sortowania pomaga wygodnie organizować listę dokumentów."</string>	
+
+	<!-- XMSG -->
+
+	<string name="getting_started_auto_update_wifi">"Użyj ustawień autom. aktualizacji, aby automatycznie aktualizować wszystkie dokumentu offline, gdy dostępna jest sieć Wi-Fi."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_default_filter">"Skonfiguruj domyślną wartość filtra w dokumencie analizy geograficznej."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_share_document_link">"Udostępniaj link do dokumentu przez e-mail, zachowując bieżący kontekst nawigacji"</string>
+
+	<!-- XMSG -->
+
+	<string name="pdf_pop_up_select_app">"Wybierz przeglądarkę"</string>
+
+	<!-- XMSG -->
+
+	<string name="pdf_pop_up_install_app">"Przeglądarka niedostępna; zainstaluj przeglądarkę PDF, aby wyświetlić dokument"</string>
+
+	
+
+	
+
+	
+
+	<!-- XMSG -->
+
+	<string name="splash_upgrade_docs">"Trwa upgrade dokumentów..."</string>
+
+	<!-- XMSG -->
+
+	<string name="splash_docs_to_be_upgraded">"Liczba dokumentów do upgrade\'u: %1$s"</string>
+
+	<!-- XMSG -->
+
+	<string name="splash_number_of_docs_upgraded">"Wykonano upgrade %1$s z %2$s dokumentów..."</string>
+
+	
+
+	<!-- XMSG -->
+
+	<string name="cannot_expand_this_node">"Nie można rozwinąć tego węzła"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="certificate_error">"Błąd certyfikatu"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_untrusted_error">"Urząd certyfikatu nie jest zaufany"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_expired_error">"Certyfikat wygasł"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_idmismatch_error">"Niezgodność nazwy hosta"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_notyetvalid_error">"Certyfikat nie jest jeszcze ważny"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_invalid_error">"Wystąpił ogólny błąd"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_date_invalid_error">"Data certyfikatu jest nieprawidłowa"</string>
+
+	
+
+</resources>

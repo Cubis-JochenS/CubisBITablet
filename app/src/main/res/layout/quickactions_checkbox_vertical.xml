@@ -1,0 +1,29 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+    android:layoutDirection="locale"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:clickable="true"
+	android:focusable="true"
+	android:background="@drawable/button_selector_white">
+	
+	<TextView 
+		android:id="@+id/tv_title"
+		android:layout_width="200dp" 
+		android:layout_height="60dp" 
+		android:paddingLeft="24dp"
+        android:paddingStart="24dp"
+		android:singleLine="false"
+		android:textSize="16sp"
+		android:gravity="top"  
+		android:textColor="@color/dimgrey"/>
+	<CheckedTextView
+        android:id="@+id/img_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"  
+        android:layout_marginTop="7dp"
+       	android:checkMark="@drawable/checkbox" />
+									         
+</LinearLayout>         

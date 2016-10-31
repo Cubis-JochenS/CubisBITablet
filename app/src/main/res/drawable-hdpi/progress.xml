@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--    <item android:drawable="@drawable/progress_circular_background"/> -->
+    <item>
+        <shape  
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thickness="15dp"
+            
+             >
+            <gradient
+                android:endColor="#0062A9"
+                android:startColor="#0062A9"  
+                android:type="sweep"
+                android:useLevel="true" />
+
+        </shape>
+        <rotate
+	    android:fromDegrees="0"
+	    android:toDegrees="270"
+	    android:pivotX="50%"
+	    android:pivotY="50%" />
+    </item>
+
+   
+</layer-list>

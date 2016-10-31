@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LandScape Mode -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY" >
+    </ImageView>
+
+    <!-- App password -->
+
+    <include layout="@layout/splash_app_pwd_layout" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|start|bottom"
+        android:layout_marginBottom="@dimen/version_margin_height_pl"
+        android:layout_marginLeft="@dimen/build_version_margin_width_pl"
+        android:layout_marginStart="@dimen/build_version_margin_width_pl"
+        android:padding="@dimen/build_version_padding"
+        android:text="@string/version"
+        android:textColor="@color/splashscreen_text" />
+
+    <TextView
+        android:id="@+id/build"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|start|bottom"
+        android:layout_marginBottom="@dimen/build_margin_height_pl"
+        android:layout_marginLeft="@dimen/build_version_margin_width_pl"
+        android:layout_marginStart="@dimen/build_version_margin_width_pl"
+        android:padding="@dimen/build_version_padding"
+        android:text="@string/build"
+        android:textColor="@color/splashscreen_text" />
+
+</FrameLayout>

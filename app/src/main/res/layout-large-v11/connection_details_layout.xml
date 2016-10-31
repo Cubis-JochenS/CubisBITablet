@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/c1_cnxlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/c1_cnxlayout1"
+        android:layout_width="848dp"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/purewhite" >
+
+        <LinearLayout
+            android:id="@+id/ae_toplayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/amc_serverurllayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <!-- Import Connection top bar -->
+
+                <LinearLayout
+                    android:id="@+id/amc_serverurlinsilayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:orientation="horizontal"
+                    android:layoutDirection="locale"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/amc_serverurl_text"
+                        style="@style/TextMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/connection_server_URL"
+                        android:visibility="visible" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/amc_serverurl"
+                        style="@style/TextMedium.EditTextBoxStyle"
+                        android:layout_width="0px"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/amc_serverurl_text"
+                        android:layout_toLeftOf="@id/amc_fetchdetailsicon"
+                        android:layout_toStartOf="@id/amc_fetchdetailsicon"
+                        android:layout_weight="1"
+                        android:background="@drawable/editbox"
+                        android:singleLine="true"
+                        android:text=""
+                        android:visibility="visible" >
+                    </EditText>
+
+                    <Button
+                        android:id="@+id/amc_fetchdetailsicon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/button"
+                        android:text="@string/import_txt"
+                        android:visibility="visible" >
+                    </Button>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Create Connection top bar -->
+
+            <LinearLayout
+                android:id="@+id/aec_connmainlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="84dp"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="horizontal"
+                android:layoutDirection="locale"
+                 >
+
+                <TextView
+                    style="@style/TextMediumTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="top|left|start"
+                    android:gravity="bottom"
+                    android:layout_weight="0.2"
+                    android:text="@string/conn_type"
+                     >
+                </TextView>
+			<!-- <Spinner
+                android:id="@+id/conntypeSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:background="@drawable/spinner"
+                android:prompt="@string/auth_type"
+                android:layout_gravity="bottom|left"
+                android:gravity="bottom" >
+            </Spinner> -->
+                 <Spinner
+                    android:id="@+id/conntypeSpinner"
+                    style="@style/TextMediumTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right|end"
+                    android:gravity="bottom"
+                    android:layout_weight="0.65"
+                    android:background="@drawable/spinner"
+                    android:dropDownWidth="592dp"
+                    android:dropDownVerticalOffset="-15dp"
+                    android:dropDownHeight="wrap_content"
+        			android:spinnerMode="dropdown" >
+
+                    <requestFocus />
+                </Spinner>
+            </LinearLayout>
+        </LinearLayout>
+
+         <!-- <View
+            android:id="@+id/spinner_sep"
+            style="@style/ConnectionLineSep"
+            android:layout_below="@id/ae_toplayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" >
+        </View> -->
+ 
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ae_toplayout"
+            >
+
+            <LinearLayout
+                android:id="@+id/conn_filllayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+	<LinearLayout
+            android:id="@+id/leftShadow"
+            android:layout_width="25dp"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:layout_toLeftOf="@id/c1_cnxlayout1"
+            android:layout_toStartOf="@id/c1_cnxlayout1"
+            android:background="@drawable/shadow_left" />
+	<LinearLayout
+            android:id="@+id/rightShadow"
+            android:layout_width="25dp"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:layout_toRightOf="@id/c1_cnxlayout1"
+            android:layout_toEndOf="@id/c1_cnxlayout1"
+            android:background="@drawable/shadow_right" />
+</RelativeLayout>

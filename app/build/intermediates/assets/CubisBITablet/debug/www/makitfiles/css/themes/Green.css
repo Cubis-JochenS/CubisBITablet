@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background: #FFFFFF;
+	color:green;	
+}
+/*
+body > .toolbar {
+    border-bottom: 1px solid #45930b;
+    border-top: 1px solid #4ca20b;
+    background: url(toolbar-green.png) #4ca20b repeat-x;
+}
+
+#backButton {
+	border-image: url(backButton-green.png) 0 8 0 14;
+	-moz-border-image: url(backButton-green.png) 0 8 0 14;
+	-webkit-border-image: url(backButton-green.png) 0 8 0 14;
+}
+*/
+
+.ui-body-c {
+	color:green;
+}
+.ui-body-b {
+	color:green;
+}
+.ui-btn-up-b{
+	color:green;
+}
+.ui-btn-hover-b {
+	color:green;
+}
+.ui-btn-down-b {
+	color:green;
+}
+
+.ui-btn-up-c{
+	color:green;
+}
+.ui-btn-hover-c {
+	color:green;
+}
+.ui-btn-down-c {
+	color:green;
+}
+
+
+/*DatePicker*/
+.ui-datepicker {
+background: #d3eb77;
+}
+.ui-datepicker td a{
+color:green;
+}
+
+.ui-datepicker-title {
+ color:green;
+}
+
+.ui-datepicker-date-input
+{
+	color:green;
+}
+ 
+/*slider*/
+a.ui-btn-up-b{
+ background-image:-webkit-linear-gradient(top,#659C7E,#39A54D);
+ background-color:green;
+}
+a.ui-btn-hover-b {
+	background: 			#58C85E !important;
+	background-image: -webkit-linear-gradient(top, #7AC389, #58C85E) !important; /* Chrome 10+, Saf5.1+ */
+}
+a.ui-btn-down-b {
+	background: 			#6BC26D;
+	background-image: -webkit-linear-gradient(top, #4D985D, #6BC26D); /* Chrome 10+, Saf5.1+ */
+}
+.ui-body-c select{
+	color:green;
+}
+/*DigitPicker*/
+#MADigitPickerControl div.x-layout-box-left {
+background: -webkit-gradient(linear, left top, left bottom, from(rgb(96,118,98)), to(rgb(24,65,28)), color-stop(0.5, rgb(105,134,108)), color-stop(0.5, rgb(58,81,62)));
+}
+input.digitpicker-value{
+color:green;
+}
+a.digitpicker-button{	
+	background:transparent url("digitpicker-button-green.png") no-repeat center;	
+}
+/*canvas related*/
+.chart {
+	background:#FFFFFF;
+	color:green;
+}
+
+.chart_value_bubble {
+	background: #000000;
+	color: #FFFF00;
+}
+
+.chart_range_selector_text {
+	color:green;
+	font-size: 12px;
+	font-family:Helvetica;	
+}
+
+.chart_titlebar {
+	background: #82DB62
+}
+
+.chart_titlebar > .fullscreen_icon {
+	margin-top: 5px;
+	background: url(../../../css/images/fullscreen_icon.png) no-repeat;
+	cursor:pointer;
+}
+
+.chart_toolbar {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-bottom: 1px solid #83D489;
+	border-top: 1px solid #83D489;
+	background: url(chartToolbar-green.png) #83D489 repeat-x;
+}
+
+.chart_toolbar  > .chart_button {
+	border-image: url(toolButton-green.png) 0 5 0 5;
+	-moz-border-image: url(toolButton-green.png) 0 5 0 5;
+	-webkit-border-image: url(toolButton-green.png) 0 5 0 5;
+}
+
+.chart_toolbar > .table_button {
+	border: 0px;
+	background: url(../../../css/images/table_icon.png) no-repeat;
+}
+
+.chart_toolbar > .rangeselector_button {
+	border: 0px;
+	background: url(../../../css/images/rangeselector_icon.png) no-repeat;
+}
+
+.chart_toolbar > .share_button {
+	border: 0px;
+	background: url(../../../css/images/e-mail_icon.png) no-repeat;
+}
+
+.chart_toolbar > .whatif_button {
+	border: 0px;
+	background: url(../../../css/images/whatif_icon.png) no-repeat;
+}
+
+.chart_toolbar > .da_button {
+	border: 0px;
+	background: url(../../../css/images/da_icon.png) no-repeat;
+}
+
+.chart_toolbar h1 {
+	overflow: hidden;
+	margin:auto;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #F0AB00;
+	display:inline;
+}
+
+.chart_table {
+	background:#FFFFFF;
+	font-size: 14px;
+	font-family:Helvetica;
+	color:green;
+}
+
+.chart_table_dimension_title {
+	background:#B4D9B4;
+}
+
+.chart_table_row_header {
+	background:#B4D9B4;
+}
+
+.chart_table_column_headers {
+	background:#C8FFC8;
+}
+
+.chart_table_contents {
+	background:#C8FFC8;
+}
+
+input[type=date]::-webkit-inner-spin-button{-webkit-appearance: none;}
+
+.defaultFillPalette{
+}
+
+.defaultFillPalette  .color1{
+    color: #d3eb77;
+}
+.defaultFillPalette  .color2{
+    color: #b2de4f;
+}
+.defaultFillPalette  .color3{
+    color: #73c949;
+}
+.defaultFillPalette  .color4{
+    color: #19b609;
+}
+.defaultFillPalette  .color5{
+    color: #009c07;
+}
+.defaultFillPalette  .color6{
+    color: #077f20;
+}
+.defaultFillPalette  .color7{
+    color: #02672d;
+}
+.defaultFillPalette  .color8{
+    color: #014924;
+}
+.defaultFillPalette  .color9{
+    color: #003606;
+}
+
+.defaultStrokePalette{
+}
+
+.defaultInsetShadowPalette{
+}

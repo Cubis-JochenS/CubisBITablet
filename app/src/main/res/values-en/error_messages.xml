@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <!-- Server Error messages -->
+	<!-- XMSG -->
+    <string name="mob06004">"Connection to the server could not be established; contact your administrator if the problem persists(MOB06004)"</string>
+	<!-- XMSG -->
+    <string name="mob06005">"Connection to the server could not be established; try again or contact your administrator(MOB06005)"</string>
+	<!-- XMSG -->
+    <string name="mob06006">"The request has timed out; try again or contact your system administrator(MOB06006)"</string>
+	<!-- XMSG -->
+    <string name="mob06007">"Your request is invalid; verify the connection details or contact your administrator(MOB06007)"</string>
+	<!-- XMSG -->
+    <string name="mob06008">"You are not authorized for this request(MOB06008)"</string>
+	<!-- XMSG -->
+    <string name="mob06009">"Your request is invalid; verify the connection details or contact your administrator(MOB06009)"</string>
+	<!-- XMSG -->
+    <string name="mob06010">"Internal server error occurred while processing your request; try again or contact your system administrator(MOB06010)"</string>
+	<!-- XMSG -->
+    <string name="mob06011">"Missing prompt value; select at least one value for the prompt(MOB06011)"</string>
+	<!-- XMSG -->
+    <string name="mob06021">"Verify network connectivity(MOB06021)"</string>
+	<!-- XMSG -->
+    <string name="mob06022">"An internal server error occurred while processing the client request(MOB06022)"</string>
+	<!-- XMSG -->
+    <string name="mob06031">"Connection to the server could not be established; try again or contact your administrator(MOB06031)"</string>
+     
+    <!-- Client Error messages -->
+	 <!-- XMSG -->
+    <string name="mob08001">"E-mail is not configured on this device(MOB08001)"</string>
+	<!-- XMSG -->
+    <string name="mob08002">"Internal server error occurred while processing your request; contact your administrator(MOB08002)"</string>
+	<!-- XMSG -->
+    <string name="mob08003">"Server error prevented the document from refreshing; try again(MOB08003)"</string>
+	<!-- XMSG -->
+    <string name="mob08004">"Not all mandatory prompts have been filled(MOB08004)"</string>
+	<!-- XMSG -->
+    <string name="mob08005">"This prompt is not supported(MOB08005)"</string>
+	<!-- XMSG -->
+    <string name="mob08006">"Please verify your login information(MOB08006)"</string>    
+	<!-- XMSG -->
+    <string name="mob08007">"This server version is not supported by the application; contact your administrator(MOB08007)"</string> 
+    <!-- XMSG -->
+    <string name="mob08008">"SUP exception(MOB08008)"</string>
+    <!-- XMSG -->
+    <!--  This is a client sid emessage as below for the document not  found in server 
+    for content types like XC where we don;t get XML response. This is the same message which comes from Webi server for doc not found-->
+    <string name="mob00006">"The document does not exist on the server. (MOB00006)"</string>
+    <!-- XMSG -->
+    <string name="mob06099">"We encountered an error; please contact your administrator"</string>
+     
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <!-- Server Error messages -->
+	<!-- XMSG -->
+    <string name="mob06004">"サーバへの接続を確立できませんでした。問題が解消されない場合は管理者に連絡してください (MOB06004)"</string>
+	<!-- XMSG -->
+    <string name="mob06005">"サーバへの接続を確立できませんでした。再試行するか、管理者に連絡してください (MOB06005)"</string>
+	<!-- XMSG -->
+    <string name="mob06006">"要求がタイムアウトしました。再試行するか、管理者に連絡してください (MOB06006)"</string>
+	<!-- XMSG -->
+    <string name="mob06007">"要求が無効です。接続詳細を確認するか、管理者に連絡してください (MOB06007)"</string>
+	<!-- XMSG -->
+    <string name="mob06008">"この要求に対する権限がありません (MOB06008)"</string>
+	<!-- XMSG -->
+    <string name="mob06009">"要求が無効です。接続詳細を確認するか、管理者に連絡してください (MOB06009)"</string>
+	<!-- XMSG -->
+    <string name="mob06010">"要求を処理する際に内部サーバエラーが発生しました。再試行するか、システム管理者に連絡してください (MOB06010)"</string>
+	<!-- XMSG -->
+    <string name="mob06011">"プロンプトの値がありません。プロンプトに対して値を少なくとも 1 つ選択してください (MOB06011)"</string>
+	<!-- XMSG -->
+    <string name="mob06021">"ネットワーク接続を確認してください (MOB06021)"</string>
+	<!-- XMSG -->
+    <string name="mob06022">"クライアント要求を処理する際に内部サーバエラーが発生しました (MOB06022)"</string>
+	<!-- XMSG -->
+    <string name="mob06031">"サーバへの接続を確立できませんでした。再試行するか、管理者に連絡してください (MOB06031)"</string>
+     
+    <!-- Client Error messages -->
+	 <!-- XMSG -->
+    <string name="mob08001">"このデバイスではメールが設定されていません (MOB08001)"</string>
+	<!-- XMSG -->
+    <string name="mob08002">"要求を処理する際に内部サーバエラーが発生しました。管理者に連絡してください (MOB08002)"</string>
+	<!-- XMSG -->
+    <string name="mob08003">"サーバエラーにより文書をリフレッシュできませんでした。再試行してください (MOB08003)"</string>
+	<!-- XMSG -->
+    <string name="mob08004">"一部の必須プロンプトに値が入力されていません (MOB08004)"</string>
+	<!-- XMSG -->
+    <string name="mob08005">"このプロンプトはサポートされていません (MOB08005)"</string>
+	<!-- XMSG -->
+    <string name="mob08006">"ログイン情報を確認してください (MOB08006)"</string>    
+	<!-- XMSG -->
+    <string name="mob08007">"このサーババージョンはアプリケーションでサポートされていません。管理者に連絡してください (MOB08007)"</string> 
+    <!-- XMSG -->
+    <string name="mob08008">"SUP 例外 (MOB08008)"</string>
+    <!-- XMSG -->
+    <!--  This is a client sid emessage as below for the document not  found in server 
+    for content types like XC where we don;t get XML response. This is the same message which comes from Webi server for doc not found-->
+    <string name="mob00006">"文書がサーバに存在しません。(MOB00006)"</string>
+    <!-- XMSG -->
+    <string name="mob06099">"エラーが発生しました。管理者に連絡してください"</string>
+     
+</resources>

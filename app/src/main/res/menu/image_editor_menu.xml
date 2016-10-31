@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<!--  paint is not a menu item , it is a custom view -->	    
+    <item
+        android:id="@+id/menu_erase"
+        android:icon="@drawable/annontate_menu_erase_normal"
+         android:showAsAction="always"
+        android:title="@string/erase"></item>
+        
+    <item
+        android:id="@+id/menu_custom_view"
+        android:icon="@drawable/annotation_textbox"
+        android:title="@string/customview"
+         android:showAsAction="always"></item>
+    
+    <item
+        android:id="@+id/menu_crop"
+        android:icon="@drawable/annontate_menu_crop_normal"
+        android:title= "@string/crop"
+        android:showAsAction="always"></item>
+    
+     <item
+        android:id="@+id/menu_record"
+        android:icon="@drawable/annotate_record_normal"
+        android:title="@string/record"
+         android:showAsAction="always"></item>
+    
+    <item android:id="@+id/actions_report"  android:icon="@drawable/menu_more_actions_tablet" android:showAsAction="always">
+	    <menu>    
+	      <item android:id="@+id/menu_email"  android:title="@string/email_menu" android:showAsAction="ifRoom"/>
+	      <item android:id="@+id/menu_sendtojam" android:title="@string/jam_sendtojam" android:visible="false" android:showAsAction="ifRoom" />  
+	    </menu>
+	</item>
+	
+	
+</menu>

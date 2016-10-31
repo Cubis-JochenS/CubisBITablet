@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SAPBusinessObjectsMobileAndroidLibrary">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/SAPBusinessObjectsMobileAndroidLibrary.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

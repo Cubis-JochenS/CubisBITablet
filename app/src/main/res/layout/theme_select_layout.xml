@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/theme_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/settings_details_background"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="8dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp" >
+
+        <View
+            style="@style/SettingsDetailsSeparator"
+            android:background="@color/settings_view_separator" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ivory"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+         >
+
+        <TextView
+            android:id="@+id/ivorytext"
+            style="@style/ConnectionListElementsSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dp"
+            android:paddingStart="30dp"
+            android:text="@string/ivory"
+            android:textColor="@color/settings_view_text" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/i_tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/checkbox"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="@string/app_name"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingRight="8dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp" >
+
+        <View
+            style="@style/SettingsDetailsSeparator"
+            android:background="@color/settings_view_separator" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/graphite"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+         >
+
+        <TextView
+            android:id="@+id/graphitetext"
+            style="@style/ConnectionListElementsSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="30dp"
+            android:paddingStart="30dp"
+            android:text="@string/graphite"
+            android:textColor="@color/settings_view_text" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/g_tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/checkbox"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="@string/app_name"
+             />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingRight="8dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="8dp" >
+
+        <View
+            style="@style/SettingsDetailsSeparator"
+            android:background="@color/settings_view_separator" />
+    </LinearLayout>
+
+</LinearLayout>

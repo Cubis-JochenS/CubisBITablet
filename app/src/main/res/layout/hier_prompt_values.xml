@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/prompt_values_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:focusable="true" 
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+	android:background="@color/white">
+
+
+    <!-- header -->
+
+    <LinearLayout 
+        android:id="@+id/prompt_Header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.03"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/prompt_title_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/prompt_values_title"
+            style="@style/TextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/text_header" />
+        
+        <ImageView
+            android:id="@+id/img_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+           android:layout_centerVertical="true"
+            android:src="@drawable/report_menu_refresh_phone" 
+            />
+        
+        </RelativeLayout>
+        <View
+            android:id="@+id/prompt_values_seperator"
+            style="@style/DialogTitleSeperator" />
+     
+    </LinearLayout>
+    
+        <RelativeLayout
+        android:id="@+id/lov_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prompt_values_seperator" >
+
+        <ImageView
+            android:id="@+id/lov_search_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/report_lov_search"
+            android:visibility="visible" >
+        </ImageView>
+
+        <EditText
+            android:id="@+id/lov_search_string"
+            style="@style/SimpleEditTextFont"
+            android:layout_toRightOf="@id/lov_search_img"
+            android:layout_toEndOf="@id/lov_search_img"
+            android:hint="@string/search_hint"
+            android:maxLength="20"
+            android:textColorHint="@color/dimgrey"
+            android:textColor="@color/black"
+            android:background="@drawable/editbox" >
+        </EditText>
+    </RelativeLayout>
+        
+	 <!-- Content -->
+           
+    <LinearLayout 
+        android:id="@+id/prompt_Header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.94"
+        android:orientation="vertical" >
+
+ 		<ListView
+        android:id="@+id/lovList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/transparent" >
+    </ListView>
+	
+	</LinearLayout>		  
+	 
+    
+    <!-- footer -->
+       
+    <LinearLayout 
+        android:id="@+id/prompt_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.03"
+        android:orientation="vertical" >   
+           
+	    <LinearLayout 
+	        android:id="@+id/prompt_footer_seperator"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	 	<View
+			    android:id="@+id/prompt_values_footer_seperator"
+				style="@style/DialogFooterSeperator"/>
+		
+		</LinearLayout>	        
+	   
+	    <LinearLayout
+	        android:id="@+id/prompt_lovlist_multi_footer"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:orientation="horizontal"
+            android:layoutDirection="locale"
+            >
+	
+	        <Button
+	            android:id="@+id/lov_back"
+	            style="@style/TextButton"
+	            android:layout_width="0px"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+	            android:layout_weight="0.25"
+	            android:background="@drawable/button_dialog"
+	            android:text="@string/previous" />
+	
+	        <ImageView
+	            android:id="@+id/lov_ver_seperator"
+	            android:layout_width="2dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/text_subheader" />
+	
+	        <Button
+	            android:id="@+id/lov_done"
+	            style="@style/TextButton"
+	            android:layout_width="0px"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+	            android:layout_weight="0.25"
+	            android:background="@drawable/button_dialog"
+	            android:text="@string/done" />
+	        <ImageView
+	            android:id="@+id/lov_ver_seperator1"
+	            android:layout_width="2dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/text_subheader" />
+	        <Button
+	            android:id="@+id/lov_cancel"
+	            style="@style/TextButton"
+	            android:layout_width="0px"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+	            android:layout_weight="0.25"
+	            android:background="@drawable/button_dialog"
+	            android:text="@string/cancel" />
+	    </LinearLayout>
+	    
+   </LinearLayout>	
+   	
+</LinearLayout>

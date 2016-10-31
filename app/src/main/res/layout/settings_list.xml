@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/settings_left_panel" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/cl_cnxlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:descendantFocusability="afterDescendants"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white"
+                android:orientation="vertical" >
+				<View
+                    android:layout_height="1.5dp"
+                    style="@style/ConnectionLineSep"
+                    android:background="@color/settings_view_separator" >
+                </View>
+                <RelativeLayout
+                    android:id="@+id/cl_general_settings_layout"
+                    style="@style/SettingsLeftPaneList"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <TextView
+                        android:id="@+id/cl_general_settings"
+                        style="@style/SettingsLeftPaneListText"
+                        android:layout_width="wrap_content"
+                        android:layout_toRightOf="@+id/connectionsicon"
+                        android:layout_toEndOf="@+id/connectionsicon"
+                        android:text="@string/general_settings" >
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/arrow_general_settings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/settings_list_arrow_left"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:adjustViewBounds="true"
+        				android:scaleType="centerCrop"
+                        android:visibility="gone" />
+                </RelativeLayout>
+				<View
+                    android:id="@+id/cl_separator_dasboard"
+                    style="@style/ConnectionLineSep"
+                    android:background="@color/settings_view_separator" >
+                </View>
+                <!-- VIEWING OPTIONS -->
+
+                <RelativeLayout
+                    android:id="@+id/cl_viewing_options_layout"
+                    style="@style/SettingsLeftPaneList"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <TextView
+                        android:id="@+id/cl_view_opt"
+                        style="@style/SettingsLeftPaneListText"
+                        android:text="@string/viewing_options" >
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/arrow_view_opt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/settings_list_arrow_left"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:adjustViewBounds="true"
+        				android:scaleType="centerCrop"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                <View
+                    android:id="@+id/cl_separator_dasboard"
+                    style="@style/ConnectionLineSep"
+                    android:background="@color/settings_view_separator" >
+                </View>
+
+                <!-- QUICK HINTS -->
+
+                <RelativeLayout
+                    android:id="@+id/cl_quick_hints_layout"
+                    style="@style/SettingsLeftPaneList"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <TextView
+                        android:id="@+id/cl_quick_hints"
+                        style="@style/SettingsLeftPaneListText"
+                        android:text="@string/quick_hints" >
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/arrow_quick_hints"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/settings_list_arrow_left"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:adjustViewBounds="true"
+        				android:scaleType="centerCrop"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                <View
+                    android:id="@+id/cl_separator_dasboard"
+                    style="@style/ConnectionLineSep"
+                    android:background="@color/settings_view_separator" >
+                </View>
+
+                
+                <!-- LOGS -->
+
+                <RelativeLayout
+                    android:id="@+id/cl_logs_layout"
+                    style="@style/SettingsLeftPaneList"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <TextView
+                        android:id="@+id/cl_logs"
+                        style="@style/SettingsLeftPaneListText"
+                        android:text="@string/log" >
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/arrow_logs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/settings_list_arrow_left"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:adjustViewBounds="true"
+        				android:scaleType="centerCrop"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                <View
+                    android:id="@+id/cl_separator_dasboard"
+                    style="@style/ConnectionLineSep"
+                    android:background="@color/settings_view_separator" >
+                </View>
+
+                <!-- ABOUT -->
+
+                <RelativeLayout
+                    android:id="@+id/cl_about"
+                    style="@style/SettingsLeftPaneList"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <TextView
+                        android:id="@+id/txt_about"
+                        style="@style/SettingsLeftPaneListText"
+                        android:text="@string/about" >
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/arrow_about"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/settings_list_arrow_left"
+                        android:layout_marginRight="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:adjustViewBounds="true"
+        				android:scaleType="centerCrop"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/cl_separator_dasboard"
+                    style="@style/ConnectionLineSep"
+                    android:background="@color/settings_view_separator" >
+                </View>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

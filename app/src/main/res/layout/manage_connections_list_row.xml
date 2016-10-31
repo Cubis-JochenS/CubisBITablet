@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conlist_row_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_selector_white"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0px"
+        android:layout_height="60dp"
+        android:layout_weight="0.7">
+
+        <ImageView
+            android:id="@+id/checkmark"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            
+            android:layout_gravity="center_vertical"
+             >
+        </ImageView>
+
+        <LinearLayout
+        	android:layout_width="wrap_content"
+        	android:layout_height="54dp"
+        	android:gravity="center_vertical|left|start"
+            android:textAlignment="viewStart"
+        	android:orientation="vertical" >
+	        <TextView
+	            android:id="@+id/connname"
+	            style="@style/TextMedium.gridDoc"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_vertical|left|start"
+                android:textAlignment="viewStart"
+	            android:text="@+id/label"
+	            android:maxWidth="330dp"
+				android:ellipsize="end" 
+				android:singleLine="true"
+                android:paddingRight="7dp"
+                android:paddingEnd="7dp"
+	             >
+	        </TextView>
+	        <TextView
+	            android:id="@+id/defaultconn"
+	            android:textColor="@color/dimgrey"
+	            android:textSize="14sp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:gravity="center_vertical|left|start"
+                android:textAlignment="viewStart"
+	            android:visibility="gone"
+	            android:paddingTop="1dp"
+                android:paddingLeft="2dp"
+                android:paddingStart="2dp"
+	             >
+	        </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0px"
+        android:layout_height="60dp"
+        android:layout_weight="0.30"
+        android:gravity="right|end"
+        android:textAlignment="viewEnd"
+        >
+
+        <ImageView
+            android:id="@+id/secureconn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+             >
+        </ImageView>
+
+        <View
+            android:id="@+id/seperator"
+            android:layout_width="1dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="48dp"
+            android:background="@color/lightgrey" />
+
+        <ImageView
+            android:id="@+id/editconn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"       
+            android:layout_gravity="center_vertical"           
+            android:background="@drawable/edit_button_selector"
+            
+            >
+        </ImageView>
+    </LinearLayout>
+
+</LinearLayout>

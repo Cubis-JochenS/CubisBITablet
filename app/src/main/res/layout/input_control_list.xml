@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" 
+	android:background="@color/white">
+
+    <!-- header -->
+
+    <LinearLayout
+        android:id="@+id/filter_list_Header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.03"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/filter_list_title"
+            style="@style/TextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp"
+            android:textColor="@color/text_header" />
+
+        <View
+            android:id="@+id/filter_list_seperator"
+            style="@style/DialogTitleSeperator" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="0.94" >
+
+        <LinearLayout
+            android:id="@+id/pll_filter_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/filter_list_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.03"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/filter_list_footer_seperator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/filter_list_footer_seperator"
+                style="@style/DialogFooterSeperator" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/filter_list_buttonLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            >
+
+            <Button
+                android:id="@+id/filter_list_done"
+                style="@style/TextMedium"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.45"
+                android:background="@drawable/button_dialog"
+                android:text="@string/ok" />
+
+            <ImageView
+                android:id="@+id/filter_list_ver_seperator"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/text_subheader" />
+
+            <Button
+                android:id="@+id/filter_list_cancel"
+                style="@style/TextMedium"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.45"
+                android:background="@drawable/button_dialog"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

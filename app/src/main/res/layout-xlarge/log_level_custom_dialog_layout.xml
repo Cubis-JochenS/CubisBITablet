@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loglevel_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:orientation="vertical"
+	android:background="@color/white">
+
+
+    <!-- Content -->
+
+    <LinearLayout 
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/loglevel_header_text"
+            style="@style/TextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp"
+            android:text="@string/log_title"
+            android:textColor="@color/text_header" />
+
+        <View
+            android:id="@+id/seperator"
+            style="@style/DialogTitleSeperator" />
+
+        <TextView
+            android:id="@+id/log_text"
+            style="@style/TextMedium"
+            android:text="@string/log_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+        
+        <View
+		    android:id="@+id/seperator"
+			style="@style/DialogFooterSeperator"/>
+        
+    </LinearLayout>
+
+      <!-- Content -->
+    
+    <LinearLayout
+        android:id="@+id/loglevel_multi_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        >
+
+        <Button
+            android:id="@+id/loglevel_pos"
+            style="@style/TextMedium"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.45"
+            android:background="@drawable/button_dialog"
+            android:text="@string/toggle_yes" />
+
+        <ImageView
+            android:id="@+id/ver_seperator"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/text_subheader" />
+
+        <Button
+            android:id="@+id/loglevel_neg"
+            style="@style/TextMedium"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.45"
+            android:background="@drawable/button_dialog"
+            android:text="@string/toggle_no" />
+    </LinearLayout>
+   
+</LinearLayout>

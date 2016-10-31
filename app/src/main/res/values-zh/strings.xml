@@ -1,0 +1,2809 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+
+
+
+    <!-- XTXT: title for the launcher icon of app -->
+
+    <string name="app_name">"SAP BI"</string>
+
+    <!-- XMSG: message says on which android sdk the app is not supported -->
+
+    <string name="osnotsupported">"Android 4.4 或以上版本不支持此应用"</string>
+
+    <!-- XMSG: message says on which android sdk the app is not supported -->
+
+    <string name="osdeprecated">"Android 2.2 版本不支持此应用"</string>
+
+    <!-- XMSG: message says android api level less than 14 is not supported -->
+
+    <string name="oshoneycombnotsupported">"%1$s 应用与 Android OS 4.0 及以上版本兼容。"</string>
+
+    <!-- XBUT: Text for HOME Button -->
+
+    <string name="description_home">"本地"</string>
+
+    <!-- XMIT: Menu item for Search -->
+
+    <string name="description_search">"搜索"</string>
+
+    <!-- XTBS: Title for Browse Tab -->
+
+    <string name="browse">"浏览"</string>
+
+    <!-- XTBS,10: Title for Home Tab -->
+
+    <string name="home">"本地"</string>
+
+    <!-- XMSG: login -->
+
+    <string name="login">"登入"</string>
+
+    <!-- XTXT: Text for new instance of ConnectionListDialogFragment -->
+
+    <string name="add_new_cnx">"添加连接"</string>
+
+    <!-- XTXT: Text used for Import -->
+
+    <string name="import_txt">"导入"</string>
+
+    <!-- XTXT: Text used for Add connection -->
+
+    <string name="new_txt">"新建"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="alias">"别名"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="add_alias">"添加别名"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="enter_alias">"输入别名"</string>
+
+    <!-- XBUT: OK -->
+
+    <string name="ok">"确定"</string>
+
+    <!-- XBUT: cancel -->
+
+    <string name="cancel">"取消"</string>
+
+    <!-- XBUT: XCPin -->
+
+    <string name="xc_pin_unpin">"固定/解除固定"</string>
+
+    <!-- XBUT: FitToScreen -->
+
+    <string name="xc_fit_to_screen">"适合屏幕"</string>
+
+
+
+    <!-- XBUT: Done -->
+
+    <string name="done">"完成"</string>
+
+    <!-- XBUT: Previous -->
+
+    <string name="previous">"上一步"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_instance_title">"查看文档实例"</string>
+
+    <!-- XHED: heading for Categories -->
+
+    <string name="categories">"类别"</string>
+
+    <!-- XHED: heading for Search Results -->
+
+    <string name="searchresults">"搜索结果"</string>
+
+    <!-- XHED: heading for Dailog while sending an email -->
+
+    <string name="send_options">"通过以下方式发送屏幕截图："</string>
+
+    <!-- XHED: heading for Dialog while sending an email to share connection -->
+
+    <string name="send_cnx_options">"通过以下方式共享连接："</string>
+
+    <!-- XBUT: Skip -->
+
+    <string name="skip">"跳过"</string>
+
+    <!-- XHED: heading for Sample Documents -->
+
+    <string name="sampledoc_header">"示例文档"</string>
+
+    <!-- XTXT -->
+
+    <string name="create_new_cnx_desc1">"并浏览文档。"</string>
+
+    <!-- XTXT -->
+
+    <string name="create_new_cnx_desc2">"您也可以通过“设置”屏幕执行此操作。"</string>
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    <!-- Build number format is YYMM fo  every release year-month -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XBUT: Accept buttion in Eula Screen -->
+
+    <string name="eula_accept">"接受"</string>
+
+    <!-- XBUT: Reject buttion in Eula Screen -->
+
+    <string name="eula_reject">"拒绝"</string>
+
+    <!-- XHED: Heading for Eula Screen -->
+
+    <string name="eula_title">"最终用户许可协议"</string>
+
+    <string name="eula_mobi_updates"/>
+
+
+
+    <!-- Menu options for annotations -->
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="paint">"绘图"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="erase">"擦除"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="customview">"自定义视图"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="crop">"裁剪"</string>
+
+    <!-- XMIT : menu item  used to blur the image -->
+
+    <string name="blur">"模糊化"</string>
+
+    <!-- XTXT -->
+
+    <string name="record">"录制语音备忘录"</string>
+
+    <!-- XTXT -->
+
+    <string name="recording">"正在录制..."</string>
+
+    <!-- XTXT -->
+
+    <string name="not_recording">"录制准备就绪..."</string>
+
+    <!-- XTXT -->
+
+    <string name="playing">"正在播放..."</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_deleted">"录制的文件已删除。"</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_attached">"录制的文件将附加到电子邮件。"</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_not_attached">"未附加任何录制的文件。"</string>
+
+    <!-- XMSG: message for indicating if orientation was locked -->
+
+    <string name="orientation_lock">"方向已锁定！！为报表加标注时不能更改设备方向。"</string>
+
+    <!-- XMSG: message for indicatiing if orientation was locked -->
+
+    <string name="orientation_unlock">"方向已解锁"</string>
+
+    <!-- XLST: Edit -->
+
+    <string name="annotations">"标注"</string>
+
+    <!-- XHED: Heading for ImageEditor -->
+
+    <string name="imageeditor_title">"图像编辑器"</string>
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- choose color to Paint which comes in the menu -->
+
+    <!-- XMIT : menu item  for white color -->
+
+    <string name="white">"白色"</string>
+
+    <!-- XMIT : menu item  for black color -->
+
+    <string name="black">"黑色"</string>
+
+    <!-- XMIT : menu item  for red color -->
+
+    <string name="red">"红色"</string>
+
+    <!-- XMIT : menu item  for Blue color -->
+
+    <string name="blue">"蓝色"</string>
+
+    <!-- XMIT : menu item  for Green color -->
+
+    <string name="green">"绿色"</string>
+
+    <!-- XMIT : menu item  for Yellow color -->
+
+    <string name="yellow">"黄色"</string>
+
+
+
+    <!-- Menu options -->
+
+    <!-- XMIT : menu item  used to add the document to home tab -->
+
+    <string name="add_home">"添加到本地"</string>
+
+    <!-- XMSG:title of create personal view fragment -->
+
+    <string name="pv_create_title">"保存视图"</string>
+
+    <!-- XMIT: category for Personal view -->
+
+    <string name="personal_view_category">"个人视图"</string>
+
+     <!-- XMIT: menu item used to create Personal view in the document -->
+
+    <string name="personal_view_create">"个人视图"</string>
+
+    <!-- XTXT menu item used to create Personal view Name -->
+
+    <string name="pv_name">"个人视图名称"</string>
+
+    <!-- XTXT menu item used to create Personal view Description -->
+
+    <string name="pv_description">"个人视图描述"</string>
+
+    <!-- XMIT: menu item used to refresh the document -->
+
+    <string name="refresh">"刷新"</string>
+
+    <!-- XMIT: menu item used for filters in the document -->
+
+    <string name="filter_menu">"筛选"</string>
+
+    <!-- XMIT: menu item used for filters for report parts -->
+
+    <string name="report_part_filter_menu">"报表部件过滤"</string>
+
+    <!-- XMIT: menu item used to send the screenshot of the report through email -->
+
+    <string name="email_menu">"电子邮件"</string>
+
+    <!-- XMIT: menu item used to switch between list and grid views for tablets  with action bar -->
+
+    <string name="grid_menu">"网格"</string>
+
+    <!-- XMIT: menu item used to switch between list and grid views for phone devices where custom title bar is used -->
+
+    <string name="change_view">"更改视图"</string>
+
+    <string name="xc_hideToolBar">"隐藏工具栏"</string>
+
+    <string name="xc_fitToScreen">"适合屏幕"</string>
+
+    <!-- XMIT: menu item used to indicate sections in report -->
+
+    <string name="sections">"区块"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="existing_conn_header">"现有连接"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="tap_to_connect">"轻按以连接"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="more">"更多信息"</string>       
+
+    <!-- Doc info related strings -->
+
+    <!-- XTXT: name of the textView which displays name of the document -->
+
+    <string name="name">"名称"</string>
+
+    <!-- XHED: heading for the dailog which displays document information -->
+
+    <string name="doc_info_header">"文档信息"</string>
+
+    <!-- XTXT: name of the textView which displays author of the document -->
+
+    <string name="author">"作者"</string>
+
+    <!-- XTXT: name of the textView which displays parent doc name personal view doc -->
+
+    <string name="parent_doc_name">"父文档名称"</string>
+
+    <!-- XTXT: name of the textView which displays sender of the document -->
+
+    <string name="sender">"发送方"</string>
+
+    <!-- XTXT: name of the textView which displays downloaded date&time of the document -->
+
+    <string name="downloaded_at">"下载时间"</string>
+
+    <!-- XTXT: name of the textView which displays the last modified date&time of the document -->
+
+    <string name="modified_at">"修改时间"</string>
+
+    <!-- XTXT: name of the textView which displays the last sent at date&time of the document -->
+
+    <string name="sent_at">"发送时间"</string>
+
+    <!-- XTXT: name of the textView which displays description of the document -->
+
+    <string name="description">"描述"</string>
+
+    <!-- XTXT: name of the textView which displays deletion date&time  of the document -->
+
+    <string name="document_delete">"文档将删除于"</string>
+
+
+
+    <!-- Quick Action options -->
+
+    <!-- XBUT: used to open a document in quick actions -->
+
+    <string name="view">"查看"</string>
+
+    <!-- XBUT: used to update the document in quick actions -->
+
+    <string name="update">"更新"</string>
+
+    <!-- XBUT: used to view an instance of the document in quick actions -->
+
+    <string name="view_instance">"查看实例"</string>
+
+    <!-- XBUT: used to view the document information in quick actions -->
+
+    <string name="info">"信息"</string>
+
+    <!-- XBUT: used to remove the document in quick actions -->
+
+    <string name="remove_document">"从设备中移除"</string>
+
+    <!-- XBUT: used to add  the document to home tab in quick actions -->
+
+    <string name="add_to_device">"添加到设备"</string>
+
+    <!-- XTXT: used to show remaining days before expire the document -->
+
+    <string name="days">"天"</string>
+
+    <!-- XTXT: used to show one day to expire the document-->
+
+    <string name="day">"天"</string>
+
+    <!--XFLD: document quick info popup field for author  -->
+
+	<string name="authored_by">"作者"</string>
+
+	<!--XFLD: document quick info popup field for Expire date  -->
+
+	<string name="expires_in">"有效期："</string>
+
+
+
+
+
+    <!-- <string name="eula_mobi_updates">&lt;b>&lt;u>bold, underline &lt;/u>&lt;/b></string> -->
+
+    <!-- Create, Edit or Import Connection -->
+
+    <!-- XFLD:field for Connection Server URL -->
+
+    <string name="connection_server_URL">"连接服务器 URL"</string>
+
+    <!-- XTXT: "http://" is appended to the mobile server details entered by the user -->
+
+    <string name="url_start_string">"http://"</string>
+
+    <!-- XTXT -->
+
+    <string name="connection">"新连接"</string>
+
+    <!-- XMSG -->
+
+    <string name="enter_valid_url">"请输入有效 URL"</string>
+
+    <!-- XBUT:SAP BI Application password Reset -->
+
+    <string name="reset_cmd">"重置"</string>
+
+    <!-- XBUT:Share connection details -->
+
+    <string name="share_connection">"共享"</string>
+
+    <!-- XBUT:SAP BI Application password Save -->
+
+    <string name="save_cmd">"保存"</string>
+
+    <!-- XFLD:field for Save Password by choosing yes or no -->
+
+    <string name="save_password">"保存密码"</string>
+
+    <!-- XFLD:field for Additional Credentials by choosing yes or no -->
+
+    <string name="additional_authcred">"附加验证凭据"</string>
+
+    <!-- XFLD:field for enterting the CMS -->
+
+    <string name="cms">"CMS"</string>
+
+    <!-- XFLD:field for Mobile Server URL -->
+
+    <string name="mobile_server_URL">"移动服务器 URL"</string>
+
+    <!-- XTXT:default text to appear where the user has to enter the mobile server url -->
+
+    <string name="enter_server_url">"输入服务器 URL"</string>
+
+    <!-- XHED:used as dailog title  where you can choose a connection -->
+
+    <string name="choose_connection">"选择连接"</string>
+
+    <!-- XTXT:default text appears in the mandatory fields which needs to be entered by the user -->
+
+    <string name="required">"必填"</string>
+
+    <!-- XFLD:field for enetring the Connection Name -->
+
+    <string name="connection_name">"连接名称"</string>
+
+    <!-- XFLD:field for entering the USer Name -->
+
+    <string name="user_name">"用户名"</string>
+
+    <!-- XFLD:field for selecting Authentication Types -->
+
+    <string name="auth_type">"验证类型"</string>
+
+    <!-- XFLD:field for Remember Password -->
+
+    <string name="remember_pwd">"记住密码"</string>
+
+    <!-- XFLD:field for setting this connection as Default Connection by choosing Yes or No -->
+
+    <string name="set_as_default">"缺省连接"</string>
+
+    <!-- XMSG:msg displayed on click of import in offline mode -->
+
+    <string name="offline_connection">"无法在离线模式下导入连接"</string>
+
+    <!-- XMSG:msg displayed on click of drill on snapshot -->
+
+    <string name="snapshot_drill">"未保存此细分操作"</string>
+
+    <!-- XMSG:msg displayed on click of hierarchy on snapshot -->
+
+    <string name="snapshot_hierarchy">"不支持对个人视图文档执行层次结构操作"</string>
+
+    <!-- XMSG:msg displayed on click of REL on snapshot -->
+
+    <string name="snapshot_rel">"不支持对个人视图文档执行报表元素链接操作"</string>
+
+    <!-- XMSG:msg displayed on click of opendoc on snapshot -->
+
+    <string name="snapshot_opendoc">"不支持对个人视图文档执行“打开文档 URL”操作"</string>
+
+    <!-- XMSG:msg displayed if the personal view name exists -->
+
+    <string name="snapshot_name_exists">"指定其他名称；另一个人视图已使用此名称"</string>
+
+    <!-- XMSG:msg displayed while drilling -->
+
+    <string name="drill_from">"从"</string>
+
+    <!-- XLST: Edit -->
+
+    <string name="edit">"编辑"</string>
+
+    <!-- XLST:Delete -->
+
+    <string name="delete">"删除"</string>
+
+    <!-- XLST:Deregister -->
+
+    <string name="deregister">"取消注册"</string>
+
+    <!-- XLFD:field for Password -->
+
+    <string name="password">"密码"</string>
+
+
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    
+
+
+
+    <!-- Settings List Fragment elements -->
+
+    <!-- XHED: used as title for dailog for Edit and Delete -->
+
+    <string name="connection_options">"选项"</string>
+
+    <!-- XTXT -->
+
+    <string name="display_help_page">"显示帮助页面"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_doc">"查看文档"</string>
+
+    <!-- XMSG -->
+
+    <string name="generic_error">"无法处理请求；请稍后重试。"</string>
+
+    <!-- XMSG -->
+
+    <string name="mesg_already_downloaded">"此文档已下载"</string>
+
+     <!-- XMSG -->
+
+    <string name="mesg_document_downloading">"已触发文档下载。"</string>
+
+     <!-- XMSG -->
+
+    <string name="mesg_download_in_progress">"无法执行操作；正在进行下载"</string>
+
+    <!-- XMSG -->
+
+    <string name="unknown_document_type">"所选文档类型未知。"</string>
+
+    <!-- XMSG -->
+
+    <string name="doc_metadata_not_found">"未找到文档信息。"</string>
+
+    <!-- XMSG -->
+
+    <string name="save_error_string">"请在必填字段输入相应信息"</string>
+
+    <!-- XMSG -->
+
+    <string name="cnx_name_already_exists">"此连接名称已存在"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_filters_saved">"未保存过滤器"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="doc_not_found">"无法打开文档"</string>
+
+    <!-- XMSG -->
+
+    <string name="unable_to_drill">"无法钻取文档"</string>
+
+    <!-- XMSG -->
+
+    <string name="document_no_category">"未将任何移动应用类别分配到文档"</string>
+
+
+
+    <!-- Progress Dialog messages -->
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_opening_document">"正在打开文档..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_opening_report">"正在打开报表..."</string>
+
+     <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_downloading_pending_reports">"正在下载。请稍候..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_syncing_with_server">"正在与服务器同步..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_processing_data">"正在处理数据..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_getting_prompts">"正在获取提示..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_filtering_document">"正在过滤文档..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_clearing_filters">"正在清除过滤器..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_prompt_document">"正在将提示应用到文档..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_lov_document">"正在获取值列表..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_getting_content">"正在从服务器接收内容..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_dowloading_document_offline">"正在将文档下载到本地..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_logoff">"正在注销；请稍候..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <!-- XMSG: message for XC Downloading dialogs -->
+
+    <string name="mesg_xcelsius_initialize">"正在初始化"</string>
+
+    <string name="mesg_xcelsius_load">"正在加载"</string>
+
+    <string name="mesg_xcelsius_documentuncompatible">"链接文档与当前应用不兼容，无法显示"</string>
+
+    <!-- XMSG: message for XC Loading dialogs -->
+
+    <string name="pg_show_server_call">"正在从服务器获取详细信息..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_drill_up_document">"正在向上钻取..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_drill_down_document">"正在向下钻取..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="register_with_sup">"正在使用 SUP 注册..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="deregister_with_sup">"正在使用 SUP 取消注册..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_mesg">"正在登入；请稍候..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_mesglist">"正在列出文档..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="refresh_mesg">"正在刷新文档列表..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_refresh_document">"正在刷新文档..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_add_home">"正在将文档下载并添加到本地..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_insatance">"正在检索最新实例..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_update">"正在更新文档..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="loading">"正在加载..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_string">"正在连接"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="wait_string">"..."</string>
+
+    <!-- XMSG: message for indicatiing if SUP registration was successful -->
+
+    <string name="registration_success">"注册成功"</string>
+
+    <!-- XMSG: message for indicatiing if SUP deregistration was successful -->
+
+    <string name="deregistration_success">"取消注册成功"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_sorting_document">"正在排序文档..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_remove_sort_document">"正在移除排序..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_refresh_lov_document">"正在刷新值列表..."</string>
+
+    <!-- Dialog and Toast messages -->
+
+    <!-- XMSG -->
+
+    <string name="view_instance_download_message">"是否下载最新实例？"</string>
+
+    <!-- XMSG: A multi-line message -->
+
+    <string name="no_connections">"未定义任何连接。\n \n要创建新连接，请转到： \n菜单 &gt; 设置 &gt; 连接"</string>
+
+    <!-- XMSG -->
+
+    <string name="network_notification_disconnected">"网络不可用；是否在离线模式下工作？"</string>
+
+    <!-- XMSG -->
+
+    <string name="network_notification_connected">"网络可用；是否在在线模式下工作？"</string>
+
+    <!-- XMSG -->
+
+    <string name="first_time_work_offline">"要在离线模式下访问内容，请先登入服务器一次"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_logout_1">"此操作将注销您在以下服务器上的登录："</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_logout_2">"是否继续？"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_connection">"是否要删除所选连接 %1$s？"</string>
+
+    <!-- XMSG -->
+
+    <string name="add_existing_connection">"此连接已存在"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_all_connection">"是否删除所有连接？"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_document">"是否删除文档："</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_conn_connected">"无法删除连接；请登出，然后重试"</string>
+
+    <!-- XMSG -->
+
+    <string name="add_conn_connected">"用户登入期间无法添加连接；请登出，然后重试"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_conn">"不存在任何连接"</string>
+
+    <!-- XMSG -->
+
+    <string name="modify_conn_connected">"无法修改连接；请登出，然后重试"</string>
+
+    <!-- XMSG -->
+
+    <string name="modify_connection">"修改连接"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_conn_notexisting">"连接不存在"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_save_password">"是否确定要保存密码？"</string>
+
+    <!-- XMSG -->
+
+    <string name="refresh_confirm_msg">"刷新将删除文档的当前上下文"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_deregister">"是否从 SUP 取消注册？"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_connection">"删除连接"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_document">"删除文档"</string>
+
+    <!-- XMSG -->
+
+    <string name="basic_auth">"需要身份验证"</string>
+
+    <!-- XMSG -->
+
+    <string name="cert_auth_cancelled">"已取消证书验证"</string>
+
+    <!-- XMSG -->
+
+    <string name="savepasswordforms">"由于管理员设置的安全策略，您的内容管理系统密码未保存"</string>
+
+    <!-- XMSG -->
+
+    <string name="lov_error">"无法从服务器获取值列表；如果问题仍存在，请联系您的管理员"</string>
+
+    <!-- XMSG -->
+
+    <string name="offline_filter">"无法在离线模式下执行此操作"</string>
+
+    <!-- XMSG -->
+
+    <string name="download_failed">"无法保存文档"</string>
+
+    <!-- XMSG -->
+
+    <string name="prompt_error">"尚未输入任何必填提示"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_active_connection_available">"要执行此操作，您需要一个活动连接"</string>
+
+    <!-- XMSG -->
+
+    <string name="document_inforation_not_available">"文档信息不可用。 可能当前没有活动连接，或该文档不在移动类别中。"</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc">"无法保存文档"</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc_connection_not_available">"文档无法保存。 可能当前没有活动连接，或该文档不在移动类别中。"</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc_generic_error">"无法保存文档。已出现常规错误。"</string>
+
+    <!-- XMSG -->
+
+    <string name="sup_register_success">"已注册成功"</string>
+
+    <!-- XMSG -->
+
+    <string name="sup_deregister_success">"取消注册成功"</string>
+
+    <!-- XMSG -->
+
+    <string name="personal_view_size_exceeding">"空间不足，无法保存；可通过删除现有个人视图或在“设置”中增加存储容量来增加空间。"</string>
+
+	<!-- XMSG -->
+
+    <string name="msg_added_to_favourite">"已添加到收藏夹"</string>
+
+    
+
+    <!-- Settings options -->
+
+     <!-- XLST: General Settings -->
+
+    <string name="general_settings">"常规设置"</string>
+
+    <!-- XLST: connections -->
+
+    <string name="connections">"连接"</string>
+
+    <!-- XLST: Network Options -->
+
+    <string name="network">"网络选项"</string>
+
+    <!-- XLST: SAP BI Application Password -->
+
+    <string name="app_pwd">"输入应用程序密码"</string>
+
+    <!-- XLST: Viewing Options -->
+
+    <string name="viewing">"查看选项"</string>
+
+    <!-- XLST: Logs -->
+
+    <string name="log">"日志"</string>
+
+    <!-- XLST: xc setting -->
+
+    <string name="xc_setting">"仪表盘设置"</string>
+
+    <!-- XLST: Legal -->
+
+    <string name="legal">"合法"</string>
+
+    <!-- XLST: personal_view -->
+
+    <string name="personal_view">"个人视图存储"</string>
+
+    <!-- XLST: memused -->
+
+    <string name="mem_used">"已用 0 MB（共 100 MB）"</string>
+
+
+
+    <!-- XLST: dashboard settings -->
+
+    <string name="dashboard">"仪表盘设置"</string>
+
+    <!-- XLST:Personal View Storage -->
+
+    <string name="per_view_storage">"个人视图存储"</string>
+
+    <!-- XLST:Personal View Storage Limit -->
+
+    <string name="limit">"限制"</string>
+
+
+
+    <!-- XLST: Personal View storage settings -->
+
+    <string name="pv_setting">"个人视图设置"</string>
+
+    <!-- XLST: Personal View storage Limit option -->
+
+    <string name="pv_setting_limit_none">"无"</string>
+
+    <!-- XLST: Offline Dataset Number -->
+
+    <string name="xc_offline_dataset">"离线数据集数量"</string>
+
+    <!-- XLST: SDK Offline storage -->
+
+    <string name="xc_sdk_storage">"软件开发工具包离线存储"</string>
+
+    <!-- XLST: Personal View Memory Usage Text -->
+
+    <string name="pv_mem_usage">"（已用 %1$s/%2$s）"</string>
+
+    <!-- XLST: about -->
+
+    <string name="about">"关于"</string>
+
+    <!-- XLST: Quick Hints -->
+
+    <string name="quick_hints">"快速提示"</string>
+
+    <!-- XHED: heading for connections related items in the settings screeen -->
+
+    <string name="connection_related">"连接相关"</string>
+
+    <!-- XHED: heading for Application related items in the settings screeen -->
+
+    <string name="application_related">"应用相关"</string>
+
+
+
+    <!-- Connection Settings Options -->
+
+    <!-- XHED: heading for the list which gaves different ways to create connections -->
+
+    <string name="my_connections">"连接"</string>
+
+    <!-- XLST: Existing Connections -->
+
+    <string name="exist_conn">"现有连接"</string>
+
+    <!-- XLST: Creat New Connection Manually -->
+
+    <string name="create_new_cnx">"创建新连接"</string>
+
+    <!-- XLST: Creat New Connection Manually -->
+
+    <string name="edit_cnx">"编辑连接"</string>
+
+    <!-- XLST: Import Connection from server by mentioning mobile server url -->
+
+    <string name="import_cnx">"使用 URL 导入"</string>
+
+    <!-- XLST: SUP Connection -->
+
+    <string name="sup_connection">"SUP 连接"</string>
+
+    <!-- XLST: SMP Connection -->
+
+    <string name="smp_connection">"SMP 连接"</string>
+
+    <!-- XLST: SMP Cloud Connection -->
+
+    <string name="smpcloud_connection">"SMP 云连接"</string>
+
+    <!-- XTXT: used to show below the connection name if it is not connected -->
+
+    <string name="not_connected">"连接"</string>
+
+    <!-- XTXT: used to show below the connection name  if it is connected -->
+
+    <string name="connected">"已连接"</string>
+
+    <!-- XTXT: used to show below the connection if it is set as default connection -->
+
+    <string name="default_connection">"（缺省）"</string>
+
+
+
+    <!-- SSO Strings -->
+
+
+
+
+
+    <!-- XMSG: sso Login -->
+
+    <string name="Login_credentials">"用户凭据"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="Reselect">"重新选择"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_authentication">"验证"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_Certificate_Title">"证书错误"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_Mandatory_certifcate">"进行此连接必须具有证书"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certificate_invalid">"所选证书可能无效或已损坏；要执行什么操作？"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certiifcate_unavailable">"没有为 SAP BusinessObjects Mobile 安装任何证书；要执行什么操作？"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certificate_not_required">"如何登入连接"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_unauthorised_connection_sso">"单点登录已禁用离线访问"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_certificate">"启用单点登录（选择证书）"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_cookie_Based">"已启用单点登录"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_authenticate_at_logon">"登录时验证"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_cookie_enabled">"启用 Cookie"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_reauthenticate_at_logon">"登录时重新验证"</string>
+
+
+
+    <!-- Network Settings Options -->
+
+    <!-- XHED: heading for the list which gaves Network Options -->
+
+    <string name="network_options">"网络选项"</string>
+
+    <!-- XLST: choose to WorkOffline vy selecting yes or no -->
+
+    <string name="work_offline">"离线工作"</string>
+
+     <!-- XMSG: auto update -->
+
+    <string name="bi_auto_update">"自动更新"</string>
+
+    <!-- XMSG: auto update with wifi-->
+
+    <string name="bi_auto_update_wiFi">"仅通过 Wi-Fi 更新"</string>
+
+    <!-- XMSG: auto update with wifi and cellular dats-->
+
+    <string name="bi_auto_update_Wifi_and_Cellular">"通过 Wi-Fi 和蜂窝数据更新"</string>
+
+    <!-- to be removed Later -->
+
+    <!-- XHED: heading for Offline Alert Dailog -->
+
+    <string name="offline_alert">"离线警报"</string>
+
+
+
+    <!-- Viewing Options -->
+
+    <!-- XHED: heading for the list which gaves Viewing Options -->
+
+    <string name="viewing_options">"文档查看选项"</string>
+
+    <!-- XHED: Select Theme -->
+
+    <string name="select_theme">"选择主题"</string>
+
+    <!-- Theme text -->
+
+    <!-- XLST:  sets the Ivory Theme -->
+
+    <string name="ivory">"象牙白"</string>
+
+    <!-- XLST: sets the Graphite Theme -->
+
+    <string name="graphite">"石墨黑"</string>
+
+
+
+    <!-- About -->
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XFLD: Version info in splash screen -->
+
+    <string name="version">"版本："</string>
+
+    <!-- XFLD: Build info in splash screen -->
+
+    <string name="build">"构建："</string>
+
+
+
+    <!-- Quick Hint related strings -->
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickref_launch_text">"欢迎使用 "<b>"SAP BusinessObjects Mobile"</b>"。 此快速提示向导将为您介绍该应用的使用方法。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt1"><b>"长按"</b>"所需文档可访问上下文菜单。 "<b>"轻按"</b>"选项可执行所需操作。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt2"><b>"轻按"</b>"页面指示器可查看页面导航滑块。 在智能手机上，您也可以使用拖动条来实现此目的。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt3"><b>"双击"</b>"图表或"<b>"单击"</b>"表（含蓝色文本）可钻取。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt4"><b>"双击"</b>"表列标题可访问"<i>"表操作"</i>"。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt5"><b>"轻按"</b>"该图标可对报表部分执行所需操作。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt6">"选择"<i>"表操作"</i>"可执行重新排序、冻结/取消冻结或隐藏/取消隐藏列或行等任务。"</string>
+
+    <string name="quickeref_txt7"><b>"轻按"</b><i>"区块"</i>"图标可访问该报表中的可用区块选项。"</string>
+
+    <string name="quickeref_txt8">"在"<i>"区块"</i>"弹出框中，"<b>"轻按"</b>"单选按钮可查看报表的区块信息，或"<b>"轻按"</b>"箭头可查看报表的下级信息。"</string>
+
+    <string name="quickeref_txt9"><b>"轻按"</b><i>"共享"</i>"图标后选择"<i>"标注"</i>"可在共享之前为报表加标注。"</string>
+
+    <string name="quickeref_txt10"><b>"拖动"</b>"模糊化滑块可在共享之前使报表失真。"</string>
+
+    <string name="quickeref_txt11"><b>"轻按"</b>"每个兴趣点 (POI) 可查看关联值。"</string>
+
+    <string name="quickeref_txt12"><b>"轻按"</b>"值可查看详细信息。"</string>
+
+    <string name="quickeref_txt13"><b>"轻按"</b>"箭头可在表的层次结构数据之间导航。"</string>
+
+    <string name="quickeref_txt14">"在“提示产品层次结构”弹出框中，"<b>"轻按"</b>"箭头可在层次结构中导航选择提示值。"</string>
+
+    <string name="quickeref_txt15"><b>"轻按"</b><i>"显示/隐藏"</i>"图标可在查看仪表盘时访问操作栏。"</string>
+
+    <string name="quickeref_txt16"><b>"轻按"</b><i>"固定"</i>"图标可在查看仪表盘时锁定操作栏。"</string>
+
+
+
+    <!-- XCKL -->
+
+    <string name="quickref_checkbox_text">"不再显示"</string>
+
+    <!-- XBUT: Skip -->
+
+    <string name="quickref_skipbutton_text">"跳过"</string>
+
+    <!-- XBUT: Exit -->
+
+    <string name="quickref_exitbutton_text">"退出"</string>
+
+    <!-- XBUT: Show Quick Hints -->
+
+    <string name="quickref_launchbutton_text">"显示快速提示"</string>
+
+
+
+    <!-- Legal Information -->
+
+    <!-- XLST: Legal information -->
+
+    <string name="mobi_legal">"法律信息"</string>
+
+    <!-- EULA Updates if any Goes here -->
+
+    <!-- XMSG: Eula Agreement Terms and Conditions -->
+
+    
+
+    <!-- Log Settings -->
+
+    <!-- XHED: heading for log settings -->
+
+    <string name="log_title">"日志设置"</string>
+
+    <!-- XMSG: for enabling the logs -->
+
+    <string name="log_message">"是否确定要启用日志？"</string>
+
+    <!-- XLST: Send Log File -->
+
+    <string name="log_sendlog">"发送日志文件"</string>
+
+    <!-- XLST: clear Log -->
+
+    <string name="log_clearlog">"清除日志"</string>
+
+     <!-- XLST: view log -->
+
+    <string name="view_log">"查看日志"</string>
+
+     <!-- XLST: empty log -->
+
+    <string name="empty_log">"无可用日志"</string>
+
+    
+
+
+
+    <!-- XMSG -->
+
+    <string name="log_nologs_exists">"日志已清除"</string>
+
+    <!-- XMSG -->
+
+    <string name="log_nologs_tosend">"没有可发送的日志"</string>
+
+    <!-- XTXT -->
+
+    <string name="log_mail_subject">"移动应用日志记录器文件"</string>
+
+    <!-- XMSG -->
+
+    <string name="log_clear_logs_confirm">"是否确定要清除日志？"</string>
+
+    <!-- XLST: Enable Logs -->
+
+    <string name="log_enable">"启用日志"</string>
+
+    <!-- Browse Tab Connection Strings -->
+
+    <!-- XHED: heading in the browse tab when there are no connections -->
+
+    <string name="noconnections">"无连接"</string>
+
+    <!-- XLST: showed in the browse tab to create connection when there are no connections -->
+
+    <string name="create_connection">"创建连接以查看文档"</string>
+
+    <!-- XLST: showed in the browse tab to establish connection when you are not connected -->
+
+    <string name="establish_connection">"建立连接以下载文档"</string>
+
+
+
+    <!-- Table Header Options -->
+
+    <!-- XTXT -->
+
+    <string name="freeze">"冻结"</string>
+
+    <!-- XTXT -->
+
+    <string name="hide">"隐藏"</string>
+
+    <!-- XTXT -->
+
+    <string name="wrap">"换行"</string>
+
+    <!-- XTXT -->
+
+    <string name="unfreeze">"解冻"</string>
+
+    <!-- XTXT -->
+
+    <string name="unhide_all">"全部取消隐藏"</string>
+
+    <!-- XTXT -->
+
+    <string name="unwrap">"取消换行"</string>
+
+    <!-- XTXT -->
+
+    <string name="row">"行"</string>
+
+    <!-- XTXT -->
+
+    <string name="column">"列"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_up">"向上钻取至"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_down">"向下钻取至"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort_asc">"升序"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort_desc">"降序"</string>
+
+    <!-- XTXT -->
+
+    <string name="remove_sort">"移除排序"</string>
+
+    <!-- Hierarchical Navigations Options -->
+
+    <!-- XTXT -->
+
+    <string name="drill_focus_in">"向内钻取焦点"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_focus_out">"向外钻取焦点"</string>
+
+    <!-- XTXT -->
+
+    <string name="expand_all">"全部展开"</string>
+
+    <!-- XTXT -->
+
+    <string name="collapse_all">"全部折叠"</string>
+
+    <!-- XTXT -->
+
+    <string name="apply_filter">"应用过滤器"</string>
+
+    <!-- XTXT -->
+
+    <string name="edit_filter">"编辑过滤器"</string>
+
+    <!-- XTXT -->
+
+    <string name="remove_filter">"移除过滤器"</string>
+
+
+
+    <!-- Create SUP Connection -->
+
+    <!-- XHED: heading for Sup configuration section -->
+
+    <string name="sup_configaration">"SUP 配置"</string>
+
+    <!-- XBUT: Register -->
+
+    <string name="sup_register">"注册"</string>
+
+    <!-- XBUT: Deregister -->
+
+    <string name="sup_deregister">"取消注册"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_instructedbyadmin">"仅当您的管理员要求更改以上各值时才可以进行更改"</string>
+
+    <!-- XHED: heading for sup server details section -->
+
+    <string name="sup_serverdetail">"SUP 服务器详细信息"</string>
+
+    <!-- XHED: heading for sup Access details section -->
+
+    <string name="sup_accessdetail">"访问详细信息"</string>
+
+
+
+    <!-- SUP Error Messages -->
+
+    <!-- XTXT -->
+
+    <string name="sup_error_authentication">"验证错误"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_mobile_client">"移动客户端中出错！"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_HTTP">"HTTP 错误"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_network">"网络连接出错"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_parse">"解析服务器响应时出错"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_unknown">"未知错误。"</string>
+
+
+
+    <!-- Sorting Options -->
+
+    <!-- XTXT -->
+
+    <string name="today">"今天"</string>
+
+    <!-- XTXT -->
+
+    <string name="yesterday">"昨天"</string>
+
+    <!-- XTXT -->
+
+    <string name="thisweek">"本周"</string>
+
+    <!-- XTXT -->
+
+    <string name="thismonth">"本月"</string>
+
+    <!-- XTXT -->
+
+    <string name="older">"更早"</string>
+
+    <!-- XLST: sets the sort order by Category -->
+
+    <string name="category">"类别"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample">"示例"</string>
+
+    <!-- XLST: sets the sort order by date -->
+
+    <string name="date">"日期"</string>
+
+    <!-- XLST: sets the sort order by date -->
+
+    <string name="date_modified">"修改日期"</string>
+
+    <!-- XLST: sets the sort order by Title -->
+
+    <string name="title">"标题"</string>
+
+    <!-- XLST: sets the sort order by Title -->
+
+    <string name="document_title">"文档标题"</string>
+
+    <!-- XLST: sets the sort order by Author -->
+
+    <string name="author1">"作者"</string>
+
+    <!-- XTXT -->
+
+    <string name="group_reports_by">"报表分组依据："</string>
+
+    <!-- XTXT -->
+
+    <string name="sorting_order">"排序顺序"</string>
+
+    <!-- XTXT -->
+
+    <string name="show_downloaded">"仅显示下载的报表"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort">"排序"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="temp_file_extension">"_temp"</string>
+
+    <!-- XTXT -->
+
+    <string name="instance_file_extension">"_instance"</string>
+
+    <!-- XTXT: appears in the search box -->
+
+    <string name="search_hint">"搜索"</string>
+
+    <!-- XTXT: for creating input dialog fragment -->
+
+    <string name="input_control">"过滤器"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_values">"选择值"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="type_value">"类型值"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="input_control_title">"过滤器：选择值"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_value">"选择值"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_date">"选择日期"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="all_values">"所有值"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="gridview">"网格"</string>
+
+    <!-- XTXT -->
+
+    <string name="listview">"列表"</string>
+
+    <!-- XTXT -->
+
+    <string name="grid_view">"网格视图"</string>
+
+    <!-- XTXT -->
+
+    <string name="list_view">"列表视图"</string>
+
+    <!-- XTXT -->
+
+    <string name="success">"成功"</string>
+
+    <!-- XTXT -->
+
+    <string name="failure">"失败"</string>
+
+    <!-- XTXT: used in custom title bar to select the report -->
+
+    <string name="report_list">"报表"</string>
+
+    <!-- XTXT -->
+
+    <string name="report_part_menu">"菜单"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_values">"提示"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_add_values">"添加值"</string>
+
+    <!-- XMSG -->
+
+    <string name="session_timeout">"会话已超时"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_available">"：更新可用"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_document">"更新可用"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_instance">"实例可用"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_document_instance">"可用的更新和实例"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_doc_instance_online">"查看最新可用实例"</string>
+
+
+
+    <!-- SUP Connection details -->
+
+    <!-- to be removed later -->
+
+    <!-- Dont change the below mobi_app value i.e., MobiApp -->
+
+    <!-- Not intended for translation -->
+
+    
+
+
+
+    <!-- XFLD: sets the Application Id for SUP Configuration -->
+
+    <string name="applicationid">"应用标识"</string>
+
+    <!-- XFLD: sets the Security configuration Name for SUP Configuration -->
+
+    <string name="security_configname">"安全配置"</string>
+
+    <!-- XFLD: sets the server for SUP Server Details -->
+
+    <string name="server">"服务器"</string>
+
+    <!-- XFLD: sets the port for SUP Server Details -->
+
+    <string name="port">"端口"</string>
+
+    <!-- XFLD: sets the proxy for SMP Server Details -->
+
+    <string name="proxy">"代理"</string>
+
+    <!-- XFLD: sets the farm id for SUP Server Details -->
+
+    <string name="farmid">"场标识"</string>
+
+    <!-- XLST: sup configuration -->
+
+    <string name="sup_config">"SUP 配置"</string>
+
+    <!-- XLST: smp configuration -->
+
+    <string name="smp_config">"SMP 配置"</string>
+
+    <!-- XBUT: SAP BI Application Password Yes button -->
+
+    <string name="toggle_yes">"是"</string>
+
+    <!-- XBUT: SAP BI Application Password No button -->
+
+    <string name="toggle_no">"否"</string>
+
+    <!-- XLST: connection details -->
+
+    <string name="conn_det">"连接详细信息"</string>
+
+    <!-- XLST: authentication details -->
+
+    <string name="auth_det">"验证详细信息"</string>
+
+
+
+    <!-- Custom Title Bar -->
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XTXT -->
+
+    <string name="ctb_document_name">"文档名称"</string>
+
+    <!-- XMIT:menu item for settings -->
+
+    <string name="ctb_app_settings">"应用程序设置"</string>
+
+    <!-- added to be in sync with perforce strings to avoid compilation error , not used -->
+
+    <!-- XMIT:menu item for settings -->
+
+    <string name="ctb_settings">"设置"</string>
+
+    <!-- XTXT: used in custom title bar to select the report -->
+
+    <string name="ctb_reports">"报表"</string>
+
+    <!-- XHED: heading for SUP COnnection window in phones -->
+
+    <string name="ctb_sup_con_set">"SUP 连接"</string>
+
+    <!-- XHED: heading for Connections Settings window in phones -->
+
+    <string name="ctb_con_set">"连接设置"</string>
+
+    <!-- XHED: heading for NetWork Settings window in phones -->
+
+    <string name="ctb_net_set">"网络设置"</string>
+
+    <!-- XHED: heading for Viewing  options in phones -->
+
+    <string name="ctb_view_set">"查看选项"</string>
+
+    <!-- XHED: heading for Log Settings window in phones -->
+
+    <string name="ctb_log_set">"日志设置"</string>
+
+    <!-- XHED: heading for creaing  connection window in phones -->
+
+    <string name="ctb_create_con">"创建连接"</string>
+
+
+
+    <!-- Dialog text -->
+
+    <!-- XTXT -->
+
+    <string name="table_actions">"表操作"</string>
+
+    <!-- XMSG -->
+
+    <string name="connected_already">"您已连接"</string>
+
+    <!-- XBUT: log off -->
+
+    <string name="logout">"注销"</string>
+
+    <!-- XBUT: log on -->
+
+    <string name="logon">"登录"</string>
+
+    <!-- XMSG -->
+
+    <string name="tap_string">"（轻按可逆向排序）"</string>
+
+    <!-- XLST: choose yes or no to save Password -->
+
+    <string name="savepw">"保存密码"</string>
+
+    <!-- XTXT -->
+
+    <string name="off">"关闭"</string>
+
+    <!-- XTXT -->
+
+    <string name="error">"错误消息"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_optional">"可选"</string>
+
+    <!-- XHED: heading for logout dialog -->
+
+    <string name="logout_title">"登出"</string>
+
+    <!-- XHED: title for drill options dailog -->
+
+    <string name="drill_options">"钻取选项"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="filter_clear">"清除"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="filter_revert">"还原"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="no_filters">"未应用任何过滤器"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="all_objects">"所有对象"</string>
+
+
+
+    <!-- Annotations -->
+
+    <!-- XTXT -->
+
+    <string name="tap">"轻按可输入文本"</string>
+
+
+
+    <!-- Page Indicator -->
+
+    <!-- XTXT -->
+
+    <string name="page_indicator">"页指示器"</string>
+
+
+
+    <!-- Session timeout -->
+
+    <!-- XTXT -->
+
+    <string name="reconnect">"重新连接"</string>
+
+
+
+    <!-- Report Part Quick Action -->
+
+    <!-- XLST: full screen option in report part quick action dialog for tablets -->
+
+    <string name="full_screen">"全屏"</string>
+
+    <!-- XLST: exit full screen option in report part quick action dialog for tablets -->
+
+    <string name="exit_full_screen">"退出全屏"</string>
+
+    <!-- XLST: filter option in report part quick action dialog for tablets -->
+
+    <string name="report_filter">"筛选"</string>
+
+    <!-- XMSG: related to Input control -->
+
+    <string name="object_not_supported">"对象类型不受支持"</string>
+
+    <!-- Content not supported strings -->
+
+    <!-- XMSG: related to charts -->
+
+    <string name="content_not_supported">"内容不受支持"</string>
+
+    <!-- XMSG: related to geo map -->
+
+    <string name="geomap_not_supported">"无法显示 Geomap，因为设置无权访问所需地图库"</string>
+
+    <!-- XMSG: related to charts -->
+
+    <string name="content_data_exceeding_limit">"数据点过多，无法显示图表"</string>
+
+    <!-- XMSG: related to section -->
+
+    <string name="refresh_to_view_content">"刷新以查看内容"</string>
+
+    <!-- XMSG:  google play services not available -->
+
+    <string name="google_play_services_not_available">"Google Play 服务不可用"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="refresh_confirm_title">"刷新文档"</string>
+
+    <!-- XTXT -->
+
+    <string name="dril_temp_file_extension">".tmp"</string>
+
+    <!-- XHED:heading in home tab when you are connected and not downloaded any docs yet -->
+
+    <string name="no_downloaded_docs">"无可用文档"</string>
+
+    <!-- XLST:shown in home tab when you have not downloaded any docs -->
+
+    <string name="add_doc">"添加文档"</string>
+
+
+
+    <!-- XBUT: Back in sections dialog -->
+
+    <string name="back">"返回"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="page">"页"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="page_loading">"页面..."</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="MultipleDimensions">"多维度"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="ALL">"全部"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="link">"链接"</string>
+
+
+
+    <!-- IC operators -->
+
+    <!-- XTXT -->
+
+    <string name="equal">"相等"</string>
+
+    <!-- XTXT -->
+
+    <string name="in_list">"在列表中"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_equal">"不相等"</string>
+
+    <!-- XTXT -->
+
+    <string name="greater">"大于"</string>
+
+    <!-- XTXT -->
+
+    <string name="greater_or_equal">"大于或等于"</string>
+
+    <!-- XTXT -->
+
+    <string name="less">"小于"</string>
+
+    <!-- XTXT -->
+
+    <string name="between">"介于"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_between">"不介于"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_in_list">"不在列表中"</string>
+
+    <!-- XTXT -->
+
+    <string name="is_null">"为空"</string>
+
+    <!-- XTXT -->
+
+    <string name="like">"相似"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_like">"不相似"</string>
+
+    <!-- XTXT -->
+
+    <string name="both">"两者"</string>
+
+    <!-- XTXT -->
+
+    <string name="except">"除外"</string>
+
+    <!-- XTXT -->
+
+    <string name="less_or_equal">"小于或等于"</string>
+
+
+
+    <!-- Application password strings -->
+
+    <!-- XTXT SAP BI password dialog header -->
+
+    <string name="app_enter_pwd">"应用密码"</string>
+
+    <!-- XTXT SAP BI password is mandatory by server -->
+
+    <string name="app_pwd_login">"您必须设置应用密码才能建立 BI 平台连接。 您可以使用密码来保护离线数据。 \n\n是否继续？"</string>
+
+    <!-- XTXT SAP BI password limit text -->
+
+    <string name="app_enter_pwd_text">"密码至少应包含 %1$d 个字符"</string>
+
+    <!-- XTXT SAP BI re-enter password dialog -->
+
+    <string name="app_reenter_pwd">"确认应用密码"</string>
+
+    <!-- XTXT SAP BI re-enter password text -->
+
+    <string name="app_reenter_pwd_text">"再次输入应用密码"</string>
+
+    <!-- XTXT SAP BI password change dialog -->
+
+    <string name="app_cur_pwd">"更改密码"</string>
+
+    <!-- XTXT SAP BI password change text -->
+
+    <string name="app_cur_pwd_text">"输入当前应用密码"</string>
+
+    <!-- XTXT SAP BI disable password dialog -->
+
+    <string name="app_disable_pwd">"禁用应用密码"</string>
+
+    <!-- XTXT SAP BI new password dialog -->
+
+    <string name="app_new_pwd">"新应用密码"</string>
+
+
+
+    <!-- XBUT: Login button application password dialog -->
+
+    <string name="login_cmd">"继续"</string>
+
+    <!-- XBUT: Confirm button application passsword disable or change password dialog -->
+
+    <string name="confirm">"确认"</string>
+
+    <!-- XBUT: Next button to switch application passsword dialogs -->
+
+    <string name="next">"下一步"</string>
+
+    <!-- XTXT SAP BI password toggle text -->
+
+    <string name="use_app_pwd">"使用应用密码"</string>
+
+    <!-- XTXT SAP BI password change set text -->
+
+    <string name="app_pwd_set">"已设置应用密码"</string>
+
+    <!-- XBUT SAP BI password change password -->
+
+    <string name="change_cmd">"更改"</string>
+
+    <!-- XTXT SAP BI password timeout -->
+
+    <string name="app_pwd_timeout">"密码超时"</string>
+
+    <!-- XTXT SAP BI password security lowered when selected value > previous value -->
+
+    <string name="app_pwd_security">"已降低安全性"</string>
+
+    <!-- XTXT SAP BI password security lowered text -->
+
+    <string name="app_pwd_security_text">"此操作会降低应用的安全性"</string>
+
+
+
+    <!-- Reset Application password strings -->
+
+    <!-- XTXT SAP BI application reset password -->
+
+    <string name="reset_application">"重置应用"</string>
+
+    <!-- XTXT SAP BI reset password text -->
+
+    <string name="reset_app_text">"重置应用将删除所有本地数据，包括连接详细信息和应用设置。 重置应用后，可以不使用应用密码访问应用。\n\n是否继续重置应用？"</string>
+
+    <!-- XTXT SAP BI application reset password warning -->
+
+    <string name="reset_app_warning">"警告"</string>
+
+    <!-- XTXT SAP BI application reset password warning text -->
+
+    <string name="reset_app_warning_text">"您已错误输入应用密码 9 次。 如果再次输入错误密码，应用将进行重置，包括连接详细信息和设置在内的所有本地数据均将丢失。\n\n要在重置后访问应用，可以建立新连接并输入有效的应用密码。"</string>
+
+
+
+    <!-- Wrong Application password -->
+
+    <!-- XTXT SAP BI wrong password warning -->
+
+    <string name="wrong_pwd">"密码无效"</string> 
+
+    <!-- XTXT SAP BI wrong password warning text -->
+
+    <string name="wrong_pwd_text">"您已输入错误密码 %1$d 次。 \n\n是否重置应用？"</string>
+
+    <!-- XTXT Illegal access of application -->
+
+    <string name="app_exit_message_heaad">"非法应用访问"</string>
+
+
+
+    <!-- XTXT SAP BI exit app message -->
+
+    <string name="app_pwd_exit_text">"应用将在 5 秒内关闭"</string>
+
+
+
+    <!-- Email options -->
+
+    <!-- XTXT -->
+
+    <string name="open_browser">"轻按可在浏览器中打开报表"</string>
+
+    <!-- XTXT -->
+
+    <string name="add_connection_android">"在 Android 版的 SAP BI 应用中轻按以添加连接"</string>
+
+    <!-- XTXT -->
+
+    <string name="add_connection_ios">"在 iOS 版的 SAP BI 应用中轻按以添加连接"</string>
+
+    <!-- XTXT -->
+
+    <string name="media_player_codecs">"注意：要播放此声音剪辑，请确保您已为可用媒体播放器下载最新的编解码器。"</string>
+
+    <!-- XTXT -->
+
+    <string name="sent_from">"发送自我的 Android 设备"</string>
+
+    <!-- XTXT -->
+
+    <string name="open_device_android">"轻按可用 Android 设备中的 SAP BI 应用打开报表"</string>
+
+    <!-- XTXT -->
+
+    <string name="open_device_ios">"轻按可用 iOS 设备中的 SAP BI 应用打开报表"</string>
+
+
+
+    <!-- Deleting documents -->
+
+    <!-- XTXT -->
+
+    <string name="doc_delete">"已成功删除文档"</string>
+
+    <!-- XTXT -->
+
+    <string name="doc_delete_fail">"无法删除文档"</string>
+
+
+
+    <!-- Sample Doc Names -->
+
+    <!-- XTXT -->
+
+    <string name="sample_doc1">"银行管理汇总"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc2">"劳动力分配分析"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc3">"零售商启动面板"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc4">"销售利润"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc5">"商店经理"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc6">"可持续发展"</string>
+
+    <!-- Categories -->
+
+    <!-- XTXT -->
+
+    <string name="category_all">"全部"</string>
+
+    <!-- XTXT -->
+
+    <string name="category_others">"其他"</string>
+
+    <!-- XTXT if the document cannot be saved due to last refresh date + TTL being expired -->
+
+    <string name="doc_not_saved">"由于配置的安全增强策略，无法下载此文档"</string>
+
+     <!-- XTXT -->
+
+  	<string name="open_doc_back_msg">"将返回到主屏幕"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_xcelsius">"正在下载。请稍候..."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_update_xcelsius">"正在更新。请稍候..."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_update_xcelsius_backup">"无法获取文档备份。请稍后重试。"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_failer_xcelsius">"无法执行操作。请稍后重试。"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_download_success">"已成功下载"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_download_failure">"下载时出错"</string>
+
+
+
+    <!-- XMIT : menu item  used to collaborate with JAM -->
+
+    <string name="collaborate">"协作"</string>
+
+    <!-- XHED : menu item  used to collaborate with JAM -->
+
+    <string name="jam">"SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_recieve_oauthtoken">"从 SAP JAM 服务器检索请求令牌时出错"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_recieve_accesstoken">"从 SAP JAM 服务器检索访问令牌时出错"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_groups_error">"从 SAP JAM 服务器检索组时出错"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_groups_exists_error">"已存在具有相同名称的组"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_create_groups_error">"创建组时出错"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_upload_photo_error">"向 SAP JAM 服务器上载屏幕截图时出错"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_send_invite_error">"向用户发送邀请时出错"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_invalid_oauth_details">"OAUTH 详细信息无效。请在 CMS 中配置正确的 OAUTH 详细信息"</string>
+
+
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="jam_oauth_header">"SAP JAM 登入"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="jam_sendtojam">"发送到 SAP JAM"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="create_new_group">"创建新组"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="edit_group">"编辑组"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_name">"组名称"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_objective">"目标"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_participants">"参与者"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="jam_current_groups">"当前组"</string>
+
+    <!-- XTXT: text for posting the discussion -->
+
+    <string name="post">"提交"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="group_is_private">"专用"</string>
+
+    <!-- XTXT: text for posting the discussion -->
+
+    <string name="you">"您"</string>
+
+    <!-- XBUT: send button in send dialog -->
+
+    <string name="jam_Send">"发送"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="uploading">"正在上载..."</string>
+
+    <!-- XTXT: label for work phone number -->
+
+    <string name="home_lbl">"住宅电话"</string>
+
+    <!-- XTXT: label for home phone number -->
+
+    <string name="work_lbl">"工作电话"</string>
+
+    <!-- XTXT: label for mobile number -->
+
+    <string name="Mobile_lbl">"移动电话"</string>
+
+    <!-- XHED: heading for user profile diaglog fragment -->
+
+    <string name="user_profile">"用户基本资料"</string>
+
+    <!-- XHED: heading for user profile diaglog fragment -->
+
+    <string name="wait">"请稍候..."</string>
+
+    <!-- XTXT: text for none -->
+
+    <string name="none">"无"</string>
+
+    <!-- XTXT :AM I will be appeding this date based on format -->
+
+    <string name="AM">"AM"</string>
+
+    <!-- XTXT :PM I will be appeding this date based on format -->
+
+    <string name="PM">"PM"</string>
+
+
+
+    <!-- XTXT : Message to show in SSLConnectivityDialogFragment -->
+
+    <string name="ssl_alertmessge">"此连接可能不受信任；是否继续？"</string>
+
+    <!-- XHED : heading for SSLConnectivityDialogFragment -->
+
+    <string name="ssl_alert_title">"警报"</string>
+
+    <!-- XTXT : Alert Message -->
+
+    <string name="sapbi_delete">"外部程序要删除连接；是否继续？"</string>
+
+    <!-- XTXT : Alert Message -->
+
+    <string name="sapbi_modify">"外部程序要修改连接；是否继续？"</string>
+
+    <!-- new connection for BOE -->
+
+    <string name="conn_server_URL">"服务器 URL"</string>
+
+    <!-- XTXT : CMS name -->
+
+    <string name="cms_name">"内容管理系统名称"</string>
+
+    <!-- XTXT : authentication mode -->
+
+    <string name="auth_mode">"验证模式"</string>
+
+    <!-- XTXT : Default Connection -->
+
+    <string name="default_connect">"缺省连接"</string>
+
+    <!-- XTXT : Connection Details -->
+
+    <string name="connection_details">"连接详细信息"</string>
+
+    <!-- XTXT : Authentication Details -->
+
+    <string name="authentication_details">"验证详细信息"</string>
+
+    <!-- XTXT : Username -->
+
+    <string name="conn_username">"用户名"</string>
+
+    <!-- XTXT : Password -->
+
+    <string name="conn_password">"密码"</string>
+
+    <!-- XTXT : Default connection -->
+
+    <string name="default_conn">"缺省连接"</string>
+
+    <!-- XTXT : Save password -->
+
+    <string name="save_pass">"保存密码"</string>
+
+    <!-- XTXT : Connection Type -->
+
+    <string name="conn_type">"连接类型"</string>
+
+    <!-- XTXT : Connection Type Phone -->
+
+    <string name="conn_type_phone">"连接类型"</string>
+
+    
+
+    <!-- Manage Connections -->
+
+    <!-- XTXT : Indicate Default connection -->
+
+    <string name="is_default_conn">"缺省值"</string>
+
+
+
+    <!-- Connection Action Bar SAVE -->
+
+    <string name="connection_save">"保存"</string>
+
+    <!-- Connection Action Bar SHARE -->
+
+    <string name="connection_share">"共享"</string>
+
+    <!-- Connection Action Bar SAVE CONNECT -->
+
+    <string name="connection_saveconnect">"保存并连接"</string>
+
+
+
+    <!-- XTXT : BI Inbox -->
+
+    <string name="BIInbox">"BI 收件箱"</string>
+
+    <!-- XTXT : BI Inbox Option to make it read -->
+
+    <string name="mark_as_read">"标记为已读"</string>
+
+    <!-- XTXT : BI Inbox Option to make it unread -->
+
+    <string name="mark_as_unread">"标记为未读"</string>
+
+    <!-- Personal Categories Related Strings -->
+
+    <!-- XTXT : Manage Connections -->
+
+    <string name="manage_connections">"管理连接"</string>
+
+    <!-- XTXT : Saved Connections -->
+
+    <string name="saved_connections">"保存的连接"</string>
+
+    <!-- XTXT : Saved Connection -->
+
+    <string name="saved_connection">"保存的连接"</string>
+
+    <!-- XTXT : Manage Categories -->
+
+    <string name="manage_categories">"管理类别"</string>
+
+    <!-- XMSG: Add Default Category -->
+
+    <string name="add_default_category">"设置缺省类别"</string>
+
+    <!-- XMSG: Select Category as  Default-->
+
+    <string name="select_default_category">"选择要设置为缺省值的类别"</string>
+
+    <!-- XTXT : Assign Categories -->
+
+    <string name="assign_categories">"分配类别"</string>
+
+    <!-- XTXT : Create New Category -->
+
+    <string name="create_new_category">"创建新类别"</string>
+
+    <!-- XTXT : Edit Category -->
+
+    <string name="edit_category">"编辑类别"</string>
+
+    <!-- XTXT : Delete Category -->
+
+    <string name="delete_category">"删除类别"</string>
+
+    <!-- XTXT :Category Exists Message -->
+
+    <string name="category_exist_message">"类别名称已存在；请输入其他类别名称"</string>
+
+    <!-- XTXT :Category Name Empty Message -->
+
+    <string name="category_empty_message">"类别名称为空；请为类别输入其他名称"</string>
+
+    <!-- XTXT :Category Delete Message -->
+
+    <string name="category_delete_message">"是否确定删除该类别"</string>
+
+
+
+    <!-- XTXT : Items -->
+
+    <string name="items">"项目"</string>
+
+    <!-- XTXT : Get Started -->
+
+    <string name="get_started">"入门"</string>
+
+    <!-- XTXT : Whats new -->
+
+    <string name="whats_new">"新功能"</string>
+
+    <!-- XTXT : All Reports -->
+
+    <string name="all_reports">"所有报表"</string>
+
+    <!-- XTXT : Favorites -->
+
+    <string name="favorites">"收藏夹"</string>
+
+    <!-- XMIT : Add to Favorites -->
+
+    <string name="add_to_favorites">"添加到收藏夹"</string>
+
+    <!-- XMIT : Remove from Favorites -->
+
+    <string name="remove_from_favorites">"从收藏夹中移除"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="endpoint_error">"获取端点代理失败。"</string>
+
+
+
+    <!-- XLBL : Type in Info Screen -->
+
+    <string name="type">"类型"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="webi_type">"Web Intelligence"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="dashboard_type">"仪表盘"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="designstudio_type">"分析应用"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="hyperlink_type">"超链接"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="pdf_type">"PDF 文档"</string>    
+
+ 
+
+    <!-- Navigation Drawer Strings -->
+
+    <!-- XMSG -->
+
+    <string name="nav_open">"打开"</string>
+
+    <!-- XMSG -->
+
+     <string name="nav_close">"关闭"</string>
+
+    
+
+    <!-- Table filter Message -->
+
+	<!-- XMSG -->
+
+	<string name="empty_data">"空"</string>
+
+	
+
+	<!-- Notifications -->
+
+	<!-- XTXT -->
+
+	<string name="menu_notification">"通知"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updating">"正在更新文档"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updating_single">"正在更新文档"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_available">"有可用更新"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_available_single">"有可用更新"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_update_all">"全部更新"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_cancel_all">"全部取消"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updated_count">"最近更新的文档"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updated_count_single">"最近更新的文档"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_clear_all">"全部清除"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_not_available">"无可用通知"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_Auto_Update_Is_Disabled">"“自动更新”对此连接不可用"</string>
+
+	<!-- XTXT -->
+
+	<string name="Minutes">"分钟"</string>
+
+	<!-- XBUT: AutoUpdate On button -->
+
+    <string name="toggle_on">"开启"</string>
+
+    <!-- XBUT: AutoUpdate Off button -->
+
+    <string name="toggle_off">"关闭"</string>
+
+    
+
+     <!-- Getting Started Message -->
+
+	<!-- XMSG -->
+
+	<string name="getting_started_trend_icons">"使用“趋势”图标突出显示数据。"</string>
+
+	<!-- XMSG: A styled string -->
+
+    <string name="getting_started_show_only_downloaded">"使用“仅显示下载的报表”选项查看添加到设备的所有文档。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_personal_view">"将文档另存为个人视图以保留所有分析操作以及在离线模式下查看。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_notification_badge">"锁屏提醒通知，用于提醒用户服务器上有新的文档实例或修改过的文档版本。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_notification_panel">"通过使用通知面板，可轻松管理文档更新。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_display_category">"以扁平列表或嵌套结构形式显示类别。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_share_connection">"通过电子邮件共享连接的详细信息。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_bi_inbox_download">"BI 收件箱中的文档可下载到设备中并标记为“已读”或“未读”。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_dashboard">"可查看 SAP Business Objects Analysis 应用并与之交互。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_bi_connection">"要访问 BI 内容，可使用可用连接类型之一创建新连接"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_geo">"轻按每个兴趣点 (POI) 可查看关联值的详细信息。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_tablestyling">"可对字体样式进行定制，使其为粗体、斜体或带下划线。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_microbarchart">"轻按小条形图可在缩放模式下查看图表。"</string>
+
+   
+
+	<!-- XMSG -->
+
+	<string name="getting_started_toggle_group_by_sort">"支持在“分组依据”和排序选项之间切换，用户可轻松整理文档列表。"</string>	
+
+	<!-- XMSG -->
+
+	<string name="getting_started_auto_update_wifi">"通过使用“自动更新”设置，可在有可用 Wi-Fi 时自动更新所有离线文档。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_default_filter">"在“地理分析”文档中配置缺省过滤器值。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_share_document_link">"通过电子邮件共享文档链接以保留当前的导航上下文"</string>
+
+	<!-- XMSG -->
+
+	<string name="pdf_pop_up_select_app">"选择查看器"</string>
+
+	<!-- XMSG -->
+
+	<string name="pdf_pop_up_install_app">"查看器不可用；请安装 PDF 查看器以查看文档"</string>
+
+	
+
+	
+
+	
+
+	<!-- XMSG -->
+
+	<string name="splash_upgrade_docs">"正在升级文档..."</string>
+
+	<!-- XMSG -->
+
+	<string name="splash_docs_to_be_upgraded">"%1$s 个文档待升级"</string>
+
+	<!-- XMSG -->
+
+	<string name="splash_number_of_docs_upgraded">"%1$s 个文档（共 %2$s 个）已升级..."</string>
+
+	
+
+	<!-- XMSG -->
+
+	<string name="cannot_expand_this_node">"无法展开此节点"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="certificate_error">"证书错误"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_untrusted_error">"证书授权机构不受信任"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_expired_error">"证书已过期"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_idmismatch_error">"主机名不匹配"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_notyetvalid_error">"证书仍无效"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_invalid_error">"出现通用错误"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_date_invalid_error">"证书日期无效"</string>
+
+	
+
+</resources>

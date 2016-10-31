@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingTop="5dp" >
+
+    <LinearLayout
+        android:id="@+id/htv_tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/htv_sampleheader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sampledoc_header"
+            android:textColor="@color/black"
+            android:visibility="gone" >
+        </TextView>
+        <LinearLayout
+           android:id="@+id/htv_tabwidgetlayout"
+       	   android:layout_width="fill_parent"
+       	   android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.66"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:gravity="center_vertical|center_horizontal">
+        </TabWidget>
+            <View
+                android:id="@+id/cl_separator_tabsafter"
+                android:layout_width="0px"
+                android:layout_height="2dp"
+                 android:layout_weight="0.34"
+                 android:background="@drawable/tab_unselected"
+                 android:layout_gravity="bottom">
+            </View>
+ 	</LinearLayout>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/realtabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>

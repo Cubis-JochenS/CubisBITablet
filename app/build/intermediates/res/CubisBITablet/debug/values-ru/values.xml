@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ru/arrays.xml -->
+    <eat-comment/>
+    <string-array name="app_pwd_timeout_val">
+        <item>"Всегда"</item>
+        <item>"1 минута"</item>
+        <item>"5 минут"</item>
+        <item>"15 минут"</item>
+        <item>"60 минут"</item>
+        <item>"Никогда"</item>
+    </string-array>
+    <string-array name="log_level">
+        <item>"500 КБ"</item>
+        <item>"1 МБ"</item>
+        <item>"2 МБ"</item>
+    </string-array>
+    <string-array name="offline_dataset_num">
+        <item>"50"</item>
+        <item>"100"</item>
+        <item>"200"</item>
+        <item>"500"</item>
+    </string-array>
+    <string-array name="sdk_offline_storage">
+        <item>"30 МБ"</item>
+        <item>"50 МБ"</item>
+        <item>"100 МБ"</item>
+        <item>"200 МБ"</item>
+    </string-array>
+    <string-array name="select_dialog_items2">
+        <item>"Создать новое соединение"</item>
+        <item>"Импорт с сервера"</item>
+    </string-array>
+    <string-array name="select_dialog_items3">
+        <item>"Нет"</item>
+        <item>"Да"</item>
+    </string-array>
+    <string-array name="select_dialog_items4">
+        <item>"Обработать"</item>
+        <item>"Удалить"</item>
+    </string-array>
+    <string-array name="select_dialog_items5">
+        <item>"Восст. соединение"</item>
+        <item>"Работать офлайн"</item>
+    </string-array>
+    <string-array name="select_dialog_items6">
+        <item>"Выход"</item>
+    </string-array>
+    <string-array name="settings">
+        <item>"Общие настройки"</item>
+        <item>"Опции просмотра"</item>
+        <item>"Быстрые подсказки"</item>
+        <item>"Журналы"</item>
+        <item>"Инструментальная панель"</item>
+        <item>"О программе"</item>
+    </string-array>
+    <string-array name="sup_options">
+        <item>"Обработать"</item>
+        <item>"Разрегистрировать"</item>
+    </string-array>
+    <string-array name="theme">
+        <item>"Слоновая кость"</item>
+        <item>"Графит"</item>
+    </string-array>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="ALL">"ВСЕ"</string>
+    <string name="AM">"AM"</string>
+    <string name="BIInbox">"Входящие BI"</string>
+    <string name="Login_credentials">"Рег. данные пользователя"</string>
+    <string name="Minutes">"мин."</string>
+    <string name="Mobile_lbl">"Мобильный"</string>
+    <string name="MultipleDimensions">"Несколько измерений"</string>
+    <string name="PM">"PM"</string>
+    <string name="Reselect">"Выбрать снова"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ОТКЛ."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Поиск"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="about">"Информация"</string>
+    <string name="add_alias">"Доб. псевдоним"</string>
+    <string name="add_conn_connected">"Невозможно добавить соединение, когда пользователь в системе. Необходимо выйти и повторить попытку"</string>
+    <string name="add_connection_android">"Коснитесь, чтобы добавить соединение в приложение SAP BI для Android"</string>
+    <string name="add_connection_ios">"Коснитесь, чтобы добавить соединение в приложение SAP BI для iOS"</string>
+    <string name="add_default_category">"Установить категорию по умолчанию"</string>
+    <string name="add_doc">"Добавить документ"</string>
+    <string name="add_existing_connection">"Это соединение уже существует"</string>
+    <string name="add_home">"Добавить на Главную"</string>
+    <string name="add_new_cnx">"Добавить соединение"</string>
+    <string name="add_to_device">"Добавить на устройство"</string>
+    <string name="add_to_favorites">"Добавить в избранное"</string>
+    <string name="additional_authcred">"Дополнительные аутентификационные данные"</string>
+    <string name="alias">"Псевдоним"</string>
+    <string name="all_objects">"Все объекты"</string>
+    <string name="all_reports">"Все отчеты"</string>
+    <string name="all_values">"Все значения"</string>
+    <string name="annotations">"Примечание"</string>
+    <string name="app_cur_pwd">"Изменить пароль"</string>
+    <string name="app_cur_pwd_text">"Введите текущий пароль к приложению"</string>
+    <string name="app_disable_pwd">"Отключить пароль к приложению"</string>
+    <string name="app_enter_pwd">"Пароль к приложению"</string>
+    <string name="app_enter_pwd_text">"Пароль должен содержать не менее %1$d символов"</string>
+    <string name="app_exit_message_heaad">"Недопустимый доступ к приложению"</string>
+    <string name="app_name">"SAP BI"</string>
+    <string name="app_new_pwd">"Новый пароль к приложению"</string>
+    <string name="app_pwd">"Ввод пароля к приложению"</string>
+    <string name="app_pwd_exit_text">"Приложение будет закрыто через 5 секунд"</string>
+    <string name="app_pwd_login">"Необходимо установить пароль к приложению для соединения с платформой BI. Пароль можно использовать для защиты офлайн-данных. \n\nПродолжить?"</string>
+    <string name="app_pwd_security">"Безопасность понижена"</string>
+    <string name="app_pwd_security_text">"Это действие снижает уровень защиты приложения"</string>
+    <string name="app_pwd_set">"Пароль к приложению установлен"</string>
+    <string name="app_pwd_timeout">"Тайм-аут пароля"</string>
+    <string name="app_reenter_pwd">"Подтвердить пароль к приложению"</string>
+    <string name="app_reenter_pwd_text">"Повторить пароль"</string>
+    <string name="application_related">"К приложению"</string>
+    <string name="applicationid">"Ид. приложения"</string>
+    <string name="apply_filter">"Применить фильтр"</string>
+    <string name="assign_categories">"Присвоить категории"</string>
+    <string name="auth_det">"ДАННЫЕ АУТЕНТИФИКАЦИИ"</string>
+    <string name="auth_mode">"Режим аутентификации"</string>
+    <string name="auth_type">"Тип аутентификации"</string>
+    <string name="authentication_details">"ДАННЫЕ АУТЕНТИФИКАЦИИ"</string>
+    <string name="author">"Автор"</string>
+    <string name="author1">"Автор"</string>
+    <string name="authored_by">"Автор"</string>
+    <string name="back">"Назад"</string>
+    <string name="basic_auth">"Требуется аутентификация"</string>
+    <string name="between">"Между"</string>
+    <string name="bi_auto_update">"Автообновление"</string>
+    <string name="bi_auto_update_Wifi_and_Cellular">"Обновление по Wi-Fi и по моб. связи"</string>
+    <string name="bi_auto_update_wiFi">"Обновление только по Wi-Fi"</string>
+    <string name="black">"Черный"</string>
+    <string name="blue">"Синий"</string>
+    <string name="blur">"Размытие"</string>
+    <string name="both">"Оба"</string>
+    <string name="browse">"Обзор"</string>
+    <string name="build">"Сборка:"</string>
+    <string name="cancel">"Отменить"</string>
+    <string name="cannot_expand_this_node">"Невозможно развернуть этот узел"</string>
+    <string name="cannot_save_doc">"Не удается сохранить документ"</string>
+    <string name="cannot_save_doc_connection_not_available">"Невозможно сохранить документ. Возможно, в данный момент нет активного соединения или документ отсутствует в мобильной категории."</string>
+    <string name="cannot_save_doc_generic_error">"Невозможно сохранить документ. Возникла общая ошибка."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string msgid="4778414446709286370" name="cast_ad_label">"Объявление"</string>
+    <string msgid="366047012176970604" name="cast_casting_to_device">"Трансляция на устройство \"%s\""</string>
+    <string msgid="2888745622334830481" name="cast_closed_captions">"Субтитры"</string>
+    <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"Субтитры недоступны"</string>
+    <string msgid="4431992200264667209" name="cast_disconnect">"Отключить"</string>
+    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"Трансляция объявления…"</string>
+    <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"Обложка"</string>
+    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"Прямой эфир"</string>
+    <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"Загрузка…"</string>
+    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"Пропустить"</string>
+    <string msgid="7884080323096468593" name="cast_forward">"Перемотать вперед"</string>
+    <string msgid="6424889955881797947" name="cast_forward_10">"Перемотать на 10 секунд вперед"</string>
+    <string msgid="7868672855975238403" name="cast_forward_30">"Перемотать на 30 секунд вперед"</string>
+    <string msgid="6885943100773268783" name="cast_intro_overlay_button_text">"@android:string/ok"</string>
+    <string msgid="5637297909372905371" name="cast_mute">"Отключить звук"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string msgid="5319032370587661362" name="cast_notification_connected_message">"Подключено к <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="2758865089947797888" name="cast_notification_connecting_message">"Подключение к <ns1:g id="NAME">%1$s</ns1:g>…"</string>
+    <string msgid="5232008641593292969" name="cast_notification_disconnect">"Отключить"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string msgid="5308503786390460607" name="cast_pause">"Приостановить"</string>
+    <string msgid="5906987965619702702" name="cast_play">"Воспроизвести"</string>
+    <string msgid="1739665135565985480" name="cast_rewind">"Перемотать назад"</string>
+    <string msgid="6432793028560778843" name="cast_rewind_10">"Перемотать на 10 секунд назад"</string>
+    <string msgid="4677199707225681325" name="cast_rewind_30">"Перемотать на 30 секунд назад"</string>
+    <string msgid="9078075166993780241" name="cast_seek_bar">"Ползунок перемотки"</string>
+    <string msgid="3991548379225047363" name="cast_skip_next">"Перейти к следующему объекту"</string>
+    <string msgid="8369073097776576935" name="cast_skip_prev">"Перейти к предыдущему объекту"</string>
+    <string msgid="9191388946729723891" name="cast_stop">"Остановить"</string>
+    <string msgid="1219622777438777099" name="cast_stop_live_stream">"Остановить трансляцию"</string>
+    <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"Аудио"</string>
+    <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"Отмена"</string>
+    <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"Трек <ns1:g id="POSITION">%1$d</ns1:g>"</string>
+    <string msgid="5563446400083425854" name="cast_tracks_chooser_dialog_no_audio_tracks">"Нет доступных аудиотреков"</string>
+    <string msgid="7413336699113748535" name="cast_tracks_chooser_dialog_no_text_tracks">"Нет доступных текстовых треков"</string>
+    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"Нет"</string>
+    <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"ОК"</string>
+    <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"Субтитры"</string>
+    <string msgid="2913461521603516868" name="cast_unmute">"Включить звук"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="categories">"Категории"</string>
+    <string name="category">"Категория"</string>
+    <string name="category_all">"Все"</string>
+    <string name="category_delete_message">"Действительно удалить категорию"</string>
+    <string name="category_empty_message">"Имя категории не заполнено; введите любое имя для категории"</string>
+    <string name="category_exist_message">"Такое имя категории уже существует. Введите другое имя"</string>
+    <string name="category_others">"Прочие"</string>
+    <string name="cert_auth_cancelled">"Проверка сертификата отменена"</string>
+    <string name="certificate_error">"Ошибка сертификата"</string>
+    <string name="change_cmd">"Изменить"</string>
+    <string name="change_view">"Изменить вид"</string>
+    <string name="choose_connection">"Выбрать соединение"</string>
+    <string name="choose_date">"Выбрать дату"</string>
+    <string name="choose_value">"Выбрать значение"</string>
+    <string name="choose_values">"Выбрать значения"</string>
+    <string name="cms">"CMS"</string>
+    <string name="cms_name">"Имя CMS"</string>
+    <string name="cnx_name_already_exists">"Такое имя соединения уже существует"</string>
+    <string name="collaborate">"Сотрудничать"</string>
+    <string name="collapse_all">"Свернуть все"</string>
+    <string name="column">"Столбец"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Включить"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется включить сервисы Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Включите сервисы Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Установить"</string>
+    <string msgid="1666261992894286769" name="common_google_play_services_install_text_phone">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется установить сервисы Google Play."</string>
+    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется установить сервисы Google Play."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Установите сервисы Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Ошибка сервисов Google Play"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"Приложению \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" не удается подключиться к сервисам Google Play. Если проблема не исчезнет, обратитесь к разработчику."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"Сервисы Google Play, необходимые для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", не поддерживаются на вашем устройстве. Обратитесь к производителю."</string>
+    <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Сервисы Google Play"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Обновить"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Чтобы запустить приложение \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", обновите сервисы Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Обновите сервисы Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Сервисы Google Play, необходимые для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", в настоящий момент обновляются."</string>
+    <string msgid="2270671469198016014" name="common_google_play_services_updating_title">"Обновление сервисов Google Play…"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Войти"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Войти через аккаунт Google"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="confirm">"Подтвердить"</string>
+    <string name="confirm_delete_all_connection">"Удалить все соединения?"</string>
+    <string name="confirm_delete_connection">"Удалить выбранное соединение %1$s ?"</string>
+    <string name="confirm_delete_document">"Удалить документ:"</string>
+    <string name="confirm_deregister">"Разрегистрироваться на SUP?"</string>
+    <string name="confirm_logout_1">"Эта операция приведет к выходу из"</string>
+    <string name="confirm_logout_2">"Продолжить?"</string>
+    <string name="confirm_save_password">"Сохранить пароль?"</string>
+    <string name="conn_det">"ДАННЫЕ СОЕДИНЕНИЯ"</string>
+    <string name="conn_password">"Пароль"</string>
+    <string name="conn_server_URL">"URL сервера"</string>
+    <string name="conn_type">"Тип соединения"</string>
+    <string name="conn_type_phone">"ТИП СОЕДИНЕНИЯ"</string>
+    <string name="conn_username">"Имя пользователя"</string>
+    <string name="connected">"Соединено"</string>
+    <string name="connected_already">"Вы уже соединены"</string>
+    <string name="connection">"Новое соединение"</string>
+    <string name="connection_details">"ДАННЫЕ СОЕДИНЕНИЯ"</string>
+    <string name="connection_name">"Имя соединения"</string>
+    <string name="connection_options">"Опции"</string>
+    <string name="connection_related">"К соединению"</string>
+    <string name="connection_save">"СОХРАНИТЬ"</string>
+    <string name="connection_saveconnect">"СОХРАНИТЬ И СОЕДИНИТЬСЯ"</string>
+    <string name="connection_server_URL">"URL сервера соединения"</string>
+    <string name="connection_share">"ПОДЕЛИТЬСЯ"</string>
+    <string name="connections">"Соединения"</string>
+    <string name="content_data_exceeding_limit">"Невозможно отобразить диаграмму - слишком большие точки данных"</string>
+    <string name="content_not_supported">"Содержимое не поддерживается"</string>
+    <string name="create_connection">"Создайте соединение для просмотра документов"</string>
+    <string name="create_new_category">"Создать новую категорию"</string>
+    <string name="create_new_cnx">"Создать новое соединение"</string>
+    <string name="create_new_cnx_desc1">"и просмотрите документы."</string>
+    <string name="create_new_cnx_desc2">"Это возможно также с экрана настроек."</string>
+    <string name="create_new_group">"Создать новую группу"</string>
+    <string name="crop">"Обрезать"</string>
+    <string name="ctb_app_settings">"Настройки приложения"</string>
+    <string name="ctb_con_set">"Настройки соединения"</string>
+    <string name="ctb_create_con">"Создать соединение"</string>
+    <string name="ctb_document_name">"Имя документа"</string>
+    <string name="ctb_log_set">"Настройки журнала"</string>
+    <string name="ctb_net_set">"Настройки сети"</string>
+    <string name="ctb_reports">"Отчеты"</string>
+    <string name="ctb_settings">"Настройки"</string>
+    <string name="ctb_sup_con_set">"Соединение SUP"</string>
+    <string name="ctb_view_set">"Опция просмотра"</string>
+    <string name="customview">"Кл. ракурс"</string>
+    <string name="dashboard">"Настройка панели"</string>
+    <string name="dashboard_type">"Инструментальная панель"</string>
+    <string name="date">"Дата"</string>
+    <string name="date_modified">"Дата изменения"</string>
+    <string name="day">"день"</string>
+    <string name="days">"дн."</string>
+    <string name="default_conn">"Соединение по умолчанию"</string>
+    <string name="default_connect">"Соединение по умолчанию"</string>
+    <string name="default_connection">"(по умолчанию)"</string>
+    <string name="delete">"Удалить"</string>
+    <string name="delete_category">"Удалить категорию"</string>
+    <string name="delete_conn_connected">"Невозможно удалить соединение; выйдите и повторите попытку"</string>
+    <string name="delete_conn_notexisting">"Соединение не существует"</string>
+    <string name="delete_connection">"Удалить соединение"</string>
+    <string name="delete_document">"Удалить документ"</string>
+    <string name="deregister">"Отменить регистрацию"</string>
+    <string name="deregister_with_sup">"Разрегистрация на SUP..."</string>
+    <string name="deregistration_success">"Отмена регистрации выполнена успешно"</string>
+    <string name="description">"Описание"</string>
+    <string name="description_home">"Домашняя страница"</string>
+    <string name="description_search">"Поиск"</string>
+    <string name="designstudio_type">"Аналитическое приложение"</string>
+    <string name="display_help_page">"Показать страницу справки"</string>
+    <string name="doc_delete">"Документ успешно удален"</string>
+    <string name="doc_delete_fail">"Не удалось удалить документ"</string>
+    <string name="doc_info_header">"Информация по документу"</string>
+    <string name="doc_metadata_not_found">"Информация по документу не найдена."</string>
+    <string name="doc_not_found">"Невозможно открыть документ"</string>
+    <string name="doc_not_saved">"Невозможно загрузить этот документ из-за политики расширенной безопасности"</string>
+    <string name="document_delete">"Документ будет удален"</string>
+    <string name="document_inforation_not_available">"Информация по документу недоступна. Возможно, в данный момент нет активного соединения или документ отсутствует в мобильной категории."</string>
+    <string name="document_no_category">"Документ не присвоен ни одной мобильной категории"</string>
+    <string name="document_title">"Название документа"</string>
+    <string name="done">"Готово"</string>
+    <string name="download_failed">"Невозможно сохранить документ"</string>
+    <string name="downloaded_at">"Загружено:"</string>
+    <string name="dril_temp_file_extension">".tmp"</string>
+    <string name="drill_down">"Развернуть до"</string>
+    <string name="drill_focus_in">"Сфокусировать"</string>
+    <string name="drill_focus_out">"Расфокусировать"</string>
+    <string name="drill_from">"Начиная с"</string>
+    <string name="drill_options">"Опции развертки"</string>
+    <string name="drill_up">"Свернуть до"</string>
+    <string name="edit">"Обработать"</string>
+    <string name="edit_category">"Править категорию"</string>
+    <string name="edit_cnx">"Обработать соединение"</string>
+    <string name="edit_filter">"Редактировать фильтр"</string>
+    <string name="edit_group">"Обработать группу"</string>
+    <string name="email_menu">"Эл. почта"</string>
+    <string name="empty_data">"Пусто"</string>
+    <string name="empty_log">"Нет доступных журналов"</string>
+    <string name="endpoint_error">"Не удалось вызвать прокси конечной точки."</string>
+    <string name="enter_alias">"Ввод псевдонима"</string>
+    <string name="enter_server_url">"Введите URL сервера"</string>
+    <string name="enter_valid_url">"Введите действительный URL"</string>
+    <string name="equal">"Равно"</string>
+    <string name="erase">"Стереть"</string>
+    <string name="error">"Сообщение об ошибке"</string>
+    <string name="establish_connection">"Установите соединение для загрузки документов"</string>
+    <string name="eula_accept">"Принять"</string>
+    <string name="eula_mobi_updates"/>
+    <string name="eula_reject">"Отклонить"</string>
+    <string name="eula_title">"Лицензионное соглашение с конечным пользователем"</string>
+    <string name="except">"Кроме"</string>
+    <string name="exist_conn">"Существующие соединения"</string>
+    <string name="existing_conn_header">"Существующие соединения"</string>
+    <string name="exit_full_screen">"Выйти из полноэкранного режима"</string>
+    <string name="expand_all">"Развернуть все"</string>
+    <string name="expires_in">"Истекает через"</string>
+    <string name="failure">"Неудача"</string>
+    <string name="farmid">"Ид. фермы"</string>
+    <string name="favorites">"Избранное"</string>
+    <string name="filter_clear">"Очистить"</string>
+    <string name="filter_menu">"Фильтр"</string>
+    <string name="filter_revert">"Вернуться"</string>
+    <string name="first_time_work_offline">"Для доступа к содержимому в режиме оффлайн войдите на сервер в первый раз"</string>
+    <string name="freeze">"Фиксировать"</string>
+    <string name="full_screen">"Полный экран"</string>
+    <string name="general_settings">"Общие настройки"</string>
+    <string name="generic_error">"Невозможно обработать запрос. Повторите попытку позже."</string>
+    <string name="geomap_not_supported">"Просмотреть геокарту невозможно, так как у прибора нет доступа к требуемым библиотекам карт"</string>
+    <string name="get_started">"Начало работы"</string>
+    <string name="getting_started_auto_update_wifi">"Используйте параметры автообновления для автоматического обновления оффлайн-документов при доступности Wi-Fi"</string>
+    <string name="getting_started_bi_connection">"Для доступа к контенту BI создайте новое соединение с помощью одного из доступных типов соединений"</string>
+    <string name="getting_started_bi_inbox_download">"Документы папки \"Входящие BI\" можно выгрузить на устройство и пометить как прочитанные ИЛИ непрочитанные"</string>
+    <string name="getting_started_dashboard">"Возможен просмотр и взаимодействие с приложением SAP BusinessObjects Analysis"</string>
+    <string name="getting_started_default_filter">"Настройте значение фильтра по умолчанию в документе геоанализа"</string>
+    <string name="getting_started_display_category">"Просматривайте категории как плоский список или с иерархией вложений"</string>
+    <string name="getting_started_geo">"Нажмите любую \"точку интереса\" (POI) для просмотра подробной информации по связанным значениям"</string>
+    <string name="getting_started_microbarchart">"Нажмите микро-диаграмму для ее просмотра в режиме увеличения"</string>
+    <string name="getting_started_notification_badge">"Значок уведомления сообщает о доступности на сервере новой инстанции документа или измененной версии документа"</string>
+    <string name="getting_started_notification_panel">"Панель уведомлений помогает управлять обновлениями документов"</string>
+    <string name="getting_started_personal_view">"Сохраните документ как персональный ракурс для сохранения всех операций аналитики и их просмотра в автономном режиме"</string>
+    <string name="getting_started_share_connection">"Делитесь сведениями о соединении по эл. почте"</string>
+    <string name="getting_started_share_document_link">"Поделитесь ссылкой на документ по эл. почте, сохраняя текущий контекст навигации"</string>
+    <string name="getting_started_show_only_downloaded">"Используйте опцию \"Показать только загруженные отчеты\" для просмотра всех документов, добавленных на устройство"</string>
+    <string name="getting_started_tablestyling">"Измените формат шрифта ячейки на жирный, курсив или подчеркнутый"</string>
+    <string name="getting_started_toggle_group_by_sort">"Переключение между опциями группировки и сортировки помогает удобно организовать список документов"</string>
+    <string name="getting_started_trend_icons">"Используйте значки тренда для выделения данных"</string>
+    <string name="google_play_services_not_available">"Службы Google Play недоступны"</string>
+    <string name="graphite">"Графит"</string>
+    <string name="greater">"Больше"</string>
+    <string name="greater_or_equal">"Больше или равно"</string>
+    <string name="green">"Зеленый"</string>
+    <string name="grid_menu">"Сеть"</string>
+    <string name="grid_view">"Сеткой"</string>
+    <string name="gridview">"Сетка"</string>
+    <string name="group_is_private">"Частное"</string>
+    <string name="group_name">"Имя группы"</string>
+    <string name="group_objective">"Цель"</string>
+    <string name="group_participants">"Участники"</string>
+    <string name="group_reports_by">"Группировать отчеты по"</string>
+    <string name="hide">"Скрыть"</string>
+    <string name="home">"Домашняя"</string>
+    <string name="home_lbl">"Главная"</string>
+    <string name="hyperlink_type">"Гиперссылка"</string>
+    <string name="imageeditor_title">"Редактор изображений"</string>
+    <string name="import_cnx">"Импорт по URL"</string>
+    <string name="import_txt">"Импорт"</string>
+    <string name="in_list">"В списке"</string>
+    <string name="info">"Информация"</string>
+    <string name="input_control">"Фильтры"</string>
+    <string name="input_control_title">"Фильтры: выбрать значения"</string>
+    <string name="instance_file_extension">"_instance"</string>
+    <string name="is_default_conn">"По умолчанию"</string>
+    <string name="is_null">"NULL"</string>
+    <string name="items">"ПОЗИЦИИ"</string>
+    <string name="ivory">"Слоновая кость"</string>
+    <string name="jam">"SAP JAM"</string>
+    <string name="jam_Send">"Отправить"</string>
+    <string name="jam_current_groups">"ТЕКУЩИЕ ГРУППЫ"</string>
+    <string name="jam_oauth_header">"Вход в SAP JAM"</string>
+    <string name="jam_sendtojam">"Отправить в SAP JAM"</string>
+    <string name="label_sso_authenticate_at_logon">"Аутентификация при входе"</string>
+    <string name="label_sso_certificate">"SSO активен (выбрать сертификат)"</string>
+    <string name="label_sso_cookie_Based">"SSO ВКЛЮЧЕН"</string>
+    <string name="label_sso_cookie_enabled">"Cookie включены"</string>
+    <string name="label_sso_reauthenticate_at_logon">"Повторная аутентификация при входе"</string>
+    <string name="legal">"Правовая информация"</string>
+    <string name="less">"Меньше"</string>
+    <string name="less_or_equal">"Меньше или равно"</string>
+    <string name="like">"Похоже"</string>
+    <string name="limit">"Лимит"</string>
+    <string name="link">"Ссылка"</string>
+    <string name="list_view">"Списком"</string>
+    <string name="listview">"Список"</string>
+    <string name="loading">"Загрузка..."</string>
+    <string name="log">"Журналы"</string>
+    <string name="log_clear_logs_confirm">"Действительно очистить журналы?"</string>
+    <string name="log_clearlog">"Очистить журнал"</string>
+    <string name="log_enable">"Включить журналы"</string>
+    <string name="log_mail_subject">"Файлы Mobi logger"</string>
+    <string name="log_message">"Действительно включить журналы?"</string>
+    <string name="log_nologs_exists">"Журналы уже очищены"</string>
+    <string name="log_nologs_tosend">"Нет журналов для отправки"</string>
+    <string name="log_sendlog">"Отправить файл журнала"</string>
+    <string name="log_title">"Настройки журнала"</string>
+    <string name="login">"Вход"</string>
+    <string name="login_cmd">"Дальше"</string>
+    <string name="login_mesg">"Вход; пожалуйста, подождите..."</string>
+    <string name="login_mesglist">"Составление списка документов..."</string>
+    <string name="login_string">"Соединение с"</string>
+    <string name="logon">"Вход"</string>
+    <string name="logout">"Выход"</string>
+    <string name="logout_title">"Выход"</string>
+    <string name="lov_error">"Невозможно получить список значений с сервера. Если проблема не будет устранена, обратитесь к администратору"</string>
+    <string name="manage_categories">"Управление категориями"</string>
+    <string name="manage_connections">"Управление соединениями"</string>
+    <string name="mark_as_read">"Пометить как прочитанное"</string>
+    <string name="mark_as_unread">"Пометить как непрочитанное"</string>
+    <string name="media_player_codecs">"Внимание: для воспроизведения этого клипа убедитесь в том, что загружены новейшие кодеки для доступного медиапроигрывателя."</string>
+    <string name="mem_used">"Исп. 0 МБ из 100 МБ"</string>
+    <string name="menu_notification">"Уведомления"</string>
+    <string name="mesg_already_downloaded">"Этот документ уже загружен"</string>
+    <string name="mesg_clearing_filters">"Очистка фильтров..."</string>
+    <string name="mesg_create_groups_error">"Ошибка при создании группы"</string>
+    <string name="mesg_document_downloading">"Инициирована загрузка документов."</string>
+    <string name="mesg_dowloading_document_offline">"Загрузка документа на Главную..."</string>
+    <string name="mesg_download_failure">"Ошибка загрузки"</string>
+    <string name="mesg_download_in_progress">"Операция невозможна. Идет загрузка"</string>
+    <string name="mesg_download_success">"Загружено успешно"</string>
+    <string name="mesg_downloading_pending_reports">"Загрузка. Пожалуйста, подождите..."</string>
+    <string name="mesg_drill_down_document">"Развертка ..."</string>
+    <string name="mesg_drill_up_document">"Свертка ..."</string>
+    <string name="mesg_failer_xcelsius">"Невозможно выполнить операцию. Повторите позже."</string>
+    <string name="mesg_filtering_document">"Фильтрация документа..."</string>
+    <string name="mesg_getting_content">"Получение контента с сервера..."</string>
+    <string name="mesg_getting_prompts">"Выборка промптов..."</string>
+    <string name="mesg_groups_error">"Ошибка при вызове групп с сервера SAP JAM"</string>
+    <string name="mesg_groups_exists_error">"Группа с таким именем уже существует"</string>
+    <string name="mesg_invalid_oauth_details">"Недействительные данные OAUTH. Сконфигурируйте верные данные OAUTH в CMS"</string>
+    <string name="mesg_logoff">"Выход; пожалуйста, подождите..."</string>
+    <string name="mesg_lov_document">"Выборка списка значений..."</string>
+    <string name="mesg_opening_document">"Открытие документа..."</string>
+    <string name="mesg_opening_report">"Отчет открывается..."</string>
+    <string name="mesg_processing_data">"Обработка данных..."</string>
+    <string name="mesg_prompt_document">"Применение промптов к документу..."</string>
+    <string name="mesg_recieve_accesstoken">"Ошибка при вызове маркера доступа с сервера SAP JAM"</string>
+    <string name="mesg_recieve_oauthtoken">"Ошибка при вызове маркера запроса с сервера SAP JAM"</string>
+    <string name="mesg_refresh_document">"Обновление документа..."</string>
+    <string name="mesg_refresh_lov_document">"Обновление списка значений..."</string>
+    <string name="mesg_remove_sort_document">"Удаление сортировки..."</string>
+    <string name="mesg_send_invite_error">"Ошибка при отправке приглашения пользователю"</string>
+    <string name="mesg_sorting_document">"Сортировка документа..."</string>
+    <string name="mesg_syncing_with_server">"Синхронизация с сервером..."</string>
+    <string name="mesg_update_xcelsius">"Обновление. Пожалуйста, подождите..."</string>
+    <string name="mesg_update_xcelsius_backup">"Невозможно получить резервную копию документа. Повторите позже."</string>
+    <string name="mesg_upload_photo_error">"Ошибка при загрузке скриншота на сервер SAP JAM"</string>
+    <string name="mesg_xcelsius">"Загрузка. Пожалуйста, подождите..."</string>
+    <string name="mesg_xcelsius_documentuncompatible">"Ссылочный документ несовместим с текущим приложением и не может быть отображен"</string>
+    <string name="mesg_xcelsius_initialize">"Инициализация"</string>
+    <string name="mesg_xcelsius_load">"Загрузка"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ru/error_messages.xml -->
+    <eat-comment/>
+    <string name="mob00006">"Документа нет на сервере. (MOB00006)"</string>
+    <string name="mob06004">"Не удалось установить соединение с сервером. Если проблема не устранится, свяжитесь с администратором(MOB06004)"</string>
+    <string name="mob06005">"Не удалось установить соединение с сервером. Повторите попытку или свяжитесь с администратором(MOB06005)"</string>
+    <string name="mob06006">"Тайм-аут запроса. Повторите попытку или свяжитесь с администратором(MOB06006)"</string>
+    <string name="mob06007">"Запрос недействителен. Проверьте данные соединения или свяжитесь с администратором(MOB06007)"</string>
+    <string name="mob06008">"У вас нет полномочий на этот запрос(MOB06008)"</string>
+    <string name="mob06009">"Запрос недействителен. Проверьте данные соединения или свяжитесь с администратором(MOB06009)"</string>
+    <string name="mob06010">"Внутренняя ошибка сервера при обработке запроса. Повторите попытку или свяжитесь с системным администратором(MOB06010)"</string>
+    <string name="mob06011">"Нет значения промпта. Выберите минимум одно значение для промпта(MOB06011)"</string>
+    <string name="mob06021">"Проверьте связь с сетью(MOB06021)"</string>
+    <string name="mob06022">"Внутренняя ошибка сервера при обработке запроса клиента(MOB06022)"</string>
+    <string name="mob06031">"Не удалось установить соединение с сервером. Повторите попытку или свяжитесь с администратором(MOB06031)"</string>
+    <string name="mob06099">"Произошла ошибка. Свяжитесь с администратором"</string>
+    <string name="mob08001">"Эл. почта не сконфигурирована на этом устройстве(MOB08001)"</string>
+    <string name="mob08002">"Внутренняя ошибка сервера при обработке запроса. Свяжитесь с администратором(MOB08002)"</string>
+    <string name="mob08003">"Ошибка сервера не позволила обновить документ. Повторите попытку(MOB08003)"</string>
+    <string name="mob08004">"Заполнены не все обязательные промпты(MOB08004)"</string>
+    <string name="mob08005">"Этот промпт не поддерживается(MOB08005)"</string>
+    <string name="mob08006">"Проверьте данные для входа в систему(MOB08006)"</string>
+    <string name="mob08007">"Эта версия сервера не поддерживается приложением. Свяжитесь с администратором(MOB08007)"</string>
+    <string name="mob08008">"Особая ситуация SUP(MOB08008)"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="mobi_legal">"Правовая информация"</string>
+    <string name="mobile_server_URL">"URL мобильного сервера"</string>
+    <string name="modified_at">"Изменено:"</string>
+    <string name="modify_conn_connected">"Невозможно изменить соединение; выйдите и повторите попытку"</string>
+    <string name="modify_connection">"Изменить соединение"</string>
+    <string name="more">"Еще"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="3698378085901466129" name="mr_button_content_description">"Кнопка трансляции"</string>
+    <string msgid="6349900579507521956" name="mr_chooser_searching">"Поиск устройств…"</string>
+    <string msgid="414301941546135990" name="mr_chooser_title">"Выберите устройство"</string>
+    <string msgid="6422801843540543585" name="mr_controller_album_art">"Обложка"</string>
+    <string msgid="4868457957151124867" name="mr_controller_casting_screen">"Подключение к удаленному монитору"</string>
+    <string msgid="7333862312480583260" name="mr_controller_close_description">"Закрыть"</string>
+    <string msgid="7924809056904240926" name="mr_controller_collapse_group">"Свернуть"</string>
+    <string msgid="1227264889412989580" name="mr_controller_disconnect">"Отключить"</string>
+    <string msgid="8062427022744266907" name="mr_controller_expand_group">"Развернуть"</string>
+    <string msgid="5585418471741142924" name="mr_controller_no_info_available">"Данных нет"</string>
+    <string msgid="6547130360349182381" name="mr_controller_no_media_selected">"Медиафайл не выбран"</string>
+    <string msgid="5451884435510905406" name="mr_controller_pause">"Приостановить"</string>
+    <string msgid="683634565969987458" name="mr_controller_play">"Воспроизвести"</string>
+    <string msgid="4570331844078181931" name="mr_controller_stop">"Остановить трансляцию"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Система"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Устройства"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="msg_added_to_favourite">"добавлено в избранное"</string>
+    <string name="my_connections">"Соединения"</string>
+    <string name="name">"Имя"</string>
+    <string name="nav_close">"Закрыто"</string>
+    <string name="nav_open">"Открыто"</string>
+    <string name="network">"Опции сети"</string>
+    <string name="network_notification_connected">"Сеть доступна. Работать в режиме онлайн?"</string>
+    <string name="network_notification_disconnected">"Сеть недоступна. Работать в режиме оффлайн?"</string>
+    <string name="network_options">"Опции сети"</string>
+    <string name="new_txt">"Новое"</string>
+    <string name="next">"Дальше"</string>
+    <string name="no_active_connection_available">"Для выполнения этого действия необходимо активное соединение"</string>
+    <string name="no_conn">"Нет соединений"</string>
+    <string name="no_connections">"Соединения не определены.\n \nДля создания нового соединения пройдите по пути: \nМеню > Настройки > Соединения"</string>
+    <string name="no_downloaded_docs">"Нет доступных документов"</string>
+    <string name="no_filters">"Фильтры не применены"</string>
+    <string name="no_filters_saved">"Фильтры не сохранены"</string>
+    <string name="noconnections">"Нет соединений"</string>
+    <string name="none">"Нет"</string>
+    <string name="not_between">"Не между"</string>
+    <string name="not_connected">"Соединить"</string>
+    <string name="not_equal">"Не равно"</string>
+    <string name="not_in_list">"Не в списке"</string>
+    <string name="not_like">"Не похоже"</string>
+    <string name="not_recording">"Готов к записи..."</string>
+    <string name="notification_Auto_Update_Is_Disabled">"Автообновление недоступно для этого соединения"</string>
+    <string name="notification_available">"Доступны обновления"</string>
+    <string name="notification_available_single">"Доступно обновление"</string>
+    <string name="notification_cancel_all">"Отменить все"</string>
+    <string name="notification_clear_all">"Очистить все"</string>
+    <string name="notification_not_available">"Уведомления недоступны"</string>
+    <string name="notification_update_all">"Обновить все"</string>
+    <string name="notification_updated_count">"Документы недавно обновлены"</string>
+    <string name="notification_updated_count_single">"Документ недавно обновлен"</string>
+    <string name="notification_updating">"Обновление документов"</string>
+    <string name="notification_updating_single">"Обновление документа"</string>
+    <string name="object_not_supported">"Тип объекта не поддерживается"</string>
+    <string name="off">"Выкл."</string>
+    <string name="offline_alert">"ОПОВЕЩЕНИЕ: ОФФЛАЙН"</string>
+    <string name="offline_connection">"Импорт соединений невозможен в режиме оффлайн"</string>
+    <string name="offline_filter">"Эта операция не может быть выполнена в режиме оффлайн"</string>
+    <string name="ok">"ОК"</string>
+    <string name="older">"Раньше"</string>
+    <string name="open_browser">"Коснитесь, чтобы открыть отчет в браузере"</string>
+    <string name="open_device_android">"Коснитесь, чтобы открыть отчет в приложении SAP BI на вашем устройстве Android"</string>
+    <string name="open_device_ios">"Коснитесь, чтобы открыть отчет в приложении SAP BI на вашем устройстве iOS"</string>
+    <string name="open_doc_back_msg">"Вы вернетесь на домашнюю страницу"</string>
+    <string name="orientation_lock">"Ориентация блокирована. Нельзя изменять ориентацию устройства во время комментирования отчета."</string>
+    <string name="orientation_unlock">"Ориентация разблокирована"</string>
+    <string name="osdeprecated">"Приложение не поддерживается в версии Android 2.2"</string>
+    <string name="oshoneycombnotsupported">"Приложение %1$s совместимо в версией ОС Android 4.0 и выше."</string>
+    <string name="osnotsupported">"Это приложение не поддерживается на Android 4.4 и выше"</string>
+    <string name="page">"Страница"</string>
+    <string name="page_indicator">"Индикатор страницы"</string>
+    <string name="page_loading">"Страница..."</string>
+    <string name="paint">"Рисовать"</string>
+    <string name="parent_doc_name">"Имя вышест. документа"</string>
+    <string name="password">"Пароль"</string>
+    <string name="pdf_pop_up_install_app">"Средство просмотра недоступно; установите PDF Viewer для просмотра документа"</string>
+    <string name="pdf_pop_up_select_app">"Выберите средство просмотра"</string>
+    <string name="pdf_type">"Документы PDF"</string>
+    <string name="per_view_storage">"Память для персонального ракурса"</string>
+    <string name="personal_view">"Память для персонального ракурса"</string>
+    <string name="personal_view_category">"Персональные ракурсы"</string>
+    <string name="personal_view_create">"Персональный ракурс"</string>
+    <string name="personal_view_size_exceeding">"Недостаточно места для сохранения. Удалите существующие персональные ракурсы или расширьте место для хранения в настройках."</string>
+    <string name="pg_show_add_home">"Загрузка и добавление документа на Главную..."</string>
+    <string name="pg_show_insatance">"Вызов последней инстанции..."</string>
+    <string name="pg_show_server_call">"Получение данных с сервера..."</string>
+    <string name="pg_show_update">"Обновление документа..."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Удалить поисковый запрос"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Поиск"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="playing">"Воспроизведение..."</string>
+    <string name="port">"Порт"</string>
+    <string name="post">"РАЗМЕСТИТЬ"</string>
+    <string name="previous">"Предыдущий"</string>
+    <string name="prompt_add_values">"Добавить значение"</string>
+    <string name="prompt_error">"Введены не все обязательные значения"</string>
+    <string name="prompt_optional">"Опционально"</string>
+    <string name="prompt_values">"Промпты"</string>
+    <string name="proxy">"Прокси"</string>
+    <string name="pv_create_title">"Сохранить ракурс"</string>
+    <string name="pv_description">"Описание персонального ракурса"</string>
+    <string name="pv_mem_usage">"(использовано %1$s из %2$s)"</string>
+    <string name="pv_name">"Имя персонального ракурса"</string>
+    <string name="pv_setting">"Настройки персонального ракурса"</string>
+    <string name="pv_setting_limit_none">"Нет"</string>
+    <string name="quick_hints">"Быстрые подсказки"</string>
+    <string name="quickeref_txt1">"Контекстное меню вызывается "<b>"длинным нажатием"</b>" нужного документа. "<b>"Коснитесь"</b>" опции для выполнения требуемого действия."</string>
+    <string name="quickeref_txt10"><b>"Двигайте"</b>" слайдер размытия для деформации отчета перед отправкой."</string>
+    <string name="quickeref_txt11"><b>"Нажимайте"</b>" каждую точку интереса (POI) для просмотра соответствующего значения."</string>
+    <string name="quickeref_txt12"><b>"Нажмите"</b>" значение для просмотра подробной информации."</string>
+    <string name="quickeref_txt13"><b>"Нажмите"</b>" стрелку для навигации по иерархическим данным в таблице."</string>
+    <string name="quickeref_txt14">"В окне предлагаемой иерархии продуктов "<b>"нажмите"</b>" стрелку для навигации по иерархии для выбора предлагаемых значений."</string>
+    <string name="quickeref_txt15"><b>"Нажмите"</b>" значок "<i>"Показать/скрыть"</i>" при просмотре панели инструментов для доступа к панели операций."</string>
+    <string name="quickeref_txt16"><b>"Нажмите"</b>" значок "<i>"Закрепить"</i>", чтобы закрепить панель операций при просмотре панели инструментов."</string>
+    <string name="quickeref_txt2"><b>"Коснитесь"</b>" индикатора страницы для вызова навигационного слайдера. На смартфоне для этого можно воспользоваться полосой прокрутки."</string>
+    <string name="quickeref_txt3"><b>"Дважды коснитесь"</b>" диаграммы или "<b>"один раз"</b>" таблицы (с синим текстом) для развертки."</string>
+    <string name="quickeref_txt4"><b>"Дважды коснитесь"</b>" заголовка столбца таблицы для доступа к "<i>"табличным операциям"</i>"."</string>
+    <string name="quickeref_txt5"><b>"Коснитесь"</b>" значка для выполнения требуемого действия с частью отчета."</string>
+    <string name="quickeref_txt6">"Выберите "<i>"\'Табличные операции\'"</i>" для выполнения задач, таких как переупорядочить, заморозить/разморозить, скрыть/показать столбцы или строки."</string>
+    <string name="quickeref_txt7"><b>"Коснитесь "</b>"значка "<i>"Разделы"</i>" для доступа к опциям раздела, доступным в отчете."</string>
+    <string name="quickeref_txt8">"Во всплывающем окне "<i>"\'Разделы\'"</i>" "<b>"нажмите "</b>" переключатель для просмотра информации по разделу отчета или "<b>"нажмите "</b>" стрелку для просмотра информации следующего уровня отчета."</string>
+    <string name="quickeref_txt9"><b>"Коснитесь "</b>" значка "<i>"Поделиться"</i>" и выберите "<i>"Аннотация"</i>", чтобы добавить к отчету аннотацию перед отправкой."</string>
+    <string name="quickref_checkbox_text">"Больше не показывать"</string>
+    <string name="quickref_exitbutton_text">"Выход"</string>
+    <string name="quickref_launch_text">"Добро пожаловать в "<b>"SAP BusinessObjects Mobile"</b>". С помощью быстрых подсказок этот Помощник даст вам полезные советы по использованию приложения."</string>
+    <string name="quickref_launchbutton_text">"Показывать быстрые подсказки"</string>
+    <string name="quickref_skipbutton_text">"Пропустить"</string>
+    <string name="reconnect">"Восстановить соединение"</string>
+    <string name="record">"Записать голосовую заметку"</string>
+    <string name="recorded_file_attached">"Записанный файл будет прикреплен к письму."</string>
+    <string name="recorded_file_deleted">"Записанный файл удален."</string>
+    <string name="recorded_file_not_attached">"Нет приложения с записанным файлом."</string>
+    <string name="recording">"Запись..."</string>
+    <string name="red">"Красный"</string>
+    <string name="refresh">"Обновить"</string>
+    <string name="refresh_confirm_msg">"Обновление удалит текущий контекст документа"</string>
+    <string name="refresh_confirm_title">"Обновить документ"</string>
+    <string name="refresh_mesg">"Обновление списка документов..."</string>
+    <string name="refresh_to_view_content">"Обновить для просмотра содержимого"</string>
+    <string name="register_with_sup">"Регистрация на SUP..."</string>
+    <string name="registration_success">"Регистрация выполнена успешно"</string>
+    <string name="remember_pwd">"Запомнить пароль"</string>
+    <string name="remove_document">"Удалить с устройства"</string>
+    <string name="remove_filter">"Удалить фильтр"</string>
+    <string name="remove_from_favorites">"Удалить из избранного"</string>
+    <string name="remove_sort">"Отменить сортировку"</string>
+    <string name="report_filter">"Фильтр"</string>
+    <string name="report_list">"Отчеты"</string>
+    <string name="report_part_filter_menu">"Фильтр частей отчета"</string>
+    <string name="report_part_menu">"Меню"</string>
+    <string name="required">"Требуется"</string>
+    <string name="reset_app_text">"Сброс приложения приведет к удалению локальных данных, в т.ч. настроек соединения и приложения. После сброса будет возможен вход в приложение без ввода пароля.\n\nПродолжить сброс приложения?"</string>
+    <string name="reset_app_warning">"Предупреждение"</string>
+    <string name="reset_app_warning_text">"Вы ввели неверный пароль к приложению 9 раз. При следующем вводе неверного пароля приложение будет сброшено с потерей всех локальных данных, в т.ч. настроек соединения и прочих параметров.\n\nДля доступа к приложению после сброса установите новое соединение и введите действительный пароль."</string>
+    <string name="reset_application">"Сброс приложения"</string>
+    <string name="reset_cmd">"Сброс"</string>
+    <string name="row">"Строка"</string>
+    <string name="sample">"Выборки"</string>
+    <string name="sample_doc1">"Отчет Правлению банка"</string>
+    <string name="sample_doc2">"Анализ распределения рабочей силы"</string>
+    <string name="sample_doc3">"Инструменты ритейлера"</string>
+    <string name="sample_doc4">"Рентабельность продаж"</string>
+    <string name="sample_doc5">"Менеджер магазина"</string>
+    <string name="sample_doc6">"Устойчивость"</string>
+    <string name="sampledoc_header">"Примеры документов"</string>
+    <string name="sapbi_delete">"Внешняя программа пытается удалить соединение. Продолжить?"</string>
+    <string name="sapbi_modify">"Внешняя программа пытается изменить соединение. Продолжить?"</string>
+    <string name="save_cmd">"Сохранить"</string>
+    <string name="save_error_string">"Заполните обязательные поля"</string>
+    <string name="save_pass">"Сохранить пароль"</string>
+    <string name="save_password">"Сохранить пароль"</string>
+    <string name="saved_connection">"Сохраненное соединение"</string>
+    <string name="saved_connections">"Сохраненные соединения"</string>
+    <string name="savepasswordforms">"Ваш пароль к CMS не сохранен из-за политики безопасности, установленной администратором"</string>
+    <string name="savepw">"Сохранить пароль"</string>
+    <string name="search_hint">"Поиск"</string>
+    <string name="searchresults">"Результаты поиска"</string>
+    <string name="sections">"Разделы"</string>
+    <string name="security_configname">"Конфигурация безопасности"</string>
+    <string name="select_default_category">"Выберите категорию для настройки по умолчанию"</string>
+    <string name="select_theme">"Выбрать тему"</string>
+    <string name="send_cnx_options">"Передать соединение через:"</string>
+    <string name="send_options">"Отправить скриншот:"</string>
+    <string name="sender">"Отправитель"</string>
+    <string name="sent_at">"Отправлено:"</string>
+    <string name="sent_from">"Отправлено с устройства под Android"</string>
+    <string name="server">"Сервер"</string>
+    <string name="session_timeout">"Тайм-аут сеанса"</string>
+    <string name="set_as_default">"Соединение по умолчанию"</string>
+    <string name="share_connection">"Поделиться"</string>
+    <string name="show_downloaded">"Показать только загруженные отчеты"</string>
+    <string name="skip">"Пропустить"</string>
+    <string name="smp_config">"КОНФИГУРАЦИЯ SMP"</string>
+    <string name="smp_connection">"Соединение SMP"</string>
+    <string name="smpcloud_connection">"Соединение SMP Cloud"</string>
+    <string name="snapshot_drill">"Операция развертки не сохранена"</string>
+    <string name="snapshot_hierarchy">"Операция иерархии не поддерживается для документов персонального ракурса"</string>
+    <string name="snapshot_name_exists">"Такое имя уже существует для другого персонального ракурса. Введите другое имя"</string>
+    <string name="snapshot_opendoc">"Операция URL открытия документа не поддерживается для документов персонального ракурса"</string>
+    <string name="snapshot_rel">"Операция соединения элементов отчета не поддерживается для документов персонального ракурса"</string>
+    <string name="sort">"Сортировка"</string>
+    <string name="sort_asc">"По восходящей"</string>
+    <string name="sort_desc">"По нисходящей"</string>
+    <string name="sorting_order">"Порядок сортировки"</string>
+    <string name="splash_docs_to_be_upgraded">"Требуется обновить документы: %1$s "</string>
+    <string name="splash_number_of_docs_upgraded">"Обновлено документов: %1$s из %2$s"</string>
+    <string name="splash_upgrade_docs">"Обновление документов..."</string>
+    <string name="ssl_alert_title">"Предупреждение"</string>
+    <string name="ssl_alertmessge">"Соединение может не являться доверенным. Продолжить?"</string>
+    <string name="ssl_date_invalid_error">"Дата сертификата недействительна"</string>
+    <string name="ssl_expired_error">"Сертификат истек"</string>
+    <string name="ssl_idmismatch_error">"Неправильное имя хоста"</string>
+    <string name="ssl_invalid_error">"Возникла общая ошибка"</string>
+    <string name="ssl_notyetvalid_error">"Сертификат пока недействителен"</string>
+    <string name="ssl_untrusted_error">"Центр сертификации не является доверенным"</string>
+    <string name="sso_X509_Certificate_Title">"Ошибка сертификата"</string>
+    <string name="sso_X509_Mandatory_certifcate">"Для этого соединения необходим сертификат"</string>
+    <string name="sso_X509_authentication">"Аутентификация"</string>
+    <string name="sso_X509_certificate_invalid">"Возможно, выбранный сертификат недействителен или поврежден. Что Вы хотите сделать?"</string>
+    <string name="sso_X509_certificate_not_required">"Как войти в соединение"</string>
+    <string name="sso_X509_certiifcate_unavailable">"Не установлены сертификаты для SAP BusinessObjects Mobile. Что Вы хотите сделать?"</string>
+    <string name="sso_X509_unauthorised_connection_sso">"Доступ в режиме офлайн неактивен для SSO"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="success">"Успешно"</string>
+    <string name="sup_accessdetail">"ДАННЫЕ ДОСТУПА"</string>
+    <string name="sup_config">"КОНФИГУРАЦИЯ SUP"</string>
+    <string name="sup_configaration">"Конфигурация SUP"</string>
+    <string name="sup_connection">"Соединение SUP"</string>
+    <string name="sup_deregister">"Отменить регистрацию"</string>
+    <string name="sup_deregister_success">"Разрегистрация выполнена успешно"</string>
+    <string name="sup_error_HTTP">"Ошибка HTTP"</string>
+    <string name="sup_error_authentication">"Ошибка аутентификации"</string>
+    <string name="sup_error_mobile_client">"Ошибка в мобильном клиенте!"</string>
+    <string name="sup_error_network">"Ошибка в сетевом соединении"</string>
+    <string name="sup_error_parse">"Ошибка в синт. анализе ответа от сервера"</string>
+    <string name="sup_error_unknown">"Неизвестная ошибка."</string>
+    <string name="sup_instructedbyadmin">"Изменяйте эти значения только по указанию администратора"</string>
+    <string name="sup_register">"Зарегистрировать"</string>
+    <string name="sup_register_success">"Регистрация выполнена успешно"</string>
+    <string name="sup_serverdetail">"ДАННЫЕ СЕРВЕРА SUP"</string>
+    <string name="table_actions">"Табличные операции"</string>
+    <string name="tap">"Коснитесь для ввода текста"</string>
+    <string name="tap_string">"(Касание - обратный порядок)"</string>
+    <string name="tap_to_connect">"Нажмите для соединения"</string>
+    <string name="temp_file_extension">"_temp"</string>
+    <string name="thismonth">"Этот месяц"</string>
+    <string name="thisweek">"Эта неделя"</string>
+    <string name="title">"Название"</string>
+    <string name="today">"Сегодня"</string>
+    <string name="toggle_no">"Нет"</string>
+    <string name="toggle_off">"ВЫКЛ."</string>
+    <string name="toggle_on">"ВКЛ."</string>
+    <string name="toggle_yes">"Да"</string>
+    <string name="type">"Тип"</string>
+    <string name="type_value">"Ввод значения"</string>
+    <string name="unable_to_drill">"Невозможно развернуть документ"</string>
+    <string name="unfreeze">"Отменить фиксацию"</string>
+    <string name="unhide_all">"Показать все"</string>
+    <string name="unknown_document_type">"Тип выбранного документа неизвестен."</string>
+    <string name="unwrap">"Отменить перенос"</string>
+    <string name="update">"Обновить"</string>
+    <string name="update_available">": доступно обновление"</string>
+    <string name="update_document">"Доступно обновление"</string>
+    <string name="update_document_instance">"Доступны обновление и инстанция"</string>
+    <string name="update_instance">"Доступна инстанция"</string>
+    <string name="uploading">"Загрузка..."</string>
+    <string name="url_start_string">"http://"</string>
+    <string name="use_app_pwd">"Использовать пароль к приложению"</string>
+    <string name="user_name">"Пользователь"</string>
+    <string name="user_profile">"Профиль пользователя"</string>
+    <string name="version">"Версия:"</string>
+    <string name="view">"Просмотреть"</string>
+    <string name="view_doc">"Просмотреть документ"</string>
+    <string name="view_doc_instance_online">"Посмотреть последнюю доступную инстанцию"</string>
+    <string name="view_instance">"См. инстанцию"</string>
+    <string name="view_instance_download_message">"Загрузить последнюю инстанцию?"</string>
+    <string name="view_instance_title">"Инстанция документа"</string>
+    <string name="view_log">"Просмотреть журнал"</string>
+    <string name="viewing">"Опции просмотра"</string>
+    <string name="viewing_options">"Опции просмотра документа"</string>
+    <string name="wait">"Подождите..."</string>
+    <string name="wait_string">"..."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.1/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Купить через Google"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="webi_type">"Web Intelligence"</string>
+    <string name="whats_new">"Что нового"</string>
+    <string name="white">"Белый"</string>
+    <string name="work_lbl">"Рабочий"</string>
+    <string name="work_offline">"Работа офлайн"</string>
+    <string name="wrap">"Перенос"</string>
+    <string name="wrong_pwd">"Недействительный пароль"</string>
+    <string name="wrong_pwd_text">"Вы ввели неверный пароль %1$d раз(а). \n\nСбросить приложение?"</string>
+    <string name="xc_fitToScreen">"Вписать в экран"</string>
+    <string name="xc_fit_to_screen">"Вписать в экран"</string>
+    <string name="xc_hideToolBar">"Скрыть панель"</string>
+    <string name="xc_offline_dataset">"Число наборов данных офлайн"</string>
+    <string name="xc_pin_unpin">"Прикрепить/открепить"</string>
+    <string name="xc_sdk_storage">"Память SDK офлайн"</string>
+    <string name="xc_setting">"Настройка панели"</string>
+    <string name="yellow">"Желтый"</string>
+    <string name="yesterday">"Вчера"</string>
+    <string name="you">"Вы"</string>
+</resources>

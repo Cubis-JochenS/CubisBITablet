@@ -1,0 +1,931 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ActionBarCompat">
+        <item name="android:id">@id/actionbar_compat</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_compat_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layoutDirection">locale</item>
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+    <!-- New blue theme for 6.0 -->
+    <style name="ActionBarNew">
+        <item name="android:id">@id/actionbar_compat</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layoutDirection">locale</item>
+        <item name="android:background">@color/home_view_section_text</item>
+    </style>
+
+    <style name="CustomDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <style name="CustomWindowTitleBackground">
+
+        <!-- <item name="android:background">@drawable/ab_solid</item> -->
+        <item name="android:background">@color/top_bar</item>
+    </style>
+     <style name="CustomWindowTitleBackgroundWhite">
+
+        <!-- <item name="android:background">@drawable/ab_solid</item> -->
+        <item name="android:background">@color/white</item>
+    </style>
+    
+
+    <style name="CustomThemeNew" parent="android:Theme">
+        <item name="android:windowTitleSize">48dp</item>
+        <item name="android:actionBarStyle">@style/CustomTheme.White.ActionBar</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackgroundWhite</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:layoutDirection">locale</item>
+        <item name="android:homeAsUpIndicator">@drawable/nav_back_button</item>
+    </style>
+     <style name="CustomPhoneTheme.Grey" parent="android:Theme">
+        <item name="android:windowTitleSize">48dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:layoutDirection">locale</item>
+         <item name="android:homeAsUpIndicator">@drawable/nav_back_button</item>
+    </style>
+	<!-- Custom Theme with white actionbar -->
+	<style name="CustomTheme.Grey" parent="@android:style/Theme.Holo.Light">
+	   <!--  <item name="android:popupMenuStyle">@style/CustomTheme.White.PopupMenu</item> -->
+	    <item name="android:actionOverflowButtonStyle">@style/CustomTheme.White.Actionbar.Overflow</item>
+	    <item name="android:actionModeSplitBackground">@null</item>
+	    <item name="android:windowNoTitle">false</item>
+	     <item name="android:homeAsUpIndicator">@drawable/nav_back_button</item>
+	    <item name="android:layoutDirection">locale</item>
+
+	</style>
+	<style name="CustomTheme.White" parent="CustomTheme.Grey">
+	    <item name="android:actionBarStyle">@style/CustomTheme.White.ActionBar</item>	    
+    	<item name="android:actionBarDivider">@null</item>
+	</style>
+
+	<style name="CustomTheme.White.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+	    <item name="android:background">#FFFFFF</item>
+	</style>
+	<style name="CustomTheme.White.PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">#FEFEFE</item>
+    </style>
+     <style name="CustomTheme.White.Actionbar.Overflow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/custom_overflow</item>
+    </style>
+    <style name="LegalTextFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">21px</item>
+    </style>
+
+    <style name="SimpleTextFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14dip</item>
+    </style>
+
+    <style name="SimpleEditTextFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FragmentListTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:padding">15dip</item>
+        <item name="android:background">@color/dimgrey</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="SimpleLineSeperator" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.01dip</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:textSize">14dip</item>
+    </style>
+
+    <style name="ConnectionsTitleSeperator" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:background">@color/text_blue</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">18dip</item>
+        <item name="android:paddingStart">18dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ConnectionsListLarge" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">30dip</item>
+        <item name="android:paddingStart">30dip</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:background">@color/dimgrey</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ConnectionsList" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingRight">2dip</item>
+        <item name="android:paddingEnd">2dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Connectionstatus" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/settings_view_connection_status_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">30dip</item>
+        <item name="android:paddingStart">30dip</item>
+        <item name="android:paddingBottom">5dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ConnectionListTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingLeft">15dip</item>
+        <item name="android:paddingBottom">5dip</item>
+        <item name="android:drawablePadding">5dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ConnectionListElements" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:background">@drawable/settings_list_selector</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="PersonalView" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:background">@drawable/settings_list_selector</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ConnectionAddElements" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">18dip</item>
+        <item name="android:paddingBottom">18dip</item>
+        <item name="android:paddingLeft">32dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="GeneralSettings" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">18dip</item>
+        <item name="android:paddingBottom">18dip</item>
+        <item name="android:paddingLeft">32dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Logs" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">18dip</item>
+        <item name="android:paddingBottom">18dip</item>
+        <item name="android:paddingLeft">32dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ClearData" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">18dip</item>
+        <item name="android:paddingBottom">18dip</item>
+        <item name="android:paddingLeft">32dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingStart">32dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="GeneralSettingsSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">17dip</item>
+        <item name="android:paddingBottom">17dip</item>
+        <item name="android:paddingLeft">32dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingStart">32dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="LogsSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">17dip</item>
+        <item name="android:paddingBottom">17dip</item>
+        <item name="android:paddingLeft">32dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingStart">32dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="clearDataSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">17dip</item>
+        <item name="android:paddingBottom">17dip</item>
+        <item name="android:paddingLeft">32dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingStart">32dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="clearDataExtraSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingTop">17dip</item>
+        <item name="android:paddingBottom">17dip</item>
+        <item name="android:paddingLeft">32dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingStart">32dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ConnectionLineSeperator" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/text_blue</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+        <item name="android:textSize">14dip</item>
+    </style>
+
+    <style name="FilterLineSeperator" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#585858</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+        <item name="android:textSize">14dip</item>
+    </style>
+
+    <style name="ConnectionLineSep" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.01dip</item>
+        <item name="android:background">@color/lightgrey</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:textSize">14dip</item>
+    </style>
+<style name="CategoryLineSep" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.01dip</item>
+        <item name="android:background">#dddddd</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:textSize">14dip</item>
+    </style>
+    <style name="CategoryListLineSep" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">#dddddd</item>
+    </style>
+    <style name="DialogTitleSeperator" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">4dp</item>
+        <item name="android:background">@color/text_header</item>
+    </style>
+    <!-- New style for connection layout -->
+    <style name="ButtonSeperator" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/text_header</item>
+    </style>
+
+    <style name="DialogFooterSeperator" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/text_subheader</item>
+    </style>
+
+    <!-- connection UI styles for small devices -->
+
+    <style name="ConnectionListTitleSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingStart">10dip</item>
+        <item name="android:paddingBottom">5dip</item>
+        <item name="android:drawablePadding">5dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ConnectionLineSSOHeaderSeperator" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ConnectionListElementsSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:background">@drawable/settings_list_selector</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:padding">15dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="PersonalViewSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:background">@drawable/settings_list_selector</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ConnectionAddElementsSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">17dip</item>
+        <item name="android:paddingBottom">17dip</item>
+        <item name="android:paddingLeft">32dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingStart">32dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ConnectionsListSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingRight">2dip</item>
+        <item name="android:paddingEnd">2dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ConnectionSUPLarge" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:background">@drawable/settings_list_selector</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingLeft">32dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingStart">32dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ConnectionSUPSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:background">@drawable/settings_list_selector</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingLeft">32dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingStart">32dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:drawablePadding">20dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- connection UI styles for small devices -->
+
+    <style name="QuickActionTextAppearance">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+        <item name="android:textColorLink">#5C5CFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="PromptList" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ReporttList" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PromptValues" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    
+    <!-- CONNECTION TEXT STYLES -->
+    <style name="TextMediumTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+     <style name="TextMediumTitlePhone">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/dimgrey</item>
+    </style>
+    <style name="TextSpinnerDropdown">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextSpinnerDropdownSubtitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_subheader</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <!--  -->
+
+    <!-- NEW TEXT STYLES -->
+
+    <style name="BackgroundColor">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="TextLarge">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/text_normal</item>
+    </style>
+
+    <style name="TextMedium">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_normal</item>
+    </style>
+    <style name="TextMediumPhone">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/text_normal</item>
+    </style>
+    <style name="TextMediumCategory">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/left_panel_text</item>
+    </style>
+
+    <style name="TextMediumPrompt">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="TextButton">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_normal</item>
+    </style>
+
+    <style name="TextSmall">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_normal</item>
+    </style>
+
+    <style name="Imp_Header">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="TextSmall.Dialog">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_normal</item>
+    </style>
+
+    <style name="TextExtraSmall">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_normal</item>
+    </style>
+
+    <style name="TextLarge.Header">
+        <item name="android:textColor">#0062A9</item>
+    </style>
+
+    <style name="TextMedium.Header">
+        <item name="android:textColor">#0062A9</item>
+    </style>
+
+    <style name="TextSmall.Header">
+        <item name="android:textColor">@color/text_header</item>
+    </style>
+
+    <style name="TextExtraSmall.Header">
+        <item name="android:textColor">#0062A9</item>
+    </style>
+
+    <style name="TextLarge.SubHeader">
+        <item name="android:textColor">@color/text_subheader</item>
+    </style>
+
+    <style name="TextMedium.SubHeader">
+        <item name="android:textColor">@color/text_subheader</item>
+    </style>
+
+    <style name="TextSmall.SubHeader">
+        <item name="android:textColor">@color/text_subheader</item>
+    </style>
+
+    <style name="TextExtraSmall.SubHeader">
+        <item name="android:textColor">@color/text_subheader</item>
+    </style>
+	<style name="TextSmall.gridDate">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/list_smalltext</item>
+    </style>
+    <style name="TextMedium.gridDoc">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/list_text</item>
+    </style>
+    <style name="TextSmall.SubHeaderdimGrey">
+        <item name="android:textColor">@color/lightgrey</item>
+    </style>
+
+    <style name="TextSmall.SubHeaderblue">
+        <item name="android:textColor">@color/lightgrey</item>
+    </style>
+
+    <style name="TextMedium.list">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/list_text</item>
+    </style>
+    <style name="TextMedium.listphone">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/list_text</item>
+    </style>
+    <style name="TextMedium.light">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/mediumgrey</item>
+    </style>
+
+    <style name="TextMedium.list_header">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_blue</item>
+    </style>
+
+    <style name="TextMedium.list_tab">
+        <item name="android:textColor">@color/list_text</item>
+    </style>
+
+    <style name="TextExtraSmall.list">
+        <item name="android:textColor">@color/list_subtext</item>
+    </style>
+
+    <style name="TextSmall.list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/list_smalltext</item>
+    </style>
+    <style name="TextSmall.listphone">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/list_smalltext</item>
+    </style>
+
+    <style name="TextSmall.textblue">
+        <item name="android:textColor">@color/text_blue</item>
+    </style>
+    
+	<style name="TextMedium.SplashText">
+        <item name="android:textColorHint">@color/splash_screen_text</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="TextSmall.EditTextBoxStyle">
+        <item name="android:textColorHint">@color/lightgrey</item>
+        <item name="android:textColor">@color/dimgrey</item>
+    </style>
+
+    <style name="TextMedium.EditTextBoxStyle">
+        <item name="android:textColorHint">@color/lightgrey</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextMedium.EditTextBoxStylePhone">
+        <item name="android:textColorHint">@color/lightgrey</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="TextMedium.SpinnerItem" parent="@android:attr/spinnerItemStyle">
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="actionbarText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="SpinnerItemActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextSmall.SpinnerItem" parent="@android:attr/spinnerItemStyle">
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ThemeDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@style/WindowTitleBackground</item>
+    </style>
+
+    <!-- New theme for mobi 6.0 -->
+    <style name="WindowTitleBackgroundBlue">
+        <item name="android:background">@color/home_view_section_text</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ThemeDialogBlue" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@style/WindowTitleBackground</item>
+    </style>
+
+    <style name="dialog">
+        <item name="android:fullDark">@drawable/dialog_bg</item>
+        <item name="android:topDark">@drawable/dialog_bg</item>
+        <item name="android:centerDark">@drawable/dialog_bg</item>
+        <item name="android:bottomDark">@drawable/dialog_bg</item>
+        <item name="android:fullBright">@drawable/dialog_bg</item>
+        <item name="android:centerBright">@drawable/dialog_bg</item>
+        <item name="android:bottomBright">@drawable/dialog_bg</item>
+        <item name="android:bottomMedium">@drawable/dialog_bg</item>
+        <item name="android:centerMedium">@drawable/dialog_bg</item>
+    </style>
+
+    <style name="LoadingChartsDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="InputControlElement" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_marginStart">16dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="InputControlValue" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_marginStart">16dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="InputControlInfo" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_marginStart">16dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Dialoglistitem" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingStart">8dip</item>
+        <item name="android:paddingTop">12dip</item>
+        <item name="android:paddingBottom">12dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="DialoglistitemSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dimgrey</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingStart">8dip</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- REPORT PART QUICK ACTION -->
+
+    <style name="Animations" />
+
+    <!-- PopDownMenu -->
+    <style name="Animations.PopDownMenu" />
+
+    <style name="Animations.PopDownMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_top</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+    <!-- PopUpMenu -->
+    <style name="Animations.PopUpMenu" />
+
+    <style name="Animations.PopUpMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Reflect">
+        <item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
+	
+	<!-- Quick action styles -->
+ 	<style name="quicktextLight">
+ 	   <item name="android:textSize">16sp</item>
+ 	   <item name="android:textColor">@color/quicktext_small</item>    
+ 	</style>
+ 	<style name="quicktextMedium">
+ 	   <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/quicktext_medium</item>    
+ 	</style>
+ 	<style name="quicktextDark">
+ 	   <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/quicktext_dark</item>
+ 	</style>
+ 	<style name="SettingsLeftPaneList">
+	    <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:background">@drawable/settings_list_selector</item>
+	</style>
+	<style name="SettingsDetailsSeparator" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.01dip</item>
+        <item name="android:background">@color/settings_view_separator</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:textSize">14dip</item>
+    </style>
+	<style name="SettingsLeftPaneListText">
+    	<item name="android:textSize">18sp</item>
+    	<item name="android:padding">4dp</item>
+    	<item name="android:layout_centerVertical">true</item>
+    	<item name="android:textColor">@color/settings_left_panel_text</item>
+      	<item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+	</style>
+	<style name="SwitchTextAppearance" parent="@android:style/TextAppearance.Holo.Small">
+    <item name="android:textColor">@color/white</item>
+</style>
+</resources>

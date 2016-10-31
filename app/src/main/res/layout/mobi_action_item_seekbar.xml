@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="250dp"
+	android:layout_height="fill_parent"
+	android:minWidth="250dip"
+	android:layout_centerHorizontal="true"
+	android:gravity="center"
+	android:clickable="true"
+	android:paddingLeft="4dp"
+	android:paddingRight="4dp">
+
+ 		<TextView
+		   android:id="@+id/seekbar_page_number"
+		   android:layout_width="wrap_content"
+		   android:layout_height="15dp"
+		   style="@style/TextExtraSmall"/>  
+    
+		<SeekBar 
+	       android:id="@+id/page_seekBar" 
+	       android:layout_width="fill_parent" 
+	       android:layout_height="wrap_content"/>
+	      
+</LinearLayout>

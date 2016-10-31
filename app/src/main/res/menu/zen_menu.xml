@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--<item android:id="@+id/menu_zen_pin" android:title="@string/grid_menu" android:icon="@drawable/report_menu_pin_off"
+		android:showAsAction="always">
+	</item>-->
+	<item android:id="@+id/addhome_report" android:icon="@drawable/add_to_home_tablet" android:title="@string/add_home" android:showAsAction="always"></item>
+	<!--  <item android:id="@+id/zen_fittoscreen" android:icon="@drawable/original_xc_24" android:title="@string/toggle_yes" android:showAsAction="always"></item>-->
+	
+	<item android:id="@+id/zen_share_report"  android:icon="@drawable/menu_more_actions_tablet" android:showAsAction="always">
+	    <menu>
+	      <item android:id="@+id/zen_annotations"  android:title="@string/annotations" android:showAsAction="ifRoom"/>
+	      <item android:id="@+id/zen_email"  android:title="@string/email_menu" android:showAsAction="ifRoom"/>  
+	    </menu>
+	</item>
+</menu>

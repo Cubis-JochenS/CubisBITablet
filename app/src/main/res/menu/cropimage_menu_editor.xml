@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/menu_crop"
+        android:title="@string/crop"
+        android:icon="@drawable/annontate_menu_crop_normal"
+        android:showAsAction="ifRoom|withText" />
+   
+    <item android:id="@+id/menu_done"
+        android:icon="@drawable/annotate_crop_accept_grey"
+        android:showAsAction="always"
+        android:enabled="false" />
+</menu>

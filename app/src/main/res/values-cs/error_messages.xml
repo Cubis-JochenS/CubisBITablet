@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <!-- Server Error messages -->
+	<!-- XMSG -->
+    <string name="mob06004">"Nelze navázat připojení k serveru; pokud problém přetrvává, obraťte se na správce (MOB06004)"</string>
+	<!-- XMSG -->
+    <string name="mob06005">"Nelze navázat připojení k serveru; zkuste to znovu, nebo se obraťte na správce (MOB06005)"</string>
+	<!-- XMSG -->
+    <string name="mob06006">"Požadavek vypršel; zkuste to znovu, nebo se obraťte na správce (MOB06006)"</string>
+	<!-- XMSG -->
+    <string name="mob06007">"Váš požadavek je neplatný; ověřte detaily spojení nebo se obraťte na správce (MOB06007)"</string>
+	<!-- XMSG -->
+    <string name="mob06008">"Nemáte oprávnění pro tento požadavek (MOB06008)"</string>
+	<!-- XMSG -->
+    <string name="mob06009">"Váš požadavek je neplatný; ověřte detaily spojení nebo se obraťte na správce (MOB06009)"</string>
+	<!-- XMSG -->
+    <string name="mob06010">"Při zpracovávání vašeho požadavku došlo k interní chybě serveru; zkuste to znovu, nebo se obraťte na správce (MOB06010)"</string>
+	<!-- XMSG -->
+    <string name="mob06011">"Chybějící hodnota výzvy; vyberte alespoň jednu hodnotu pro výzvu (MOB06011)"</string>
+	<!-- XMSG -->
+    <string name="mob06021">"Ověřte síťové spojení (MOB06021)"</string>
+	<!-- XMSG -->
+    <string name="mob06022">"Při zpracování požadavku klienta došlo k interní chybě serveru (MOB06022)"</string>
+	<!-- XMSG -->
+    <string name="mob06031">"Nelze navázat připojení k serveru; zkuste to znovu, nebo se obraťte na správce (MOB06031)"</string>
+     
+    <!-- Client Error messages -->
+	 <!-- XMSG -->
+    <string name="mob08001">"E-mail není na tomto zařízení nakonfigurován (MOB08001)"</string>
+	<!-- XMSG -->
+    <string name="mob08002">"Při zpracovávání vašeho požadavku došlo k interní chybě serveru; obraťte se na správce (MOB08002)"</string>
+	<!-- XMSG -->
+    <string name="mob08003">"Chyba serveru zabránila obnovení dokumentu; zkuste to znovu (MOB08003)"</string>
+	<!-- XMSG -->
+    <string name="mob08004">"Všechny povinné výzvy byly vyplněny (MOB08004)"</string>
+	<!-- XMSG -->
+    <string name="mob08005">"Tato výzva není podporována (MOB08005)"</string>
+	<!-- XMSG -->
+    <string name="mob08006">"Ověřte své přihlašovací údaje (MOB08006)"</string>    
+	<!-- XMSG -->
+    <string name="mob08007">"Aplikace nepodporuje tuto verzi serveru; obraťte se na správce (MOB08007)"</string> 
+    <!-- XMSG -->
+    <string name="mob08008">"Výjimka SUP (MOB08008)"</string>
+    <!-- XMSG -->
+    <!--  This is a client sid emessage as below for the document not  found in server 
+    for content types like XC where we don;t get XML response. This is the same message which comes from Webi server for doc not found-->
+    <string name="mob00006">"Dokument na serveru neexistuje. (MOB00006)"</string>
+    <!-- XMSG -->
+    <string name="mob06099">"Zaznamenali jsme chybu; obraťte se na správce"</string>
+     
+</resources>

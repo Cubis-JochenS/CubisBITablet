@@ -1,0 +1,59 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* META-INF/
+* META-INF/MANIFEST.MF
+* META-INF/SAP_PUAD.RSA
+* META-INF/SAP_PUAD.SF
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/AfariaSLL-2.3.8.0.jar => app/libs/AfariaSLL-2.3.8.0.jar
+* libs/ClientLib-2.3.8.0.jar => app/libs/ClientLib-2.3.8.0.jar
+* libs/SAPBusinessObjectsMobileAndroidLibrary.jar => app/libs/SAPBusinessObjectsMobileAndroidLibrary.jar
+* libs/SDMCommon-2.3.8.0.jar => app/libs/SDMCommon-2.3.8.0.jar
+* libs/SDMConnectivity-2.3.8.0.jar => app/libs/SDMConnectivity-2.3.8.0.jar
+* libs/SMPRestClient-2.3.8.0.jar => app/libs/SMPRestClient-2.3.8.0.jar
+* libs/SUPProxyClient-2.3.8.0.jar => app/libs/SUPProxyClient-2.3.8.0.jar
+* libs/android-support-v4.jar => app/libs/android-support-v4.jar
+* libs/sqlcipher-android-3.2.0.jar => app/libs/sqlcipher-android-3.2.0.jar
+* libs/sup-client-util-2.3.8.0.jar => app/libs/sup-client-util-2.3.8.0.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/native/armeabi-v7a/libdatabase_sqlcipher.so => app/src/main/resources/native/armeabi-v7a/libdatabase_sqlcipher.so
+* src/native/armeabi-v7a/libsqlcipher_android.so => app/src/main/resources/native/armeabi-v7a/libsqlcipher_android.so
+* src/native/armeabi-v7a/libstlport_shared.so => app/src/main/resources/native/armeabi-v7a/libstlport_shared.so
+* src/native/armeabi/libdatabase_sqlcipher.so => app/src/main/resources/native/armeabi/libdatabase_sqlcipher.so
+* src/native/armeabi/libsqlcipher_android.so => app/src/main/resources/native/armeabi/libsqlcipher_android.so
+* src/native/armeabi/libstlport_shared.so => app/src/main/resources/native/armeabi/libstlport_shared.so
+* src/native/x86/libdatabase_sqlcipher.so => app/src/main/resources/native/x86/libdatabase_sqlcipher.so
+* src/native/x86/libsqlcipher_android.so => app/src/main/resources/native/x86/libsqlcipher_android.so
+* src/native/x86/libstlport_shared.so => app/src/main/resources/native/x86/libstlport_shared.so
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

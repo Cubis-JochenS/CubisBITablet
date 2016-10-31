@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sc"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingRight="8dp"
+    android:paddingEnd="8dp"
+    android:paddingTop="8dp" >
+
+    <ImageView
+        android:id="@+id/ctb_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layoutDirection="locale"
+        android:background="@drawable/nav_back_button" />
+
+    <ImageView
+        android:id="@+id/ctb_appIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_toRightOf="@+id/ctb_arrow"
+        android:layout_toEndOf="@+id/ctb_arrow"
+        android:background="@drawable/appicon" />
+
+    <TextView
+        android:id="@+id/ctb_settingText"
+        style="@style/TextMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ctb_appIcon"
+        android:layout_toEndOf="@+id/ctb_appIcon"
+        android:gravity="center_vertical"
+        android:paddingTop="3dp"
+        android:text="@string/ctb_settings"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

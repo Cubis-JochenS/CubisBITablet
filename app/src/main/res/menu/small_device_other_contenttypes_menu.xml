@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  for hyperlink and design studio content types -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ctb_overflow" android:icon="@drawable/custom_overflow" android:showAsAction="always">
+        <menu>
+				<item android:id="@+id/addhome_report" android:icon="@drawable/add_to_home_tablet" android:title="@string/add_home" android:showAsAction="never"></item>
+				<item android:id="@+id/info_xc_document" android:icon="@drawable/report_menu_info" android:title="@string/info" android:showAsAction="never"></item>
+				<item android:id="@+id/email"  android:title="@string/email_menu"  android:icon="@drawable/report_menu_email" android:showAsAction="never"/>
+		</menu>
+   </item>
+</menu>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/singleboxlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_grid_landscape_background"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	<ImageView android:id="@+id/gridbackgroundimage"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:src="@android:color/transparent"
+	    android:layout_marginTop="3dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginStart="5dp"
+	    android:layout_marginEnd="5dp"
+	    android:layout_marginBottom="6dp"
+	    android:scaleType="centerCrop"/>
+	<LinearLayout
+	    android:id="@+id/singleboxlayoutinner"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="3dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginStart="5dp"
+	    android:layout_marginEnd="5dp"
+	    android:layout_marginBottom="6dp"
+	    android:orientation="vertical"
+	     >
+
+    <LinearLayout
+        android:id="@+id/lldocDetails"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:alpha=".95"
+        android:orientation="vertical" >
+		
+        <RelativeLayout
+            android:id="@+id/linearLayoutDocName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <ImageView
+                android:id="@+id/img_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/home_thumbnail_favorited"
+                android:contentDescription="favorite"
+                android:layoutDirection="locale"
+                android:visibility="invisible" />
+            <LinearLayout
+                android:id="@+id/imagelayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/img_fav"
+                android:layout_toStartOf="@id/img_fav"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:padding="10dp">
+			<ImageButton android:id="@+id/btn_download"
+			   android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:focusable="true" 
+               android:background="@drawable/home_download_selector">
+             </ImageButton>
+             <ImageButton android:id="@+id/img_progressbar"
+			   android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:focusable="true" 
+               android:visibility="gone"
+               android:background="@drawable/home_download_selector">
+             </ImageButton>
+             </LinearLayout>
+            <TextView
+                android:id="@+id/tvdocname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/btn_download"
+                android:layout_toStartOf="@id/btn_download"
+                android:layout_alignParentLeft="true"
+                android:layout_alignLeft="@id/imagelayout1"
+                android:layout_alignParentStart="true"
+                android:layout_alignStart="@id/imagelayout1"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:paddingTop="8dp"
+               	android:layout_marginLeft="16dp"
+               	android:layout_marginRight="56dp"
+               	android:layout_marginStart="16dp"
+               	android:layout_marginEnd="56dp"
+                style="@style/TextMedium.gridDoc" />
+            <TextView
+                android:id="@+id/tvdocupdatetime"
+                android:layout_below="@id/tvdocname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:maxWidth="164dp"
+				android:paddingTop="4dp"
+				android:paddingLeft="16dp"
+				android:paddingStart="16dp"
+				style="@style/TextSmall.gridDate"/>        
+        </RelativeLayout>
+    </LinearLayout>
+	<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/lightgrey" />
+    <RelativeLayout
+        android:id="@+id/lltop"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+         >
+
+        <ImageView
+            android:id="@+id/img_doctype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+             android:layout_alignParentEnd="true"
+		    android:padding="10dp" >
+        <ImageButton
+            android:id="@+id/btn_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_more_selector"
+            android:visibility="visible" />
+        </LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

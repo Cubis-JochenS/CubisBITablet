@@ -1,0 +1,2809 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+
+
+
+    <!-- XTXT: title for the launcher icon of app -->
+
+    <string name="app_name">"SAP BI"</string>
+
+    <!-- XMSG: message says on which android sdk the app is not supported -->
+
+    <string name="osnotsupported">"יישום זה לא נתמך ב-Android 4.4 ומעלה"</string>
+
+    <!-- XMSG: message says on which android sdk the app is not supported -->
+
+    <string name="osdeprecated">"יישום זה לא נתמך בגרסת Android 2.2"</string>
+
+    <!-- XMSG: message says android api level less than 14 is not supported -->
+
+    <string name="oshoneycombnotsupported">"%1$s היישום תואם לגרסת Android OS 4.0 ואילך."</string>
+
+    <!-- XBUT: Text for HOME Button -->
+
+    <string name="description_home">"דף הבית"</string>
+
+    <!-- XMIT: Menu item for Search -->
+
+    <string name="description_search">"חיפוש"</string>
+
+    <!-- XTBS: Title for Browse Tab -->
+
+    <string name="browse">"עיון"</string>
+
+    <!-- XTBS,10: Title for Home Tab -->
+
+    <string name="home">"דף הבית"</string>
+
+    <!-- XMSG: login -->
+
+    <string name="login">"התחבר"</string>
+
+    <!-- XTXT: Text for new instance of ConnectionListDialogFragment -->
+
+    <string name="add_new_cnx">"הוסף חיבור"</string>
+
+    <!-- XTXT: Text used for Import -->
+
+    <string name="import_txt">"יבא"</string>
+
+    <!-- XTXT: Text used for Add connection -->
+
+    <string name="new_txt">"חדש"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="alias">"כינוי"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="add_alias">"הוסף כינוי"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="enter_alias">"הזן את הכינוי"</string>
+
+    <!-- XBUT: OK -->
+
+    <string name="ok">"OK"</string>
+
+    <!-- XBUT: cancel -->
+
+    <string name="cancel">"בטל"</string>
+
+    <!-- XBUT: XCPin -->
+
+    <string name="xc_pin_unpin">"הצמד/בטל הצמדה"</string>
+
+    <!-- XBUT: FitToScreen -->
+
+    <string name="xc_fit_to_screen">"התאם למסך"</string>
+
+
+
+    <!-- XBUT: Done -->
+
+    <string name="done">"בוצע"</string>
+
+    <!-- XBUT: Previous -->
+
+    <string name="previous">"הקודם"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_instance_title">"הצג מופע מסמך"</string>
+
+    <!-- XHED: heading for Categories -->
+
+    <string name="categories">"קטגוריות"</string>
+
+    <!-- XHED: heading for Search Results -->
+
+    <string name="searchresults">"תוצאות חיפוש"</string>
+
+    <!-- XHED: heading for Dailog while sending an email -->
+
+    <string name="send_options">"שלח צילום מסך באמצעות:"</string>
+
+    <!-- XHED: heading for Dialog while sending an email to share connection -->
+
+    <string name="send_cnx_options">"שתף חיבור באמצעות:"</string>
+
+    <!-- XBUT: Skip -->
+
+    <string name="skip">"דלג"</string>
+
+    <!-- XHED: heading for Sample Documents -->
+
+    <string name="sampledoc_header">"מסמכי דוגמה"</string>
+
+    <!-- XTXT -->
+
+    <string name="create_new_cnx_desc1">"ועיין במסמכים שלך."</string>
+
+    <!-- XTXT -->
+
+    <string name="create_new_cnx_desc2">"באפשרותך גם לבצע זאת ממסך ה\'הגדרות\'."</string>
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    <!-- Build number format is YYMM fo  every release year-month -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XBUT: Accept buttion in Eula Screen -->
+
+    <string name="eula_accept">"קבל"</string>
+
+    <!-- XBUT: Reject buttion in Eula Screen -->
+
+    <string name="eula_reject">"דחה"</string>
+
+    <!-- XHED: Heading for Eula Screen -->
+
+    <string name="eula_title">"הסכם רישיון למשתמש קצה"</string>
+
+    <string name="eula_mobi_updates"/>
+
+
+
+    <!-- Menu options for annotations -->
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="paint">"צייר"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="erase">"מחק"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="customview">"תצוגה מותאמת"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="crop">"חתוך"</string>
+
+    <!-- XMIT : menu item  used to blur the image -->
+
+    <string name="blur">"טשטש"</string>
+
+    <!-- XTXT -->
+
+    <string name="record">"הקלט תזכיר קולי"</string>
+
+    <!-- XTXT -->
+
+    <string name="recording">"מקליט..."</string>
+
+    <!-- XTXT -->
+
+    <string name="not_recording">"מוכן להקלטה..."</string>
+
+    <!-- XTXT -->
+
+    <string name="playing">"מנגן..."</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_deleted">"הקובץ שהוקלט נמחק."</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_attached">"הקובץ שהוקלט יצורף להודעת הדוא\"ל."</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_not_attached">"לא צורף קובץ שהוקלט."</string>
+
+    <!-- XMSG: message for indicating if orientation was locked -->
+
+    <string name="orientation_lock">"אוריינטציה נעולה!! אינך יכול לשנות אוריינטציה של התקן בעת כתיבת הערות בדוח."</string>
+
+    <!-- XMSG: message for indicatiing if orientation was locked -->
+
+    <string name="orientation_unlock">"בוטלה נעילה של אוריינטציה"</string>
+
+    <!-- XLST: Edit -->
+
+    <string name="annotations">"הערה"</string>
+
+    <!-- XHED: Heading for ImageEditor -->
+
+    <string name="imageeditor_title">"עורך תמונות"</string>
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- choose color to Paint which comes in the menu -->
+
+    <!-- XMIT : menu item  for white color -->
+
+    <string name="white">"לבן"</string>
+
+    <!-- XMIT : menu item  for black color -->
+
+    <string name="black">"שחור"</string>
+
+    <!-- XMIT : menu item  for red color -->
+
+    <string name="red">"אדום"</string>
+
+    <!-- XMIT : menu item  for Blue color -->
+
+    <string name="blue">"כחול"</string>
+
+    <!-- XMIT : menu item  for Green color -->
+
+    <string name="green">"ירוק"</string>
+
+    <!-- XMIT : menu item  for Yellow color -->
+
+    <string name="yellow">"צהוב"</string>
+
+
+
+    <!-- Menu options -->
+
+    <!-- XMIT : menu item  used to add the document to home tab -->
+
+    <string name="add_home">"הוסף דף בית"</string>
+
+    <!-- XMSG:title of create personal view fragment -->
+
+    <string name="pv_create_title">"שמור תצוגה"</string>
+
+    <!-- XMIT: category for Personal view -->
+
+    <string name="personal_view_category">"תצוגות אישיות"</string>
+
+     <!-- XMIT: menu item used to create Personal view in the document -->
+
+    <string name="personal_view_create">"תצוגה אישית"</string>
+
+    <!-- XTXT menu item used to create Personal view Name -->
+
+    <string name="pv_name">"שם תצוגה אישית"</string>
+
+    <!-- XTXT menu item used to create Personal view Description -->
+
+    <string name="pv_description">"תיאור תצוגה אישית"</string>
+
+    <!-- XMIT: menu item used to refresh the document -->
+
+    <string name="refresh">"רענן"</string>
+
+    <!-- XMIT: menu item used for filters in the document -->
+
+    <string name="filter_menu">"סנן"</string>
+
+    <!-- XMIT: menu item used for filters for report parts -->
+
+    <string name="report_part_filter_menu">"מסנן של חלק מדוח"</string>
+
+    <!-- XMIT: menu item used to send the screenshot of the report through email -->
+
+    <string name="email_menu">"דוא\"ל"</string>
+
+    <!-- XMIT: menu item used to switch between list and grid views for tablets  with action bar -->
+
+    <string name="grid_menu">"רשת"</string>
+
+    <!-- XMIT: menu item used to switch between list and grid views for phone devices where custom title bar is used -->
+
+    <string name="change_view">"שנה תצוגה"</string>
+
+    <string name="xc_hideToolBar">"הסתר סרגל כלים"</string>
+
+    <string name="xc_fitToScreen">"התאם למסך"</string>
+
+    <!-- XMIT: menu item used to indicate sections in report -->
+
+    <string name="sections">"מקטעים"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="existing_conn_header">"חיבורים קיימים"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="tap_to_connect">"הקש להתחברות"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="more">"עוד"</string>       
+
+    <!-- Doc info related strings -->
+
+    <!-- XTXT: name of the textView which displays name of the document -->
+
+    <string name="name">"שם"</string>
+
+    <!-- XHED: heading for the dailog which displays document information -->
+
+    <string name="doc_info_header">"מידע על מסמך"</string>
+
+    <!-- XTXT: name of the textView which displays author of the document -->
+
+    <string name="author">"מחבר"</string>
+
+    <!-- XTXT: name of the textView which displays parent doc name personal view doc -->
+
+    <string name="parent_doc_name">"שם של מסמך אב"</string>
+
+    <!-- XTXT: name of the textView which displays sender of the document -->
+
+    <string name="sender">"שולח"</string>
+
+    <!-- XTXT: name of the textView which displays downloaded date&time of the document -->
+
+    <string name="downloaded_at">"הורד ב-"</string>
+
+    <!-- XTXT: name of the textView which displays the last modified date&time of the document -->
+
+    <string name="modified_at">"שונה ב-"</string>
+
+    <!-- XTXT: name of the textView which displays the last sent at date&time of the document -->
+
+    <string name="sent_at">"נשלח ב-"</string>
+
+    <!-- XTXT: name of the textView which displays description of the document -->
+
+    <string name="description">"תיאור"</string>
+
+    <!-- XTXT: name of the textView which displays deletion date&time  of the document -->
+
+    <string name="document_delete">"המסמך יימחק ב-"</string>
+
+
+
+    <!-- Quick Action options -->
+
+    <!-- XBUT: used to open a document in quick actions -->
+
+    <string name="view">"הצג"</string>
+
+    <!-- XBUT: used to update the document in quick actions -->
+
+    <string name="update">"עדכן"</string>
+
+    <!-- XBUT: used to view an instance of the document in quick actions -->
+
+    <string name="view_instance">"הצג מופע"</string>
+
+    <!-- XBUT: used to view the document information in quick actions -->
+
+    <string name="info">"מידע"</string>
+
+    <!-- XBUT: used to remove the document in quick actions -->
+
+    <string name="remove_document">"הסר מההתקן"</string>
+
+    <!-- XBUT: used to add  the document to home tab in quick actions -->
+
+    <string name="add_to_device">"הוסף להתקן"</string>
+
+    <!-- XTXT: used to show remaining days before expire the document -->
+
+    <string name="days">"ימים"</string>
+
+    <!-- XTXT: used to show one day to expire the document-->
+
+    <string name="day">"יום"</string>
+
+    <!--XFLD: document quick info popup field for author  -->
+
+	<string name="authored_by">"מחבר"</string>
+
+	<!--XFLD: document quick info popup field for Expire date  -->
+
+	<string name="expires_in">"התוקף פג ב-"</string>
+
+
+
+
+
+    <!-- <string name="eula_mobi_updates">&lt;b>&lt;u>bold, underline &lt;/u>&lt;/b></string> -->
+
+    <!-- Create, Edit or Import Connection -->
+
+    <!-- XFLD:field for Connection Server URL -->
+
+    <string name="connection_server_URL">"Connection Server URL"</string>
+
+    <!-- XTXT: "http://" is appended to the mobile server details entered by the user -->
+
+    <string name="url_start_string">"http://"</string>
+
+    <!-- XTXT -->
+
+    <string name="connection">"חיבור חדש"</string>
+
+    <!-- XMSG -->
+
+    <string name="enter_valid_url">"הזן כתובת URL חוקית"</string>
+
+    <!-- XBUT:SAP BI Application password Reset -->
+
+    <string name="reset_cmd">"אפס"</string>
+
+    <!-- XBUT:Share connection details -->
+
+    <string name="share_connection">"שתף"</string>
+
+    <!-- XBUT:SAP BI Application password Save -->
+
+    <string name="save_cmd">"שמור"</string>
+
+    <!-- XFLD:field for Save Password by choosing yes or no -->
+
+    <string name="save_password">"שמור סיסמה"</string>
+
+    <!-- XFLD:field for Additional Credentials by choosing yes or no -->
+
+    <string name="additional_authcred">"אישורי אימות נוספים"</string>
+
+    <!-- XFLD:field for enterting the CMS -->
+
+    <string name="cms">"CMS"</string>
+
+    <!-- XFLD:field for Mobile Server URL -->
+
+    <string name="mobile_server_URL">"כתובת URL של שרת נייד"</string>
+
+    <!-- XTXT:default text to appear where the user has to enter the mobile server url -->
+
+    <string name="enter_server_url">"הזן כתובת URL של שרת"</string>
+
+    <!-- XHED:used as dailog title  where you can choose a connection -->
+
+    <string name="choose_connection">"בחר חיבור"</string>
+
+    <!-- XTXT:default text appears in the mandatory fields which needs to be entered by the user -->
+
+    <string name="required">"נדרש"</string>
+
+    <!-- XFLD:field for enetring the Connection Name -->
+
+    <string name="connection_name">"שם חיבור"</string>
+
+    <!-- XFLD:field for entering the USer Name -->
+
+    <string name="user_name">"שם משתמש"</string>
+
+    <!-- XFLD:field for selecting Authentication Types -->
+
+    <string name="auth_type">"סוג אימות"</string>
+
+    <!-- XFLD:field for Remember Password -->
+
+    <string name="remember_pwd">"זכור סיסמה"</string>
+
+    <!-- XFLD:field for setting this connection as Default Connection by choosing Yes or No -->
+
+    <string name="set_as_default">"חיבור בברירת מחדל"</string>
+
+    <!-- XMSG:msg displayed on click of import in offline mode -->
+
+    <string name="offline_connection">"לא ניתן לייבא חיבורים במצב לא מקוון"</string>
+
+    <!-- XMSG:msg displayed on click of drill on snapshot -->
+
+    <string name="snapshot_drill">"פעולת Drill זו אינה שמורה"</string>
+
+    <!-- XMSG:msg displayed on click of hierarchy on snapshot -->
+
+    <string name="snapshot_hierarchy">"פעולת היררכיה אינה נתמכת עבור מסמכי תצוגה אישית"</string>
+
+    <!-- XMSG:msg displayed on click of REL on snapshot -->
+
+    <string name="snapshot_rel">"פעולת קישור אלמנט של דוח אינה נתמכת עבור מסמכי תצוגה אישית"</string>
+
+    <!-- XMSG:msg displayed on click of opendoc on snapshot -->
+
+    <string name="snapshot_opendoc">"פעולת כתובת URL לפתיחת מסמך אינה נתמכת עבור מסמכי תצוגה אישית"</string>
+
+    <!-- XMSG:msg displayed if the personal view name exists -->
+
+    <string name="snapshot_name_exists">"ציין שם אחר; השם כבר קיים עבור תצוגה אישית אחרת"</string>
+
+    <!-- XMSG:msg displayed while drilling -->
+
+    <string name="drill_from">"מ-"</string>
+
+    <!-- XLST: Edit -->
+
+    <string name="edit">"ערוך"</string>
+
+    <!-- XLST:Delete -->
+
+    <string name="delete">"מחק"</string>
+
+    <!-- XLST:Deregister -->
+
+    <string name="deregister">"בטל רישום"</string>
+
+    <!-- XLFD:field for Password -->
+
+    <string name="password">"סיסמה"</string>
+
+
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    
+
+
+
+    <!-- Settings List Fragment elements -->
+
+    <!-- XHED: used as title for dailog for Edit and Delete -->
+
+    <string name="connection_options">"אפשרויות"</string>
+
+    <!-- XTXT -->
+
+    <string name="display_help_page">"הצג דף עזרה"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_doc">"הצג מסמך"</string>
+
+    <!-- XMSG -->
+
+    <string name="generic_error">"לא ניתן לעבד את הבקשה; נסה שוב מאוחר יותר."</string>
+
+    <!-- XMSG -->
+
+    <string name="mesg_already_downloaded">"מסמך זה כבר הורד"</string>
+
+     <!-- XMSG -->
+
+    <string name="mesg_document_downloading">"הורדת המסמך הופעלה."</string>
+
+     <!-- XMSG -->
+
+    <string name="mesg_download_in_progress">"לא ניתן לבצע פעולה; הורדה בתהליך"</string>
+
+    <!-- XMSG -->
+
+    <string name="unknown_document_type">"סוג המסמך שנבחר אינו ידוע."</string>
+
+    <!-- XMSG -->
+
+    <string name="doc_metadata_not_found">"לא נמצא מידע על המסמך."</string>
+
+    <!-- XMSG -->
+
+    <string name="save_error_string">"הזן את המידע בשדות הנדרשים"</string>
+
+    <!-- XMSG -->
+
+    <string name="cnx_name_already_exists">"שם החיבור כבר קיים"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_filters_saved">"לא נשמרו מסננים"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="doc_not_found">"לא ניתן לפתוח את המסמך"</string>
+
+    <!-- XMSG -->
+
+    <string name="unable_to_drill">"לא ניתן לבצע פעולת Drill למסמך"</string>
+
+    <!-- XMSG -->
+
+    <string name="document_no_category">"המסמך לא מוקצה לקטגוריית נייד כלשהי"</string>
+
+
+
+    <!-- Progress Dialog messages -->
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_opening_document">"פותח מסמך..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_opening_report">"פותח דוח..."</string>
+
+     <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_downloading_pending_reports">"מוריד. המתן..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_syncing_with_server">"מבצע סנכרון עם השרת..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_processing_data">"מעבד נתונים..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_getting_prompts">"מביא הזנות..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_filtering_document">"מסנן את המסמך..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_clearing_filters">"מתאם מסננים..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_prompt_document">"מחיל הזנות על המסמך..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_lov_document">"מביא רשימת ערכים..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_getting_content">"מקבל תכנים מהשרת..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_dowloading_document_offline">"מוריד את המסמך לדף הבית..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_logoff">"יוצא מהמערכת; המתן..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <!-- XMSG: message for XC Downloading dialogs -->
+
+    <string name="mesg_xcelsius_initialize">"מאתחל"</string>
+
+    <string name="mesg_xcelsius_load">"טוען"</string>
+
+    <string name="mesg_xcelsius_documentuncompatible">"מסמך הקישור אינו מתאים ליישום הנוכחי ולא ניתן להציגו"</string>
+
+    <!-- XMSG: message for XC Loading dialogs -->
+
+    <string name="pg_show_server_call">"מביא פרטים מהשרת..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_drill_up_document">"מצמצם ..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_drill_down_document">"מרחיב ..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="register_with_sup">"רישום ב-SUP..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="deregister_with_sup">"ביטול רישום ב-SUP..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_mesg">"מבצע כניסה; המתן ..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_mesglist">"מציין את המסמכים ..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="refresh_mesg">"מרענן את רשימת המסמכים ..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_refresh_document">"מרענן מסמך..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_add_home">"מוריד את המסמך ומוסיף אותו לדף הבית..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_insatance">"מאחזר את המופע האחרון..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_update">"מעדכן את המסמך ..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="loading">"טוען..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_string">"מתחבר אל"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="wait_string">"..."</string>
+
+    <!-- XMSG: message for indicatiing if SUP registration was successful -->
+
+    <string name="registration_success">"רישום בוצע בהצלחה"</string>
+
+    <!-- XMSG: message for indicatiing if SUP deregistration was successful -->
+
+    <string name="deregistration_success">"ביטול רישום בוצע בהצלחה"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_sorting_document">"ממיין מסמך..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_remove_sort_document">"מסיר את המיון..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_refresh_lov_document">"מרענן את רשימת הערכים..."</string>
+
+    <!-- Dialog and Toast messages -->
+
+    <!-- XMSG -->
+
+    <string name="view_instance_download_message">"האם ברצונך להוריד את המופע האחרון?"</string>
+
+    <!-- XMSG: A multi-line message -->
+
+    <string name="no_connections">"לא הוגדרו חיבורים.\n \nליצירת חיבור חדש עבור אל: \nתפריט &gt; הגדרות &gt; חיבורים"</string>
+
+    <!-- XMSG -->
+
+    <string name="network_notification_disconnected">"רשת אינה זמינה; האם ברצונך לעבוד בצד לא מקוון?"</string>
+
+    <!-- XMSG -->
+
+    <string name="network_notification_connected">"רשת זמינה; האם ברצונך לעבוד במצב מקוון?"</string>
+
+    <!-- XMSG -->
+
+    <string name="first_time_work_offline">"כדי לגשת לתוכן במצב לא מקוון, היכנס לשרת בפעם הראשונה"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_logout_1">"פעולה זו תוציא אותך מ-"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_logout_2">"האם ברצונך להמשיך?"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_connection">"האם ברצונך למחוק את החיבור שנבחר %1$s ?"</string>
+
+    <!-- XMSG -->
+
+    <string name="add_existing_connection">"חיבור זה כבר קיים"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_all_connection">"האם ברצונך למחוק את כל החיבורים?"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_document">"האם ברצונך למחוק את המסמך:"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_conn_connected">"לא ניתן למחוק את החיבור; צא מהמערכת ונסה שוב"</string>
+
+    <!-- XMSG -->
+
+    <string name="add_conn_connected">"לא ניתן להוסיף את החיבור כשמשתמש מחובר; צא מהמערכת ונסה שוב"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_conn">"לא קיים חיבור"</string>
+
+    <!-- XMSG -->
+
+    <string name="modify_conn_connected">"לא ניתן לשנות את החיבור; צא מהמערכת ונסה שוב"</string>
+
+    <!-- XMSG -->
+
+    <string name="modify_connection">"שנה את החיבור"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_conn_notexisting">"החיבור לא קיים"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_save_password">"האם אתה בטוח שברצונך לשמור את הסיסמה?"</string>
+
+    <!-- XMSG -->
+
+    <string name="refresh_confirm_msg">"רענון יסיר את ההקשר הנוכחי של המסמך"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_deregister">"האם ברצונך לבטל את הרישום ב-SUP?"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_connection">"מחק חיבור"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_document">"מחק מסמך"</string>
+
+    <!-- XMSG -->
+
+    <string name="basic_auth">"אימות נדרש"</string>
+
+    <!-- XMSG -->
+
+    <string name="cert_auth_cancelled">"בדיקת תקינות של אישור בוטלה"</string>
+
+    <!-- XMSG -->
+
+    <string name="savepasswordforms">"סיסמת ה-CMS שלך לא נשמרה עקב קווי מדיניות אבטחה שנקבעו על-ידי המנהל שלך"</string>
+
+    <!-- XMSG -->
+
+    <string name="lov_error">"לא ניתן להביא רשימת ערכים מהשרת; פנה למנהל שלך אם הבעיה נמשכת"</string>
+
+    <!-- XMSG -->
+
+    <string name="offline_filter">"לא ניתן לבצע פעולה זו במצב לא מקוון"</string>
+
+    <!-- XMSG -->
+
+    <string name="download_failed">"לא ניתן לשמור את המסמך"</string>
+
+    <!-- XMSG -->
+
+    <string name="prompt_error">"כל הזנות החובה לא הוזנו"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_active_connection_available">"לביצוע פעולה זו נדרש חיבור פעיל"</string>
+
+    <!-- XMSG -->
+
+    <string name="document_inforation_not_available">"המידע על המסמך אינו זמין. ייתכן שחיבור פעיל לא יהיה זמין כעת או שהמסמך אינו קיים בקטגוריית הנייד."</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc">"לא ניתן לשמור את המסמך"</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc_connection_not_available">"לא ניתן לשמור את המסמך. ייתכן שחיבור פעיל לא יהיה זמין כעת או שהמסמך אינו קיים בקטגוריית הנייד."</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc_generic_error">"לא ניתן לשמור את המסמך. שגיאה גנרית אירעה."</string>
+
+    <!-- XMSG -->
+
+    <string name="sup_register_success">"רישום בוצע בהצלחה"</string>
+
+    <!-- XMSG -->
+
+    <string name="sup_deregister_success">"ביטול רישום בוצע בהצלחה"</string>
+
+    <!-- XMSG -->
+
+    <string name="personal_view_size_exceeding">"השטח לא מספיק לשמירה; צור שטח על-ידי מחיקת תצוגות אישיות קיימות או הגדל את קיבולת האחסון באמצעות ההגדרות."</string>
+
+	<!-- XMSG -->
+
+    <string name="msg_added_to_favourite">"נוסף למועדפים"</string>
+
+    
+
+    <!-- Settings options -->
+
+     <!-- XLST: General Settings -->
+
+    <string name="general_settings">"הגדרות כלליות"</string>
+
+    <!-- XLST: connections -->
+
+    <string name="connections">"חיבורים"</string>
+
+    <!-- XLST: Network Options -->
+
+    <string name="network">"אפשרויות רשת"</string>
+
+    <!-- XLST: SAP BI Application Password -->
+
+    <string name="app_pwd">"הזן סיסמת יישום"</string>
+
+    <!-- XLST: Viewing Options -->
+
+    <string name="viewing">"אפשרויות תצוגה"</string>
+
+    <!-- XLST: Logs -->
+
+    <string name="log">"יומנים"</string>
+
+    <!-- XLST: xc setting -->
+
+    <string name="xc_setting">"הגדרות לוח המחוונים"</string>
+
+    <!-- XLST: Legal -->
+
+    <string name="legal">"משפטי"</string>
+
+    <!-- XLST: personal_view -->
+
+    <string name="personal_view">"אחסון תצוגה אישית"</string>
+
+    <!-- XLST: memused -->
+
+    <string name="mem_used">"0 MB מתוך 100 MB בשימוש"</string>
+
+
+
+    <!-- XLST: dashboard settings -->
+
+    <string name="dashboard">"הגדרות לוח המחוונים"</string>
+
+    <!-- XLST:Personal View Storage -->
+
+    <string name="per_view_storage">"אחסון תצוגה אישית"</string>
+
+    <!-- XLST:Personal View Storage Limit -->
+
+    <string name="limit">"גבול"</string>
+
+
+
+    <!-- XLST: Personal View storage settings -->
+
+    <string name="pv_setting">"הגדרות תצוגה אישית"</string>
+
+    <!-- XLST: Personal View storage Limit option -->
+
+    <string name="pv_setting_limit_none">"אין"</string>
+
+    <!-- XLST: Offline Dataset Number -->
+
+    <string name="xc_offline_dataset">"מספר סט נתונים לא מקוון"</string>
+
+    <!-- XLST: SDK Offline storage -->
+
+    <string name="xc_sdk_storage">"אחסון SDK לא מקוון"</string>
+
+    <!-- XLST: Personal View Memory Usage Text -->
+
+    <string name="pv_mem_usage">"(%1$s מתוך %2$s בשימוש)"</string>
+
+    <!-- XLST: about -->
+
+    <string name="about">"אודות"</string>
+
+    <!-- XLST: Quick Hints -->
+
+    <string name="quick_hints">"עצות מהירות"</string>
+
+    <!-- XHED: heading for connections related items in the settings screeen -->
+
+    <string name="connection_related">"קשור לחיבור"</string>
+
+    <!-- XHED: heading for Application related items in the settings screeen -->
+
+    <string name="application_related">"קשור ליישום"</string>
+
+
+
+    <!-- Connection Settings Options -->
+
+    <!-- XHED: heading for the list which gaves different ways to create connections -->
+
+    <string name="my_connections">"חיבורים"</string>
+
+    <!-- XLST: Existing Connections -->
+
+    <string name="exist_conn">"חיבורים קיימים"</string>
+
+    <!-- XLST: Creat New Connection Manually -->
+
+    <string name="create_new_cnx">"צור חיבור חדש"</string>
+
+    <!-- XLST: Creat New Connection Manually -->
+
+    <string name="edit_cnx">"ערוך חיבור"</string>
+
+    <!-- XLST: Import Connection from server by mentioning mobile server url -->
+
+    <string name="import_cnx">"יבא באמצעות כתובת URL"</string>
+
+    <!-- XLST: SUP Connection -->
+
+    <string name="sup_connection">"חיבור SUP"</string>
+
+    <!-- XLST: SMP Connection -->
+
+    <string name="smp_connection">"חיבור SMP"</string>
+
+    <!-- XLST: SMP Cloud Connection -->
+
+    <string name="smpcloud_connection">"חיבור לענן SMP"</string>
+
+    <!-- XTXT: used to show below the connection name if it is not connected -->
+
+    <string name="not_connected">"התחבר"</string>
+
+    <!-- XTXT: used to show below the connection name  if it is connected -->
+
+    <string name="connected">"מחובר"</string>
+
+    <!-- XTXT: used to show below the connection if it is set as default connection -->
+
+    <string name="default_connection">"(ברירת מחדל)"</string>
+
+
+
+    <!-- SSO Strings -->
+
+
+
+
+
+    <!-- XMSG: sso Login -->
+
+    <string name="Login_credentials">"אישורי משתמש"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="Reselect">"בחר מחדש"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_authentication">"אימות"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_Certificate_Title">"שגיאת אישור"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_Mandatory_certifcate">"נדרש אישור עבור חיבור זה"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certificate_invalid">"האישור שנבחר עשוי להיות לא חוקי או פגום; מה תרצה לעשות?"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certiifcate_unavailable">"לא הותקנו אישורים עבור SAP BusinessObjects Mobile; מה תרצה לעשות?"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certificate_not_required">"איך תתחבר אל החיבור"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_unauthorised_connection_sso">"גישה שאינה מקוונת לא מאופשרת עבור SSO"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_certificate">"SSO מאופשר (בחר אישור)"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_cookie_Based">"SSO מאופשר"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_authenticate_at_logon">"אמת בזמן התחברות"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_cookie_enabled">"מאופשר Cookie"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_reauthenticate_at_logon">"אמת מחדש בזמן התחברות"</string>
+
+
+
+    <!-- Network Settings Options -->
+
+    <!-- XHED: heading for the list which gaves Network Options -->
+
+    <string name="network_options">"אפשרויות רשת"</string>
+
+    <!-- XLST: choose to WorkOffline vy selecting yes or no -->
+
+    <string name="work_offline">"עבוד במצב לא מקוון"</string>
+
+     <!-- XMSG: auto update -->
+
+    <string name="bi_auto_update">"עדכון אוטומטי"</string>
+
+    <!-- XMSG: auto update with wifi-->
+
+    <string name="bi_auto_update_wiFi">"עדכן בחיבור Wi-Fi בלבד"</string>
+
+    <!-- XMSG: auto update with wifi and cellular dats-->
+
+    <string name="bi_auto_update_Wifi_and_Cellular">"עדכן בחיבור Wi-Fi ונתונים סלולאריים"</string>
+
+    <!-- to be removed Later -->
+
+    <!-- XHED: heading for Offline Alert Dailog -->
+
+    <string name="offline_alert">"התראה במצב מקוון"</string>
+
+
+
+    <!-- Viewing Options -->
+
+    <!-- XHED: heading for the list which gaves Viewing Options -->
+
+    <string name="viewing_options">"אפשרות תצוגת מסמך"</string>
+
+    <!-- XHED: Select Theme -->
+
+    <string name="select_theme">"בחר ערכת נושא"</string>
+
+    <!-- Theme text -->
+
+    <!-- XLST:  sets the Ivory Theme -->
+
+    <string name="ivory">"שנהב"</string>
+
+    <!-- XLST: sets the Graphite Theme -->
+
+    <string name="graphite">"גרפיט"</string>
+
+
+
+    <!-- About -->
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XFLD: Version info in splash screen -->
+
+    <string name="version">"גרסה:"</string>
+
+    <!-- XFLD: Build info in splash screen -->
+
+    <string name="build">"Build:"</string>
+
+
+
+    <!-- Quick Hint related strings -->
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickref_launch_text">"ברוך הבא ל- "<b>"SAP BusinessObjects Mobile"</b>". אשף עצות מהירות זה יספק לך טיפים על אופן השימוש ביישום זה."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt1"><b>"לחץ לחיצה ארוכה"</b>" על המסמך הרצוי כדי לגשת לתפריט ההקשר. "<b>"הקש"</b>" על האפשרות כדי לבצע את הפעולה הרצויה."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt2"><b>"הקש"</b>" על סמן הדף כדי להציג את מחוון הניווט לדף. ב-Smartphone תוכל גם להשתמש בסרגל החיפוש עבור מטרה זו."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt3"><b>"הקש הקשה כפולה"</b>" על תרשים או "<b>"הקש הקשה אחת"</b>" על טבלה (עם טקסט כחול) כדי לבצע פעולת Drill."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt4"><b>"הקש הקשה כפולה"</b>" על כותרת של עמודת הטבלה לגישה ל-"<i>"פעולות טבלה"</i>"."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt5"><b>"הקש"</b>" על הסמל כדי לבצע את הפעולה הרצויה בחלק של הדוח."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt6">"בחר "<i>"פעולות טבלה"</i>" כדי לבצע משימות כמו סידור מחדש, הקפאה/ביטול הקפאה או הסתרה/ביטול הסתרה של עמודות או שורות."</string>
+
+    <string name="quickeref_txt7"><b>"הקש "</b>"על הסמל "<i>"מקטעים"</i>" כדי לגשת לאפשרויות המקטעים הזמינות בדוח."</string>
+
+    <string name="quickeref_txt8">"בחלון ה-Popup "<i>"מקטעים"</i>", "<b>"הקש"</b>" על כפתור הבחירה כדי להציג מידע על המקטע של הדוח או "<b>"הקש"</b>" על החץ כדי להציג את המידע מהרמה הבאה של הדוח."</string>
+
+    <string name="quickeref_txt9"><b>"הקש"</b>" על הסמל "<i>"שתף"</i>" ובחר "<i>"הערה"</i>" כדי ליצור הערה לדוח לפני השיתוף."</string>
+
+    <string name="quickeref_txt10"><b>"גרור"</b>" את מחוון הטשטוש כדי לעוות את הדוח לפני השיתוף."</string>
+
+    <string name="quickeref_txt11"><b>"הקש"</b>" על כל נקודת עניין (POI) כדי להציג את הערך המשויך."</string>
+
+    <string name="quickeref_txt12"><b>"הקש"</b>" על הערך כדי להציג מידע מפורט."</string>
+
+    <string name="quickeref_txt13"><b>"הקש"</b>" על החץ כדי לנווט בנתוני ההיררכיה של הטבלה."</string>
+
+    <string name="quickeref_txt14">"בחלון ה-Popup היררכיית מוצרים של הזנות, "<b>"הקש"</b>" על החץ כדי לנווט בהיררכיה ולבחור את ערכי ההזנה."</string>
+
+    <string name="quickeref_txt15"><b>"הקש"</b>" על הסמל "<i>"הצג/הסתר"</i>" כדי לגשת לסרגל הפעילות יחד עם הצגת לוח המחוונים."</string>
+
+    <string name="quickeref_txt16"><b>"הקש"</b>" על הסמל "<i>"הצמד"</i>" כדי לנעול את סרגל הפעילות בעת הצגת לוח המחוונים."</string>
+
+
+
+    <!-- XCKL -->
+
+    <string name="quickref_checkbox_text">"אל תציג שוב"</string>
+
+    <!-- XBUT: Skip -->
+
+    <string name="quickref_skipbutton_text">"דלג"</string>
+
+    <!-- XBUT: Exit -->
+
+    <string name="quickref_exitbutton_text">"צא"</string>
+
+    <!-- XBUT: Show Quick Hints -->
+
+    <string name="quickref_launchbutton_text">"הצג עצות מהירות"</string>
+
+
+
+    <!-- Legal Information -->
+
+    <!-- XLST: Legal information -->
+
+    <string name="mobi_legal">"מידע משפטי"</string>
+
+    <!-- EULA Updates if any Goes here -->
+
+    <!-- XMSG: Eula Agreement Terms and Conditions -->
+
+    
+
+    <!-- Log Settings -->
+
+    <!-- XHED: heading for log settings -->
+
+    <string name="log_title">"הגדרות יומן"</string>
+
+    <!-- XMSG: for enabling the logs -->
+
+    <string name="log_message">"האם אתה בטוח שברצונך להפוך את היומנים לזמינים?"</string>
+
+    <!-- XLST: Send Log File -->
+
+    <string name="log_sendlog">"שלח קובץ יומן"</string>
+
+    <!-- XLST: clear Log -->
+
+    <string name="log_clearlog">"נקה יומן"</string>
+
+     <!-- XLST: view log -->
+
+    <string name="view_log">"הצג יומן"</string>
+
+     <!-- XLST: empty log -->
+
+    <string name="empty_log">"אין יומנים זמינים"</string>
+
+    
+
+
+
+    <!-- XMSG -->
+
+    <string name="log_nologs_exists">"יומנים כבר נוקו"</string>
+
+    <!-- XMSG -->
+
+    <string name="log_nologs_tosend">"אין יומנים זמינים לשליחה"</string>
+
+    <!-- XTXT -->
+
+    <string name="log_mail_subject">"קובצי מעדכן ביומן של יישום נייד"</string>
+
+    <!-- XMSG -->
+
+    <string name="log_clear_logs_confirm">"האם אתה בטוח שברצונך לנקות את היומנים?"</string>
+
+    <!-- XLST: Enable Logs -->
+
+    <string name="log_enable">"אפשר יומנים"</string>
+
+    <!-- Browse Tab Connection Strings -->
+
+    <!-- XHED: heading in the browse tab when there are no connections -->
+
+    <string name="noconnections">"אין חיבורים"</string>
+
+    <!-- XLST: showed in the browse tab to create connection when there are no connections -->
+
+    <string name="create_connection">"צור חיבור להצגת המסמכים שלך"</string>
+
+    <!-- XLST: showed in the browse tab to establish connection when you are not connected -->
+
+    <string name="establish_connection">"צור קשר להורדת מסמכים"</string>
+
+
+
+    <!-- Table Header Options -->
+
+    <!-- XTXT -->
+
+    <string name="freeze">"הקפא"</string>
+
+    <!-- XTXT -->
+
+    <string name="hide">"הסתר"</string>
+
+    <!-- XTXT -->
+
+    <string name="wrap">"גלוש"</string>
+
+    <!-- XTXT -->
+
+    <string name="unfreeze">"בטל הקפאה"</string>
+
+    <!-- XTXT -->
+
+    <string name="unhide_all">"בטל הסתרה של הכול"</string>
+
+    <!-- XTXT -->
+
+    <string name="unwrap">"בטל גלישה"</string>
+
+    <!-- XTXT -->
+
+    <string name="row">"שורה"</string>
+
+    <!-- XTXT -->
+
+    <string name="column">"עמודה"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_up">"צמצם עד"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_down">"הרחב עד"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort_asc">"בסדר עולה"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort_desc">"בסדר יורד"</string>
+
+    <!-- XTXT -->
+
+    <string name="remove_sort">"הסר מיון"</string>
+
+    <!-- Hierarchical Navigations Options -->
+
+    <!-- XTXT -->
+
+    <string name="drill_focus_in">"מיקוד Drill נכנס"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_focus_out">"מיקוד Drill יוצא"</string>
+
+    <!-- XTXT -->
+
+    <string name="expand_all">"הרחב הכול"</string>
+
+    <!-- XTXT -->
+
+    <string name="collapse_all">"צמצם הכול"</string>
+
+    <!-- XTXT -->
+
+    <string name="apply_filter">"החל מסנן"</string>
+
+    <!-- XTXT -->
+
+    <string name="edit_filter">"ערוך מסנן"</string>
+
+    <!-- XTXT -->
+
+    <string name="remove_filter">"הסר מסנן"</string>
+
+
+
+    <!-- Create SUP Connection -->
+
+    <!-- XHED: heading for Sup configuration section -->
+
+    <string name="sup_configaration">"תצורת SUP"</string>
+
+    <!-- XBUT: Register -->
+
+    <string name="sup_register">"הירשם"</string>
+
+    <!-- XBUT: Deregister -->
+
+    <string name="sup_deregister">"בטל רישום"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_instructedbyadmin">"שנה את הערכים הנ\"ל רק אם קיבלת הנחיה מהמנהל שלך"</string>
+
+    <!-- XHED: heading for sup server details section -->
+
+    <string name="sup_serverdetail">"פרטי שרת SUP"</string>
+
+    <!-- XHED: heading for sup Access details section -->
+
+    <string name="sup_accessdetail">"פרטי גישה"</string>
+
+
+
+    <!-- SUP Error Messages -->
+
+    <!-- XTXT -->
+
+    <string name="sup_error_authentication">"שגיאת אימות"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_mobile_client">"שגיאה בסביבה ניידת!"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_HTTP">"שגיאת HTTP"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_network">"שגיאה בחיבור רשת"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_parse">"שגיאה בניתוח התגובה מהשרת"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_unknown">"שגיאה לא ידועה."</string>
+
+
+
+    <!-- Sorting Options -->
+
+    <!-- XTXT -->
+
+    <string name="today">"היום"</string>
+
+    <!-- XTXT -->
+
+    <string name="yesterday">"אתמול"</string>
+
+    <!-- XTXT -->
+
+    <string name="thisweek">"השבוע"</string>
+
+    <!-- XTXT -->
+
+    <string name="thismonth">"החודש"</string>
+
+    <!-- XTXT -->
+
+    <string name="older">"ישן יותר"</string>
+
+    <!-- XLST: sets the sort order by Category -->
+
+    <string name="category">"קטגוריה"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample">"דוגמאות"</string>
+
+    <!-- XLST: sets the sort order by date -->
+
+    <string name="date">"תאריך"</string>
+
+    <!-- XLST: sets the sort order by date -->
+
+    <string name="date_modified">"תאריך ששונה"</string>
+
+    <!-- XLST: sets the sort order by Title -->
+
+    <string name="title">"כותרת"</string>
+
+    <!-- XLST: sets the sort order by Title -->
+
+    <string name="document_title">"כותרת מסמך"</string>
+
+    <!-- XLST: sets the sort order by Author -->
+
+    <string name="author1">"מחבר"</string>
+
+    <!-- XTXT -->
+
+    <string name="group_reports_by">"קבץ דוחות לפי"</string>
+
+    <!-- XTXT -->
+
+    <string name="sorting_order">"סדר מיון"</string>
+
+    <!-- XTXT -->
+
+    <string name="show_downloaded">"הצג דוחות שהורדו בלבד"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort">"מיין"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="temp_file_extension">"_temp"</string>
+
+    <!-- XTXT -->
+
+    <string name="instance_file_extension">"_instance"</string>
+
+    <!-- XTXT: appears in the search box -->
+
+    <string name="search_hint">"חפש"</string>
+
+    <!-- XTXT: for creating input dialog fragment -->
+
+    <string name="input_control">"מסננים"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_values">"בחר ערכים"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="type_value">"ערך סוג"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="input_control_title">"מסננים: בחר ערכים"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_value">"בחר ערך"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_date">"בחר תאריך"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="all_values">"כל הערכים"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="gridview">"רשת"</string>
+
+    <!-- XTXT -->
+
+    <string name="listview">"רשימה"</string>
+
+    <!-- XTXT -->
+
+    <string name="grid_view">"תצוגת רשת"</string>
+
+    <!-- XTXT -->
+
+    <string name="list_view">"תצוגת רשימה"</string>
+
+    <!-- XTXT -->
+
+    <string name="success">"הצלחה"</string>
+
+    <!-- XTXT -->
+
+    <string name="failure">"כישלון"</string>
+
+    <!-- XTXT: used in custom title bar to select the report -->
+
+    <string name="report_list">"דוחות"</string>
+
+    <!-- XTXT -->
+
+    <string name="report_part_menu">"תפריט"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_values">"הזנות"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_add_values">"הוסף ערך"</string>
+
+    <!-- XMSG -->
+
+    <string name="session_timeout">"בוצע Time Out לחלון העבודה"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_available">": עדכון זמין"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_document">"עדכון זמין"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_instance">"מופע זמין"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_document_instance">"עדכון ומופע זמינים"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_doc_instance_online">"הצג את המופע המאוחר ביותר הזמין"</string>
+
+
+
+    <!-- SUP Connection details -->
+
+    <!-- to be removed later -->
+
+    <!-- Dont change the below mobi_app value i.e., MobiApp -->
+
+    <!-- Not intended for translation -->
+
+    
+
+
+
+    <!-- XFLD: sets the Application Id for SUP Configuration -->
+
+    <string name="applicationid">"זיהוי היישום"</string>
+
+    <!-- XFLD: sets the Security configuration Name for SUP Configuration -->
+
+    <string name="security_configname">"תצורת אבטחה"</string>
+
+    <!-- XFLD: sets the server for SUP Server Details -->
+
+    <string name="server">"שרת"</string>
+
+    <!-- XFLD: sets the port for SUP Server Details -->
+
+    <string name="port">"יציאה"</string>
+
+    <!-- XFLD: sets the proxy for SMP Server Details -->
+
+    <string name="proxy">"Proxy"</string>
+
+    <!-- XFLD: sets the farm id for SUP Server Details -->
+
+    <string name="farmid">"זיהוי חווה"</string>
+
+    <!-- XLST: sup configuration -->
+
+    <string name="sup_config">"תצורת SUP"</string>
+
+    <!-- XLST: smp configuration -->
+
+    <string name="smp_config">"תצורת SMP"</string>
+
+    <!-- XBUT: SAP BI Application Password Yes button -->
+
+    <string name="toggle_yes">"כן"</string>
+
+    <!-- XBUT: SAP BI Application Password No button -->
+
+    <string name="toggle_no">"לא"</string>
+
+    <!-- XLST: connection details -->
+
+    <string name="conn_det">"פרטי חיבור"</string>
+
+    <!-- XLST: authentication details -->
+
+    <string name="auth_det">"פרטי אימות"</string>
+
+
+
+    <!-- Custom Title Bar -->
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XTXT -->
+
+    <string name="ctb_document_name">"שם מסמך"</string>
+
+    <!-- XMIT:menu item for settings -->
+
+    <string name="ctb_app_settings">"הגדרות יישום"</string>
+
+    <!-- added to be in sync with perforce strings to avoid compilation error , not used -->
+
+    <!-- XMIT:menu item for settings -->
+
+    <string name="ctb_settings">"הגדרות"</string>
+
+    <!-- XTXT: used in custom title bar to select the report -->
+
+    <string name="ctb_reports">"דוחות"</string>
+
+    <!-- XHED: heading for SUP COnnection window in phones -->
+
+    <string name="ctb_sup_con_set">"חיבור SUP"</string>
+
+    <!-- XHED: heading for Connections Settings window in phones -->
+
+    <string name="ctb_con_set">"הגדרות חיבור"</string>
+
+    <!-- XHED: heading for NetWork Settings window in phones -->
+
+    <string name="ctb_net_set">"הגדרות רשת"</string>
+
+    <!-- XHED: heading for Viewing  options in phones -->
+
+    <string name="ctb_view_set">"אפשרות תצוגה"</string>
+
+    <!-- XHED: heading for Log Settings window in phones -->
+
+    <string name="ctb_log_set">"הגדרות יומן"</string>
+
+    <!-- XHED: heading for creaing  connection window in phones -->
+
+    <string name="ctb_create_con">"צור חיבור"</string>
+
+
+
+    <!-- Dialog text -->
+
+    <!-- XTXT -->
+
+    <string name="table_actions">"פעולות טבלה"</string>
+
+    <!-- XMSG -->
+
+    <string name="connected_already">"אתה כבר מחובר"</string>
+
+    <!-- XBUT: log off -->
+
+    <string name="logout">"צא מהמערכת"</string>
+
+    <!-- XBUT: log on -->
+
+    <string name="logon">"התחבר למערכת"</string>
+
+    <!-- XMSG -->
+
+    <string name="tap_string">"(הקש כדי להפוך את הסדר)"</string>
+
+    <!-- XLST: choose yes or no to save Password -->
+
+    <string name="savepw">"שמור סיסמה"</string>
+
+    <!-- XTXT -->
+
+    <string name="off">"כבוי"</string>
+
+    <!-- XTXT -->
+
+    <string name="error">"הודעת שגיאה"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_optional">"אופציונאלי"</string>
+
+    <!-- XHED: heading for logout dialog -->
+
+    <string name="logout_title">"התנתק"</string>
+
+    <!-- XHED: title for drill options dailog -->
+
+    <string name="drill_options">"אפשרויות פעולת Drill"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="filter_clear">"נקה"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="filter_revert">"החזר למצב קודם"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="no_filters">"לא הוחלו מסננים"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="all_objects">"כל האובייקטים"</string>
+
+
+
+    <!-- Annotations -->
+
+    <!-- XTXT -->
+
+    <string name="tap">"הקש כדי להזין טקסט"</string>
+
+
+
+    <!-- Page Indicator -->
+
+    <!-- XTXT -->
+
+    <string name="page_indicator">"סמן דף"</string>
+
+
+
+    <!-- Session timeout -->
+
+    <!-- XTXT -->
+
+    <string name="reconnect">"התחבר מחדש"</string>
+
+
+
+    <!-- Report Part Quick Action -->
+
+    <!-- XLST: full screen option in report part quick action dialog for tablets -->
+
+    <string name="full_screen">"מסך מלא"</string>
+
+    <!-- XLST: exit full screen option in report part quick action dialog for tablets -->
+
+    <string name="exit_full_screen">"צא ממסך מלא"</string>
+
+    <!-- XLST: filter option in report part quick action dialog for tablets -->
+
+    <string name="report_filter">"סנן"</string>
+
+    <!-- XMSG: related to Input control -->
+
+    <string name="object_not_supported">"סוג אובייקט אינו נתמך"</string>
+
+    <!-- Content not supported strings -->
+
+    <!-- XMSG: related to charts -->
+
+    <string name="content_not_supported">"תוכן אינו נתמך"</string>
+
+    <!-- XMSG: related to geo map -->
+
+    <string name="geomap_not_supported">"לא ניתן להציג את ה-Geomap מאחר שלהתקן אין גישה לספריות המפה הנדרשות"</string>
+
+    <!-- XMSG: related to charts -->
+
+    <string name="content_data_exceeding_limit">"לא ניתן להציג את התרשים עקב נקודות נתונים גדולות"</string>
+
+    <!-- XMSG: related to section -->
+
+    <string name="refresh_to_view_content">"רענן כדי להציג תוכן"</string>
+
+    <!-- XMSG:  google play services not available -->
+
+    <string name="google_play_services_not_available">"שירותי Google Play אינם זמינים"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="refresh_confirm_title">"רענן מסמך"</string>
+
+    <!-- XTXT -->
+
+    <string name="dril_temp_file_extension">".tmp"</string>
+
+    <!-- XHED:heading in home tab when you are connected and not downloaded any docs yet -->
+
+    <string name="no_downloaded_docs">"אין מסמכים זמינים"</string>
+
+    <!-- XLST:shown in home tab when you have not downloaded any docs -->
+
+    <string name="add_doc">"הוסף מסמך"</string>
+
+
+
+    <!-- XBUT: Back in sections dialog -->
+
+    <string name="back">"חזור"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="page">"דף"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="page_loading">"דף ..."</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="MultipleDimensions">"ממדים מרובים"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="ALL">"הכול"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="link">"קישור"</string>
+
+
+
+    <!-- IC operators -->
+
+    <!-- XTXT -->
+
+    <string name="equal">"שווה"</string>
+
+    <!-- XTXT -->
+
+    <string name="in_list">"ברשימה"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_equal">"אינו שווה"</string>
+
+    <!-- XTXT -->
+
+    <string name="greater">"גדול מ-"</string>
+
+    <!-- XTXT -->
+
+    <string name="greater_or_equal">"גדול מ- או שווה ל-"</string>
+
+    <!-- XTXT -->
+
+    <string name="less">"קטן מ-"</string>
+
+    <!-- XTXT -->
+
+    <string name="between">"בין"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_between">"לא בין"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_in_list">"לא ברשימה"</string>
+
+    <!-- XTXT -->
+
+    <string name="is_null">"הינו Null"</string>
+
+    <!-- XTXT -->
+
+    <string name="like">"אהבתי"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_like">"לא אהבתי"</string>
+
+    <!-- XTXT -->
+
+    <string name="both">"שניהם"</string>
+
+    <!-- XTXT -->
+
+    <string name="except">"למעט"</string>
+
+    <!-- XTXT -->
+
+    <string name="less_or_equal">"קטן מ- או שווה ל-"</string>
+
+
+
+    <!-- Application password strings -->
+
+    <!-- XTXT SAP BI password dialog header -->
+
+    <string name="app_enter_pwd">"סיסמת יישום"</string>
+
+    <!-- XTXT SAP BI password is mandatory by server -->
+
+    <string name="app_pwd_login">"עליך לקבוע סיסמת יישום כדי ליצור חיבור לפלטפורמת BI. באפשרותך להשתמש בסיסמה כדי לאבטח את הנתונים שלך במצב לא מקוון. \n\nהאם ברצונך להמשיך?"</string>
+
+    <!-- XTXT SAP BI password limit text -->
+
+    <string name="app_enter_pwd_text">"על הסיסמה להכיל לפחות %1$d תווים"</string>
+
+    <!-- XTXT SAP BI re-enter password dialog -->
+
+    <string name="app_reenter_pwd">"אשר סיסמת יישום"</string>
+
+    <!-- XTXT SAP BI re-enter password text -->
+
+    <string name="app_reenter_pwd_text">"הזן שנית סיסמת יישום"</string>
+
+    <!-- XTXT SAP BI password change dialog -->
+
+    <string name="app_cur_pwd">"שנה סיסמה"</string>
+
+    <!-- XTXT SAP BI password change text -->
+
+    <string name="app_cur_pwd_text">"הזן סיסמת יישום נוכחית"</string>
+
+    <!-- XTXT SAP BI disable password dialog -->
+
+    <string name="app_disable_pwd">"הפוך סיסמת יישום ללא זמינה"</string>
+
+    <!-- XTXT SAP BI new password dialog -->
+
+    <string name="app_new_pwd">"סיסמת יישום חדשה"</string>
+
+
+
+    <!-- XBUT: Login button application password dialog -->
+
+    <string name="login_cmd">"המשך"</string>
+
+    <!-- XBUT: Confirm button application passsword disable or change password dialog -->
+
+    <string name="confirm">"אשר"</string>
+
+    <!-- XBUT: Next button to switch application passsword dialogs -->
+
+    <string name="next">"הבא"</string>
+
+    <!-- XTXT SAP BI password toggle text -->
+
+    <string name="use_app_pwd">"השתמש בסיסמת יישום"</string>
+
+    <!-- XTXT SAP BI password change set text -->
+
+    <string name="app_pwd_set">"סט סיסמאות יישום"</string>
+
+    <!-- XBUT SAP BI password change password -->
+
+    <string name="change_cmd">"שנה"</string>
+
+    <!-- XTXT SAP BI password timeout -->
+
+    <string name="app_pwd_timeout">"Timeout של סיסמה"</string>
+
+    <!-- XTXT SAP BI password security lowered when selected value > previous value -->
+
+    <string name="app_pwd_security">"רמת האבטחה ירדה"</string>
+
+    <!-- XTXT SAP BI password security lowered text -->
+
+    <string name="app_pwd_security_text">"פעולה זו מורידה את רמת האבטחה של היישום"</string>
+
+
+
+    <!-- Reset Application password strings -->
+
+    <!-- XTXT SAP BI application reset password -->
+
+    <string name="reset_application">"אפס יישום"</string>
+
+    <!-- XTXT SAP BI reset password text -->
+
+    <string name="reset_app_text">"איפוס הסיסמה יימחק את כל הנתונים המקומיים, כולל פרטי חיבור והגדרות יישום. באפשרותך לגשת ליישום לאחר איפוס מבלי להשתמש בסיסמת היישום.\n\nהאם ברצונך להמשיך עם איפוס היישום?"</string>
+
+    <!-- XTXT SAP BI application reset password warning -->
+
+    <string name="reset_app_warning">"אזהרה"</string>
+
+    <!-- XTXT SAP BI application reset password warning text -->
+
+    <string name="reset_app_warning_text">"הזנת סיסמת יישום שגויה 9 פעמים. אם תזין סיסמה לא שגויה פעם נוספת, היישום יאופס וכל הנתונים המקומיים, כולל פרטי החיבור וההגדרות, יאבדו.\n\nכדי לגשת ליישום לאחר שבוצע לו איפוס, צור חיבור חדש והזן סיסמת יישום חוקית."</string>
+
+
+
+    <!-- Wrong Application password -->
+
+    <!-- XTXT SAP BI wrong password warning -->
+
+    <string name="wrong_pwd">"סיסמה בלתי חוקית"</string> 
+
+    <!-- XTXT SAP BI wrong password warning text -->
+
+    <string name="wrong_pwd_text">"הזנת סיסמה שגויה %1$d פעמים. \n\nהאם ברצונך לאפס את היישום?"</string>
+
+    <!-- XTXT Illegal access of application -->
+
+    <string name="app_exit_message_heaad">"גישה לא חוקית ליישום"</string>
+
+
+
+    <!-- XTXT SAP BI exit app message -->
+
+    <string name="app_pwd_exit_text">"יישום ייסגר תוך 5 שניות"</string>
+
+
+
+    <!-- Email options -->
+
+    <!-- XTXT -->
+
+    <string name="open_browser">"הקש כדי לפתוח את הדוח בדפדפן"</string>
+
+    <!-- XTXT -->
+
+    <string name="add_connection_android">"הקש כדי להוסיף חיבור ביישום SAP BI עבור Android"</string>
+
+    <!-- XTXT -->
+
+    <string name="add_connection_ios">"הקש כדי להוסיף חיבור ביישום SAP BI עבור iOS"</string>
+
+    <!-- XTXT -->
+
+    <string name="media_player_codecs">"הערה: כדי להשמיע את קטע הצליל זה, ודא שהורדת את תוכנות ה-Codec העדכניות ביותר עבור נגן המדיה הזמין."</string>
+
+    <!-- XTXT -->
+
+    <string name="sent_from">"נשלח מהתקן ה-Android שלי"</string>
+
+    <!-- XTXT -->
+
+    <string name="open_device_android">"הקש כדי לפתוח את הדוח ביישום SAP BI בהתקן ה-Android שלך"</string>
+
+    <!-- XTXT -->
+
+    <string name="open_device_ios">"הקש כדי לפתוח את הדוח ביישום SAP BI בהתקן ה-iOS שלך"</string>
+
+
+
+    <!-- Deleting documents -->
+
+    <!-- XTXT -->
+
+    <string name="doc_delete">"מסמך נמחק בהצלחה"</string>
+
+    <!-- XTXT -->
+
+    <string name="doc_delete_fail">"לא ניתן היה למחוק את המסמך"</string>
+
+
+
+    <!-- Sample Doc Names -->
+
+    <!-- XTXT -->
+
+    <string name="sample_doc1">"סיכום של ניהול בנק"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc2">"ניתוח של חלוקת כוח האדם"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc3">"לוח הפעלה של קמעונאי"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc4">"רווחיות של מכירות"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc5">"מנהל חנות"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc6">"קיימות"</string>
+
+    <!-- Categories -->
+
+    <!-- XTXT -->
+
+    <string name="category_all">"הכול"</string>
+
+    <!-- XTXT -->
+
+    <string name="category_others">"אחרים"</string>
+
+    <!-- XTXT if the document cannot be saved due to last refresh date + TTL being expired -->
+
+    <string name="doc_not_saved">"אינך יכול להוריד את הקובץ הזה בשל קווי מדיניות שתצורתם נקבעה עבור אבטחה מורחבת"</string>
+
+     <!-- XTXT -->
+
+  	<string name="open_doc_back_msg">"תחזור למסך הבית"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_xcelsius">"מוריד. המתן..."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_update_xcelsius">"מעדכן. המתן..."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_update_xcelsius_backup">"לא ניתן לקבל גיבוי של מסמך. נסה שוב מאוחר יותר."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_failer_xcelsius">"לא ניתן לבצע פעולה. נסה שוב מאוחר יותר."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_download_success">"הורדה בוצעה בהצלחה"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_download_failure">"שגיאה בהורדה"</string>
+
+
+
+    <!-- XMIT : menu item  used to collaborate with JAM -->
+
+    <string name="collaborate">"שתף פעולה"</string>
+
+    <!-- XHED : menu item  used to collaborate with JAM -->
+
+    <string name="jam">"SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_recieve_oauthtoken">"שגיאה אירעה בעת אחזור של Token הבקשה משרת SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_recieve_accesstoken">"שגיאה אירעה בעת אחזור של Token הגישה משרת SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_groups_error">"שגיאה אירעה בעת אחזור הקבוצות משרת SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_groups_exists_error">"קבוצה עם שם זהה כבר קיימת"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_create_groups_error">"שגירה אירעה בעת יצירה קבוצה"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_upload_photo_error">"שגיאה אירעה בעת העלאה של צילום המסך לשרת SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_send_invite_error">"שגיאה אירעה בעת שליחת הזמנה למשתמש"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_invalid_oauth_details">"פרטי OAUTH לא חוקיים. קבע תצורה לפרטי OAUTH הנכונים ב-CMS"</string>
+
+
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="jam_oauth_header">"התחברות ל-SAP JAM"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="jam_sendtojam">"שלח אל SAP JAM"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="create_new_group">"צור קבוצה חדשה"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="edit_group">"ערוך קבוצה"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_name">"שם קבוצה"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_objective">"יעד"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_participants">"משתתפים"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="jam_current_groups">"קבוצות נוכחיות"</string>
+
+    <!-- XTXT: text for posting the discussion -->
+
+    <string name="post">"פרסם"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="group_is_private">"פרטי"</string>
+
+    <!-- XTXT: text for posting the discussion -->
+
+    <string name="you">"אתה"</string>
+
+    <!-- XBUT: send button in send dialog -->
+
+    <string name="jam_Send">"שלח"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="uploading">"מעלה..."</string>
+
+    <!-- XTXT: label for work phone number -->
+
+    <string name="home_lbl">"דף הבית"</string>
+
+    <!-- XTXT: label for home phone number -->
+
+    <string name="work_lbl">"עבודה"</string>
+
+    <!-- XTXT: label for mobile number -->
+
+    <string name="Mobile_lbl">"טלפון נייד"</string>
+
+    <!-- XHED: heading for user profile diaglog fragment -->
+
+    <string name="user_profile">"פרופיל משתמש"</string>
+
+    <!-- XHED: heading for user profile diaglog fragment -->
+
+    <string name="wait">"המתן ..."</string>
+
+    <!-- XTXT: text for none -->
+
+    <string name="none">"אין"</string>
+
+    <!-- XTXT :AM I will be appeding this date based on format -->
+
+    <string name="AM">"לפנה\"צ"</string>
+
+    <!-- XTXT :PM I will be appeding this date based on format -->
+
+    <string name="PM">"אחה\"צ"</string>
+
+
+
+    <!-- XTXT : Message to show in SSLConnectivityDialogFragment -->
+
+    <string name="ssl_alertmessge">"ייתכן שחיבור זה אינו מהימן; האם ברצונך להמשיך?"</string>
+
+    <!-- XHED : heading for SSLConnectivityDialogFragment -->
+
+    <string name="ssl_alert_title">"התראה"</string>
+
+    <!-- XTXT : Alert Message -->
+
+    <string name="sapbi_delete">"תוכנית חיצונית רוצה למחוק חיבור; האם ברצונך להמשיך?"</string>
+
+    <!-- XTXT : Alert Message -->
+
+    <string name="sapbi_modify">"תוכנית חיצונית רוצה לשנות חיבור; האם ברצונך להמשיך?"</string>
+
+    <!-- new connection for BOE -->
+
+    <string name="conn_server_URL">"כתובת URL של שרת"</string>
+
+    <!-- XTXT : CMS name -->
+
+    <string name="cms_name">"שם CMS"</string>
+
+    <!-- XTXT : authentication mode -->
+
+    <string name="auth_mode">"מצב אימות"</string>
+
+    <!-- XTXT : Default Connection -->
+
+    <string name="default_connect">"חיבור בברירת מחדל"</string>
+
+    <!-- XTXT : Connection Details -->
+
+    <string name="connection_details">"פרטי חיבור"</string>
+
+    <!-- XTXT : Authentication Details -->
+
+    <string name="authentication_details">"פרטי אימות"</string>
+
+    <!-- XTXT : Username -->
+
+    <string name="conn_username">"שם משתמש"</string>
+
+    <!-- XTXT : Password -->
+
+    <string name="conn_password">"סיסמה"</string>
+
+    <!-- XTXT : Default connection -->
+
+    <string name="default_conn">"חיבור בברירת מחדל"</string>
+
+    <!-- XTXT : Save password -->
+
+    <string name="save_pass">"שמור סיסמה"</string>
+
+    <!-- XTXT : Connection Type -->
+
+    <string name="conn_type">"סוג חיבור"</string>
+
+    <!-- XTXT : Connection Type Phone -->
+
+    <string name="conn_type_phone">"סוג חיבור"</string>
+
+    
+
+    <!-- Manage Connections -->
+
+    <!-- XTXT : Indicate Default connection -->
+
+    <string name="is_default_conn">"ברירת מחדל"</string>
+
+
+
+    <!-- Connection Action Bar SAVE -->
+
+    <string name="connection_save">"שמור"</string>
+
+    <!-- Connection Action Bar SHARE -->
+
+    <string name="connection_share">"שתף"</string>
+
+    <!-- Connection Action Bar SAVE CONNECT -->
+
+    <string name="connection_saveconnect">"שנמור והתחבר"</string>
+
+
+
+    <!-- XTXT : BI Inbox -->
+
+    <string name="BIInbox">"תיבת דואר נכנס של BI"</string>
+
+    <!-- XTXT : BI Inbox Option to make it read -->
+
+    <string name="mark_as_read">"סמן כ\'נקרא\'"</string>
+
+    <!-- XTXT : BI Inbox Option to make it unread -->
+
+    <string name="mark_as_unread">"סמן כ\'לא נקרא\'"</string>
+
+    <!-- Personal Categories Related Strings -->
+
+    <!-- XTXT : Manage Connections -->
+
+    <string name="manage_connections">"נהל חיבורים"</string>
+
+    <!-- XTXT : Saved Connections -->
+
+    <string name="saved_connections">"חיבורים שנשמרו"</string>
+
+    <!-- XTXT : Saved Connection -->
+
+    <string name="saved_connection">"חיבור שנשמר"</string>
+
+    <!-- XTXT : Manage Categories -->
+
+    <string name="manage_categories">"נהל קטגוריות"</string>
+
+    <!-- XMSG: Add Default Category -->
+
+    <string name="add_default_category">"קבע קטגוריה בברירת מחדל"</string>
+
+    <!-- XMSG: Select Category as  Default-->
+
+    <string name="select_default_category">"בחר קטגוריה להגדרה כברירת מחדל"</string>
+
+    <!-- XTXT : Assign Categories -->
+
+    <string name="assign_categories">"הקצה קטגוריות"</string>
+
+    <!-- XTXT : Create New Category -->
+
+    <string name="create_new_category">"צור קטגוריה חדשה"</string>
+
+    <!-- XTXT : Edit Category -->
+
+    <string name="edit_category">"ערוך קטגוריה"</string>
+
+    <!-- XTXT : Delete Category -->
+
+    <string name="delete_category">"מחק קטגוריה"</string>
+
+    <!-- XTXT :Category Exists Message -->
+
+    <string name="category_exist_message">"שם קטגוריה כבר קיים; הזן שם אחר עבור הקטגוריה"</string>
+
+    <!-- XTXT :Category Name Empty Message -->
+
+    <string name="category_empty_message">"שם קטגוריה ריק; הזן שם אחר עבור הקטגוריה"</string>
+
+    <!-- XTXT :Category Delete Message -->
+
+    <string name="category_delete_message">"האם אתה בטוח שברצונך למחוק את הקטגוריה"</string>
+
+
+
+    <!-- XTXT : Items -->
+
+    <string name="items">"פריטים"</string>
+
+    <!-- XTXT : Get Started -->
+
+    <string name="get_started">"התחל"</string>
+
+    <!-- XTXT : Whats new -->
+
+    <string name="whats_new">"מה חדש"</string>
+
+    <!-- XTXT : All Reports -->
+
+    <string name="all_reports">"כל הדוחות"</string>
+
+    <!-- XTXT : Favorites -->
+
+    <string name="favorites">"מועדפים"</string>
+
+    <!-- XMIT : Add to Favorites -->
+
+    <string name="add_to_favorites">"הוסף למועדפים"</string>
+
+    <!-- XMIT : Remove from Favorites -->
+
+    <string name="remove_from_favorites">"הסר ממועדפים"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="endpoint_error">"הבאת Proxy של נקודות קצה נכשלה."</string>
+
+
+
+    <!-- XLBL : Type in Info Screen -->
+
+    <string name="type">"סוג"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="webi_type">"Web Intelligence"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="dashboard_type">"לוח מחוונים"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="designstudio_type">"יישום ניתוח"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="hyperlink_type">"היפר קישור"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="pdf_type">"מסמכי PDF"</string>    
+
+ 
+
+    <!-- Navigation Drawer Strings -->
+
+    <!-- XMSG -->
+
+    <string name="nav_open">"פתח"</string>
+
+    <!-- XMSG -->
+
+     <string name="nav_close">"סגור"</string>
+
+    
+
+    <!-- Table filter Message -->
+
+	<!-- XMSG -->
+
+	<string name="empty_data">"ריק"</string>
+
+	
+
+	<!-- Notifications -->
+
+	<!-- XTXT -->
+
+	<string name="menu_notification">"הודעות"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updating">"מסמכים מתעדכנים"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updating_single">"מסמך מתעדכן"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_available">"עדכונים זמינים"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_available_single">"עדכון זמין"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_update_all">"עדכן הכול"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_cancel_all">"בטל הכול"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updated_count">"מסמכים שעודכנו לאחרונה"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updated_count_single">"מסמך שעודכן לאחרונה"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_clear_all">"נקה הכול"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_not_available">"אין הודעות זמינות"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_Auto_Update_Is_Disabled">"עדכון אוטומטי אינו זמין עבור חיבור זה"</string>
+
+	<!-- XTXT -->
+
+	<string name="Minutes">"דקות"</string>
+
+	<!-- XBUT: AutoUpdate On button -->
+
+    <string name="toggle_on">"דולק"</string>
+
+    <!-- XBUT: AutoUpdate Off button -->
+
+    <string name="toggle_off">"כבוי"</string>
+
+    
+
+     <!-- Getting Started Message -->
+
+	<!-- XMSG -->
+
+	<string name="getting_started_trend_icons">"השתמש בסמלי מגמה כדי להדגיש נתונים."</string>
+
+	<!-- XMSG: A styled string -->
+
+    <string name="getting_started_show_only_downloaded">"השתמש באפשרות \'הצג דוחות שהורדו בלבד\' כדי להציג את כל המסמכים שנוספו להתקן."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_personal_view">"שמור מסמך כתצוגה אישית כדי לשמור את כל פעולות הניתוח ולהציג אותן במצב לא מקוון."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_notification_badge">"תג הודעה להתראה אם מופע מסמך חדש או גרסת מסמך ששונתה זמינים בשרת."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_notification_panel">"לוח הודעות מאפשר לך לנהל עדכוני מסמכים בצורה נוחה."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_display_category">"הצג קטגוריות כרשימה שטוחה או עם מבנה מקונן."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_share_connection">"שתף פרטי חיבור באמצעות דוא\"ל."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_bi_inbox_download">"ניתן להוריד מסמכים של תיבת הדואר הנכנס BI להתקן ולסמנם כ\'נקרא\' או \'לא נקרא\'."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_dashboard">"באפשרותך להציג וליצור אינטראקציה עם היישום SAP Business Objects Analysis."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_bi_connection">"כדי לגשת לתוכן ה-BI שלך, צור חיבור חדש באמצעות אחד מסוגי החיבור הזמינים"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_geo">"הקש על כל נקודת עניין (POI) כדי להציג מידע מפורט על הערכים המשויכים."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_tablestyling">"התאם אישית את סגנון הגופן של התא בטבלה למודגש, נטוי או קו תחתון."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_microbarchart">"הקש על תרשים המיקרו של העמודות, כדי להציג את התרשים במצב התמקדות/התרחקות."</string>
+
+   
+
+	<!-- XMSG -->
+
+	<string name="getting_started_toggle_group_by_sort">"החלפה בין האפשרויות \'קבץ לפי\' ו\'מיין\' מסייעת לארגן בנוחות את רישום המסמך."</string>	
+
+	<!-- XMSG -->
+
+	<string name="getting_started_auto_update_wifi">"השתמש בהגדרות העדכון האוטומטי כדי לעדכן באופן אוטומטי את כל המסמכים במצב לא מקוון כשחיבור ה-Wi-Fi הופך זמין."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_default_filter">"קבע את התצורה של ערך המסנן בברירת המחדל במסמך ניתוח ה-Geo."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_share_document_link">"שתף את קישור המסמך באמצעות דוא\"ל ושמור על הקשר הניווט הנוכחי"</string>
+
+	<!-- XMSG -->
+
+	<string name="pdf_pop_up_select_app">"בחר מציג"</string>
+
+	<!-- XMSG -->
+
+	<string name="pdf_pop_up_install_app">"מציג לא זמין; התקן PDF Viewer כדי להציג את המסמך"</string>
+
+	
+
+	
+
+	
+
+	<!-- XMSG -->
+
+	<string name="splash_upgrade_docs">"שדרוג מסמכים..."</string>
+
+	<!-- XMSG -->
+
+	<string name="splash_docs_to_be_upgraded">"%1$s מסמכים לשדרוג"</string>
+
+	<!-- XMSG -->
+
+	<string name="splash_number_of_docs_upgraded">"%1$s מתוך %2$s מסמכים שודרגו..."</string>
+
+	
+
+	<!-- XMSG -->
+
+	<string name="cannot_expand_this_node">"לא ניתן להרחיב צומת זה"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="certificate_error">"שגיאת אישור"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_untrusted_error">"הרשאת האישור אינה מהימנה"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_expired_error">"תוקף האישור פג"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_idmismatch_error">"אי-התאמה של שם מחשב מארח"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_notyetvalid_error">"האישור טרם תקף"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_invalid_error">"שגיאה גנרית אירעה"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_date_invalid_error">"התאריך של האישור אינו תקף"</string>
+
+	
+
+</resources>

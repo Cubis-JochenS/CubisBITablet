@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-xlarge-port/grouped_grid_view_values.xml -->
+    <eat-comment/>
+    <item name="gridview_blank_view_width" type="integer">0</item>
+    <integer name="gridview_item_count">2</integer>
+    <item name="gridview_item_height" type="integer">282</item>
+    <item name="gridview_item_width" type="integer">326</item>
+</resources>

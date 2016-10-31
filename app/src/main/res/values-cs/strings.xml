@@ -1,0 +1,2809 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+
+
+
+    <!-- XTXT: title for the launcher icon of app -->
+
+    <string name="app_name">"SAP BI"</string>
+
+    <!-- XMSG: message says on which android sdk the app is not supported -->
+
+    <string name="osnotsupported">"Tato aplikace není podporována v systému Android 4.4 a novějších"</string>
+
+    <!-- XMSG: message says on which android sdk the app is not supported -->
+
+    <string name="osdeprecated">"Tato aplikace není podporována v systému Android verze 2.2"</string>
+
+    <!-- XMSG: message says android api level less than 14 is not supported -->
+
+    <string name="oshoneycombnotsupported">"Aplikace %1$s je kompatibilní s operačním systémem Android verze 4.0 a novějším."</string>
+
+    <!-- XBUT: Text for HOME Button -->
+
+    <string name="description_home">"Domů"</string>
+
+    <!-- XMIT: Menu item for Search -->
+
+    <string name="description_search">"Hledat"</string>
+
+    <!-- XTBS: Title for Browse Tab -->
+
+    <string name="browse">"Prohledat"</string>
+
+    <!-- XTBS,10: Title for Home Tab -->
+
+    <string name="home">"Domů"</string>
+
+    <!-- XMSG: login -->
+
+    <string name="login">"Přihlášení"</string>
+
+    <!-- XTXT: Text for new instance of ConnectionListDialogFragment -->
+
+    <string name="add_new_cnx">"Přidat spojení"</string>
+
+    <!-- XTXT: Text used for Import -->
+
+    <string name="import_txt">"Import"</string>
+
+    <!-- XTXT: Text used for Add connection -->
+
+    <string name="new_txt">"Nové"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="alias">"Alias"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="add_alias">"Přidat alias"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="enter_alias">"Zadat alias"</string>
+
+    <!-- XBUT: OK -->
+
+    <string name="ok">"OK"</string>
+
+    <!-- XBUT: cancel -->
+
+    <string name="cancel">"Zrušit"</string>
+
+    <!-- XBUT: XCPin -->
+
+    <string name="xc_pin_unpin">"Připnout/odepnout"</string>
+
+    <!-- XBUT: FitToScreen -->
+
+    <string name="xc_fit_to_screen">"Přizpůsobit obrazovce"</string>
+
+
+
+    <!-- XBUT: Done -->
+
+    <string name="done">"Hotovo"</string>
+
+    <!-- XBUT: Previous -->
+
+    <string name="previous">"Předchozí"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_instance_title">"Zobrazit instanci dokumentu"</string>
+
+    <!-- XHED: heading for Categories -->
+
+    <string name="categories">"Kategorie"</string>
+
+    <!-- XHED: heading for Search Results -->
+
+    <string name="searchresults">"Výsledky hledání"</string>
+
+    <!-- XHED: heading for Dailog while sending an email -->
+
+    <string name="send_options">"Zaslat snímek obrazovky přes:"</string>
+
+    <!-- XHED: heading for Dialog while sending an email to share connection -->
+
+    <string name="send_cnx_options">"Sdílet spojení prostřednictvím:"</string>
+
+    <!-- XBUT: Skip -->
+
+    <string name="skip">"Přeskočit"</string>
+
+    <!-- XHED: heading for Sample Documents -->
+
+    <string name="sampledoc_header">"Ukázkové dokumenty"</string>
+
+    <!-- XTXT -->
+
+    <string name="create_new_cnx_desc1">"a prohledejte dokumenty."</string>
+
+    <!-- XTXT -->
+
+    <string name="create_new_cnx_desc2">"Můžete to provést také z obrazovky Nastavení."</string>
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    <!-- Build number format is YYMM fo  every release year-month -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XBUT: Accept buttion in Eula Screen -->
+
+    <string name="eula_accept">"Přijmout"</string>
+
+    <!-- XBUT: Reject buttion in Eula Screen -->
+
+    <string name="eula_reject">"Odmítnout"</string>
+
+    <!-- XHED: Heading for Eula Screen -->
+
+    <string name="eula_title">"Licenční dohoda s koncovým uživatelem"</string>
+
+    <string name="eula_mobi_updates"/>
+
+
+
+    <!-- Menu options for annotations -->
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="paint">"Nakreslit"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="erase">"Odmazat"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="customview">"Vlastní zobrazení"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="crop">"Oříznout"</string>
+
+    <!-- XMIT : menu item  used to blur the image -->
+
+    <string name="blur">"Rozmazat"</string>
+
+    <!-- XTXT -->
+
+    <string name="record">"Nahrát hlasovou poznámku"</string>
+
+    <!-- XTXT -->
+
+    <string name="recording">"Nahrávání..."</string>
+
+    <!-- XTXT -->
+
+    <string name="not_recording">"Připraveno k nahrávání..."</string>
+
+    <!-- XTXT -->
+
+    <string name="playing">"Přehrávání..."</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_deleted">"Nahraný soubor byl vymazán."</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_attached">"Nahraný soubor bude připojen k e-mailu."</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_not_attached">"Není připojen nahraný soubor."</string>
+
+    <!-- XMSG: message for indicating if orientation was locked -->
+
+    <string name="orientation_lock">"Orientace uzamčena! Při anotování výkazu nemůžete změnit orientaci zařízení."</string>
+
+    <!-- XMSG: message for indicatiing if orientation was locked -->
+
+    <string name="orientation_unlock">"Orientace odemčena"</string>
+
+    <!-- XLST: Edit -->
+
+    <string name="annotations">"Anotace"</string>
+
+    <!-- XHED: Heading for ImageEditor -->
+
+    <string name="imageeditor_title">"Editor obrázků"</string>
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- choose color to Paint which comes in the menu -->
+
+    <!-- XMIT : menu item  for white color -->
+
+    <string name="white">"Bílá"</string>
+
+    <!-- XMIT : menu item  for black color -->
+
+    <string name="black">"Černá"</string>
+
+    <!-- XMIT : menu item  for red color -->
+
+    <string name="red">"Červená"</string>
+
+    <!-- XMIT : menu item  for Blue color -->
+
+    <string name="blue">"Modrá"</string>
+
+    <!-- XMIT : menu item  for Green color -->
+
+    <string name="green">"Zelená"</string>
+
+    <!-- XMIT : menu item  for Yellow color -->
+
+    <string name="yellow">"Žlutá"</string>
+
+
+
+    <!-- Menu options -->
+
+    <!-- XMIT : menu item  used to add the document to home tab -->
+
+    <string name="add_home">"Přidat dom. str."</string>
+
+    <!-- XMSG:title of create personal view fragment -->
+
+    <string name="pv_create_title">"Uložit zobrazení"</string>
+
+    <!-- XMIT: category for Personal view -->
+
+    <string name="personal_view_category">"Osobní zobrazení"</string>
+
+     <!-- XMIT: menu item used to create Personal view in the document -->
+
+    <string name="personal_view_create">"Osobní zobrazení"</string>
+
+    <!-- XTXT menu item used to create Personal view Name -->
+
+    <string name="pv_name">"Název osobního zobrazení"</string>
+
+    <!-- XTXT menu item used to create Personal view Description -->
+
+    <string name="pv_description">"Popis osobního zobrazení"</string>
+
+    <!-- XMIT: menu item used to refresh the document -->
+
+    <string name="refresh">"Obnovit"</string>
+
+    <!-- XMIT: menu item used for filters in the document -->
+
+    <string name="filter_menu">"Filtr"</string>
+
+    <!-- XMIT: menu item used for filters for report parts -->
+
+    <string name="report_part_filter_menu">"Filtr částí výkazu"</string>
+
+    <!-- XMIT: menu item used to send the screenshot of the report through email -->
+
+    <string name="email_menu">"E-mail"</string>
+
+    <!-- XMIT: menu item used to switch between list and grid views for tablets  with action bar -->
+
+    <string name="grid_menu">"Mřížka"</string>
+
+    <!-- XMIT: menu item used to switch between list and grid views for phone devices where custom title bar is used -->
+
+    <string name="change_view">"Změnit zobrazení"</string>
+
+    <string name="xc_hideToolBar">"Skrýt lištu nástrojů"</string>
+
+    <string name="xc_fitToScreen">"Přizpůsobit obrazovce"</string>
+
+    <!-- XMIT: menu item used to indicate sections in report -->
+
+    <string name="sections">"Sekce"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="existing_conn_header">"Stávající spojení"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="tap_to_connect">"Klepnutím připojte"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="more">"Více"</string>       
+
+    <!-- Doc info related strings -->
+
+    <!-- XTXT: name of the textView which displays name of the document -->
+
+    <string name="name">"Název"</string>
+
+    <!-- XHED: heading for the dailog which displays document information -->
+
+    <string name="doc_info_header">"Informace o dokumentu"</string>
+
+    <!-- XTXT: name of the textView which displays author of the document -->
+
+    <string name="author">"Autor"</string>
+
+    <!-- XTXT: name of the textView which displays parent doc name personal view doc -->
+
+    <string name="parent_doc_name">"Název nadřazené složky"</string>
+
+    <!-- XTXT: name of the textView which displays sender of the document -->
+
+    <string name="sender">"Odesilatel"</string>
+
+    <!-- XTXT: name of the textView which displays downloaded date&time of the document -->
+
+    <string name="downloaded_at">"Staženo"</string>
+
+    <!-- XTXT: name of the textView which displays the last modified date&time of the document -->
+
+    <string name="modified_at">"Modifikováno"</string>
+
+    <!-- XTXT: name of the textView which displays the last sent at date&time of the document -->
+
+    <string name="sent_at">"Odesláno"</string>
+
+    <!-- XTXT: name of the textView which displays description of the document -->
+
+    <string name="description">"Popis"</string>
+
+    <!-- XTXT: name of the textView which displays deletion date&time  of the document -->
+
+    <string name="document_delete">"Dokument bude vymazán"</string>
+
+
+
+    <!-- Quick Action options -->
+
+    <!-- XBUT: used to open a document in quick actions -->
+
+    <string name="view">"Zobrazení"</string>
+
+    <!-- XBUT: used to update the document in quick actions -->
+
+    <string name="update">"Aktualizovat"</string>
+
+    <!-- XBUT: used to view an instance of the document in quick actions -->
+
+    <string name="view_instance">"Zobrazit instanci"</string>
+
+    <!-- XBUT: used to view the document information in quick actions -->
+
+    <string name="info">"Info"</string>
+
+    <!-- XBUT: used to remove the document in quick actions -->
+
+    <string name="remove_document">"Odstranit ze zařízení"</string>
+
+    <!-- XBUT: used to add  the document to home tab in quick actions -->
+
+    <string name="add_to_device">"Přidat do zařízení"</string>
+
+    <!-- XTXT: used to show remaining days before expire the document -->
+
+    <string name="days">"Dny"</string>
+
+    <!-- XTXT: used to show one day to expire the document-->
+
+    <string name="day">"Den"</string>
+
+    <!--XFLD: document quick info popup field for author  -->
+
+	<string name="authored_by">"Autor"</string>
+
+	<!--XFLD: document quick info popup field for Expire date  -->
+
+	<string name="expires_in">"Vyprší za"</string>
+
+
+
+
+
+    <!-- <string name="eula_mobi_updates">&lt;b>&lt;u>bold, underline &lt;/u>&lt;/b></string> -->
+
+    <!-- Create, Edit or Import Connection -->
+
+    <!-- XFLD:field for Connection Server URL -->
+
+    <string name="connection_server_URL">"URL serveru spojení"</string>
+
+    <!-- XTXT: "http://" is appended to the mobile server details entered by the user -->
+
+    <string name="url_start_string">"http://"</string>
+
+    <!-- XTXT -->
+
+    <string name="connection">"Nové spojení"</string>
+
+    <!-- XMSG -->
+
+    <string name="enter_valid_url">"Zadejte platné URL"</string>
+
+    <!-- XBUT:SAP BI Application password Reset -->
+
+    <string name="reset_cmd">"Reset"</string>
+
+    <!-- XBUT:Share connection details -->
+
+    <string name="share_connection">"Sdílet"</string>
+
+    <!-- XBUT:SAP BI Application password Save -->
+
+    <string name="save_cmd">"Uložit"</string>
+
+    <!-- XFLD:field for Save Password by choosing yes or no -->
+
+    <string name="save_password">"Uložit heslo"</string>
+
+    <!-- XFLD:field for Additional Credentials by choosing yes or no -->
+
+    <string name="additional_authcred">"Další autentizační identifikační údaje"</string>
+
+    <!-- XFLD:field for enterting the CMS -->
+
+    <string name="cms">"CMS"</string>
+
+    <!-- XFLD:field for Mobile Server URL -->
+
+    <string name="mobile_server_URL">"URL mobilního serveru"</string>
+
+    <!-- XTXT:default text to appear where the user has to enter the mobile server url -->
+
+    <string name="enter_server_url">"Zadejte URL serveru"</string>
+
+    <!-- XHED:used as dailog title  where you can choose a connection -->
+
+    <string name="choose_connection">"Vybrat spojení"</string>
+
+    <!-- XTXT:default text appears in the mandatory fields which needs to be entered by the user -->
+
+    <string name="required">"Požadováno"</string>
+
+    <!-- XFLD:field for enetring the Connection Name -->
+
+    <string name="connection_name">"Název spojení"</string>
+
+    <!-- XFLD:field for entering the USer Name -->
+
+    <string name="user_name">"Uživatelské jméno"</string>
+
+    <!-- XFLD:field for selecting Authentication Types -->
+
+    <string name="auth_type">"Typ autentizace"</string>
+
+    <!-- XFLD:field for Remember Password -->
+
+    <string name="remember_pwd">"Pamatovat heslo"</string>
+
+    <!-- XFLD:field for setting this connection as Default Connection by choosing Yes or No -->
+
+    <string name="set_as_default">"Standardní spojení"</string>
+
+    <!-- XMSG:msg displayed on click of import in offline mode -->
+
+    <string name="offline_connection">"Spojení nelze importovat v režimu offline"</string>
+
+    <!-- XMSG:msg displayed on click of drill on snapshot -->
+
+    <string name="snapshot_drill">"Operace přechodu není uložena"</string>
+
+    <!-- XMSG:msg displayed on click of hierarchy on snapshot -->
+
+    <string name="snapshot_hierarchy">"Operace hierarchie není podporována pro dokumenty osobního zobrazení"</string>
+
+    <!-- XMSG:msg displayed on click of REL on snapshot -->
+
+    <string name="snapshot_rel">"Operace propojení prvku výkazu není podporována pro dokumenty osobního zobrazení"</string>
+
+    <!-- XMSG:msg displayed on click of opendoc on snapshot -->
+
+    <string name="snapshot_opendoc">"Operace otevření URL dokumentu není podporována pro dokumenty osobního zobrazení"</string>
+
+    <!-- XMSG:msg displayed if the personal view name exists -->
+
+    <string name="snapshot_name_exists">"Specifikujte jiné jméno; jméno již existuje pro jiné osobní zobrazení"</string>
+
+    <!-- XMSG:msg displayed while drilling -->
+
+    <string name="drill_from">"Od"</string>
+
+    <!-- XLST: Edit -->
+
+    <string name="edit">"Upravit"</string>
+
+    <!-- XLST:Delete -->
+
+    <string name="delete">"Smazat"</string>
+
+    <!-- XLST:Deregister -->
+
+    <string name="deregister">"Odregistrovat"</string>
+
+    <!-- XLFD:field for Password -->
+
+    <string name="password">"Heslo"</string>
+
+
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    
+
+
+
+    <!-- Settings List Fragment elements -->
+
+    <!-- XHED: used as title for dailog for Edit and Delete -->
+
+    <string name="connection_options">"Možnosti"</string>
+
+    <!-- XTXT -->
+
+    <string name="display_help_page">"Zobrazit stránku s nápovědou"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_doc">"Zobrazit dokument"</string>
+
+    <!-- XMSG -->
+
+    <string name="generic_error">"Požadavek nelze zpracovat; zkuste to znovu později."</string>
+
+    <!-- XMSG -->
+
+    <string name="mesg_already_downloaded">"Tento dokument byl již stažen"</string>
+
+     <!-- XMSG -->
+
+    <string name="mesg_document_downloading">"Bylo spuštěno stažení dokumentu."</string>
+
+     <!-- XMSG -->
+
+    <string name="mesg_download_in_progress">"Operaci nelze provést; probíhá stahování"</string>
+
+    <!-- XMSG -->
+
+    <string name="unknown_document_type">"Typ vybraného dokumentu je neznámý."</string>
+
+    <!-- XMSG -->
+
+    <string name="doc_metadata_not_found">"Informace o dokumentu nebyly nalezeny."</string>
+
+    <!-- XMSG -->
+
+    <string name="save_error_string">"Zadejte informace do požadovaných polí"</string>
+
+    <!-- XMSG -->
+
+    <string name="cnx_name_already_exists">"Tento název spojení již existuje"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_filters_saved">"Žádné filtry nejsou uloženy"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="doc_not_found">"Dokument nelze otevřít"</string>
+
+    <!-- XMSG -->
+
+    <string name="unable_to_drill">"Nelze procházet dokument"</string>
+
+    <!-- XMSG -->
+
+    <string name="document_no_category">"Dokument není přiřazen žádné mobilní kategorii"</string>
+
+
+
+    <!-- Progress Dialog messages -->
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_opening_document">"Otevírání dokumentu..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_opening_report">"Otevírání výkazu..."</string>
+
+     <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_downloading_pending_reports">"Probíhá stahování. Vyčkejte..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_syncing_with_server">"Synchronizace se serverem..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_processing_data">"Zpracovávání dat..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_getting_prompts">"Vyvolávání výzev..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_filtering_document">"Filtrování dokumentu..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_clearing_filters">"Vyprazdňování filtrů..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_prompt_document">"Použití výzev na dokument..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_lov_document">"Vyvolávání seznamu hodnot..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_getting_content">"Příjem obsahu ze serveru..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_dowloading_document_offline">"Stahování dokumentu na domovskou stránku..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_logoff">"Probíhá odhlašování; vyčkejte..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <!-- XMSG: message for XC Downloading dialogs -->
+
+    <string name="mesg_xcelsius_initialize">"Inicializace"</string>
+
+    <string name="mesg_xcelsius_load">"Zavádění"</string>
+
+    <string name="mesg_xcelsius_documentuncompatible">"Odkazovaný dokument není kompatibilní s aktuální aplikací a nelze jej zobrazit"</string>
+
+    <!-- XMSG: message for XC Loading dialogs -->
+
+    <string name="pg_show_server_call">"Získávání detailů ze serveru"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_drill_up_document">"Přechod nahoru..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_drill_down_document">"Přechod dolů..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="register_with_sup">"Registrace – SUP..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="deregister_with_sup">"Odregistrace – SUP..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_mesg">"Probíhá přihlašování; vyčkejte..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_mesglist">"Uvádění dokumentů..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="refresh_mesg">"Obnovování seznamu dokumentů..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_refresh_document">"Obnovování dokumentu..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_add_home">"Stahování a přidávání dokumentu na domov. stránku..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_insatance">"Načítání poslední instance..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_update">"Aktualizace dokumentu..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="loading">"Zavádí se..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_string">"Připojování"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="wait_string">"..."</string>
+
+    <!-- XMSG: message for indicatiing if SUP registration was successful -->
+
+    <string name="registration_success">"Registrace byla úspěšná"</string>
+
+    <!-- XMSG: message for indicatiing if SUP deregistration was successful -->
+
+    <string name="deregistration_success">"Odregistrování bylo úspěšné"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_sorting_document">"Třídění – dokument..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_remove_sort_document">"Odstraňování třídění..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_refresh_lov_document">"Obnovování seznamu hodnot..."</string>
+
+    <!-- Dialog and Toast messages -->
+
+    <!-- XMSG -->
+
+    <string name="view_instance_download_message">"Chcete stáhnout poslední instanci?"</string>
+
+    <!-- XMSG: A multi-line message -->
+
+    <string name="no_connections">"Nebyla definována žádná spojení.\n \nChcete-li vytvořit nové spojení, přejděte sem: \nMenu &gt; Nastavení &gt; Spojení"</string>
+
+    <!-- XMSG -->
+
+    <string name="network_notification_disconnected">"Síť není k dispozici. Chcete pracovat v offline režimu?"</string>
+
+    <!-- XMSG -->
+
+    <string name="network_notification_connected">"Je k dispozici síť. Chcete pracovat v online režimu?"</string>
+
+    <!-- XMSG -->
+
+    <string name="first_time_work_offline">"Chcete-li k obsahu přistupovat v offline režimu, přihlaste se poprvé k serveru"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_logout_1">"Tato operace vás odhlásí od"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_logout_2">"Chcete pokračovat?"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_connection">"Chcete vymazat vybrané připojení %1$s?"</string>
+
+    <!-- XMSG -->
+
+    <string name="add_existing_connection">"Toto spojení již existuje"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_all_connection">"Chcete smazat všechna spojení?"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_document">"Chcete smazat dokument:"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_conn_connected">"Spojení nelze smazat; odhlaste se a zkuste to znovu"</string>
+
+    <!-- XMSG -->
+
+    <string name="add_conn_connected">"Nelze přidat spojení, když je uživatel přihlášený; odhlaste se a zkuste to znovu"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_conn">"Neexistuje žádné spojení"</string>
+
+    <!-- XMSG -->
+
+    <string name="modify_conn_connected">"Spojení nelze modifikovat; odhlaste se a zkuste to znovu"</string>
+
+    <!-- XMSG -->
+
+    <string name="modify_connection">"Modifikovat spojení"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_conn_notexisting">"Spojení neexistuje"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_save_password">"Chcete heslo opravdu uložit?"</string>
+
+    <!-- XMSG -->
+
+    <string name="refresh_confirm_msg">"Obnovení odstraní aktuální kontext dokumentu"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_deregister">"Chcete se odregistrovat od SUP?"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_connection">"Vymazat spojení"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_document">"Vymazat dokument"</string>
+
+    <!-- XMSG -->
+
+    <string name="basic_auth">"Autentizace vyžadována"</string>
+
+    <!-- XMSG -->
+
+    <string name="cert_auth_cancelled">"Ověření certifikátu zrušeno"</string>
+
+    <!-- XMSG -->
+
+    <string name="savepasswordforms">"Vaše heslo CMS nebylo uloženo kvůli zásadám zabezpečení nastaveným vaším správcem"</string>
+
+    <!-- XMSG -->
+
+    <string name="lov_error">"Nelze vyvolat seznam hodnot ze serveru; pokud problém přetrvává, obraťte se na správce"</string>
+
+    <!-- XMSG -->
+
+    <string name="offline_filter">"Tuto operaci nelze provést v offline režimu"</string>
+
+    <!-- XMSG -->
+
+    <string name="download_failed">"Dokument nelze uložit"</string>
+
+    <!-- XMSG -->
+
+    <string name="prompt_error">"Všechny povinné výzvy nejsou zadány"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_active_connection_available">"Chcete-li tuto akci provést, potřebujete aktivní spojení"</string>
+
+    <!-- XMSG -->
+
+    <string name="document_inforation_not_available">"Informace o dokumentu nejsou dostupné. Aktivní spojení nemusí být momentálně k dispozici nebo se dokument nenachází v mobilní kategorii."</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc">"Dokument nelze uložit"</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc_connection_not_available">"Dokument nelze uložit. Aktivní spojení nemusí být momentálně k dispozici nebo se dokument nenachází v mobilní kategorii."</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc_generic_error">"Dokument nelze uložit. Došlo ke generické chybě."</string>
+
+    <!-- XMSG -->
+
+    <string name="sup_register_success">"Registrace byla úspěšná"</string>
+
+    <!-- XMSG -->
+
+    <string name="sup_deregister_success">"Odregistrace byla úspěšná"</string>
+
+    <!-- XMSG -->
+
+    <string name="personal_view_size_exceeding">"Nedostatečné místo pro uložení; uvolněte místo vymazáním osobních zobrazení nebo zvyšte úložnou kapacitu v Nastaveních."</string>
+
+	<!-- XMSG -->
+
+    <string name="msg_added_to_favourite">"přidáno k oblíbeným"</string>
+
+    
+
+    <!-- Settings options -->
+
+     <!-- XLST: General Settings -->
+
+    <string name="general_settings">"Obecná nastavení"</string>
+
+    <!-- XLST: connections -->
+
+    <string name="connections">"Spojení"</string>
+
+    <!-- XLST: Network Options -->
+
+    <string name="network">"Možnosti sítě"</string>
+
+    <!-- XLST: SAP BI Application Password -->
+
+    <string name="app_pwd">"Zadat heslo k aplikaci"</string>
+
+    <!-- XLST: Viewing Options -->
+
+    <string name="viewing">"Možnosti zobrazení"</string>
+
+    <!-- XLST: Logs -->
+
+    <string name="log">"Protokoly"</string>
+
+    <!-- XLST: xc setting -->
+
+    <string name="xc_setting">"Nastavení panelu"</string>
+
+    <!-- XLST: Legal -->
+
+    <string name="legal">"Právní informace"</string>
+
+    <!-- XLST: personal_view -->
+
+    <string name="personal_view">"Úložiště osobního zobrazení"</string>
+
+    <!-- XLST: memused -->
+
+    <string name="mem_used">"0 MB ze 100 MB využito"</string>
+
+
+
+    <!-- XLST: dashboard settings -->
+
+    <string name="dashboard">"Nastavení panelu"</string>
+
+    <!-- XLST:Personal View Storage -->
+
+    <string name="per_view_storage">"Úložiště osobního zobrazení"</string>
+
+    <!-- XLST:Personal View Storage Limit -->
+
+    <string name="limit">"Limit"</string>
+
+
+
+    <!-- XLST: Personal View storage settings -->
+
+    <string name="pv_setting">"Nastavení osobního zobrazení"</string>
+
+    <!-- XLST: Personal View storage Limit option -->
+
+    <string name="pv_setting_limit_none">"Nic"</string>
+
+    <!-- XLST: Offline Dataset Number -->
+
+    <string name="xc_offline_dataset">"Počet offline sad dat"</string>
+
+    <!-- XLST: SDK Offline storage -->
+
+    <string name="xc_sdk_storage">"Offline úložiště SDK"</string>
+
+    <!-- XLST: Personal View Memory Usage Text -->
+
+    <string name="pv_mem_usage">"(%1$s z %2$s využito)"</string>
+
+    <!-- XLST: about -->
+
+    <string name="about">"O aplikaci"</string>
+
+    <!-- XLST: Quick Hints -->
+
+    <string name="quick_hints">"Stručné pokyny"</string>
+
+    <!-- XHED: heading for connections related items in the settings screeen -->
+
+    <string name="connection_related">"Souvislost se spojením"</string>
+
+    <!-- XHED: heading for Application related items in the settings screeen -->
+
+    <string name="application_related">"Souvislost s aplikací"</string>
+
+
+
+    <!-- Connection Settings Options -->
+
+    <!-- XHED: heading for the list which gaves different ways to create connections -->
+
+    <string name="my_connections">"Spojení"</string>
+
+    <!-- XLST: Existing Connections -->
+
+    <string name="exist_conn">"Stávající spojení"</string>
+
+    <!-- XLST: Creat New Connection Manually -->
+
+    <string name="create_new_cnx">"Vytvořit nové spojení"</string>
+
+    <!-- XLST: Creat New Connection Manually -->
+
+    <string name="edit_cnx">"Upravit spojení"</string>
+
+    <!-- XLST: Import Connection from server by mentioning mobile server url -->
+
+    <string name="import_cnx">"Import pomocí URL"</string>
+
+    <!-- XLST: SUP Connection -->
+
+    <string name="sup_connection">"Spojení SUP"</string>
+
+    <!-- XLST: SMP Connection -->
+
+    <string name="smp_connection">"Spojení SMP"</string>
+
+    <!-- XLST: SMP Cloud Connection -->
+
+    <string name="smpcloud_connection">"Spojení SMP Cloud"</string>
+
+    <!-- XTXT: used to show below the connection name if it is not connected -->
+
+    <string name="not_connected">"Připojit"</string>
+
+    <!-- XTXT: used to show below the connection name  if it is connected -->
+
+    <string name="connected">"Spojeno"</string>
+
+    <!-- XTXT: used to show below the connection if it is set as default connection -->
+
+    <string name="default_connection">"(standardní)"</string>
+
+
+
+    <!-- SSO Strings -->
+
+
+
+
+
+    <!-- XMSG: sso Login -->
+
+    <string name="Login_credentials">"Uživatelské přihlašovací údaje"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="Reselect">"Znovu vybrat"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_authentication">"Autentizace"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_Certificate_Title">"Chyba certifikátu"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_Mandatory_certifcate">"Certifikát je pro toto připojení povinný"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certificate_invalid">"Vybraný certifikát může být neplatný nebo poškozený; co chcete udělat?"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certiifcate_unavailable">"Nebyly nainstalovány žádné certifikáty pro SAP BusinessObjects Mobile; co chcete udělat?"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certificate_not_required">"Jak se chcete přihlásit k připojení"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_unauthorised_connection_sso">"Offline přístup je deaktivován pro SSO"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_certificate">"SSO aktivováno (výběr certifikátu)"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_cookie_Based">"SSO AKTIVNÍ"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_authenticate_at_logon">"Autentizace při přihlašování"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_cookie_enabled">"Cookie aktivní"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_reauthenticate_at_logon">"Nová autentizace při přihlášení"</string>
+
+
+
+    <!-- Network Settings Options -->
+
+    <!-- XHED: heading for the list which gaves Network Options -->
+
+    <string name="network_options">"Možnosti sítě"</string>
+
+    <!-- XLST: choose to WorkOffline vy selecting yes or no -->
+
+    <string name="work_offline">"Práce offline"</string>
+
+     <!-- XMSG: auto update -->
+
+    <string name="bi_auto_update">"Automatická aktualizace"</string>
+
+    <!-- XMSG: auto update with wifi-->
+
+    <string name="bi_auto_update_wiFi">"Aktualizovat pouze přes Wi-Fi"</string>
+
+    <!-- XMSG: auto update with wifi and cellular dats-->
+
+    <string name="bi_auto_update_Wifi_and_Cellular">"Aktualizovat přes Wi-Fi a mobilní data"</string>
+
+    <!-- to be removed Later -->
+
+    <!-- XHED: heading for Offline Alert Dailog -->
+
+    <string name="offline_alert">"OFFLINE VÝSTRAHA"</string>
+
+
+
+    <!-- Viewing Options -->
+
+    <!-- XHED: heading for the list which gaves Viewing Options -->
+
+    <string name="viewing_options">"Možnosti zobrazení dokumentu"</string>
+
+    <!-- XHED: Select Theme -->
+
+    <string name="select_theme">"Vyberte motiv"</string>
+
+    <!-- Theme text -->
+
+    <!-- XLST:  sets the Ivory Theme -->
+
+    <string name="ivory">"Slonovina"</string>
+
+    <!-- XLST: sets the Graphite Theme -->
+
+    <string name="graphite">"Grafit"</string>
+
+
+
+    <!-- About -->
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XFLD: Version info in splash screen -->
+
+    <string name="version">"Verze:"</string>
+
+    <!-- XFLD: Build info in splash screen -->
+
+    <string name="build">"Build:"</string>
+
+
+
+    <!-- Quick Hint related strings -->
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickref_launch_text">"Vítejte v "<b>"SAP BusinessObjects Mobile"</b>". Tento průvodce stručnými pokyny vám poskytne tipy, jak používat aplikaci."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt1"><b>"Dlouhým stisknutím"</b>" požadovaného dokumentu získáte kontextovou nabídku. "<b>"Klepnutím"</b>" na možnost provedete požadovanou akci."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt2"><b>"Klepnutím"</b>" na indikátor stránek zobrazíte jezdec k navigaci mezi stránkami. Na mobilním telefonu můžete použít také posouvací lištu."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt3"><b>"Klepněte dvakrát"</b>" na graf nebo "<b>"klepněte jednou"</b>" na tabulku (s modrým textem), chcete-li je rozbalit."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt4"><b>"Klepněte dvakrát"</b>" na hlavičku sloupce tabulky, chcete-li získat přístup k "<i>"tabulkovým akcím"</i>"."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt5"><b>"Klepnutím"</b>" na ikonu provedete požadovanou akci v dané části výkazu."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt6">"Vyberte "<i>"Tabulkové akce"</i>", chcete-li provést úlohy, jako je změna pořadí, ukotvení/uvolnění, skrytí/zobrazení sloupce či řádky."</string>
+
+    <string name="quickeref_txt7"><b>"Klepněte "</b>"na ikonu "<i>"Sekce"</i>", chcete-li získat přístup k možnostem sekcí, které jsou dostupné pro výkaz."</string>
+
+    <string name="quickeref_txt8">"V části "<i>"Sekce"</i>" "<b>"klepněte"</b>" na přepínač, chcete-li zobrazit informace o výkazu, nebo "<b>"klepněte"</b>" na šipku, chcete-li zobrazit informace o další úrovni výkazu."</string>
+
+    <string name="quickeref_txt9"><b>"Klepněte"</b>" na ikonu "<i>"Sdílet"</i>" a vyberte "<i>"Anotace"</i>", chcete-li výkaz před sdílením anotovat."</string>
+
+    <string name="quickeref_txt10"><b>"Přetáhněte"</b>" posuvník Rozmazat tak, aby se výkaz před sdílením zdeformoval."</string>
+
+    <string name="quickeref_txt11"><b>"Klepněte"</b>" na bod zájmu, chcete-li zobrazit spojenou hodnotu."</string>
+
+    <string name="quickeref_txt12"><b>"Klepněte"</b>" na hodnotu, chcete-li zobrazit podrobné informace."</string>
+
+    <string name="quickeref_txt13"><b>"Klepněte"</b>" na šipku, chcete-li projít hierarchická data tabulky."</string>
+
+    <string name="quickeref_txt14">"V části Výzvy – hierarchie produktů "<b>"klepněte"</b>" na šipku, chcete-li projít hierarchii a vybrat hodnoty výzvy."</string>
+
+    <string name="quickeref_txt15"><b>"Klepněte"</b>" na ikonu "<i>"Zobrazit/skrýt"</i>", chcete-li při zobrazení řídicího panelu přistupovat k liště akcí."</string>
+
+    <string name="quickeref_txt16"><b>"Klepněte"</b>" na ikonu "<i>"Připnout"</i>", chcete-li při zobrazení řídicího panelu zamknout lištu akcí."</string>
+
+
+
+    <!-- XCKL -->
+
+    <string name="quickref_checkbox_text">"Nezobrazovat znovu"</string>
+
+    <!-- XBUT: Skip -->
+
+    <string name="quickref_skipbutton_text">"Přeskočit"</string>
+
+    <!-- XBUT: Exit -->
+
+    <string name="quickref_exitbutton_text">"Konec"</string>
+
+    <!-- XBUT: Show Quick Hints -->
+
+    <string name="quickref_launchbutton_text">"Zobrazit stručné pokyny"</string>
+
+
+
+    <!-- Legal Information -->
+
+    <!-- XLST: Legal information -->
+
+    <string name="mobi_legal">"Právní informace"</string>
+
+    <!-- EULA Updates if any Goes here -->
+
+    <!-- XMSG: Eula Agreement Terms and Conditions -->
+
+    
+
+    <!-- Log Settings -->
+
+    <!-- XHED: heading for log settings -->
+
+    <string name="log_title">"Nastavení protokolu"</string>
+
+    <!-- XMSG: for enabling the logs -->
+
+    <string name="log_message">"Opravdu chcete povolit protokoly?"</string>
+
+    <!-- XLST: Send Log File -->
+
+    <string name="log_sendlog">"Odeslat soubor protokolu"</string>
+
+    <!-- XLST: clear Log -->
+
+    <string name="log_clearlog">"Vyprázdnit protokol"</string>
+
+     <!-- XLST: view log -->
+
+    <string name="view_log">"Zobrazit protokol"</string>
+
+     <!-- XLST: empty log -->
+
+    <string name="empty_log">"Žádné prokoly nejsou dostupné"</string>
+
+    
+
+
+
+    <!-- XMSG -->
+
+    <string name="log_nologs_exists">"Protokoly jsou již vyprázdněny"</string>
+
+    <!-- XMSG -->
+
+    <string name="log_nologs_tosend">"Žádné protokoly nejsou k dispozici k odeslání"</string>
+
+    <!-- XTXT -->
+
+    <string name="log_mail_subject">"Soubory mobil. protok."</string>
+
+    <!-- XMSG -->
+
+    <string name="log_clear_logs_confirm">"Chcete protokoly opravdu vyprázdnit?"</string>
+
+    <!-- XLST: Enable Logs -->
+
+    <string name="log_enable">"Aktivovat protokoly"</string>
+
+    <!-- Browse Tab Connection Strings -->
+
+    <!-- XHED: heading in the browse tab when there are no connections -->
+
+    <string name="noconnections">"Žádná spojení"</string>
+
+    <!-- XLST: showed in the browse tab to create connection when there are no connections -->
+
+    <string name="create_connection">"Vytvořit spojení k zobrazení vašich dokumentů"</string>
+
+    <!-- XLST: showed in the browse tab to establish connection when you are not connected -->
+
+    <string name="establish_connection">"Navázat spojení ke stažení dokumentů"</string>
+
+
+
+    <!-- Table Header Options -->
+
+    <!-- XTXT -->
+
+    <string name="freeze">"Ukotvit"</string>
+
+    <!-- XTXT -->
+
+    <string name="hide">"Skrýt"</string>
+
+    <!-- XTXT -->
+
+    <string name="wrap">"Zalomit"</string>
+
+    <!-- XTXT -->
+
+    <string name="unfreeze">"Uvolnit"</string>
+
+    <!-- XTXT -->
+
+    <string name="unhide_all">"Zobrazit vše"</string>
+
+    <!-- XTXT -->
+
+    <string name="unwrap">"Zrušit zalomení"</string>
+
+    <!-- XTXT -->
+
+    <string name="row">"Řádka"</string>
+
+    <!-- XTXT -->
+
+    <string name="column">"Sloupec"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_up">"Přejít nahoru k"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_down">"Přejít dolů k"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort_asc">"Vzestupně"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort_desc">"Sestupně"</string>
+
+    <!-- XTXT -->
+
+    <string name="remove_sort">"Odstranit třídění"</string>
+
+    <!-- Hierarchical Navigations Options -->
+
+    <!-- XTXT -->
+
+    <string name="drill_focus_in">"Přesun fokusu dovnitř"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_focus_out">"Přesun fokusu ven"</string>
+
+    <!-- XTXT -->
+
+    <string name="expand_all">"Rozbalit vše"</string>
+
+    <!-- XTXT -->
+
+    <string name="collapse_all">"Sbalit vše"</string>
+
+    <!-- XTXT -->
+
+    <string name="apply_filter">"Použít filtr"</string>
+
+    <!-- XTXT -->
+
+    <string name="edit_filter">"Upravit filtr"</string>
+
+    <!-- XTXT -->
+
+    <string name="remove_filter">"Odstranit filtr"</string>
+
+
+
+    <!-- Create SUP Connection -->
+
+    <!-- XHED: heading for Sup configuration section -->
+
+    <string name="sup_configaration">"Konfigurace SUP"</string>
+
+    <!-- XBUT: Register -->
+
+    <string name="sup_register">"Registrovat"</string>
+
+    <!-- XBUT: Deregister -->
+
+    <string name="sup_deregister">"Odregistrovat"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_instructedbyadmin">"Výše uvedené hodnoty změňte pouze v případě, že vás o to požádá správce"</string>
+
+    <!-- XHED: heading for sup server details section -->
+
+    <string name="sup_serverdetail">"DETAILY SERVERU SUP"</string>
+
+    <!-- XHED: heading for sup Access details section -->
+
+    <string name="sup_accessdetail">"DETAILY PŘÍSTUPU"</string>
+
+
+
+    <!-- SUP Error Messages -->
+
+    <!-- XTXT -->
+
+    <string name="sup_error_authentication">"Chyba autentizace"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_mobile_client">"Chyba v mobilním klientu!"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_HTTP">"Chyba HTTP"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_network">"Chyba v síťovém spojení"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_parse">"Chyba v analýze odezvy ze serveru"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_unknown">"Neznámá chyba."</string>
+
+
+
+    <!-- Sorting Options -->
+
+    <!-- XTXT -->
+
+    <string name="today">"Dnes"</string>
+
+    <!-- XTXT -->
+
+    <string name="yesterday">"Včera"</string>
+
+    <!-- XTXT -->
+
+    <string name="thisweek">"Tento týden"</string>
+
+    <!-- XTXT -->
+
+    <string name="thismonth">"Tento měsíc"</string>
+
+    <!-- XTXT -->
+
+    <string name="older">"Starší"</string>
+
+    <!-- XLST: sets the sort order by Category -->
+
+    <string name="category">"Kategorie"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample">"Ukázky"</string>
+
+    <!-- XLST: sets the sort order by date -->
+
+    <string name="date">"Datum"</string>
+
+    <!-- XLST: sets the sort order by date -->
+
+    <string name="date_modified">"Datum změněno"</string>
+
+    <!-- XLST: sets the sort order by Title -->
+
+    <string name="title">"Název"</string>
+
+    <!-- XLST: sets the sort order by Title -->
+
+    <string name="document_title">"Název dokumentu"</string>
+
+    <!-- XLST: sets the sort order by Author -->
+
+    <string name="author1">"Autor"</string>
+
+    <!-- XTXT -->
+
+    <string name="group_reports_by">"Seskupit výkazy podle"</string>
+
+    <!-- XTXT -->
+
+    <string name="sorting_order">"Pořadí řazení"</string>
+
+    <!-- XTXT -->
+
+    <string name="show_downloaded">"Zobrazit pouze stažené výkazy"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort">"Třídit"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="temp_file_extension">"_temp"</string>
+
+    <!-- XTXT -->
+
+    <string name="instance_file_extension">"_instance"</string>
+
+    <!-- XTXT: appears in the search box -->
+
+    <string name="search_hint">"Hledat"</string>
+
+    <!-- XTXT: for creating input dialog fragment -->
+
+    <string name="input_control">"Filtry"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_values">"Vybrat hodnoty"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="type_value">"Zadat hodnotu"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="input_control_title">"Filtry: Vybrat hodnotu/y"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_value">"Vybrat hodnotu"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_date">"Vybrat datum"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="all_values">"Všechny hodnoty"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="gridview">"Mřížka"</string>
+
+    <!-- XTXT -->
+
+    <string name="listview">"Seznam"</string>
+
+    <!-- XTXT -->
+
+    <string name="grid_view">"Zobrazení mřížky"</string>
+
+    <!-- XTXT -->
+
+    <string name="list_view">"Zobrazení seznamu"</string>
+
+    <!-- XTXT -->
+
+    <string name="success">"Úspěch"</string>
+
+    <!-- XTXT -->
+
+    <string name="failure">"Neúspěch"</string>
+
+    <!-- XTXT: used in custom title bar to select the report -->
+
+    <string name="report_list">"Výkazy"</string>
+
+    <!-- XTXT -->
+
+    <string name="report_part_menu">"Menu"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_values">"Výzvy"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_add_values">"Přidat hodnotu"</string>
+
+    <!-- XMSG -->
+
+    <string name="session_timeout">"Časový limit relace"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_available">": Je k dispozici aktualizace"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_document">"Je k dispozici aktualizace"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_instance">"Je k dispozici instance"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_document_instance">"Aktualizace a instance dostupná"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_doc_instance_online">"Zobrazit poslední dostupnou instanci"</string>
+
+
+
+    <!-- SUP Connection details -->
+
+    <!-- to be removed later -->
+
+    <!-- Dont change the below mobi_app value i.e., MobiApp -->
+
+    <!-- Not intended for translation -->
+
+    
+
+
+
+    <!-- XFLD: sets the Application Id for SUP Configuration -->
+
+    <string name="applicationid">"ID aplikace"</string>
+
+    <!-- XFLD: sets the Security configuration Name for SUP Configuration -->
+
+    <string name="security_configname">"Konfigurace zabezpečení"</string>
+
+    <!-- XFLD: sets the server for SUP Server Details -->
+
+    <string name="server">"Server"</string>
+
+    <!-- XFLD: sets the port for SUP Server Details -->
+
+    <string name="port">"Port"</string>
+
+    <!-- XFLD: sets the proxy for SMP Server Details -->
+
+    <string name="proxy">"Proxy"</string>
+
+    <!-- XFLD: sets the farm id for SUP Server Details -->
+
+    <string name="farmid">"ID farmy"</string>
+
+    <!-- XLST: sup configuration -->
+
+    <string name="sup_config">"KONFIGURACE SUP"</string>
+
+    <!-- XLST: smp configuration -->
+
+    <string name="smp_config">"KONFIGURACE SMP"</string>
+
+    <!-- XBUT: SAP BI Application Password Yes button -->
+
+    <string name="toggle_yes">"Ano"</string>
+
+    <!-- XBUT: SAP BI Application Password No button -->
+
+    <string name="toggle_no">"Ne"</string>
+
+    <!-- XLST: connection details -->
+
+    <string name="conn_det">"DETAILY SPOJENÍ"</string>
+
+    <!-- XLST: authentication details -->
+
+    <string name="auth_det">"DETAILY AUTENTIZACE"</string>
+
+
+
+    <!-- Custom Title Bar -->
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XTXT -->
+
+    <string name="ctb_document_name">"Název dokumentu"</string>
+
+    <!-- XMIT:menu item for settings -->
+
+    <string name="ctb_app_settings">"Nastavení aplikace"</string>
+
+    <!-- added to be in sync with perforce strings to avoid compilation error , not used -->
+
+    <!-- XMIT:menu item for settings -->
+
+    <string name="ctb_settings">"Nastavení"</string>
+
+    <!-- XTXT: used in custom title bar to select the report -->
+
+    <string name="ctb_reports">"Výkazy"</string>
+
+    <!-- XHED: heading for SUP COnnection window in phones -->
+
+    <string name="ctb_sup_con_set">"Spojení SUP"</string>
+
+    <!-- XHED: heading for Connections Settings window in phones -->
+
+    <string name="ctb_con_set">"Nastavení spojení"</string>
+
+    <!-- XHED: heading for NetWork Settings window in phones -->
+
+    <string name="ctb_net_set">"Nastavení sítě"</string>
+
+    <!-- XHED: heading for Viewing  options in phones -->
+
+    <string name="ctb_view_set">"Možnost zobrazení"</string>
+
+    <!-- XHED: heading for Log Settings window in phones -->
+
+    <string name="ctb_log_set">"Nastavení protokolu"</string>
+
+    <!-- XHED: heading for creaing  connection window in phones -->
+
+    <string name="ctb_create_con">"Vytvořit spojení"</string>
+
+
+
+    <!-- Dialog text -->
+
+    <!-- XTXT -->
+
+    <string name="table_actions">"Tabulkové akce"</string>
+
+    <!-- XMSG -->
+
+    <string name="connected_already">"Již jste připojeni"</string>
+
+    <!-- XBUT: log off -->
+
+    <string name="logout">"Odhlásit"</string>
+
+    <!-- XBUT: log on -->
+
+    <string name="logon">"Přihlásit se"</string>
+
+    <!-- XMSG -->
+
+    <string name="tap_string">"(Klepnutím obrátíte pořadí)"</string>
+
+    <!-- XLST: choose yes or no to save Password -->
+
+    <string name="savepw">"Uložit heslo"</string>
+
+    <!-- XTXT -->
+
+    <string name="off">"Vypnuto"</string>
+
+    <!-- XTXT -->
+
+    <string name="error">"Chybová zpráva"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_optional">"Nepovinné"</string>
+
+    <!-- XHED: heading for logout dialog -->
+
+    <string name="logout_title">"Odhlásit"</string>
+
+    <!-- XHED: title for drill options dailog -->
+
+    <string name="drill_options">"Možnosti přechodu"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="filter_clear">"Vyprázdnit"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="filter_revert">"Vrátit"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="no_filters">"Nebyly použity žádné filtry"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="all_objects">"Všechny objekty"</string>
+
+
+
+    <!-- Annotations -->
+
+    <!-- XTXT -->
+
+    <string name="tap">"Klepnutím zadejte text"</string>
+
+
+
+    <!-- Page Indicator -->
+
+    <!-- XTXT -->
+
+    <string name="page_indicator">"Indikátor stránky"</string>
+
+
+
+    <!-- Session timeout -->
+
+    <!-- XTXT -->
+
+    <string name="reconnect">"Znovu spojit"</string>
+
+
+
+    <!-- Report Part Quick Action -->
+
+    <!-- XLST: full screen option in report part quick action dialog for tablets -->
+
+    <string name="full_screen">"Celá obrazovka"</string>
+
+    <!-- XLST: exit full screen option in report part quick action dialog for tablets -->
+
+    <string name="exit_full_screen">"Ukončit celou obrazovku"</string>
+
+    <!-- XLST: filter option in report part quick action dialog for tablets -->
+
+    <string name="report_filter">"Filtr"</string>
+
+    <!-- XMSG: related to Input control -->
+
+    <string name="object_not_supported">"Typ objektu není podporován"</string>
+
+    <!-- Content not supported strings -->
+
+    <!-- XMSG: related to charts -->
+
+    <string name="content_not_supported">"Obsah není podporován"</string>
+
+    <!-- XMSG: related to geo map -->
+
+    <string name="geomap_not_supported">"Nelze zobrazit geomapu, protože zařízení nemá přístup k požadovaným mapovým knihovnám"</string>
+
+    <!-- XMSG: related to charts -->
+
+    <string name="content_data_exceeding_limit">"Graf nelze zobrazit kvůli velkým datovým bodům"</string>
+
+    <!-- XMSG: related to section -->
+
+    <string name="refresh_to_view_content">"Obnovením zobrazit obsah"</string>
+
+    <!-- XMSG:  google play services not available -->
+
+    <string name="google_play_services_not_available">"Služby Google Play nejsou dostupné"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="refresh_confirm_title">"Obnovit dokument"</string>
+
+    <!-- XTXT -->
+
+    <string name="dril_temp_file_extension">".tmp"</string>
+
+    <!-- XHED:heading in home tab when you are connected and not downloaded any docs yet -->
+
+    <string name="no_downloaded_docs">"Žádné dokumenty nejsou k dispozici"</string>
+
+    <!-- XLST:shown in home tab when you have not downloaded any docs -->
+
+    <string name="add_doc">"Přidat dokument"</string>
+
+
+
+    <!-- XBUT: Back in sections dialog -->
+
+    <string name="back">"Zpět"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="page">"Stránka"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="page_loading">"Stránka ..."</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="MultipleDimensions">"Více dimenzí"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="ALL">"VŠE"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="link">"Odkaz"</string>
+
+
+
+    <!-- IC operators -->
+
+    <!-- XTXT -->
+
+    <string name="equal">"Rovná se"</string>
+
+    <!-- XTXT -->
+
+    <string name="in_list">"V seznamu"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_equal">"Nerovná se"</string>
+
+    <!-- XTXT -->
+
+    <string name="greater">"Větší než"</string>
+
+    <!-- XTXT -->
+
+    <string name="greater_or_equal">"Větší nebo rovno"</string>
+
+    <!-- XTXT -->
+
+    <string name="less">"Menší než"</string>
+
+    <!-- XTXT -->
+
+    <string name="between">"Mezi"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_between">"Neleží mezi"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_in_list">"Není v seznamu"</string>
+
+    <!-- XTXT -->
+
+    <string name="is_null">"Je null"</string>
+
+    <!-- XTXT -->
+
+    <string name="like">"Podobnost"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_like">"Nepodobnost"</string>
+
+    <!-- XTXT -->
+
+    <string name="both">"Obojí"</string>
+
+    <!-- XTXT -->
+
+    <string name="except">"Kromě"</string>
+
+    <!-- XTXT -->
+
+    <string name="less_or_equal">"Menší nebo rovno"</string>
+
+
+
+    <!-- Application password strings -->
+
+    <!-- XTXT SAP BI password dialog header -->
+
+    <string name="app_enter_pwd">"Heslo k aplikaci"</string>
+
+    <!-- XTXT SAP BI password is mandatory by server -->
+
+    <string name="app_pwd_login">"Musíte nastavit heslo k aplikaci, abyste navázali spojení s platformou BI. Můžete použít heslo, abyste zabezpečili svá offline data. \n\nChcete pokračovat?"</string>
+
+    <!-- XTXT SAP BI password limit text -->
+
+    <string name="app_enter_pwd_text">"Heslo by mělo obsahovat alespoň %1$d znaků"</string>
+
+    <!-- XTXT SAP BI re-enter password dialog -->
+
+    <string name="app_reenter_pwd">"Potvrďte heslo k aplikaci"</string>
+
+    <!-- XTXT SAP BI re-enter password text -->
+
+    <string name="app_reenter_pwd_text">"Zadejte znovu heslo k aplikaci"</string>
+
+    <!-- XTXT SAP BI password change dialog -->
+
+    <string name="app_cur_pwd">"Změnit heslo"</string>
+
+    <!-- XTXT SAP BI password change text -->
+
+    <string name="app_cur_pwd_text">"Zadejte aktuální heslo k aplikaci"</string>
+
+    <!-- XTXT SAP BI disable password dialog -->
+
+    <string name="app_disable_pwd">"Deaktivovat heslo k aplikaci"</string>
+
+    <!-- XTXT SAP BI new password dialog -->
+
+    <string name="app_new_pwd">"Nové heslo k aplikaci"</string>
+
+
+
+    <!-- XBUT: Login button application password dialog -->
+
+    <string name="login_cmd">"Pokračovat"</string>
+
+    <!-- XBUT: Confirm button application passsword disable or change password dialog -->
+
+    <string name="confirm">"Potvrdit"</string>
+
+    <!-- XBUT: Next button to switch application passsword dialogs -->
+
+    <string name="next">"Další"</string>
+
+    <!-- XTXT SAP BI password toggle text -->
+
+    <string name="use_app_pwd">"Použít heslo k aplikaci"</string>
+
+    <!-- XTXT SAP BI password change set text -->
+
+    <string name="app_pwd_set">"Heslo k aplikaci bylo nastaveno"</string>
+
+    <!-- XBUT SAP BI password change password -->
+
+    <string name="change_cmd">"Změnit"</string>
+
+    <!-- XTXT SAP BI password timeout -->
+
+    <string name="app_pwd_timeout">"Časový limit hesla"</string>
+
+    <!-- XTXT SAP BI password security lowered when selected value > previous value -->
+
+    <string name="app_pwd_security">"Zabezpečení sníženo"</string>
+
+    <!-- XTXT SAP BI password security lowered text -->
+
+    <string name="app_pwd_security_text">"Tato akce snižuje zabezpečení aplikace"</string>
+
+
+
+    <!-- Reset Application password strings -->
+
+    <!-- XTXT SAP BI application reset password -->
+
+    <string name="reset_application">"Reset aplikace"</string>
+
+    <!-- XTXT SAP BI reset password text -->
+
+    <string name="reset_app_text">"Resetování aplikace vymaže všechna místní data, včetně detailů o spojení a nastavení aplikace. K aplikaci můžete po resetování přistupovat bez hesla.\n\nChcete pokračovat v resetování aplikace?"</string>
+
+    <!-- XTXT SAP BI application reset password warning -->
+
+    <string name="reset_app_warning">"Upozornění"</string>
+
+    <!-- XTXT SAP BI application reset password warning text -->
+
+    <string name="reset_app_warning_text">"Devětkrát jste zadali nesprávné heslo k aplikaci. Pokud znovu zadáte nesprávné heslo k aplikaci, aplikace se vyresetuje a všechna místní data, včetně detailů o spojení a nastavení, budou ztracena.\n\nChcete-li k aplikaci přistupovat po jejím vyresetování, navažte nové spojení a zadejte platné heslo k aplikaci."</string>
+
+
+
+    <!-- Wrong Application password -->
+
+    <!-- XTXT SAP BI wrong password warning -->
+
+    <string name="wrong_pwd">"Neplatné heslo"</string> 
+
+    <!-- XTXT SAP BI wrong password warning text -->
+
+    <string name="wrong_pwd_text">"Chybné heslo jste zadali %1$dkrát. \n\nChcete aplikaci resetovat?"</string>
+
+    <!-- XTXT Illegal access of application -->
+
+    <string name="app_exit_message_heaad">"Neoprávněný přístup k aplikaci"</string>
+
+
+
+    <!-- XTXT SAP BI exit app message -->
+
+    <string name="app_pwd_exit_text">"Aplikace se zavře během 5 sekund"</string>
+
+
+
+    <!-- Email options -->
+
+    <!-- XTXT -->
+
+    <string name="open_browser">"Klepnutím otevřete výkaz v prohlížeči"</string>
+
+    <!-- XTXT -->
+
+    <string name="add_connection_android">"Klepnutím přidáte spojení k aplikaci SAP BI pro Android"</string>
+
+    <!-- XTXT -->
+
+    <string name="add_connection_ios">"Klepnutím přidáte spojení k aplikaci SAP BI pro iOS"</string>
+
+    <!-- XTXT -->
+
+    <string name="media_player_codecs">"Poznámka: Chcete-li přehrát tento zvukový klip, musíte si stáhnout nejnovější kodeky pro dostupný přehrávač médií."</string>
+
+    <!-- XTXT -->
+
+    <string name="sent_from">"Odesláno z mého zařízení Android"</string>
+
+    <!-- XTXT -->
+
+    <string name="open_device_android">"Klepnutím otevřete výkaz v aplikaci SAP BI v zařízení se systémem Android"</string>
+
+    <!-- XTXT -->
+
+    <string name="open_device_ios">"Klepnutím otevřete výkaz v aplikaci SAP BI v zařízení se systémem iOS"</string>
+
+
+
+    <!-- Deleting documents -->
+
+    <!-- XTXT -->
+
+    <string name="doc_delete">"Dokument byl úspěšně vymazán"</string>
+
+    <!-- XTXT -->
+
+    <string name="doc_delete_fail">"Dokument nelze vymazat"</string>
+
+
+
+    <!-- Sample Doc Names -->
+
+    <!-- XTXT -->
+
+    <string name="sample_doc1">"Bank management – přehled"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc2">"Analýza rozdělení zaměstnanců"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc3">"Hlavní panel obchodníka"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc4">"Ziskovost prodeje"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc5">"Vedoucí obchodu"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc6">"Udržitelnost"</string>
+
+    <!-- Categories -->
+
+    <!-- XTXT -->
+
+    <string name="category_all">"Vše"</string>
+
+    <!-- XTXT -->
+
+    <string name="category_others">"Jiná"</string>
+
+    <!-- XTXT if the document cannot be saved due to last refresh date + TTL being expired -->
+
+    <string name="doc_not_saved">"Tento dokument nemůžete stáhnout kvůli zásadám nakonfigurovaným pro rozšířené zabezpečení"</string>
+
+     <!-- XTXT -->
+
+  	<string name="open_doc_back_msg">"Vrátíte se na domovskou stránku"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_xcelsius">"Probíhá stahování. Vyčkejte..."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_update_xcelsius">"Probíhá aktualizace. Vyčkejte..."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_update_xcelsius_backup">"Nelze získat zálohu dokumentu. Zkuste to znovu později."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_failer_xcelsius">"Operaci nelze provést. Zkuste to znovu později."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_download_success">"Úspěšně staženo"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_download_failure">"Chyba ve stahování"</string>
+
+
+
+    <!-- XMIT : menu item  used to collaborate with JAM -->
+
+    <string name="collaborate">"Spolupracovat"</string>
+
+    <!-- XHED : menu item  used to collaborate with JAM -->
+
+    <string name="jam">"SAP JAM"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_recieve_oauthtoken">"Při načítání tokenu požadavku ze serveru SAP JAM došlo k chybě"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_recieve_accesstoken">"Při načítání přístupového tokenu ze serveru SAP JAM došlo k chybě"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_groups_error">"Při načítání skupin ze serveru SAP JAM došlo k chybě"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_groups_exists_error">"Skupina se stejným názvem již existuje"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_create_groups_error">"Při vytváření skupiny došlo k chybě"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_upload_photo_error">"Při uploadu snímku obrazovky na server SAP JAM došlo k chybě"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_send_invite_error">"Při zasílání pozvánky uživateli došlo k chybě"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_invalid_oauth_details">"Neplatné detaily OAUTH. Konfigurujte správné detaily OAUTH v CMS"</string>
+
+
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="jam_oauth_header">"Přihlášení do SAP JAM"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="jam_sendtojam">"Odeslat do SAP JAM"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="create_new_group">"Vytvořit novou skupinu"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="edit_group">"Upravit skupinu"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_name">"Název skupiny"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_objective">"Cíl"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_participants">"Účastníci"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="jam_current_groups">"AKTUÁLNÍ SKUPINY"</string>
+
+    <!-- XTXT: text for posting the discussion -->
+
+    <string name="post">"ZVEŘEJNIT"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="group_is_private">"Je soukr."</string>
+
+    <!-- XTXT: text for posting the discussion -->
+
+    <string name="you">"Vy"</string>
+
+    <!-- XBUT: send button in send dialog -->
+
+    <string name="jam_Send">"Odeslat"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="uploading">"Probíhá upload..."</string>
+
+    <!-- XTXT: label for work phone number -->
+
+    <string name="home_lbl">"Domů"</string>
+
+    <!-- XTXT: label for home phone number -->
+
+    <string name="work_lbl">"Práce"</string>
+
+    <!-- XTXT: label for mobile number -->
+
+    <string name="Mobile_lbl">"Mobilní telefon"</string>
+
+    <!-- XHED: heading for user profile diaglog fragment -->
+
+    <string name="user_profile">"Uživatelský profil"</string>
+
+    <!-- XHED: heading for user profile diaglog fragment -->
+
+    <string name="wait">"Vyčkejte..."</string>
+
+    <!-- XTXT: text for none -->
+
+    <string name="none">"Nic"</string>
+
+    <!-- XTXT :AM I will be appeding this date based on format -->
+
+    <string name="AM">"Dopoledne"</string>
+
+    <!-- XTXT :PM I will be appeding this date based on format -->
+
+    <string name="PM">"Odpoledne"</string>
+
+
+
+    <!-- XTXT : Message to show in SSLConnectivityDialogFragment -->
+
+    <string name="ssl_alertmessge">"Toto spojení nemusí být důvěryhodné; chcete pokračovat?"</string>
+
+    <!-- XHED : heading for SSLConnectivityDialogFragment -->
+
+    <string name="ssl_alert_title">"Výstraha"</string>
+
+    <!-- XTXT : Alert Message -->
+
+    <string name="sapbi_delete">"Externí program chce vymazat spojení; chcete pokračovat?"</string>
+
+    <!-- XTXT : Alert Message -->
+
+    <string name="sapbi_modify">"Externí program chce modifikovat spojení; chcete pokračovat?"</string>
+
+    <!-- new connection for BOE -->
+
+    <string name="conn_server_URL">"URL serveru"</string>
+
+    <!-- XTXT : CMS name -->
+
+    <string name="cms_name">"Název CMS"</string>
+
+    <!-- XTXT : authentication mode -->
+
+    <string name="auth_mode">"Režim autentizace"</string>
+
+    <!-- XTXT : Default Connection -->
+
+    <string name="default_connect">"Standardní spojení"</string>
+
+    <!-- XTXT : Connection Details -->
+
+    <string name="connection_details">"DETAILY SPOJENÍ"</string>
+
+    <!-- XTXT : Authentication Details -->
+
+    <string name="authentication_details">"DETAILY AUTENTIZACE"</string>
+
+    <!-- XTXT : Username -->
+
+    <string name="conn_username">"Uživatel"</string>
+
+    <!-- XTXT : Password -->
+
+    <string name="conn_password">"Heslo"</string>
+
+    <!-- XTXT : Default connection -->
+
+    <string name="default_conn">"Standardní spojení"</string>
+
+    <!-- XTXT : Save password -->
+
+    <string name="save_pass">"Uložit heslo"</string>
+
+    <!-- XTXT : Connection Type -->
+
+    <string name="conn_type">"Typ připojení"</string>
+
+    <!-- XTXT : Connection Type Phone -->
+
+    <string name="conn_type_phone">"TYP SPOJENÍ"</string>
+
+    
+
+    <!-- Manage Connections -->
+
+    <!-- XTXT : Indicate Default connection -->
+
+    <string name="is_default_conn">"Standardní"</string>
+
+
+
+    <!-- Connection Action Bar SAVE -->
+
+    <string name="connection_save">"ULOŽIT"</string>
+
+    <!-- Connection Action Bar SHARE -->
+
+    <string name="connection_share">"SDÍLET"</string>
+
+    <!-- Connection Action Bar SAVE CONNECT -->
+
+    <string name="connection_saveconnect">"ULOŽIT A PŘIPOJIT"</string>
+
+
+
+    <!-- XTXT : BI Inbox -->
+
+    <string name="BIInbox">"Doručená pošta BI"</string>
+
+    <!-- XTXT : BI Inbox Option to make it read -->
+
+    <string name="mark_as_read">"Označit jako přečtené"</string>
+
+    <!-- XTXT : BI Inbox Option to make it unread -->
+
+    <string name="mark_as_unread">"Označit jako nepřečtené"</string>
+
+    <!-- Personal Categories Related Strings -->
+
+    <!-- XTXT : Manage Connections -->
+
+    <string name="manage_connections">"Správa spojení"</string>
+
+    <!-- XTXT : Saved Connections -->
+
+    <string name="saved_connections">"Uložená spojení"</string>
+
+    <!-- XTXT : Saved Connection -->
+
+    <string name="saved_connection">"Uložené spojení"</string>
+
+    <!-- XTXT : Manage Categories -->
+
+    <string name="manage_categories">"Správa kategorií"</string>
+
+    <!-- XMSG: Add Default Category -->
+
+    <string name="add_default_category">"Nastavit standardní kategorii"</string>
+
+    <!-- XMSG: Select Category as  Default-->
+
+    <string name="select_default_category">"Vybrat kategorii k nastavení jako standardní"</string>
+
+    <!-- XTXT : Assign Categories -->
+
+    <string name="assign_categories">"Přiřadit kategorie"</string>
+
+    <!-- XTXT : Create New Category -->
+
+    <string name="create_new_category">"Vytvořit novou kategorii"</string>
+
+    <!-- XTXT : Edit Category -->
+
+    <string name="edit_category">"Upravit kategorii"</string>
+
+    <!-- XTXT : Delete Category -->
+
+    <string name="delete_category">"Vymazat kategorii"</string>
+
+    <!-- XTXT :Category Exists Message -->
+
+    <string name="category_exist_message">"Název kategorie již existuje; zadejte jiný název pro kategorii"</string>
+
+    <!-- XTXT :Category Name Empty Message -->
+
+    <string name="category_empty_message">"Název kategorie je prázdný; zadejte jiný název pro kategorii"</string>
+
+    <!-- XTXT :Category Delete Message -->
+
+    <string name="category_delete_message">"Chcete kategorii opravdu vymazat"</string>
+
+
+
+    <!-- XTXT : Items -->
+
+    <string name="items">"POLOŽKY"</string>
+
+    <!-- XTXT : Get Started -->
+
+    <string name="get_started">"Začínáme"</string>
+
+    <!-- XTXT : Whats new -->
+
+    <string name="whats_new">"Novinky"</string>
+
+    <!-- XTXT : All Reports -->
+
+    <string name="all_reports">"Všechny výkazy"</string>
+
+    <!-- XTXT : Favorites -->
+
+    <string name="favorites">"Oblíbené"</string>
+
+    <!-- XMIT : Add to Favorites -->
+
+    <string name="add_to_favorites">"Přidat k oblíbeným"</string>
+
+    <!-- XMIT : Remove from Favorites -->
+
+    <string name="remove_from_favorites">"Odebrat z oblíbených"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="endpoint_error">"Nepodařilo se načíst proxy koncových bodů."</string>
+
+
+
+    <!-- XLBL : Type in Info Screen -->
+
+    <string name="type">"Typ"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="webi_type">"Web Intelligence"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="dashboard_type">"Řídicí panel"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="designstudio_type">"Analytická aplikace"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="hyperlink_type">"Hypertextový odkaz"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="pdf_type">"Dokumenty PDF"</string>    
+
+ 
+
+    <!-- Navigation Drawer Strings -->
+
+    <!-- XMSG -->
+
+    <string name="nav_open">"Otevřít"</string>
+
+    <!-- XMSG -->
+
+     <string name="nav_close">"Zavřít"</string>
+
+    
+
+    <!-- Table filter Message -->
+
+	<!-- XMSG -->
+
+	<string name="empty_data">"Prázdn."</string>
+
+	
+
+	<!-- Notifications -->
+
+	<!-- XTXT -->
+
+	<string name="menu_notification">"Oznámení"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updating">"Dokumenty se aktualizují"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updating_single">"Dokument se aktualizuje"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_available">"Dostupné aktualizace"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_available_single">"Dostupná aktualizace"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_update_all">"Aktualizovat vše"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_cancel_all">"Zrušit vše"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updated_count">"Poslení aktualizované dokumenty"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updated_count_single">"Poslední aktualizovaný dokument"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_clear_all">"Vymazat vše"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_not_available">"Žádná oznámení nejsou k dispozici"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_Auto_Update_Is_Disabled">"Automatická aktualizace není pro toto připojení k dispozici"</string>
+
+	<!-- XTXT -->
+
+	<string name="Minutes">"Minuty"</string>
+
+	<!-- XBUT: AutoUpdate On button -->
+
+    <string name="toggle_on">"ZAP."</string>
+
+    <!-- XBUT: AutoUpdate Off button -->
+
+    <string name="toggle_off">"VYP."</string>
+
+    
+
+     <!-- Getting Started Message -->
+
+	<!-- XMSG -->
+
+	<string name="getting_started_trend_icons">"Použijte trendové ikony ke zvýraznění dat."</string>
+
+	<!-- XMSG: A styled string -->
+
+    <string name="getting_started_show_only_downloaded">"„Zobrazit pouze stažené výkazy“ umožňuje zobrazit všechny dokumenty, které jsou přidány do zařízení."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_personal_view">"Uložit dokument jako osobní zobrazení k uchování všech analytických akcí a zobrazit je v offline režimu."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_notification_badge">"Značka oznámení upozorňuje, zda je na serveru dostupná nová instance dokumentu nebo jeho modifikovaná verze."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_notification_panel">"Panel oznámení pomáhá pohodlně spravovat aktualizace dokumentů."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_display_category">"Zobrazit kategorie jako jednoúrovňový nebo strukturovaný seznam."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_share_connection">"Sdílet detaily připojení e-mailem."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_bi_inbox_download">"Do zařízení lze stáhnout dokumenty doručené pošty BI a označit je jako přečtené NEBO nepřečtené."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_dashboard">"Můžete zobrazit aplikaci SAP Business Objects Analysis a pracovat s ní."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_bi_connection">"Chcete-li přistupovat ke svému obsahu BI, vytvořte nové připojení pomocí dostupných typů připojení"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_geo">"Klepnutím na bod zájmu zobrazíte podrobné informace o souvisejících hodnotách."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_tablestyling">"Upravte styl písma buňky v tabulce na tučné, kurzívu nebo podtržené."</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_microbarchart">"Klepnutím na malý pruhový graf zobrazíte graf v režimu přiblížení."</string>
+
+   
+
+	<!-- XMSG -->
+
+	<string name="getting_started_toggle_group_by_sort">"Přepnutí mezi možnostmi seskupení a třídění pomáhá pohodlně organizovat seznam dokumentů."</string>	
+
+	<!-- XMSG -->
+
+	<string name="getting_started_auto_update_wifi">"Nastavení automatické aktualizace umožňuje aktualizovat všechny offline dokumenty automaticky při dostupnosti bezdrátové sítě."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_default_filter">"Nakonfigurujte standardní hodnotu filtru v dokladu geografické analýzy."</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_share_document_link">"Sdílejte odkaz na dokument e-mailem, který uchovává aktuální kontext navigace."</string>
+
+	<!-- XMSG -->
+
+	<string name="pdf_pop_up_select_app">"Vyberte prohlížeč"</string>
+
+	<!-- XMSG -->
+
+	<string name="pdf_pop_up_install_app">"Prohlížeč není k dispozici; nainstalujte prohlížeč PDF, abyste mohli zobrazit doklad"</string>
+
+	
+
+	
+
+	
+
+	<!-- XMSG -->
+
+	<string name="splash_upgrade_docs">"Aktualizace dokumentů..."</string>
+
+	<!-- XMSG -->
+
+	<string name="splash_docs_to_be_upgraded">"Počet dokumentů k aktualizaci: %1$s"</string>
+
+	<!-- XMSG -->
+
+	<string name="splash_number_of_docs_upgraded">"%1$s z %2$s dokumentů bylo aktualizováno..."</string>
+
+	
+
+	<!-- XMSG -->
+
+	<string name="cannot_expand_this_node">"Tento uzel nelze rozbalit"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="certificate_error">"Chyba certifikátu"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_untrusted_error">"Certifikační autorita není důvěryhodná"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_expired_error">"Platnost certifikátu vypršela"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_idmismatch_error">"Neshoda názvu hostitele"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_notyetvalid_error">"Certifikát ještě není platný"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_invalid_error">"Došlo ke generické chybě"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_date_invalid_error">"Datum certifikátu není platné"</string>
+
+	
+
+</resources>

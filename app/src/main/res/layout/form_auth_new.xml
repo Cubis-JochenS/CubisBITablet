@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Header -->
+
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/header_text"
+            style="@style/TextSmall.Dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="12dp"
+            android:textColor="@color/text_header" />
+
+        <View
+            android:id="@+id/hor_seperator"
+            style="@style/DialogTitleSeperator" />
+    </LinearLayout>
+
+    <WebView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Fix for webview within alert dialog fragment,inputs not showing keyboard or unable to input so insert a edit text with visibility gone -->
+    <EditText
+        android:id="@+id/username"
+        style="@style/TextSmall.EditTextBoxStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editbox"
+        android:hint="@string/required"
+        android:inputType="textFilter"
+        android:maxLength="100"
+        android:visibility="gone" >
+    </EditText>
+   <View
+            android:id="@+id/hor_seperator"
+            style="@style/DialogFooterSeperator" />
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        >
+
+        <Button
+            android:id="@+id/neg"
+            style="@style/TextSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button_dialog"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

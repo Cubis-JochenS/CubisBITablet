@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/c1_general_settings"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+    <LinearLayout
+        android:id="@+id/aec_bi_personal_view_storage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/cl_separator_work_offline_below"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp" >
+
+        <TextView
+            android:id="@+id/txt_personal_view"
+            style="@style/PersonalView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:gravity="left|start"
+            android:textAlignment="viewStart"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="15dp"
+            android:text="@string/personal_view"
+            android:textColor="@color/settings_view_text" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_used_memory"
+            style="@style/TextMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_personal_view"
+            android:layout_weight="0.50"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="5dp"
+            android:text="@string/mem_used"
+            android:textColor="@color/settings_view_text" >
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/spin_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/txt_personal_view"
+                style="@style/ConnectionListElements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="33dp"
+                android:paddingStart="33dp"
+                android:text="@string/limit" >
+            </TextView>
+
+            <Button
+                android:id="@+id/esb_change_storage"
+                style="@style/ConnectionListElements"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/spinner" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

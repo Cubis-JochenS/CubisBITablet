@@ -1,0 +1,6 @@
+
+    <resources>
+        <item type="id" name="actionbar_compat"/>
+        <item type="id" name="actionbar_compat_logo" />
+    	<item type="id" name="actionbar_compat_text" />
+    </resources>

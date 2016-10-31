@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <!-- Server Error messages -->
+	<!-- XMSG -->
+    <string name="mob06004">"Verbindung zum Server konnte nicht hergestellt werden; wenden Sie sich an Ihren Administrator, falls das Problem weiterhin bestehen sollte (MOB06004)"</string>
+	<!-- XMSG -->
+    <string name="mob06005">"Verbindung zum Server konnte nicht hergestellt werden; versuchen Sie es erneut, oder wenden Sie sich an Ihren Administrator (MOB06005)"</string>
+	<!-- XMSG -->
+    <string name="mob06006">"Bei der Anforderung kam es zur Zeitüberschreitung; versuchen Sie es erneut, oder wenden Sie sich an Ihren Administrator (MOB06006)"</string>
+	<!-- XMSG -->
+    <string name="mob06007">"Ihre Anforderung ist ungültig; überprüfen Sie die Verbindungsdetails, oder wenden Sie sich an Ihren Administrator (MOB06007)"</string>
+	<!-- XMSG -->
+    <string name="mob06008">"Sie besitzen keine Berechtigung für diese Anforderung (MOB06008)"</string>
+	<!-- XMSG -->
+    <string name="mob06009">"Ihre Anforderung ist ungültig; überprüfen Sie die Verbindungsdetails, oder wenden Sie sich an Ihren Administrator (MOB06009)"</string>
+	<!-- XMSG -->
+    <string name="mob06010">"Beim Bearbeiten der Anforderung ist ein interner Serverfehler aufgetreten; versuchen Sie es erneut, oder wenden Sie sich an Ihren Administrator (MOB06010)"</string>
+	<!-- XMSG -->
+    <string name="mob06011">"Fehlender Eingabeaufforderungswert; wählen Sie mindestens einen Wert für die Eingabeaufforderung aus (MOB06011)"</string>
+	<!-- XMSG -->
+    <string name="mob06021">"Netzwerkverbindung überprüfen (MOB06021)"</string>
+	<!-- XMSG -->
+    <string name="mob06022">"Beim Bearbeiten der Client-Anforderung ist ein interner Serverfehler aufgetreten (MOB06022)"</string>
+	<!-- XMSG -->
+    <string name="mob06031">"Verbindung zum Server konnte nicht hergestellt werden; versuchen Sie es erneut, oder wenden Sie sich an Ihren Administrator (MOB06031)"</string>
+     
+    <!-- Client Error messages -->
+	 <!-- XMSG -->
+    <string name="mob08001">"Auf diesem Gerät ist keine E-Mail-Funktion konfiguriert (MOB08001)"</string>
+	<!-- XMSG -->
+    <string name="mob08002">"Beim Bearbeiten Ihrer Anforderung ist ein interner Serverfehler aufgetreten; wenden Sie sich an Ihren Administrator (MOB08002)"</string>
+	<!-- XMSG -->
+    <string name="mob08003">"Das Dokument konnte aufgrund eines Serverfehlers nicht aktualisiert werden; versuchen Sie es erneut (MOB08003)"</string>
+	<!-- XMSG -->
+    <string name="mob08004">"Es wurden nicht alle obligatorischen Eingabeaufforderungen ausgefüllt (MOB08004)"</string>
+	<!-- XMSG -->
+    <string name="mob08005">"Diese Eingabeaufforderung wird nicht unterstützt (MOB08005)"</string>
+	<!-- XMSG -->
+    <string name="mob08006">"Überprüfen Sie Ihre Anmeldedaten (MOB08006)"</string>    
+	<!-- XMSG -->
+    <string name="mob08007">"Diese Serverversion wird von der Anwendung nicht unterstützt; wenden Sie sich an Ihren Administrator (MOB08007)"</string> 
+    <!-- XMSG -->
+    <string name="mob08008">"SUP-Ausnahme(MOB08008)"</string>
+    <!-- XMSG -->
+    <!--  This is a client sid emessage as below for the document not  found in server 
+    for content types like XC where we don;t get XML response. This is the same message which comes from Webi server for doc not found-->
+    <string name="mob00006">"Dokument ist auf dem Server nicht vorhanden. (MOB00006)"</string>
+    <!-- XMSG -->
+    <string name="mob06099">"Es ist ein Fehler aufgetreten; wenden Sie sich an Ihren Administrator"</string>
+     
+</resources>

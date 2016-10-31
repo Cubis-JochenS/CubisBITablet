@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/pv_dialog_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <!-- Header -->
+
+        <LinearLayout
+            android:id="@+id/pvHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/save_pv_view_header_text"
+                style="@style/TextMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="12dp"
+                android:text="@string/pv_create_title"
+                android:textColor="@color/text_header" />
+
+            <View
+                android:id="@+id/hor_seperator"
+                style="@style/DialogTitleSeperator" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp"
+            >
+
+            <TextView
+                android:id="@+id/pvtextView5"
+                style="@style/TextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|start"
+                android:text="@string/pv_name"
+                android:textSize="16dp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/etPvName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:background="@drawable/editbox" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/pvtextView6"
+                style="@style/TextSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|start"
+                android:text="@string/pv_description"
+                android:textSize="16dp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/etPvdesc"
+                android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:background="@drawable/editbox" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/hor_seperator"
+                style="@style/DialogFooterSeperator" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            >
+
+            <Button
+                android:id="@+id/pv_sp_pos"
+                style="@style/TextSmall"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_dialog"
+                android:text="@string/ok" />
+
+            <ImageView
+                android:id="@+id/ver_seperator"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/text_subheader" />
+
+            <Button
+                android:id="@+id/pv_sp_neg"
+                style="@style/TextSmall"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:background="@drawable/button_dialog"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

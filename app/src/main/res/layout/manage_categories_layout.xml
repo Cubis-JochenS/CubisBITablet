@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- header -->
+
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.015"
+        android:background="@color/top_bar_conn"
+        android:orientation="vertical"
+        android:paddingBottom="18dp"
+        android:paddingLeft="24dp"
+        android:paddingStart="24dp">
+
+        <TextView
+            android:id="@+id/categ_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:text="@string/manage_categories"
+            android:textColor="@color/title_blue"
+            android:textSize="20sp" />
+"
+		 
+
+        <TextView
+            android:id="@+id/categ_sub_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:gravity="bottom"
+            android:textColor="@color/dimgrey"
+            android:textSize="12sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/seperator1"
+        style="@style/CategoryListLineSep" />
+    <!-- Content -->
+
+    <LinearLayout
+        android:id="@+id/Content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.965"
+        android:orientation="vertical" >
+
+        <!-- Create New Category -->
+
+        <LinearLayout
+            android:id="@+id/CategContent"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/category_create"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" >
+
+                <ImageButton
+                    android:id="@+id/create_btn"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/add_catagory" />
+
+                <TextView
+                    android:id="@+id/create_textview"
+                    style="@style/TextMedium.Header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/create_btn"
+                    android:layout_toEndOf="@+id/create_btn"
+                    android:gravity="center"
+                    android:text="@string/create_new_category" 
+                    android:textColor="@color/title_blue"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/category_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <EditText
+                    android:id="@+id/cat_edittext"
+                    style="@style/TextSmall.EditTextBoxStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:background="@drawable/editbox"
+                    android:hint="@string/required"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp" />
+
+                <ImageButton
+                    android:id="@+id/edit_done_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/settings_theme_tick" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/seperator2"
+            style="@style/CategoryListLineSep" />
+
+        <ListView
+            android:id="@+id/categories_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/lightgrey"
+            android:dividerHeight="1dip"
+            android:visibility="visible" >
+        </ListView>
+    </LinearLayout>
+    <!-- footer -->
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/seperator3" 
+            style="@style/CategoryListLineSep" />
+
+        <LinearLayout
+            android:id="@+id/conlist_multi_footer"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.015"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            >
+
+            <Button
+                android:id="@+id/categ_done"
+                style="@style/TextMedium"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.45"
+                android:background="@drawable/button_selector_white"
+                android:text="@string/done" />
+
+            <ImageView
+                android:id="@+id/ver_seperator"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightgrey" />
+
+            <Button
+                android:id="@+id/categ_cancel"
+                style="@style/TextMedium"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.45"
+                android:background="@drawable/button_selector_white"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

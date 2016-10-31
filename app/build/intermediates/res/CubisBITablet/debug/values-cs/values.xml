@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-cs/arrays.xml -->
+    <eat-comment/>
+    <string-array name="app_pwd_timeout_val">
+        <item>"Vždy"</item>
+        <item>"1 minuta"</item>
+        <item>"5 minut"</item>
+        <item>"15 minut"</item>
+        <item>"60 minut"</item>
+        <item>"Nikdy"</item>
+    </string-array>
+    <string-array name="log_level">
+        <item>"500 KB"</item>
+        <item>"1 MB"</item>
+        <item>"2 MB"</item>
+    </string-array>
+    <string-array name="offline_dataset_num">
+        <item>"50"</item>
+        <item>"100"</item>
+        <item>"200"</item>
+        <item>"500"</item>
+    </string-array>
+    <string-array name="sdk_offline_storage">
+        <item>"30 MB"</item>
+        <item>"50 MB"</item>
+        <item>"100 MB"</item>
+        <item>"200 MB"</item>
+    </string-array>
+    <string-array name="select_dialog_items2">
+        <item>"Vytvořit nové spojení"</item>
+        <item>"Import ze serveru"</item>
+    </string-array>
+    <string-array name="select_dialog_items3">
+        <item>"Ne"</item>
+        <item>"Ano"</item>
+    </string-array>
+    <string-array name="select_dialog_items4">
+        <item>"Upravit"</item>
+        <item>"Smazat"</item>
+    </string-array>
+    <string-array name="select_dialog_items5">
+        <item>"Znovu spojit"</item>
+        <item>"Práce offline"</item>
+    </string-array>
+    <string-array name="select_dialog_items6">
+        <item>"Odhlásit"</item>
+    </string-array>
+    <string-array name="settings">
+        <item>"Obecná nastavení"</item>
+        <item>"Možnosti zobrazení"</item>
+        <item>"Stručné pokyny"</item>
+        <item>"Protokoly"</item>
+        <item>"Dashboard"</item>
+        <item>"O aplikaci"</item>
+    </string-array>
+    <string-array name="sup_options">
+        <item>"Upravit"</item>
+        <item>"Odregistrovat"</item>
+    </string-array>
+    <string-array name="theme">
+        <item>"Slonovina"</item>
+        <item>"Grafit"</item>
+    </string-array>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="ALL">"VŠE"</string>
+    <string name="AM">"Dopoledne"</string>
+    <string name="BIInbox">"Doručená pošta BI"</string>
+    <string name="Login_credentials">"Uživatelské přihlašovací údaje"</string>
+    <string name="Minutes">"Minuty"</string>
+    <string name="Mobile_lbl">"Mobilní telefon"</string>
+    <string name="MultipleDimensions">"Více dimenzí"</string>
+    <string name="PM">"Odpoledne"</string>
+    <string name="Reselect">"Znovu vybrat"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-cs/values-cs.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Přejít na plochu"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s – %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s – %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Přejít nahoru"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Více možností"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Zobrazit vše"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Vybrat aplikaci"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"VYPNUTO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ZAPNUTO"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Vyhledat…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Smazat dotaz"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Vyhledávací dotaz"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Hledat"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Odeslat dotaz"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hlasové vyhledávání"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Sdílet pomocí"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Sdílet pomocí %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sbalit"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="about">"O aplikaci"</string>
+    <string name="add_alias">"Přidat alias"</string>
+    <string name="add_conn_connected">"Nelze přidat spojení, když je uživatel přihlášený; odhlaste se a zkuste to znovu"</string>
+    <string name="add_connection_android">"Klepnutím přidáte spojení k aplikaci SAP BI pro Android"</string>
+    <string name="add_connection_ios">"Klepnutím přidáte spojení k aplikaci SAP BI pro iOS"</string>
+    <string name="add_default_category">"Nastavit standardní kategorii"</string>
+    <string name="add_doc">"Přidat dokument"</string>
+    <string name="add_existing_connection">"Toto spojení již existuje"</string>
+    <string name="add_home">"Přidat dom. str."</string>
+    <string name="add_new_cnx">"Přidat spojení"</string>
+    <string name="add_to_device">"Přidat do zařízení"</string>
+    <string name="add_to_favorites">"Přidat k oblíbeným"</string>
+    <string name="additional_authcred">"Další autentizační identifikační údaje"</string>
+    <string name="alias">"Alias"</string>
+    <string name="all_objects">"Všechny objekty"</string>
+    <string name="all_reports">"Všechny výkazy"</string>
+    <string name="all_values">"Všechny hodnoty"</string>
+    <string name="annotations">"Anotace"</string>
+    <string name="app_cur_pwd">"Změnit heslo"</string>
+    <string name="app_cur_pwd_text">"Zadejte aktuální heslo k aplikaci"</string>
+    <string name="app_disable_pwd">"Deaktivovat heslo k aplikaci"</string>
+    <string name="app_enter_pwd">"Heslo k aplikaci"</string>
+    <string name="app_enter_pwd_text">"Heslo by mělo obsahovat alespoň %1$d znaků"</string>
+    <string name="app_exit_message_heaad">"Neoprávněný přístup k aplikaci"</string>
+    <string name="app_name">"SAP BI"</string>
+    <string name="app_new_pwd">"Nové heslo k aplikaci"</string>
+    <string name="app_pwd">"Zadat heslo k aplikaci"</string>
+    <string name="app_pwd_exit_text">"Aplikace se zavře během 5 sekund"</string>
+    <string name="app_pwd_login">"Musíte nastavit heslo k aplikaci, abyste navázali spojení s platformou BI. Můžete použít heslo, abyste zabezpečili svá offline data. \n\nChcete pokračovat?"</string>
+    <string name="app_pwd_security">"Zabezpečení sníženo"</string>
+    <string name="app_pwd_security_text">"Tato akce snižuje zabezpečení aplikace"</string>
+    <string name="app_pwd_set">"Heslo k aplikaci bylo nastaveno"</string>
+    <string name="app_pwd_timeout">"Časový limit hesla"</string>
+    <string name="app_reenter_pwd">"Potvrďte heslo k aplikaci"</string>
+    <string name="app_reenter_pwd_text">"Zadejte znovu heslo k aplikaci"</string>
+    <string name="application_related">"Souvislost s aplikací"</string>
+    <string name="applicationid">"ID aplikace"</string>
+    <string name="apply_filter">"Použít filtr"</string>
+    <string name="assign_categories">"Přiřadit kategorie"</string>
+    <string name="auth_det">"DETAILY AUTENTIZACE"</string>
+    <string name="auth_mode">"Režim autentizace"</string>
+    <string name="auth_type">"Typ autentizace"</string>
+    <string name="authentication_details">"DETAILY AUTENTIZACE"</string>
+    <string name="author">"Autor"</string>
+    <string name="author1">"Autor"</string>
+    <string name="authored_by">"Autor"</string>
+    <string name="back">"Zpět"</string>
+    <string name="basic_auth">"Autentizace vyžadována"</string>
+    <string name="between">"Mezi"</string>
+    <string name="bi_auto_update">"Automatická aktualizace"</string>
+    <string name="bi_auto_update_Wifi_and_Cellular">"Aktualizovat přes Wi-Fi a mobilní data"</string>
+    <string name="bi_auto_update_wiFi">"Aktualizovat pouze přes Wi-Fi"</string>
+    <string name="black">"Černá"</string>
+    <string name="blue">"Modrá"</string>
+    <string name="blur">"Rozmazat"</string>
+    <string name="both">"Obojí"</string>
+    <string name="browse">"Prohledat"</string>
+    <string name="build">"Build:"</string>
+    <string name="cancel">"Zrušit"</string>
+    <string name="cannot_expand_this_node">"Tento uzel nelze rozbalit"</string>
+    <string name="cannot_save_doc">"Dokument nelze uložit"</string>
+    <string name="cannot_save_doc_connection_not_available">"Dokument nelze uložit. Aktivní spojení nemusí být momentálně k dispozici nebo se dokument nenachází v mobilní kategorii."</string>
+    <string name="cannot_save_doc_generic_error">"Dokument nelze uložit. Došlo ke generické chybě."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-cs/values.xml -->
+    <eat-comment/>
+    <string msgid="4778414446709286370" name="cast_ad_label">"Reklama"</string>
+    <string msgid="366047012176970604" name="cast_casting_to_device">"Odesílání do zařízení %1$s"</string>
+    <string msgid="2888745622334830481" name="cast_closed_captions">"Skryté titulky"</string>
+    <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"Skryté titulky nejsou k dispozici"</string>
+    <string msgid="4431992200264667209" name="cast_disconnect">"Odpojit"</string>
+    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"Zobrazená reklama…"</string>
+    <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"Obal alba"</string>
+    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"Přímý přenos"</string>
+    <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"Načítání…"</string>
+    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"Přeskočit"</string>
+    <string msgid="7884080323096468593" name="cast_forward">"Přetočit vpřed"</string>
+    <string msgid="6424889955881797947" name="cast_forward_10">"Přetočit o 10 sekund vpřed"</string>
+    <string msgid="7868672855975238403" name="cast_forward_30">"Přetočit o 30 sekund vpřed"</string>
+    <string msgid="6885943100773268783" name="cast_intro_overlay_button_text">"@android:string/ok"</string>
+    <string msgid="5637297909372905371" name="cast_mute">"Ztlumit"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/res/values-cs/values.xml -->
+    <eat-comment/>
+    <string msgid="5319032370587661362" name="cast_notification_connected_message">"Připojeno k obrazovce <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="2758865089947797888" name="cast_notification_connecting_message">"Připojování k obrazovce <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="5232008641593292969" name="cast_notification_disconnect">"Odpojit"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-cs/values.xml -->
+    <eat-comment/>
+    <string msgid="5308503786390460607" name="cast_pause">"Pozastavit"</string>
+    <string msgid="5906987965619702702" name="cast_play">"Přehrát"</string>
+    <string msgid="1739665135565985480" name="cast_rewind">"Přetočit zpět"</string>
+    <string msgid="6432793028560778843" name="cast_rewind_10">"Přetočit o 10 sekund zpět"</string>
+    <string msgid="4677199707225681325" name="cast_rewind_30">"Přetočit o 10 sekund zpět"</string>
+    <string msgid="9078075166993780241" name="cast_seek_bar">"Posuvník přehrávání"</string>
+    <string msgid="3991548379225047363" name="cast_skip_next">"Přejít na další položku"</string>
+    <string msgid="8369073097776576935" name="cast_skip_prev">"Přejít na předchozí položku"</string>
+    <string msgid="9191388946729723891" name="cast_stop">"Zastavit"</string>
+    <string msgid="1219622777438777099" name="cast_stop_live_stream">"Zastavit přímý přenos"</string>
+    <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"Zvuk"</string>
+    <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"Zrušit"</string>
+    <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"Stopa <ns1:g id="POSITION">%1$d</ns1:g>"</string>
+    <string msgid="5563446400083425854" name="cast_tracks_chooser_dialog_no_audio_tracks">"Nejsou k dispozici žádné zvukové stopy"</string>
+    <string msgid="7413336699113748535" name="cast_tracks_chooser_dialog_no_text_tracks">"Nejsou k dispozici žádné textové stopy"</string>
+    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"Žádné"</string>
+    <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"OK"</string>
+    <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"Titulky"</string>
+    <string msgid="2913461521603516868" name="cast_unmute">"Zapnout zvuk"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="categories">"Kategorie"</string>
+    <string name="category">"Kategorie"</string>
+    <string name="category_all">"Vše"</string>
+    <string name="category_delete_message">"Chcete kategorii opravdu vymazat"</string>
+    <string name="category_empty_message">"Název kategorie je prázdný; zadejte jiný název pro kategorii"</string>
+    <string name="category_exist_message">"Název kategorie již existuje; zadejte jiný název pro kategorii"</string>
+    <string name="category_others">"Jiná"</string>
+    <string name="cert_auth_cancelled">"Ověření certifikátu zrušeno"</string>
+    <string name="certificate_error">"Chyba certifikátu"</string>
+    <string name="change_cmd">"Změnit"</string>
+    <string name="change_view">"Změnit zobrazení"</string>
+    <string name="choose_connection">"Vybrat spojení"</string>
+    <string name="choose_date">"Vybrat datum"</string>
+    <string name="choose_value">"Vybrat hodnotu"</string>
+    <string name="choose_values">"Vybrat hodnoty"</string>
+    <string name="cms">"CMS"</string>
+    <string name="cms_name">"Název CMS"</string>
+    <string name="cnx_name_already_exists">"Tento název spojení již existuje"</string>
+    <string name="collaborate">"Spolupracovat"</string>
+    <string name="collapse_all">"Sbalit vše"</string>
+    <string name="column">"Sloupec"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-cs/values.xml -->
+    <eat-comment/>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Povolit"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Ke spuštění aplikace <ns1:g id="APP_NAME">%1$s</ns1:g> je třeba aktivovat služby Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktivace služeb Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalovat"</string>
+    <string msgid="1666261992894286769" name="common_google_play_services_install_text_phone">"Ke spuštění aplikace <ns1:g id="APP_NAME">%1$s</ns1:g> jsou potřeba služby Google Play, které v telefonu nemáte."</string>
+    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"Ke spuštění aplikace <ns1:g id="APP_NAME">%1$s</ns1:g> jsou potřeba služby Google Play, které v tabletu nemáte."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Instalace služeb Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Chyba služeb Google Play"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/res/values-cs/values.xml -->
+    <eat-comment/>
+    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"Aplikace <ns1:g id="APP_NAME">%1$s</ns1:g> má potíže se službami Google Play. Pokud problém přetrvává, obraťte se na vývojáře s žádostí o pomoc."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-cs/values.xml -->
+    <eat-comment/>
+    <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"Aplikace <ns1:g id="APP_NAME">%1$s</ns1:g> vyžaduje služby Google Play, které ve vašem zařízení nejsou podporovány. S žádostí o pomoc kontaktujte výrobce zařízení."</string>
+    <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Služby Google Play"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Aktualizovat"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Ke spuštění aplikace <ns1:g id="APP_NAME">%1$s</ns1:g> je třeba aktualizovat služby Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Aktualizace služeb Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Ke spuštění aplikace <ns1:g id="APP_NAME">%1$s</ns1:g> jsou potřeba služby Google Play, které jsou právě aktualizovány."</string>
+    <string msgid="2270671469198016014" name="common_google_play_services_updating_title">"Probíhá aktualizace služeb Google Play"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Je vyžadována nová verze služeb Google Play. Nová verze se brzy sama nainstaluje."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Otevřít v telefonu"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Přihlásit se"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Přihlásit se k účtu Google"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="confirm">"Potvrdit"</string>
+    <string name="confirm_delete_all_connection">"Chcete smazat všechna spojení?"</string>
+    <string name="confirm_delete_connection">"Chcete vymazat vybrané připojení %1$s?"</string>
+    <string name="confirm_delete_document">"Chcete smazat dokument:"</string>
+    <string name="confirm_deregister">"Chcete se odregistrovat od SUP?"</string>
+    <string name="confirm_logout_1">"Tato operace vás odhlásí od"</string>
+    <string name="confirm_logout_2">"Chcete pokračovat?"</string>
+    <string name="confirm_save_password">"Chcete heslo opravdu uložit?"</string>
+    <string name="conn_det">"DETAILY SPOJENÍ"</string>
+    <string name="conn_password">"Heslo"</string>
+    <string name="conn_server_URL">"URL serveru"</string>
+    <string name="conn_type">"Typ připojení"</string>
+    <string name="conn_type_phone">"TYP SPOJENÍ"</string>
+    <string name="conn_username">"Uživatel"</string>
+    <string name="connected">"Spojeno"</string>
+    <string name="connected_already">"Již jste připojeni"</string>
+    <string name="connection">"Nové spojení"</string>
+    <string name="connection_details">"DETAILY SPOJENÍ"</string>
+    <string name="connection_name">"Název spojení"</string>
+    <string name="connection_options">"Možnosti"</string>
+    <string name="connection_related">"Souvislost se spojením"</string>
+    <string name="connection_save">"ULOŽIT"</string>
+    <string name="connection_saveconnect">"ULOŽIT A PŘIPOJIT"</string>
+    <string name="connection_server_URL">"URL serveru spojení"</string>
+    <string name="connection_share">"SDÍLET"</string>
+    <string name="connections">"Spojení"</string>
+    <string name="content_data_exceeding_limit">"Graf nelze zobrazit kvůli velkým datovým bodům"</string>
+    <string name="content_not_supported">"Obsah není podporován"</string>
+    <string name="create_connection">"Vytvořit spojení k zobrazení vašich dokumentů"</string>
+    <string name="create_new_category">"Vytvořit novou kategorii"</string>
+    <string name="create_new_cnx">"Vytvořit nové spojení"</string>
+    <string name="create_new_cnx_desc1">"a prohledejte dokumenty."</string>
+    <string name="create_new_cnx_desc2">"Můžete to provést také z obrazovky Nastavení."</string>
+    <string name="create_new_group">"Vytvořit novou skupinu"</string>
+    <string name="crop">"Oříznout"</string>
+    <string name="ctb_app_settings">"Nastavení aplikace"</string>
+    <string name="ctb_con_set">"Nastavení spojení"</string>
+    <string name="ctb_create_con">"Vytvořit spojení"</string>
+    <string name="ctb_document_name">"Název dokumentu"</string>
+    <string name="ctb_log_set">"Nastavení protokolu"</string>
+    <string name="ctb_net_set">"Nastavení sítě"</string>
+    <string name="ctb_reports">"Výkazy"</string>
+    <string name="ctb_settings">"Nastavení"</string>
+    <string name="ctb_sup_con_set">"Spojení SUP"</string>
+    <string name="ctb_view_set">"Možnost zobrazení"</string>
+    <string name="customview">"Vlastní zobrazení"</string>
+    <string name="dashboard">"Nastavení panelu"</string>
+    <string name="dashboard_type">"Řídicí panel"</string>
+    <string name="date">"Datum"</string>
+    <string name="date_modified">"Datum změněno"</string>
+    <string name="day">"Den"</string>
+    <string name="days">"Dny"</string>
+    <string name="default_conn">"Standardní spojení"</string>
+    <string name="default_connect">"Standardní spojení"</string>
+    <string name="default_connection">"(standardní)"</string>
+    <string name="delete">"Smazat"</string>
+    <string name="delete_category">"Vymazat kategorii"</string>
+    <string name="delete_conn_connected">"Spojení nelze smazat; odhlaste se a zkuste to znovu"</string>
+    <string name="delete_conn_notexisting">"Spojení neexistuje"</string>
+    <string name="delete_connection">"Vymazat spojení"</string>
+    <string name="delete_document">"Vymazat dokument"</string>
+    <string name="deregister">"Odregistrovat"</string>
+    <string name="deregister_with_sup">"Odregistrace – SUP..."</string>
+    <string name="deregistration_success">"Odregistrování bylo úspěšné"</string>
+    <string name="description">"Popis"</string>
+    <string name="description_home">"Domů"</string>
+    <string name="description_search">"Hledat"</string>
+    <string name="designstudio_type">"Analytická aplikace"</string>
+    <string name="display_help_page">"Zobrazit stránku s nápovědou"</string>
+    <string name="doc_delete">"Dokument byl úspěšně vymazán"</string>
+    <string name="doc_delete_fail">"Dokument nelze vymazat"</string>
+    <string name="doc_info_header">"Informace o dokumentu"</string>
+    <string name="doc_metadata_not_found">"Informace o dokumentu nebyly nalezeny."</string>
+    <string name="doc_not_found">"Dokument nelze otevřít"</string>
+    <string name="doc_not_saved">"Tento dokument nemůžete stáhnout kvůli zásadám nakonfigurovaným pro rozšířené zabezpečení"</string>
+    <string name="document_delete">"Dokument bude vymazán"</string>
+    <string name="document_inforation_not_available">"Informace o dokumentu nejsou dostupné. Aktivní spojení nemusí být momentálně k dispozici nebo se dokument nenachází v mobilní kategorii."</string>
+    <string name="document_no_category">"Dokument není přiřazen žádné mobilní kategorii"</string>
+    <string name="document_title">"Název dokumentu"</string>
+    <string name="done">"Hotovo"</string>
+    <string name="download_failed">"Dokument nelze uložit"</string>
+    <string name="downloaded_at">"Staženo"</string>
+    <string name="dril_temp_file_extension">".tmp"</string>
+    <string name="drill_down">"Přejít dolů k"</string>
+    <string name="drill_focus_in">"Přesun fokusu dovnitř"</string>
+    <string name="drill_focus_out">"Přesun fokusu ven"</string>
+    <string name="drill_from">"Od"</string>
+    <string name="drill_options">"Možnosti přechodu"</string>
+    <string name="drill_up">"Přejít nahoru k"</string>
+    <string name="edit">"Upravit"</string>
+    <string name="edit_category">"Upravit kategorii"</string>
+    <string name="edit_cnx">"Upravit spojení"</string>
+    <string name="edit_filter">"Upravit filtr"</string>
+    <string name="edit_group">"Upravit skupinu"</string>
+    <string name="email_menu">"E-mail"</string>
+    <string name="empty_data">"Prázdn."</string>
+    <string name="empty_log">"Žádné prokoly nejsou dostupné"</string>
+    <string name="endpoint_error">"Nepodařilo se načíst proxy koncových bodů."</string>
+    <string name="enter_alias">"Zadat alias"</string>
+    <string name="enter_server_url">"Zadejte URL serveru"</string>
+    <string name="enter_valid_url">"Zadejte platné URL"</string>
+    <string name="equal">"Rovná se"</string>
+    <string name="erase">"Odmazat"</string>
+    <string name="error">"Chybová zpráva"</string>
+    <string name="establish_connection">"Navázat spojení ke stažení dokumentů"</string>
+    <string name="eula_accept">"Přijmout"</string>
+    <string name="eula_mobi_updates"/>
+    <string name="eula_reject">"Odmítnout"</string>
+    <string name="eula_title">"Licenční dohoda s koncovým uživatelem"</string>
+    <string name="except">"Kromě"</string>
+    <string name="exist_conn">"Stávající spojení"</string>
+    <string name="existing_conn_header">"Stávající spojení"</string>
+    <string name="exit_full_screen">"Ukončit celou obrazovku"</string>
+    <string name="expand_all">"Rozbalit vše"</string>
+    <string name="expires_in">"Vyprší za"</string>
+    <string name="failure">"Neúspěch"</string>
+    <string name="farmid">"ID farmy"</string>
+    <string name="favorites">"Oblíbené"</string>
+    <string name="filter_clear">"Vyprázdnit"</string>
+    <string name="filter_menu">"Filtr"</string>
+    <string name="filter_revert">"Vrátit"</string>
+    <string name="first_time_work_offline">"Chcete-li k obsahu přistupovat v offline režimu, přihlaste se poprvé k serveru"</string>
+    <string name="freeze">"Ukotvit"</string>
+    <string name="full_screen">"Celá obrazovka"</string>
+    <string name="general_settings">"Obecná nastavení"</string>
+    <string name="generic_error">"Požadavek nelze zpracovat; zkuste to znovu později."</string>
+    <string name="geomap_not_supported">"Nelze zobrazit geomapu, protože zařízení nemá přístup k požadovaným mapovým knihovnám"</string>
+    <string name="get_started">"Začínáme"</string>
+    <string name="getting_started_auto_update_wifi">"Nastavení automatické aktualizace umožňuje aktualizovat všechny offline dokumenty automaticky při dostupnosti bezdrátové sítě."</string>
+    <string name="getting_started_bi_connection">"Chcete-li přistupovat ke svému obsahu BI, vytvořte nové připojení pomocí dostupných typů připojení"</string>
+    <string name="getting_started_bi_inbox_download">"Do zařízení lze stáhnout dokumenty doručené pošty BI a označit je jako přečtené NEBO nepřečtené."</string>
+    <string name="getting_started_dashboard">"Můžete zobrazit aplikaci SAP Business Objects Analysis a pracovat s ní."</string>
+    <string name="getting_started_default_filter">"Nakonfigurujte standardní hodnotu filtru v dokladu geografické analýzy."</string>
+    <string name="getting_started_display_category">"Zobrazit kategorie jako jednoúrovňový nebo strukturovaný seznam."</string>
+    <string name="getting_started_geo">"Klepnutím na bod zájmu zobrazíte podrobné informace o souvisejících hodnotách."</string>
+    <string name="getting_started_microbarchart">"Klepnutím na malý pruhový graf zobrazíte graf v režimu přiblížení."</string>
+    <string name="getting_started_notification_badge">"Značka oznámení upozorňuje, zda je na serveru dostupná nová instance dokumentu nebo jeho modifikovaná verze."</string>
+    <string name="getting_started_notification_panel">"Panel oznámení pomáhá pohodlně spravovat aktualizace dokumentů."</string>
+    <string name="getting_started_personal_view">"Uložit dokument jako osobní zobrazení k uchování všech analytických akcí a zobrazit je v offline režimu."</string>
+    <string name="getting_started_share_connection">"Sdílet detaily připojení e-mailem."</string>
+    <string name="getting_started_share_document_link">"Sdílejte odkaz na dokument e-mailem, který uchovává aktuální kontext navigace."</string>
+    <string name="getting_started_show_only_downloaded">"„Zobrazit pouze stažené výkazy“ umožňuje zobrazit všechny dokumenty, které jsou přidány do zařízení."</string>
+    <string name="getting_started_tablestyling">"Upravte styl písma buňky v tabulce na tučné, kurzívu nebo podtržené."</string>
+    <string name="getting_started_toggle_group_by_sort">"Přepnutí mezi možnostmi seskupení a třídění pomáhá pohodlně organizovat seznam dokumentů."</string>
+    <string name="getting_started_trend_icons">"Použijte trendové ikony ke zvýraznění dat."</string>
+    <string name="google_play_services_not_available">"Služby Google Play nejsou dostupné"</string>
+    <string name="graphite">"Grafit"</string>
+    <string name="greater">"Větší než"</string>
+    <string name="greater_or_equal">"Větší nebo rovno"</string>
+    <string name="green">"Zelená"</string>
+    <string name="grid_menu">"Mřížka"</string>
+    <string name="grid_view">"Zobrazení mřížky"</string>
+    <string name="gridview">"Mřížka"</string>
+    <string name="group_is_private">"Je soukr."</string>
+    <string name="group_name">"Název skupiny"</string>
+    <string name="group_objective">"Cíl"</string>
+    <string name="group_participants">"Účastníci"</string>
+    <string name="group_reports_by">"Seskupit výkazy podle"</string>
+    <string name="hide">"Skrýt"</string>
+    <string name="home">"Domů"</string>
+    <string name="home_lbl">"Domů"</string>
+    <string name="hyperlink_type">"Hypertextový odkaz"</string>
+    <string name="imageeditor_title">"Editor obrázků"</string>
+    <string name="import_cnx">"Import pomocí URL"</string>
+    <string name="import_txt">"Import"</string>
+    <string name="in_list">"V seznamu"</string>
+    <string name="info">"Info"</string>
+    <string name="input_control">"Filtry"</string>
+    <string name="input_control_title">"Filtry: Vybrat hodnotu/y"</string>
+    <string name="instance_file_extension">"_instance"</string>
+    <string name="is_default_conn">"Standardní"</string>
+    <string name="is_null">"Je null"</string>
+    <string name="items">"POLOŽKY"</string>
+    <string name="ivory">"Slonovina"</string>
+    <string name="jam">"SAP JAM"</string>
+    <string name="jam_Send">"Odeslat"</string>
+    <string name="jam_current_groups">"AKTUÁLNÍ SKUPINY"</string>
+    <string name="jam_oauth_header">"Přihlášení do SAP JAM"</string>
+    <string name="jam_sendtojam">"Odeslat do SAP JAM"</string>
+    <string name="label_sso_authenticate_at_logon">"Autentizace při přihlašování"</string>
+    <string name="label_sso_certificate">"SSO aktivováno (výběr certifikátu)"</string>
+    <string name="label_sso_cookie_Based">"SSO AKTIVNÍ"</string>
+    <string name="label_sso_cookie_enabled">"Cookie aktivní"</string>
+    <string name="label_sso_reauthenticate_at_logon">"Nová autentizace při přihlášení"</string>
+    <string name="legal">"Právní informace"</string>
+    <string name="less">"Menší než"</string>
+    <string name="less_or_equal">"Menší nebo rovno"</string>
+    <string name="like">"Podobnost"</string>
+    <string name="limit">"Limit"</string>
+    <string name="link">"Odkaz"</string>
+    <string name="list_view">"Zobrazení seznamu"</string>
+    <string name="listview">"Seznam"</string>
+    <string name="loading">"Zavádí se..."</string>
+    <string name="log">"Protokoly"</string>
+    <string name="log_clear_logs_confirm">"Chcete protokoly opravdu vyprázdnit?"</string>
+    <string name="log_clearlog">"Vyprázdnit protokol"</string>
+    <string name="log_enable">"Aktivovat protokoly"</string>
+    <string name="log_mail_subject">"Soubory mobil. protok."</string>
+    <string name="log_message">"Opravdu chcete povolit protokoly?"</string>
+    <string name="log_nologs_exists">"Protokoly jsou již vyprázdněny"</string>
+    <string name="log_nologs_tosend">"Žádné protokoly nejsou k dispozici k odeslání"</string>
+    <string name="log_sendlog">"Odeslat soubor protokolu"</string>
+    <string name="log_title">"Nastavení protokolu"</string>
+    <string name="login">"Přihlášení"</string>
+    <string name="login_cmd">"Pokračovat"</string>
+    <string name="login_mesg">"Probíhá přihlašování; vyčkejte..."</string>
+    <string name="login_mesglist">"Uvádění dokumentů..."</string>
+    <string name="login_string">"Připojování"</string>
+    <string name="logon">"Přihlásit se"</string>
+    <string name="logout">"Odhlásit"</string>
+    <string name="logout_title">"Odhlásit"</string>
+    <string name="lov_error">"Nelze vyvolat seznam hodnot ze serveru; pokud problém přetrvává, obraťte se na správce"</string>
+    <string name="manage_categories">"Správa kategorií"</string>
+    <string name="manage_connections">"Správa spojení"</string>
+    <string name="mark_as_read">"Označit jako přečtené"</string>
+    <string name="mark_as_unread">"Označit jako nepřečtené"</string>
+    <string name="media_player_codecs">"Poznámka: Chcete-li přehrát tento zvukový klip, musíte si stáhnout nejnovější kodeky pro dostupný přehrávač médií."</string>
+    <string name="mem_used">"0 MB ze 100 MB využito"</string>
+    <string name="menu_notification">"Oznámení"</string>
+    <string name="mesg_already_downloaded">"Tento dokument byl již stažen"</string>
+    <string name="mesg_clearing_filters">"Vyprazdňování filtrů..."</string>
+    <string name="mesg_create_groups_error">"Při vytváření skupiny došlo k chybě"</string>
+    <string name="mesg_document_downloading">"Bylo spuštěno stažení dokumentu."</string>
+    <string name="mesg_dowloading_document_offline">"Stahování dokumentu na domovskou stránku..."</string>
+    <string name="mesg_download_failure">"Chyba ve stahování"</string>
+    <string name="mesg_download_in_progress">"Operaci nelze provést; probíhá stahování"</string>
+    <string name="mesg_download_success">"Úspěšně staženo"</string>
+    <string name="mesg_downloading_pending_reports">"Probíhá stahování. Vyčkejte..."</string>
+    <string name="mesg_drill_down_document">"Přechod dolů..."</string>
+    <string name="mesg_drill_up_document">"Přechod nahoru..."</string>
+    <string name="mesg_failer_xcelsius">"Operaci nelze provést. Zkuste to znovu později."</string>
+    <string name="mesg_filtering_document">"Filtrování dokumentu..."</string>
+    <string name="mesg_getting_content">"Příjem obsahu ze serveru..."</string>
+    <string name="mesg_getting_prompts">"Vyvolávání výzev..."</string>
+    <string name="mesg_groups_error">"Při načítání skupin ze serveru SAP JAM došlo k chybě"</string>
+    <string name="mesg_groups_exists_error">"Skupina se stejným názvem již existuje"</string>
+    <string name="mesg_invalid_oauth_details">"Neplatné detaily OAUTH. Konfigurujte správné detaily OAUTH v CMS"</string>
+    <string name="mesg_logoff">"Probíhá odhlašování; vyčkejte..."</string>
+    <string name="mesg_lov_document">"Vyvolávání seznamu hodnot..."</string>
+    <string name="mesg_opening_document">"Otevírání dokumentu..."</string>
+    <string name="mesg_opening_report">"Otevírání výkazu..."</string>
+    <string name="mesg_processing_data">"Zpracovávání dat..."</string>
+    <string name="mesg_prompt_document">"Použití výzev na dokument..."</string>
+    <string name="mesg_recieve_accesstoken">"Při načítání přístupového tokenu ze serveru SAP JAM došlo k chybě"</string>
+    <string name="mesg_recieve_oauthtoken">"Při načítání tokenu požadavku ze serveru SAP JAM došlo k chybě"</string>
+    <string name="mesg_refresh_document">"Obnovování dokumentu..."</string>
+    <string name="mesg_refresh_lov_document">"Obnovování seznamu hodnot..."</string>
+    <string name="mesg_remove_sort_document">"Odstraňování třídění..."</string>
+    <string name="mesg_send_invite_error">"Při zasílání pozvánky uživateli došlo k chybě"</string>
+    <string name="mesg_sorting_document">"Třídění – dokument..."</string>
+    <string name="mesg_syncing_with_server">"Synchronizace se serverem..."</string>
+    <string name="mesg_update_xcelsius">"Probíhá aktualizace. Vyčkejte..."</string>
+    <string name="mesg_update_xcelsius_backup">"Nelze získat zálohu dokumentu. Zkuste to znovu později."</string>
+    <string name="mesg_upload_photo_error">"Při uploadu snímku obrazovky na server SAP JAM došlo k chybě"</string>
+    <string name="mesg_xcelsius">"Probíhá stahování. Vyčkejte..."</string>
+    <string name="mesg_xcelsius_documentuncompatible">"Odkazovaný dokument není kompatibilní s aktuální aplikací a nelze jej zobrazit"</string>
+    <string name="mesg_xcelsius_initialize">"Inicializace"</string>
+    <string name="mesg_xcelsius_load">"Zavádění"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-cs/error_messages.xml -->
+    <eat-comment/>
+    <string name="mob00006">"Dokument na serveru neexistuje. (MOB00006)"</string>
+    <string name="mob06004">"Nelze navázat připojení k serveru; pokud problém přetrvává, obraťte se na správce (MOB06004)"</string>
+    <string name="mob06005">"Nelze navázat připojení k serveru; zkuste to znovu, nebo se obraťte na správce (MOB06005)"</string>
+    <string name="mob06006">"Požadavek vypršel; zkuste to znovu, nebo se obraťte na správce (MOB06006)"</string>
+    <string name="mob06007">"Váš požadavek je neplatný; ověřte detaily spojení nebo se obraťte na správce (MOB06007)"</string>
+    <string name="mob06008">"Nemáte oprávnění pro tento požadavek (MOB06008)"</string>
+    <string name="mob06009">"Váš požadavek je neplatný; ověřte detaily spojení nebo se obraťte na správce (MOB06009)"</string>
+    <string name="mob06010">"Při zpracovávání vašeho požadavku došlo k interní chybě serveru; zkuste to znovu, nebo se obraťte na správce (MOB06010)"</string>
+    <string name="mob06011">"Chybějící hodnota výzvy; vyberte alespoň jednu hodnotu pro výzvu (MOB06011)"</string>
+    <string name="mob06021">"Ověřte síťové spojení (MOB06021)"</string>
+    <string name="mob06022">"Při zpracování požadavku klienta došlo k interní chybě serveru (MOB06022)"</string>
+    <string name="mob06031">"Nelze navázat připojení k serveru; zkuste to znovu, nebo se obraťte na správce (MOB06031)"</string>
+    <string name="mob06099">"Zaznamenali jsme chybu; obraťte se na správce"</string>
+    <string name="mob08001">"E-mail není na tomto zařízení nakonfigurován (MOB08001)"</string>
+    <string name="mob08002">"Při zpracovávání vašeho požadavku došlo k interní chybě serveru; obraťte se na správce (MOB08002)"</string>
+    <string name="mob08003">"Chyba serveru zabránila obnovení dokumentu; zkuste to znovu (MOB08003)"</string>
+    <string name="mob08004">"Všechny povinné výzvy byly vyplněny (MOB08004)"</string>
+    <string name="mob08005">"Tato výzva není podporována (MOB08005)"</string>
+    <string name="mob08006">"Ověřte své přihlašovací údaje (MOB08006)"</string>
+    <string name="mob08007">"Aplikace nepodporuje tuto verzi serveru; obraťte se na správce (MOB08007)"</string>
+    <string name="mob08008">"Výjimka SUP (MOB08008)"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="mobi_legal">"Právní informace"</string>
+    <string name="mobile_server_URL">"URL mobilního serveru"</string>
+    <string name="modified_at">"Modifikováno"</string>
+    <string name="modify_conn_connected">"Spojení nelze modifikovat; odhlaste se a zkuste to znovu"</string>
+    <string name="modify_connection">"Modifikovat spojení"</string>
+    <string name="more">"Více"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-cs/values-cs.xml -->
+    <eat-comment/>
+    <string msgid="3698378085901466129" name="mr_button_content_description">"Tlačítko odesílání"</string>
+    <string msgid="6349900579507521956" name="mr_chooser_searching">"Hledání zařízení"</string>
+    <string msgid="414301941546135990" name="mr_chooser_title">"Odesílat do"</string>
+    <string msgid="6422801843540543585" name="mr_controller_album_art">"Obal alba"</string>
+    <string msgid="4868457957151124867" name="mr_controller_casting_screen">"Odesílání obsahu obrazovky"</string>
+    <string msgid="7333862312480583260" name="mr_controller_close_description">"Zavřít"</string>
+    <string msgid="7924809056904240926" name="mr_controller_collapse_group">"Sbalit"</string>
+    <string msgid="1227264889412989580" name="mr_controller_disconnect">"Odpojit"</string>
+    <string msgid="8062427022744266907" name="mr_controller_expand_group">"Rozbalit"</string>
+    <string msgid="5585418471741142924" name="mr_controller_no_info_available">"Nejsou k dispozici žádné informace"</string>
+    <string msgid="6547130360349182381" name="mr_controller_no_media_selected">"Nebyla vybrána žádná média"</string>
+    <string msgid="5451884435510905406" name="mr_controller_pause">"Pozastavit"</string>
+    <string msgid="683634565969987458" name="mr_controller_play">"Přehrát"</string>
+    <string msgid="4570331844078181931" name="mr_controller_stop">"Zastavit odesílání"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Systém"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Zařízení"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="msg_added_to_favourite">"přidáno k oblíbeným"</string>
+    <string name="my_connections">"Spojení"</string>
+    <string name="name">"Název"</string>
+    <string name="nav_close">"Zavřít"</string>
+    <string name="nav_open">"Otevřít"</string>
+    <string name="network">"Možnosti sítě"</string>
+    <string name="network_notification_connected">"Je k dispozici síť. Chcete pracovat v online režimu?"</string>
+    <string name="network_notification_disconnected">"Síť není k dispozici. Chcete pracovat v offline režimu?"</string>
+    <string name="network_options">"Možnosti sítě"</string>
+    <string name="new_txt">"Nové"</string>
+    <string name="next">"Další"</string>
+    <string name="no_active_connection_available">"Chcete-li tuto akci provést, potřebujete aktivní spojení"</string>
+    <string name="no_conn">"Neexistuje žádné spojení"</string>
+    <string name="no_connections">"Nebyla definována žádná spojení.\n \nChcete-li vytvořit nové spojení, přejděte sem: \nMenu > Nastavení > Spojení"</string>
+    <string name="no_downloaded_docs">"Žádné dokumenty nejsou k dispozici"</string>
+    <string name="no_filters">"Nebyly použity žádné filtry"</string>
+    <string name="no_filters_saved">"Žádné filtry nejsou uloženy"</string>
+    <string name="noconnections">"Žádná spojení"</string>
+    <string name="none">"Nic"</string>
+    <string name="not_between">"Neleží mezi"</string>
+    <string name="not_connected">"Připojit"</string>
+    <string name="not_equal">"Nerovná se"</string>
+    <string name="not_in_list">"Není v seznamu"</string>
+    <string name="not_like">"Nepodobnost"</string>
+    <string name="not_recording">"Připraveno k nahrávání..."</string>
+    <string name="notification_Auto_Update_Is_Disabled">"Automatická aktualizace není pro toto připojení k dispozici"</string>
+    <string name="notification_available">"Dostupné aktualizace"</string>
+    <string name="notification_available_single">"Dostupná aktualizace"</string>
+    <string name="notification_cancel_all">"Zrušit vše"</string>
+    <string name="notification_clear_all">"Vymazat vše"</string>
+    <string name="notification_not_available">"Žádná oznámení nejsou k dispozici"</string>
+    <string name="notification_update_all">"Aktualizovat vše"</string>
+    <string name="notification_updated_count">"Poslení aktualizované dokumenty"</string>
+    <string name="notification_updated_count_single">"Poslední aktualizovaný dokument"</string>
+    <string name="notification_updating">"Dokumenty se aktualizují"</string>
+    <string name="notification_updating_single">"Dokument se aktualizuje"</string>
+    <string name="object_not_supported">"Typ objektu není podporován"</string>
+    <string name="off">"Vypnuto"</string>
+    <string name="offline_alert">"OFFLINE VÝSTRAHA"</string>
+    <string name="offline_connection">"Spojení nelze importovat v režimu offline"</string>
+    <string name="offline_filter">"Tuto operaci nelze provést v offline režimu"</string>
+    <string name="ok">"OK"</string>
+    <string name="older">"Starší"</string>
+    <string name="open_browser">"Klepnutím otevřete výkaz v prohlížeči"</string>
+    <string name="open_device_android">"Klepnutím otevřete výkaz v aplikaci SAP BI v zařízení se systémem Android"</string>
+    <string name="open_device_ios">"Klepnutím otevřete výkaz v aplikaci SAP BI v zařízení se systémem iOS"</string>
+    <string name="open_doc_back_msg">"Vrátíte se na domovskou stránku"</string>
+    <string name="orientation_lock">"Orientace uzamčena! Při anotování výkazu nemůžete změnit orientaci zařízení."</string>
+    <string name="orientation_unlock">"Orientace odemčena"</string>
+    <string name="osdeprecated">"Tato aplikace není podporována v systému Android verze 2.2"</string>
+    <string name="oshoneycombnotsupported">"Aplikace %1$s je kompatibilní s operačním systémem Android verze 4.0 a novějším."</string>
+    <string name="osnotsupported">"Tato aplikace není podporována v systému Android 4.4 a novějších"</string>
+    <string name="page">"Stránka"</string>
+    <string name="page_indicator">"Indikátor stránky"</string>
+    <string name="page_loading">"Stránka ..."</string>
+    <string name="paint">"Nakreslit"</string>
+    <string name="parent_doc_name">"Název nadřazené složky"</string>
+    <string name="password">"Heslo"</string>
+    <string name="pdf_pop_up_install_app">"Prohlížeč není k dispozici; nainstalujte prohlížeč PDF, abyste mohli zobrazit doklad"</string>
+    <string name="pdf_pop_up_select_app">"Vyberte prohlížeč"</string>
+    <string name="pdf_type">"Dokumenty PDF"</string>
+    <string name="per_view_storage">"Úložiště osobního zobrazení"</string>
+    <string name="personal_view">"Úložiště osobního zobrazení"</string>
+    <string name="personal_view_category">"Osobní zobrazení"</string>
+    <string name="personal_view_create">"Osobní zobrazení"</string>
+    <string name="personal_view_size_exceeding">"Nedostatečné místo pro uložení; uvolněte místo vymazáním osobních zobrazení nebo zvyšte úložnou kapacitu v Nastaveních."</string>
+    <string name="pg_show_add_home">"Stahování a přidávání dokumentu na domov. stránku..."</string>
+    <string name="pg_show_insatance">"Načítání poslední instance..."</string>
+    <string name="pg_show_server_call">"Získávání detailů ze serveru"</string>
+    <string name="pg_show_update">"Aktualizace dokumentu..."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/res/values-cs/values.xml -->
+    <eat-comment/>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Vymazat vyhledávání"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Vyhledávání"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="playing">"Přehrávání..."</string>
+    <string name="port">"Port"</string>
+    <string name="post">"ZVEŘEJNIT"</string>
+    <string name="previous">"Předchozí"</string>
+    <string name="prompt_add_values">"Přidat hodnotu"</string>
+    <string name="prompt_error">"Všechny povinné výzvy nejsou zadány"</string>
+    <string name="prompt_optional">"Nepovinné"</string>
+    <string name="prompt_values">"Výzvy"</string>
+    <string name="proxy">"Proxy"</string>
+    <string name="pv_create_title">"Uložit zobrazení"</string>
+    <string name="pv_description">"Popis osobního zobrazení"</string>
+    <string name="pv_mem_usage">"(%1$s z %2$s využito)"</string>
+    <string name="pv_name">"Název osobního zobrazení"</string>
+    <string name="pv_setting">"Nastavení osobního zobrazení"</string>
+    <string name="pv_setting_limit_none">"Nic"</string>
+    <string name="quick_hints">"Stručné pokyny"</string>
+    <string name="quickeref_txt1"><b>"Dlouhým stisknutím"</b>" požadovaného dokumentu získáte kontextovou nabídku. "<b>"Klepnutím"</b>" na možnost provedete požadovanou akci."</string>
+    <string name="quickeref_txt10"><b>"Přetáhněte"</b>" posuvník Rozmazat tak, aby se výkaz před sdílením zdeformoval."</string>
+    <string name="quickeref_txt11"><b>"Klepněte"</b>" na bod zájmu, chcete-li zobrazit spojenou hodnotu."</string>
+    <string name="quickeref_txt12"><b>"Klepněte"</b>" na hodnotu, chcete-li zobrazit podrobné informace."</string>
+    <string name="quickeref_txt13"><b>"Klepněte"</b>" na šipku, chcete-li projít hierarchická data tabulky."</string>
+    <string name="quickeref_txt14">"V části Výzvy – hierarchie produktů "<b>"klepněte"</b>" na šipku, chcete-li projít hierarchii a vybrat hodnoty výzvy."</string>
+    <string name="quickeref_txt15"><b>"Klepněte"</b>" na ikonu "<i>"Zobrazit/skrýt"</i>", chcete-li při zobrazení řídicího panelu přistupovat k liště akcí."</string>
+    <string name="quickeref_txt16"><b>"Klepněte"</b>" na ikonu "<i>"Připnout"</i>", chcete-li při zobrazení řídicího panelu zamknout lištu akcí."</string>
+    <string name="quickeref_txt2"><b>"Klepnutím"</b>" na indikátor stránek zobrazíte jezdec k navigaci mezi stránkami. Na mobilním telefonu můžete použít také posouvací lištu."</string>
+    <string name="quickeref_txt3"><b>"Klepněte dvakrát"</b>" na graf nebo "<b>"klepněte jednou"</b>" na tabulku (s modrým textem), chcete-li je rozbalit."</string>
+    <string name="quickeref_txt4"><b>"Klepněte dvakrát"</b>" na hlavičku sloupce tabulky, chcete-li získat přístup k "<i>"tabulkovým akcím"</i>"."</string>
+    <string name="quickeref_txt5"><b>"Klepnutím"</b>" na ikonu provedete požadovanou akci v dané části výkazu."</string>
+    <string name="quickeref_txt6">"Vyberte "<i>"Tabulkové akce"</i>", chcete-li provést úlohy, jako je změna pořadí, ukotvení/uvolnění, skrytí/zobrazení sloupce či řádky."</string>
+    <string name="quickeref_txt7"><b>"Klepněte "</b>"na ikonu "<i>"Sekce"</i>", chcete-li získat přístup k možnostem sekcí, které jsou dostupné pro výkaz."</string>
+    <string name="quickeref_txt8">"V části "<i>"Sekce"</i>" "<b>"klepněte"</b>" na přepínač, chcete-li zobrazit informace o výkazu, nebo "<b>"klepněte"</b>" na šipku, chcete-li zobrazit informace o další úrovni výkazu."</string>
+    <string name="quickeref_txt9"><b>"Klepněte"</b>" na ikonu "<i>"Sdílet"</i>" a vyberte "<i>"Anotace"</i>", chcete-li výkaz před sdílením anotovat."</string>
+    <string name="quickref_checkbox_text">"Nezobrazovat znovu"</string>
+    <string name="quickref_exitbutton_text">"Konec"</string>
+    <string name="quickref_launch_text">"Vítejte v "<b>"SAP BusinessObjects Mobile"</b>". Tento průvodce stručnými pokyny vám poskytne tipy, jak používat aplikaci."</string>
+    <string name="quickref_launchbutton_text">"Zobrazit stručné pokyny"</string>
+    <string name="quickref_skipbutton_text">"Přeskočit"</string>
+    <string name="reconnect">"Znovu spojit"</string>
+    <string name="record">"Nahrát hlasovou poznámku"</string>
+    <string name="recorded_file_attached">"Nahraný soubor bude připojen k e-mailu."</string>
+    <string name="recorded_file_deleted">"Nahraný soubor byl vymazán."</string>
+    <string name="recorded_file_not_attached">"Není připojen nahraný soubor."</string>
+    <string name="recording">"Nahrávání..."</string>
+    <string name="red">"Červená"</string>
+    <string name="refresh">"Obnovit"</string>
+    <string name="refresh_confirm_msg">"Obnovení odstraní aktuální kontext dokumentu"</string>
+    <string name="refresh_confirm_title">"Obnovit dokument"</string>
+    <string name="refresh_mesg">"Obnovování seznamu dokumentů..."</string>
+    <string name="refresh_to_view_content">"Obnovením zobrazit obsah"</string>
+    <string name="register_with_sup">"Registrace – SUP..."</string>
+    <string name="registration_success">"Registrace byla úspěšná"</string>
+    <string name="remember_pwd">"Pamatovat heslo"</string>
+    <string name="remove_document">"Odstranit ze zařízení"</string>
+    <string name="remove_filter">"Odstranit filtr"</string>
+    <string name="remove_from_favorites">"Odebrat z oblíbených"</string>
+    <string name="remove_sort">"Odstranit třídění"</string>
+    <string name="report_filter">"Filtr"</string>
+    <string name="report_list">"Výkazy"</string>
+    <string name="report_part_filter_menu">"Filtr částí výkazu"</string>
+    <string name="report_part_menu">"Menu"</string>
+    <string name="required">"Požadováno"</string>
+    <string name="reset_app_text">"Resetování aplikace vymaže všechna místní data, včetně detailů o spojení a nastavení aplikace. K aplikaci můžete po resetování přistupovat bez hesla.\n\nChcete pokračovat v resetování aplikace?"</string>
+    <string name="reset_app_warning">"Upozornění"</string>
+    <string name="reset_app_warning_text">"Devětkrát jste zadali nesprávné heslo k aplikaci. Pokud znovu zadáte nesprávné heslo k aplikaci, aplikace se vyresetuje a všechna místní data, včetně detailů o spojení a nastavení, budou ztracena.\n\nChcete-li k aplikaci přistupovat po jejím vyresetování, navažte nové spojení a zadejte platné heslo k aplikaci."</string>
+    <string name="reset_application">"Reset aplikace"</string>
+    <string name="reset_cmd">"Reset"</string>
+    <string name="row">"Řádka"</string>
+    <string name="sample">"Ukázky"</string>
+    <string name="sample_doc1">"Bank management – přehled"</string>
+    <string name="sample_doc2">"Analýza rozdělení zaměstnanců"</string>
+    <string name="sample_doc3">"Hlavní panel obchodníka"</string>
+    <string name="sample_doc4">"Ziskovost prodeje"</string>
+    <string name="sample_doc5">"Vedoucí obchodu"</string>
+    <string name="sample_doc6">"Udržitelnost"</string>
+    <string name="sampledoc_header">"Ukázkové dokumenty"</string>
+    <string name="sapbi_delete">"Externí program chce vymazat spojení; chcete pokračovat?"</string>
+    <string name="sapbi_modify">"Externí program chce modifikovat spojení; chcete pokračovat?"</string>
+    <string name="save_cmd">"Uložit"</string>
+    <string name="save_error_string">"Zadejte informace do požadovaných polí"</string>
+    <string name="save_pass">"Uložit heslo"</string>
+    <string name="save_password">"Uložit heslo"</string>
+    <string name="saved_connection">"Uložené spojení"</string>
+    <string name="saved_connections">"Uložená spojení"</string>
+    <string name="savepasswordforms">"Vaše heslo CMS nebylo uloženo kvůli zásadám zabezpečení nastaveným vaším správcem"</string>
+    <string name="savepw">"Uložit heslo"</string>
+    <string name="search_hint">"Hledat"</string>
+    <string name="searchresults">"Výsledky hledání"</string>
+    <string name="sections">"Sekce"</string>
+    <string name="security_configname">"Konfigurace zabezpečení"</string>
+    <string name="select_default_category">"Vybrat kategorii k nastavení jako standardní"</string>
+    <string name="select_theme">"Vyberte motiv"</string>
+    <string name="send_cnx_options">"Sdílet spojení prostřednictvím:"</string>
+    <string name="send_options">"Zaslat snímek obrazovky přes:"</string>
+    <string name="sender">"Odesilatel"</string>
+    <string name="sent_at">"Odesláno"</string>
+    <string name="sent_from">"Odesláno z mého zařízení Android"</string>
+    <string name="server">"Server"</string>
+    <string name="session_timeout">"Časový limit relace"</string>
+    <string name="set_as_default">"Standardní spojení"</string>
+    <string name="share_connection">"Sdílet"</string>
+    <string name="show_downloaded">"Zobrazit pouze stažené výkazy"</string>
+    <string name="skip">"Přeskočit"</string>
+    <string name="smp_config">"KONFIGURACE SMP"</string>
+    <string name="smp_connection">"Spojení SMP"</string>
+    <string name="smpcloud_connection">"Spojení SMP Cloud"</string>
+    <string name="snapshot_drill">"Operace přechodu není uložena"</string>
+    <string name="snapshot_hierarchy">"Operace hierarchie není podporována pro dokumenty osobního zobrazení"</string>
+    <string name="snapshot_name_exists">"Specifikujte jiné jméno; jméno již existuje pro jiné osobní zobrazení"</string>
+    <string name="snapshot_opendoc">"Operace otevření URL dokumentu není podporována pro dokumenty osobního zobrazení"</string>
+    <string name="snapshot_rel">"Operace propojení prvku výkazu není podporována pro dokumenty osobního zobrazení"</string>
+    <string name="sort">"Třídit"</string>
+    <string name="sort_asc">"Vzestupně"</string>
+    <string name="sort_desc">"Sestupně"</string>
+    <string name="sorting_order">"Pořadí řazení"</string>
+    <string name="splash_docs_to_be_upgraded">"Počet dokumentů k aktualizaci: %1$s"</string>
+    <string name="splash_number_of_docs_upgraded">"%1$s z %2$s dokumentů bylo aktualizováno..."</string>
+    <string name="splash_upgrade_docs">"Aktualizace dokumentů..."</string>
+    <string name="ssl_alert_title">"Výstraha"</string>
+    <string name="ssl_alertmessge">"Toto spojení nemusí být důvěryhodné; chcete pokračovat?"</string>
+    <string name="ssl_date_invalid_error">"Datum certifikátu není platné"</string>
+    <string name="ssl_expired_error">"Platnost certifikátu vypršela"</string>
+    <string name="ssl_idmismatch_error">"Neshoda názvu hostitele"</string>
+    <string name="ssl_invalid_error">"Došlo ke generické chybě"</string>
+    <string name="ssl_notyetvalid_error">"Certifikát ještě není platný"</string>
+    <string name="ssl_untrusted_error">"Certifikační autorita není důvěryhodná"</string>
+    <string name="sso_X509_Certificate_Title">"Chyba certifikátu"</string>
+    <string name="sso_X509_Mandatory_certifcate">"Certifikát je pro toto připojení povinný"</string>
+    <string name="sso_X509_authentication">"Autentizace"</string>
+    <string name="sso_X509_certificate_invalid">"Vybraný certifikát může být neplatný nebo poškozený; co chcete udělat?"</string>
+    <string name="sso_X509_certificate_not_required">"Jak se chcete přihlásit k připojení"</string>
+    <string name="sso_X509_certiifcate_unavailable">"Nebyly nainstalovány žádné certifikáty pro SAP BusinessObjects Mobile; co chcete udělat?"</string>
+    <string name="sso_X509_unauthorised_connection_sso">"Offline přístup je deaktivován pro SSO"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-cs/values-cs.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="success">"Úspěch"</string>
+    <string name="sup_accessdetail">"DETAILY PŘÍSTUPU"</string>
+    <string name="sup_config">"KONFIGURACE SUP"</string>
+    <string name="sup_configaration">"Konfigurace SUP"</string>
+    <string name="sup_connection">"Spojení SUP"</string>
+    <string name="sup_deregister">"Odregistrovat"</string>
+    <string name="sup_deregister_success">"Odregistrace byla úspěšná"</string>
+    <string name="sup_error_HTTP">"Chyba HTTP"</string>
+    <string name="sup_error_authentication">"Chyba autentizace"</string>
+    <string name="sup_error_mobile_client">"Chyba v mobilním klientu!"</string>
+    <string name="sup_error_network">"Chyba v síťovém spojení"</string>
+    <string name="sup_error_parse">"Chyba v analýze odezvy ze serveru"</string>
+    <string name="sup_error_unknown">"Neznámá chyba."</string>
+    <string name="sup_instructedbyadmin">"Výše uvedené hodnoty změňte pouze v případě, že vás o to požádá správce"</string>
+    <string name="sup_register">"Registrovat"</string>
+    <string name="sup_register_success">"Registrace byla úspěšná"</string>
+    <string name="sup_serverdetail">"DETAILY SERVERU SUP"</string>
+    <string name="table_actions">"Tabulkové akce"</string>
+    <string name="tap">"Klepnutím zadejte text"</string>
+    <string name="tap_string">"(Klepnutím obrátíte pořadí)"</string>
+    <string name="tap_to_connect">"Klepnutím připojte"</string>
+    <string name="temp_file_extension">"_temp"</string>
+    <string name="thismonth">"Tento měsíc"</string>
+    <string name="thisweek">"Tento týden"</string>
+    <string name="title">"Název"</string>
+    <string name="today">"Dnes"</string>
+    <string name="toggle_no">"Ne"</string>
+    <string name="toggle_off">"VYP."</string>
+    <string name="toggle_on">"ZAP."</string>
+    <string name="toggle_yes">"Ano"</string>
+    <string name="type">"Typ"</string>
+    <string name="type_value">"Zadat hodnotu"</string>
+    <string name="unable_to_drill">"Nelze procházet dokument"</string>
+    <string name="unfreeze">"Uvolnit"</string>
+    <string name="unhide_all">"Zobrazit vše"</string>
+    <string name="unknown_document_type">"Typ vybraného dokumentu je neznámý."</string>
+    <string name="unwrap">"Zrušit zalomení"</string>
+    <string name="update">"Aktualizovat"</string>
+    <string name="update_available">": Je k dispozici aktualizace"</string>
+    <string name="update_document">"Je k dispozici aktualizace"</string>
+    <string name="update_document_instance">"Aktualizace a instance dostupná"</string>
+    <string name="update_instance">"Je k dispozici instance"</string>
+    <string name="uploading">"Probíhá upload..."</string>
+    <string name="url_start_string">"http://"</string>
+    <string name="use_app_pwd">"Použít heslo k aplikaci"</string>
+    <string name="user_name">"Uživatelské jméno"</string>
+    <string name="user_profile">"Uživatelský profil"</string>
+    <string name="version">"Verze:"</string>
+    <string name="view">"Zobrazení"</string>
+    <string name="view_doc">"Zobrazit dokument"</string>
+    <string name="view_doc_instance_online">"Zobrazit poslední dostupnou instanci"</string>
+    <string name="view_instance">"Zobrazit instanci"</string>
+    <string name="view_instance_download_message">"Chcete stáhnout poslední instanci?"</string>
+    <string name="view_instance_title">"Zobrazit instanci dokumentu"</string>
+    <string name="view_log">"Zobrazit protokol"</string>
+    <string name="viewing">"Možnosti zobrazení"</string>
+    <string name="viewing_options">"Možnosti zobrazení dokumentu"</string>
+    <string name="wait">"Vyčkejte..."</string>
+    <string name="wait_string">"..."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.1/res/values-cs/values.xml -->
+    <eat-comment/>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Koupit pomocí Googlu"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-cs/strings.xml -->
+    <eat-comment/>
+    <string name="webi_type">"Web Intelligence"</string>
+    <string name="whats_new">"Novinky"</string>
+    <string name="white">"Bílá"</string>
+    <string name="work_lbl">"Práce"</string>
+    <string name="work_offline">"Práce offline"</string>
+    <string name="wrap">"Zalomit"</string>
+    <string name="wrong_pwd">"Neplatné heslo"</string>
+    <string name="wrong_pwd_text">"Chybné heslo jste zadali %1$dkrát. \n\nChcete aplikaci resetovat?"</string>
+    <string name="xc_fitToScreen">"Přizpůsobit obrazovce"</string>
+    <string name="xc_fit_to_screen">"Přizpůsobit obrazovce"</string>
+    <string name="xc_hideToolBar">"Skrýt lištu nástrojů"</string>
+    <string name="xc_offline_dataset">"Počet offline sad dat"</string>
+    <string name="xc_pin_unpin">"Připnout/odepnout"</string>
+    <string name="xc_sdk_storage">"Offline úložiště SDK"</string>
+    <string name="xc_setting">"Nastavení panelu"</string>
+    <string name="yellow">"Žlutá"</string>
+    <string name="yesterday">"Včera"</string>
+    <string name="you">"Vy"</string>
+</resources>

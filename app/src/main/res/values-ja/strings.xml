@@ -1,0 +1,2809 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+
+
+
+    <!-- XTXT: title for the launcher icon of app -->
+
+    <string name="app_name">"SAP BI"</string>
+
+    <!-- XMSG: message says on which android sdk the app is not supported -->
+
+    <string name="osnotsupported">"このアプリケーションは Android 4.4 以上ではサポートされません"</string>
+
+    <!-- XMSG: message says on which android sdk the app is not supported -->
+
+    <string name="osdeprecated">"このアプリケーションは Android バージョン 2.2 ではサポートされません"</string>
+
+    <!-- XMSG: message says android api level less than 14 is not supported -->
+
+    <string name="oshoneycombnotsupported">"%1$s アプリは Android OS バージョン 4.0 以上に対応しています。"</string>
+
+    <!-- XBUT: Text for HOME Button -->
+
+    <string name="description_home">"ホーム"</string>
+
+    <!-- XMIT: Menu item for Search -->
+
+    <string name="description_search">"検索"</string>
+
+    <!-- XTBS: Title for Browse Tab -->
+
+    <string name="browse">"ブラウズ"</string>
+
+    <!-- XTBS,10: Title for Home Tab -->
+
+    <string name="home">"ホーム"</string>
+
+    <!-- XMSG: login -->
+
+    <string name="login">"ログイン"</string>
+
+    <!-- XTXT: Text for new instance of ConnectionListDialogFragment -->
+
+    <string name="add_new_cnx">"接続追加"</string>
+
+    <!-- XTXT: Text used for Import -->
+
+    <string name="import_txt">"インポート"</string>
+
+    <!-- XTXT: Text used for Add connection -->
+
+    <string name="new_txt">"新規"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="alias">"エイリアス"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="add_alias">"エイリアス追加"</string>
+
+    <!-- XBUT: Alias -->
+
+    <string name="enter_alias">"エイリアス入力"</string>
+
+    <!-- XBUT: OK -->
+
+    <string name="ok">"OK"</string>
+
+    <!-- XBUT: cancel -->
+
+    <string name="cancel">"中止"</string>
+
+    <!-- XBUT: XCPin -->
+
+    <string name="xc_pin_unpin">"固定/解除"</string>
+
+    <!-- XBUT: FitToScreen -->
+
+    <string name="xc_fit_to_screen">"画面に合わせる"</string>
+
+
+
+    <!-- XBUT: Done -->
+
+    <string name="done">"完了"</string>
+
+    <!-- XBUT: Previous -->
+
+    <string name="previous">"前"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_instance_title">"文書インスタンス表示"</string>
+
+    <!-- XHED: heading for Categories -->
+
+    <string name="categories">"カテゴリ"</string>
+
+    <!-- XHED: heading for Search Results -->
+
+    <string name="searchresults">"検索結果"</string>
+
+    <!-- XHED: heading for Dailog while sending an email -->
+
+    <string name="send_options">"スクリーンショット送信方法:"</string>
+
+    <!-- XHED: heading for Dialog while sending an email to share connection -->
+
+    <string name="send_cnx_options">"接続共有:"</string>
+
+    <!-- XBUT: Skip -->
+
+    <string name="skip">"スキップ"</string>
+
+    <!-- XHED: heading for Sample Documents -->
+
+    <string name="sampledoc_header">"サンプル文書"</string>
+
+    <!-- XTXT -->
+
+    <string name="create_new_cnx_desc1">"および、文書をブラウズします。"</string>
+
+    <!-- XTXT -->
+
+    <string name="create_new_cnx_desc2">"この操作は \'設定\' 画面でも行うことができます。"</string>
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    <!-- Build number format is YYMM fo  every release year-month -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XBUT: Accept buttion in Eula Screen -->
+
+    <string name="eula_accept">"承認"</string>
+
+    <!-- XBUT: Reject buttion in Eula Screen -->
+
+    <string name="eula_reject">"却下"</string>
+
+    <!-- XHED: Heading for Eula Screen -->
+
+    <string name="eula_title">"エンドユーザライセンス契約"</string>
+
+    <string name="eula_mobi_updates"/>
+
+
+
+    <!-- Menu options for annotations -->
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="paint">"描画"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="erase">"消去"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="customview">"カスタムビュー"</string>
+
+    <!-- XMIT : menu item  used to crop the image -->
+
+    <string name="crop">"切り抜き"</string>
+
+    <!-- XMIT : menu item  used to blur the image -->
+
+    <string name="blur">"ぼかし"</string>
+
+    <!-- XTXT -->
+
+    <string name="record">"音声メモ録音"</string>
+
+    <!-- XTXT -->
+
+    <string name="recording">"録音中..."</string>
+
+    <!-- XTXT -->
+
+    <string name="not_recording">"録音の準備中..."</string>
+
+    <!-- XTXT -->
+
+    <string name="playing">"再生中..."</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_deleted">"録音したファイルは削除されました。"</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_attached">"録音したファイルはメールに添付されます。"</string>
+
+    <!-- XTXT -->
+
+    <string name="recorded_file_not_attached">"録音したファイルは添付されていません。"</string>
+
+    <!-- XMSG: message for indicating if orientation was locked -->
+
+    <string name="orientation_lock">"方向がロックされました。レポートに注釈を付けている間はデバイスの方向を変更することができません。"</string>
+
+    <!-- XMSG: message for indicatiing if orientation was locked -->
+
+    <string name="orientation_unlock">"方向がロック解除されました"</string>
+
+    <!-- XLST: Edit -->
+
+    <string name="annotations">"注釈"</string>
+
+    <!-- XHED: Heading for ImageEditor -->
+
+    <string name="imageeditor_title">"イメージエディタ"</string>
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- choose color to Paint which comes in the menu -->
+
+    <!-- XMIT : menu item  for white color -->
+
+    <string name="white">"白"</string>
+
+    <!-- XMIT : menu item  for black color -->
+
+    <string name="black">"黒"</string>
+
+    <!-- XMIT : menu item  for red color -->
+
+    <string name="red">"赤"</string>
+
+    <!-- XMIT : menu item  for Blue color -->
+
+    <string name="blue">"青"</string>
+
+    <!-- XMIT : menu item  for Green color -->
+
+    <string name="green">"緑"</string>
+
+    <!-- XMIT : menu item  for Yellow color -->
+
+    <string name="yellow">"黄"</string>
+
+
+
+    <!-- Menu options -->
+
+    <!-- XMIT : menu item  used to add the document to home tab -->
+
+    <string name="add_home">"ホーム追加"</string>
+
+    <!-- XMSG:title of create personal view fragment -->
+
+    <string name="pv_create_title">"ビュー保存"</string>
+
+    <!-- XMIT: category for Personal view -->
+
+    <string name="personal_view_category">"個人ビュー"</string>
+
+     <!-- XMIT: menu item used to create Personal view in the document -->
+
+    <string name="personal_view_create">"個人ビュー"</string>
+
+    <!-- XTXT menu item used to create Personal view Name -->
+
+    <string name="pv_name">"個人ビュー名"</string>
+
+    <!-- XTXT menu item used to create Personal view Description -->
+
+    <string name="pv_description">"個人ビューテキスト"</string>
+
+    <!-- XMIT: menu item used to refresh the document -->
+
+    <string name="refresh">"リフレッシュ"</string>
+
+    <!-- XMIT: menu item used for filters in the document -->
+
+    <string name="filter_menu">"フィルタ"</string>
+
+    <!-- XMIT: menu item used for filters for report parts -->
+
+    <string name="report_part_filter_menu">"レポートパーツフィルタ"</string>
+
+    <!-- XMIT: menu item used to send the screenshot of the report through email -->
+
+    <string name="email_menu">"メール"</string>
+
+    <!-- XMIT: menu item used to switch between list and grid views for tablets  with action bar -->
+
+    <string name="grid_menu">"グリッド"</string>
+
+    <!-- XMIT: menu item used to switch between list and grid views for phone devices where custom title bar is used -->
+
+    <string name="change_view">"ビュー変更"</string>
+
+    <string name="xc_hideToolBar">"ツールバー非表示"</string>
+
+    <string name="xc_fitToScreen">"画面に合わせる"</string>
+
+    <!-- XMIT: menu item used to indicate sections in report -->
+
+    <string name="sections">"セクション"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="existing_conn_header">"既存の接続"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="tap_to_connect">"タップして接続"</string>
+
+    <!-- XHED: heading for section in ActionBar connections spinner -->
+
+    <string name="more">"追加"</string>       
+
+    <!-- Doc info related strings -->
+
+    <!-- XTXT: name of the textView which displays name of the document -->
+
+    <string name="name">"名称"</string>
+
+    <!-- XHED: heading for the dailog which displays document information -->
+
+    <string name="doc_info_header">"文書情報"</string>
+
+    <!-- XTXT: name of the textView which displays author of the document -->
+
+    <string name="author">"作成者"</string>
+
+    <!-- XTXT: name of the textView which displays parent doc name personal view doc -->
+
+    <string name="parent_doc_name">"上位文書名"</string>
+
+    <!-- XTXT: name of the textView which displays sender of the document -->
+
+    <string name="sender">"送信者"</string>
+
+    <!-- XTXT: name of the textView which displays downloaded date&time of the document -->
+
+    <string name="downloaded_at">"ダウンロード日時"</string>
+
+    <!-- XTXT: name of the textView which displays the last modified date&time of the document -->
+
+    <string name="modified_at">"変更日時"</string>
+
+    <!-- XTXT: name of the textView which displays the last sent at date&time of the document -->
+
+    <string name="sent_at">"送信日時"</string>
+
+    <!-- XTXT: name of the textView which displays description of the document -->
+
+    <string name="description">"テキスト"</string>
+
+    <!-- XTXT: name of the textView which displays deletion date&time  of the document -->
+
+    <string name="document_delete">"文書削除予定日時"</string>
+
+
+
+    <!-- Quick Action options -->
+
+    <!-- XBUT: used to open a document in quick actions -->
+
+    <string name="view">"表示"</string>
+
+    <!-- XBUT: used to update the document in quick actions -->
+
+    <string name="update">"更新"</string>
+
+    <!-- XBUT: used to view an instance of the document in quick actions -->
+
+    <string name="view_instance">"インスタンス表示"</string>
+
+    <!-- XBUT: used to view the document information in quick actions -->
+
+    <string name="info">"情報"</string>
+
+    <!-- XBUT: used to remove the document in quick actions -->
+
+    <string name="remove_document">"デバイスから削除"</string>
+
+    <!-- XBUT: used to add  the document to home tab in quick actions -->
+
+    <string name="add_to_device">"デバイスに追加"</string>
+
+    <!-- XTXT: used to show remaining days before expire the document -->
+
+    <string name="days">"日"</string>
+
+    <!-- XTXT: used to show one day to expire the document-->
+
+    <string name="day">"日"</string>
+
+    <!--XFLD: document quick info popup field for author  -->
+
+	<string name="authored_by">"作成者"</string>
+
+	<!--XFLD: document quick info popup field for Expire date  -->
+
+	<string name="expires_in">"有効期限:"</string>
+
+
+
+
+
+    <!-- <string name="eula_mobi_updates">&lt;b>&lt;u>bold, underline &lt;/u>&lt;/b></string> -->
+
+    <!-- Create, Edit or Import Connection -->
+
+    <!-- XFLD:field for Connection Server URL -->
+
+    <string name="connection_server_URL">"接続サーバ URL"</string>
+
+    <!-- XTXT: "http://" is appended to the mobile server details entered by the user -->
+
+    <string name="url_start_string">"http://"</string>
+
+    <!-- XTXT -->
+
+    <string name="connection">"新規接続"</string>
+
+    <!-- XMSG -->
+
+    <string name="enter_valid_url">"有効な URL を入力してください"</string>
+
+    <!-- XBUT:SAP BI Application password Reset -->
+
+    <string name="reset_cmd">"リセット"</string>
+
+    <!-- XBUT:Share connection details -->
+
+    <string name="share_connection">"共有"</string>
+
+    <!-- XBUT:SAP BI Application password Save -->
+
+    <string name="save_cmd">"保存"</string>
+
+    <!-- XFLD:field for Save Password by choosing yes or no -->
+
+    <string name="save_password">"パスワード保存"</string>
+
+    <!-- XFLD:field for Additional Credentials by choosing yes or no -->
+
+    <string name="additional_authcred">"追加認証情報"</string>
+
+    <!-- XFLD:field for enterting the CMS -->
+
+    <string name="cms">"CMS"</string>
+
+    <!-- XFLD:field for Mobile Server URL -->
+
+    <string name="mobile_server_URL">"モバイルサーバ URL"</string>
+
+    <!-- XTXT:default text to appear where the user has to enter the mobile server url -->
+
+    <string name="enter_server_url">"サーバ URL 入力"</string>
+
+    <!-- XHED:used as dailog title  where you can choose a connection -->
+
+    <string name="choose_connection">"接続選択"</string>
+
+    <!-- XTXT:default text appears in the mandatory fields which needs to be entered by the user -->
+
+    <string name="required">"必須"</string>
+
+    <!-- XFLD:field for enetring the Connection Name -->
+
+    <string name="connection_name">"接続名"</string>
+
+    <!-- XFLD:field for entering the USer Name -->
+
+    <string name="user_name">"ユーザ名"</string>
+
+    <!-- XFLD:field for selecting Authentication Types -->
+
+    <string name="auth_type">"認証タイプ"</string>
+
+    <!-- XFLD:field for Remember Password -->
+
+    <string name="remember_pwd">"パスワード保存"</string>
+
+    <!-- XFLD:field for setting this connection as Default Connection by choosing Yes or No -->
+
+    <string name="set_as_default">"デフォルト接続"</string>
+
+    <!-- XMSG:msg displayed on click of import in offline mode -->
+
+    <string name="offline_connection">"オフラインモードでは接続をインポートできません"</string>
+
+    <!-- XMSG:msg displayed on click of drill on snapshot -->
+
+    <string name="snapshot_drill">"このドリル操作は保存されません"</string>
+
+    <!-- XMSG:msg displayed on click of hierarchy on snapshot -->
+
+    <string name="snapshot_hierarchy">"個人ビュー文書では階層操作はサポートされていません"</string>
+
+    <!-- XMSG:msg displayed on click of REL on snapshot -->
+
+    <string name="snapshot_rel">"個人ビュー文書ではレポートエレメントリンク操作はサポートされていません"</string>
+
+    <!-- XMSG:msg displayed on click of opendoc on snapshot -->
+
+    <string name="snapshot_opendoc">"個人ビュー文書では、文書を開く URL 操作はサポートされていません"</string>
+
+    <!-- XMSG:msg displayed if the personal view name exists -->
+
+    <string name="snapshot_name_exists">"別の名称を指定してください。この名称はすでに別の個人ビューで使用されています"</string>
+
+    <!-- XMSG:msg displayed while drilling -->
+
+    <string name="drill_from">"開始"</string>
+
+    <!-- XLST: Edit -->
+
+    <string name="edit">"編集"</string>
+
+    <!-- XLST:Delete -->
+
+    <string name="delete">"削除"</string>
+
+    <!-- XLST:Deregister -->
+
+    <string name="deregister">"登録解除"</string>
+
+    <!-- XLFD:field for Password -->
+
+    <string name="password">"パスワード"</string>
+
+
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- Not intended for translation -->
+
+    
+
+
+
+    <!-- Settings List Fragment elements -->
+
+    <!-- XHED: used as title for dailog for Edit and Delete -->
+
+    <string name="connection_options">"オプション"</string>
+
+    <!-- XTXT -->
+
+    <string name="display_help_page">"ヘルプページ照会"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_doc">"文書表示"</string>
+
+    <!-- XMSG -->
+
+    <string name="generic_error">"依頼を処理できません。後で再試行してください。"</string>
+
+    <!-- XMSG -->
+
+    <string name="mesg_already_downloaded">"この文書はすでにダウンロードされています"</string>
+
+     <!-- XMSG -->
+
+    <string name="mesg_document_downloading">"文書のダウンロードがトリガされました。"</string>
+
+     <!-- XMSG -->
+
+    <string name="mesg_download_in_progress">"操作を実行できません。ダウンロードの処理中です"</string>
+
+    <!-- XMSG -->
+
+    <string name="unknown_document_type">"選択した文書のタイプは定義されていません。"</string>
+
+    <!-- XMSG -->
+
+    <string name="doc_metadata_not_found">"文書情報が見つかりませんでした。"</string>
+
+    <!-- XMSG -->
+
+    <string name="save_error_string">"入力必須項目に情報を入力してください"</string>
+
+    <!-- XMSG -->
+
+    <string name="cnx_name_already_exists">"この接続名はすでに存在しています"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_filters_saved">"フィルタが保存されていません"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="doc_not_found">"文書を開くことができません"</string>
+
+    <!-- XMSG -->
+
+    <string name="unable_to_drill">"文書をドリルすることができません"</string>
+
+    <!-- XMSG -->
+
+    <string name="document_no_category">"文書はいずれのモバイルカテゴリにも割り当てられていません"</string>
+
+
+
+    <!-- Progress Dialog messages -->
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_opening_document">"文書を開いています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_opening_report">"レポートを開いています..."</string>
+
+     <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_downloading_pending_reports">"ダウンロードしています。お待ちください..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_syncing_with_server">"サーバと同期しています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_processing_data">"データを処理しています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_getting_prompts">"プロンプトをフェッチしています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_filtering_document">"文書をフィルタしています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_clearing_filters">"フィルタをクリアしています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_prompt_document">"プロンプトを文書に割り当てています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_lov_document">"値の一覧をフェッチしています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_getting_content">"サーバからコンテンツを受信しています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_dowloading_document_offline">"文書をホームにダウンロードしています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_logoff">"ログオフしています。お待ちください..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <!-- XMSG: message for XC Downloading dialogs -->
+
+    <string name="mesg_xcelsius_initialize">"初期化"</string>
+
+    <string name="mesg_xcelsius_load">"ロード中"</string>
+
+    <string name="mesg_xcelsius_documentuncompatible">"リンクしている文書は現在のアプリケーションと互換ではないため、表示できません"</string>
+
+    <!-- XMSG: message for XC Loading dialogs -->
+
+    <string name="pg_show_server_call">"サーバから詳細を取得しています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_drill_up_document">"ドリルアップしています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_drill_down_document">"ドリルダウンしています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="register_with_sup">"SUP で登録しています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="deregister_with_sup">"SUP で登録解除しています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_mesg">"ログインしています。お待ちください..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_mesglist">"文書を一覧表示しています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="refresh_mesg">"文書一覧をリフレッシュしています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_refresh_document">"文書をリフレッシュしています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_add_home">"文書をダウンロードしてホームに追加しています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_insatance">"最新インスタンスを取得しています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="pg_show_update">"文書を更新しています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="loading">"ロード中..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="login_string">"接続先:"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="wait_string">"..."</string>
+
+    <!-- XMSG: message for indicatiing if SUP registration was successful -->
+
+    <string name="registration_success">"登録が完了しました"</string>
+
+    <!-- XMSG: message for indicatiing if SUP deregistration was successful -->
+
+    <string name="deregistration_success">"登録解除が完了しました"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_sorting_document">"文書をソートしています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_remove_sort_document">"ソートを削除しています..."</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="mesg_refresh_lov_document">"値の一覧をリフレッシュしています..."</string>
+
+    <!-- Dialog and Toast messages -->
+
+    <!-- XMSG -->
+
+    <string name="view_instance_download_message">"最新インスタンスをダウンロードしますか。"</string>
+
+    <!-- XMSG: A multi-line message -->
+
+    <string name="no_connections">"接続が定義されていません。\n \n新規接続を登録するには、以下にジャンプしてください。 \nメニュー &gt; 設定 &gt; 接続"</string>
+
+    <!-- XMSG -->
+
+    <string name="network_notification_disconnected">"ネットワークを利用できません。オフラインモードで作業しますか。"</string>
+
+    <!-- XMSG -->
+
+    <string name="network_notification_connected">"ネットワークを利用できます。オンラインモードで作業しますか。"</string>
+
+    <!-- XMSG -->
+
+    <string name="first_time_work_offline">"オフラインモードでコンテンツにアクセスするには、サーバに初回ログインしてください"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_logout_1">"この操作によりログオフされます"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_logout_2">"続行しますか。"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_connection">"選択した接続 %1$s を削除しますか。"</string>
+
+    <!-- XMSG -->
+
+    <string name="add_existing_connection">"この接続はすでに存在しています"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_all_connection">"すべての接続を削除しますか。"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_delete_document">"文書を削除しますか。"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_conn_connected">"接続を削除できません。ログアウトして再試行してください"</string>
+
+    <!-- XMSG -->
+
+    <string name="add_conn_connected">"ユーザがログインしている場合は接続を追加できません。ログアウトしてから再試行してください"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_conn">"接続が存在しません"</string>
+
+    <!-- XMSG -->
+
+    <string name="modify_conn_connected">"接続を変更できません。ログアウトして再試行してください"</string>
+
+    <!-- XMSG -->
+
+    <string name="modify_connection">"接続変更"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_conn_notexisting">"接続は存在しません"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_save_password">"パスワードを保存しますか。"</string>
+
+    <!-- XMSG -->
+
+    <string name="refresh_confirm_msg">"リフレッシュすると、現在の文書のコンテキストが削除されます"</string>
+
+    <!-- XMSG -->
+
+    <string name="confirm_deregister">"SUP から登録解除しますか。"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_connection">"接続削除"</string>
+
+    <!-- XMSG -->
+
+    <string name="delete_document">"文書削除"</string>
+
+    <!-- XMSG -->
+
+    <string name="basic_auth">"認証が必要です"</string>
+
+    <!-- XMSG -->
+
+    <string name="cert_auth_cancelled">"取り消された証明書チェック"</string>
+
+    <!-- XMSG -->
+
+    <string name="savepasswordforms">"管理者により設定されたポリシーによって CMS パスワードが保存されませんでした"</string>
+
+    <!-- XMSG -->
+
+    <string name="lov_error">"サーバから値一覧をフェッチできません。問題が解消されない場合は管理者に連絡してください"</string>
+
+    <!-- XMSG -->
+
+    <string name="offline_filter">"この操作はオフラインモードでは実行できません"</string>
+
+    <!-- XMSG -->
+
+    <string name="download_failed">"文書を保存できません"</string>
+
+    <!-- XMSG -->
+
+    <string name="prompt_error">"すべての必須プロンプトが入力されていません"</string>
+
+    <!-- XMSG -->
+
+    <string name="no_active_connection_available">"このアクションを実行するには、有効な接続が必要です"</string>
+
+    <!-- XMSG -->
+
+    <string name="document_inforation_not_available">"文書情報が利用できません。 現時点で有効な接続が存在しないか、または文書がモバイルカテゴリに存在しない可能性があります。"</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc">"文書を保存できません"</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc_connection_not_available">"文書を保存できません。 現時点で有効な接続が存在しないか、または文書がモバイルカテゴリに存在しない可能性があります。"</string>
+
+    <!-- XMSG -->
+
+    <string name="cannot_save_doc_generic_error">"文書を保存できません。一般エラーが発生しました。"</string>
+
+    <!-- XMSG -->
+
+    <string name="sup_register_success">"登録が完了しました"</string>
+
+    <!-- XMSG -->
+
+    <string name="sup_deregister_success">"登録解除が完了しました"</string>
+
+    <!-- XMSG -->
+
+    <string name="personal_view_size_exceeding">"保存のための領域が不足しています。既存の個人ビューを削除して領域を確保するか、設定を使用して保管容量を増やしてください。"</string>
+
+	<!-- XMSG -->
+
+    <string name="msg_added_to_favourite">"お気に入りに追加されました"</string>
+
+    
+
+    <!-- Settings options -->
+
+     <!-- XLST: General Settings -->
+
+    <string name="general_settings">"一般設定"</string>
+
+    <!-- XLST: connections -->
+
+    <string name="connections">"接続"</string>
+
+    <!-- XLST: Network Options -->
+
+    <string name="network">"ネットワークオプション"</string>
+
+    <!-- XLST: SAP BI Application Password -->
+
+    <string name="app_pwd">"アプリケーションパスワード入力"</string>
+
+    <!-- XLST: Viewing Options -->
+
+    <string name="viewing">"表示オプション"</string>
+
+    <!-- XLST: Logs -->
+
+    <string name="log">"ログ"</string>
+
+    <!-- XLST: xc setting -->
+
+    <string name="xc_setting">"ダッシュボード設定"</string>
+
+    <!-- XLST: Legal -->
+
+    <string name="legal">"法的"</string>
+
+    <!-- XLST: personal_view -->
+
+    <string name="personal_view">"個人ビューのストレージ"</string>
+
+    <!-- XLST: memused -->
+
+    <string name="mem_used">"0 MB/100 MB 使用済"</string>
+
+
+
+    <!-- XLST: dashboard settings -->
+
+    <string name="dashboard">"ダッシュボード設定"</string>
+
+    <!-- XLST:Personal View Storage -->
+
+    <string name="per_view_storage">"個人ビューのストレージ"</string>
+
+    <!-- XLST:Personal View Storage Limit -->
+
+    <string name="limit">"制限"</string>
+
+
+
+    <!-- XLST: Personal View storage settings -->
+
+    <string name="pv_setting">"個人ビュー設定"</string>
+
+    <!-- XLST: Personal View storage Limit option -->
+
+    <string name="pv_setting_limit_none">"なし"</string>
+
+    <!-- XLST: Offline Dataset Number -->
+
+    <string name="xc_offline_dataset">"オフラインデータセット数"</string>
+
+    <!-- XLST: SDK Offline storage -->
+
+    <string name="xc_sdk_storage">"SDK オフラインストレージ"</string>
+
+    <!-- XLST: Personal View Memory Usage Text -->
+
+    <string name="pv_mem_usage">"(%1$s/%2$s 使用済)"</string>
+
+    <!-- XLST: about -->
+
+    <string name="about">"製品情報"</string>
+
+    <!-- XLST: Quick Hints -->
+
+    <string name="quick_hints">"クイックヒント"</string>
+
+    <!-- XHED: heading for connections related items in the settings screeen -->
+
+    <string name="connection_related">"接続関連"</string>
+
+    <!-- XHED: heading for Application related items in the settings screeen -->
+
+    <string name="application_related">"アプリケーション関連"</string>
+
+
+
+    <!-- Connection Settings Options -->
+
+    <!-- XHED: heading for the list which gaves different ways to create connections -->
+
+    <string name="my_connections">"接続"</string>
+
+    <!-- XLST: Existing Connections -->
+
+    <string name="exist_conn">"既存の接続"</string>
+
+    <!-- XLST: Creat New Connection Manually -->
+
+    <string name="create_new_cnx">"新規接続登録"</string>
+
+    <!-- XLST: Creat New Connection Manually -->
+
+    <string name="edit_cnx">"接続の編集"</string>
+
+    <!-- XLST: Import Connection from server by mentioning mobile server url -->
+
+    <string name="import_cnx">"URL を使用してインポート"</string>
+
+    <!-- XLST: SUP Connection -->
+
+    <string name="sup_connection">"SUP 接続"</string>
+
+    <!-- XLST: SMP Connection -->
+
+    <string name="smp_connection">"SMP 接続"</string>
+
+    <!-- XLST: SMP Cloud Connection -->
+
+    <string name="smpcloud_connection">"SMP Cloud 接続"</string>
+
+    <!-- XTXT: used to show below the connection name if it is not connected -->
+
+    <string name="not_connected">"接続"</string>
+
+    <!-- XTXT: used to show below the connection name  if it is connected -->
+
+    <string name="connected">"接続済"</string>
+
+    <!-- XTXT: used to show below the connection if it is set as default connection -->
+
+    <string name="default_connection">"(デフォルト)"</string>
+
+
+
+    <!-- SSO Strings -->
+
+
+
+
+
+    <!-- XMSG: sso Login -->
+
+    <string name="Login_credentials">"ユーザ認証情報"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="Reselect">"再度選択してください"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_authentication">"認証"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_Certificate_Title">"証明書エラー"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_Mandatory_certifcate">"この接続には証明書が必要です"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certificate_invalid">"選択した証明書が無効であるか、破損している可能性があります。続行しますか。"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certiifcate_unavailable">"SAP BusinessObjects Mobile の証明書がインストールされていません。続行しますか。"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_certificate_not_required">"どの方法で接続にサインインしますか"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="sso_X509_unauthorised_connection_sso">"SSO ではオフラインアクセスは無効です"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_certificate">"SSO 有効 (証明書選択)"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_cookie_Based">"SSO 有効"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_authenticate_at_logon">"ログオン時に認証"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_cookie_enabled">"クッキー有効"</string>
+
+    <!-- XMSG: sso Login -->
+
+    <string name="label_sso_reauthenticate_at_logon">"ログオン時に再認証"</string>
+
+
+
+    <!-- Network Settings Options -->
+
+    <!-- XHED: heading for the list which gaves Network Options -->
+
+    <string name="network_options">"ネットワークオプション"</string>
+
+    <!-- XLST: choose to WorkOffline vy selecting yes or no -->
+
+    <string name="work_offline">"オフライン作業"</string>
+
+     <!-- XMSG: auto update -->
+
+    <string name="bi_auto_update">"自動更新"</string>
+
+    <!-- XMSG: auto update with wifi-->
+
+    <string name="bi_auto_update_wiFi">"自動更新 (Wi-Fi の場合のみ)"</string>
+
+    <!-- XMSG: auto update with wifi and cellular dats-->
+
+    <string name="bi_auto_update_Wifi_and_Cellular">"自動更新 (Wi-Fi およびモバイルデータの場合)"</string>
+
+    <!-- to be removed Later -->
+
+    <!-- XHED: heading for Offline Alert Dailog -->
+
+    <string name="offline_alert">"オフラインアラート"</string>
+
+
+
+    <!-- Viewing Options -->
+
+    <!-- XHED: heading for the list which gaves Viewing Options -->
+
+    <string name="viewing_options">"文書表示オプション"</string>
+
+    <!-- XHED: Select Theme -->
+
+    <string name="select_theme">"テーマ選択"</string>
+
+    <!-- Theme text -->
+
+    <!-- XLST:  sets the Ivory Theme -->
+
+    <string name="ivory">"アイボリー"</string>
+
+    <!-- XLST: sets the Graphite Theme -->
+
+    <string name="graphite">"グラファイト"</string>
+
+
+
+    <!-- About -->
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XFLD: Version info in splash screen -->
+
+    <string name="version">"バージョン:"</string>
+
+    <!-- XFLD: Build info in splash screen -->
+
+    <string name="build">"ビルド:"</string>
+
+
+
+    <!-- Quick Hint related strings -->
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickref_launch_text"><b>"SAP BusinessObjects Mobile"</b>" へようこそ。 このクイックヒントウィザードでは、アプリケーションの使用方法に関するヒントを参照することができます。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt1">"必要な文書を"<b>"長押し"</b>"すると、コンテキストメニューが表示されます。 オプションを"<b>"タップ"</b>"して、必要なアクションを実行します。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt2">"ページインジケータを"<b>"タップ"</b>"してページナビゲーションスライダを表示します。 この操作は、スマートフォンではシークバーを使用して行うことができます。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt3">"チャートを"<b>"ダブルタップ"</b>"するかテーブル (青色テキスト) を"<b>"もう一度タップ"</b>"してドリルします。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt4">"テーブルの列ヘッダを"<b>"ダブルタップ"</b>"して、"<i>"テーブルアクション"</i>"にアクセスします。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt5">"アイコンを"<b>"タップ"</b>"して、レポートの一部で必要なアクションを実行します。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="quickeref_txt6"><i>"テーブルアクション"</i>"を選択して、列または行に対して、並べ替え、固定/固定解除または表示/非表示などのタスクを実行します。"</string>
+
+    <string name="quickeref_txt7"><i>"セクション"</i>"アイコンを"<b>"タップ"</b>"して、レポートで提供されているセクションオプションにアクセスします。"</string>
+
+    <string name="quickeref_txt8"><i>"セクション"</i>"ポップアップで、ラジオボタンを"<b>"タップ"</b>"してレポートのセクション情報を表示するか、または矢印を"<b>"タップ"</b>"してレポートの次レベルの情報を表示します。"</string>
+
+    <string name="quickeref_txt9"><i>"シェア"</i>"アイコンを"<b>"タップ"</b>"し、"<i>"注釈"</i>"を選択して共有前にレポートに注釈を付けます。"</string>
+
+    <string name="quickeref_txt10">"ブラースライダを"<b>"ドラッグ"</b>"し、共有前にレポートを変形させます。"</string>
+
+    <string name="quickeref_txt11">"それぞれの興味のある地点 (POI) を"<b>"タップ"</b>"し、関連する値を表示します。"</string>
+
+    <string name="quickeref_txt12">"値を"<b>"タップ"</b>"して、詳細情報を表示します。"</string>
+
+    <string name="quickeref_txt13">"矢印を"<b>"タップ"</b>"して、テーブルの階層データ内をナビゲートします。"</string>
+
+    <string name="quickeref_txt14">"製品階層プロンプトのポップアップで、矢印を"<b>"タップ"</b>"して階層内をナビゲートし、プロンプト値を選択します。"</string>
+
+    <string name="quickeref_txt15"><i>"表示/非表示"</i>"アイコンを"<b>"タップ"</b>"して、ダッシュボード表示中にアクションバーにアクセスします。"</string>
+
+    <string name="quickeref_txt16"><i>"固定"</i>"アイコンを"<b>"タップ"</b>"して、ダッシュボード表示時にアクションバーをロックします。"</string>
+
+
+
+    <!-- XCKL -->
+
+    <string name="quickref_checkbox_text">"次回から表示しない"</string>
+
+    <!-- XBUT: Skip -->
+
+    <string name="quickref_skipbutton_text">"スキップ"</string>
+
+    <!-- XBUT: Exit -->
+
+    <string name="quickref_exitbutton_text">"終了"</string>
+
+    <!-- XBUT: Show Quick Hints -->
+
+    <string name="quickref_launchbutton_text">"クイックヒント表示"</string>
+
+
+
+    <!-- Legal Information -->
+
+    <!-- XLST: Legal information -->
+
+    <string name="mobi_legal">"法令に基づく情報"</string>
+
+    <!-- EULA Updates if any Goes here -->
+
+    <!-- XMSG: Eula Agreement Terms and Conditions -->
+
+    
+
+    <!-- Log Settings -->
+
+    <!-- XHED: heading for log settings -->
+
+    <string name="log_title">"ログ設定"</string>
+
+    <!-- XMSG: for enabling the logs -->
+
+    <string name="log_message">"ログを有効化しますか。"</string>
+
+    <!-- XLST: Send Log File -->
+
+    <string name="log_sendlog">"ログファイル送信"</string>
+
+    <!-- XLST: clear Log -->
+
+    <string name="log_clearlog">"ログクリア"</string>
+
+     <!-- XLST: view log -->
+
+    <string name="view_log">"ログ表示"</string>
+
+     <!-- XLST: empty log -->
+
+    <string name="empty_log">"ログなし"</string>
+
+    
+
+
+
+    <!-- XMSG -->
+
+    <string name="log_nologs_exists">"ログはすでにクリアされています"</string>
+
+    <!-- XMSG -->
+
+    <string name="log_nologs_tosend">"送信できるログがありません"</string>
+
+    <!-- XTXT -->
+
+    <string name="log_mail_subject">"MobiLogger ファイル"</string>
+
+    <!-- XMSG -->
+
+    <string name="log_clear_logs_confirm">"ログをクリアしますか。"</string>
+
+    <!-- XLST: Enable Logs -->
+
+    <string name="log_enable">"ログ有効化"</string>
+
+    <!-- Browse Tab Connection Strings -->
+
+    <!-- XHED: heading in the browse tab when there are no connections -->
+
+    <string name="noconnections">"接続なし"</string>
+
+    <!-- XLST: showed in the browse tab to create connection when there are no connections -->
+
+    <string name="create_connection">"接続を登録して文書を表示"</string>
+
+    <!-- XLST: showed in the browse tab to establish connection when you are not connected -->
+
+    <string name="establish_connection">"接続を確立して文書をダウンロード"</string>
+
+
+
+    <!-- Table Header Options -->
+
+    <!-- XTXT -->
+
+    <string name="freeze">"固定"</string>
+
+    <!-- XTXT -->
+
+    <string name="hide">"非表示"</string>
+
+    <!-- XTXT -->
+
+    <string name="wrap">"ラップ"</string>
+
+    <!-- XTXT -->
+
+    <string name="unfreeze">"固定解除"</string>
+
+    <!-- XTXT -->
+
+    <string name="unhide_all">"すべて表示"</string>
+
+    <!-- XTXT -->
+
+    <string name="unwrap">"ラップ解除"</string>
+
+    <!-- XTXT -->
+
+    <string name="row">"行"</string>
+
+    <!-- XTXT -->
+
+    <string name="column">"列"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_up">"ドリルアップ先"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_down">"ドリルダウン先"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort_asc">"昇順"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort_desc">"降順"</string>
+
+    <!-- XTXT -->
+
+    <string name="remove_sort">"ソート解除"</string>
+
+    <!-- Hierarchical Navigations Options -->
+
+    <!-- XTXT -->
+
+    <string name="drill_focus_in">"ドリルフォーカスイン"</string>
+
+    <!-- XTXT -->
+
+    <string name="drill_focus_out">"ドリルフォーカスアウト"</string>
+
+    <!-- XTXT -->
+
+    <string name="expand_all">"全展開"</string>
+
+    <!-- XTXT -->
+
+    <string name="collapse_all">"全圧縮"</string>
+
+    <!-- XTXT -->
+
+    <string name="apply_filter">"フィルタ適用"</string>
+
+    <!-- XTXT -->
+
+    <string name="edit_filter">"フィルタ編集"</string>
+
+    <!-- XTXT -->
+
+    <string name="remove_filter">"フィルタ削除"</string>
+
+
+
+    <!-- Create SUP Connection -->
+
+    <!-- XHED: heading for Sup configuration section -->
+
+    <string name="sup_configaration">"SUP 設定"</string>
+
+    <!-- XBUT: Register -->
+
+    <string name="sup_register">"登録"</string>
+
+    <!-- XBUT: Deregister -->
+
+    <string name="sup_deregister">"登録解除"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_instructedbyadmin">"上述の値は管理者から指示があった場合にのみ変更してください"</string>
+
+    <!-- XHED: heading for sup server details section -->
+
+    <string name="sup_serverdetail">"SUP サーバ詳細"</string>
+
+    <!-- XHED: heading for sup Access details section -->
+
+    <string name="sup_accessdetail">"アクセス詳細"</string>
+
+
+
+    <!-- SUP Error Messages -->
+
+    <!-- XTXT -->
+
+    <string name="sup_error_authentication">"認証エラー"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_mobile_client">"モバイルクライアントでエラーが発生しました。"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_HTTP">"HTTP エラー"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_network">"ネットワーク接続でエラーが発生しました"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_parse">"サーバからの応答の解析中にエラーが発生しました"</string>
+
+    <!-- XTXT -->
+
+    <string name="sup_error_unknown">"未知のエラーが発生しました。"</string>
+
+
+
+    <!-- Sorting Options -->
+
+    <!-- XTXT -->
+
+    <string name="today">"本日"</string>
+
+    <!-- XTXT -->
+
+    <string name="yesterday">"昨日"</string>
+
+    <!-- XTXT -->
+
+    <string name="thisweek">"今週"</string>
+
+    <!-- XTXT -->
+
+    <string name="thismonth">"今月"</string>
+
+    <!-- XTXT -->
+
+    <string name="older">"それ以前"</string>
+
+    <!-- XLST: sets the sort order by Category -->
+
+    <string name="category">"カテゴリ"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample">"サンプル"</string>
+
+    <!-- XLST: sets the sort order by date -->
+
+    <string name="date">"日付"</string>
+
+    <!-- XLST: sets the sort order by date -->
+
+    <string name="date_modified">"変更日付"</string>
+
+    <!-- XLST: sets the sort order by Title -->
+
+    <string name="title">"表題"</string>
+
+    <!-- XLST: sets the sort order by Title -->
+
+    <string name="document_title">"文書表題"</string>
+
+    <!-- XLST: sets the sort order by Author -->
+
+    <string name="author1">"作成者"</string>
+
+    <!-- XTXT -->
+
+    <string name="group_reports_by">"次の基準でレポートをグループ化:"</string>
+
+    <!-- XTXT -->
+
+    <string name="sorting_order">"ソート順序"</string>
+
+    <!-- XTXT -->
+
+    <string name="show_downloaded">"ダウンロード済レポートのみ表示"</string>
+
+    <!-- XTXT -->
+
+    <string name="sort">"ソート"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="temp_file_extension">"_temp"</string>
+
+    <!-- XTXT -->
+
+    <string name="instance_file_extension">"_instance"</string>
+
+    <!-- XTXT: appears in the search box -->
+
+    <string name="search_hint">"検索"</string>
+
+    <!-- XTXT: for creating input dialog fragment -->
+
+    <string name="input_control">"フィルタ"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_values">"値選択"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="type_value">"値入力"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="input_control_title">"フィルタ: 値選択"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_value">"値選択"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="choose_date">"日付選択"</string>
+
+    <!-- XTXT: used in inputfilters or prompts dialog -->
+
+    <string name="all_values">"すべての値"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="gridview">"グリッド"</string>
+
+    <!-- XTXT -->
+
+    <string name="listview">"一覧"</string>
+
+    <!-- XTXT -->
+
+    <string name="grid_view">"グリッドビュー"</string>
+
+    <!-- XTXT -->
+
+    <string name="list_view">"リストビュー"</string>
+
+    <!-- XTXT -->
+
+    <string name="success">"成功"</string>
+
+    <!-- XTXT -->
+
+    <string name="failure">"失敗"</string>
+
+    <!-- XTXT: used in custom title bar to select the report -->
+
+    <string name="report_list">"レポート"</string>
+
+    <!-- XTXT -->
+
+    <string name="report_part_menu">"メニュー"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_values">"プロンプト"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_add_values">"値追加"</string>
+
+    <!-- XMSG -->
+
+    <string name="session_timeout">"セッションがタイムアウトしました"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_available">": 利用可能な更新"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_document">"利用可能な更新"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_instance">"利用可能インスタンス"</string>
+
+    <!-- XTXT -->
+
+    <string name="update_document_instance">"利用可能な更新およびインスタンス"</string>
+
+    <!-- XTXT -->
+
+    <string name="view_doc_instance_online">"最新の利用可能インスタンスの表示"</string>
+
+
+
+    <!-- SUP Connection details -->
+
+    <!-- to be removed later -->
+
+    <!-- Dont change the below mobi_app value i.e., MobiApp -->
+
+    <!-- Not intended for translation -->
+
+    
+
+
+
+    <!-- XFLD: sets the Application Id for SUP Configuration -->
+
+    <string name="applicationid">"アプリケーション ID"</string>
+
+    <!-- XFLD: sets the Security configuration Name for SUP Configuration -->
+
+    <string name="security_configname">"セキュリティ設定"</string>
+
+    <!-- XFLD: sets the server for SUP Server Details -->
+
+    <string name="server">"サーバ"</string>
+
+    <!-- XFLD: sets the port for SUP Server Details -->
+
+    <string name="port">"ポート"</string>
+
+    <!-- XFLD: sets the proxy for SMP Server Details -->
+
+    <string name="proxy">"プロキシ"</string>
+
+    <!-- XFLD: sets the farm id for SUP Server Details -->
+
+    <string name="farmid">"ファーム ID"</string>
+
+    <!-- XLST: sup configuration -->
+
+    <string name="sup_config">"SUP 設定"</string>
+
+    <!-- XLST: smp configuration -->
+
+    <string name="smp_config">"SMP 設定"</string>
+
+    <!-- XBUT: SAP BI Application Password Yes button -->
+
+    <string name="toggle_yes">"はい"</string>
+
+    <!-- XBUT: SAP BI Application Password No button -->
+
+    <string name="toggle_no">"いいえ"</string>
+
+    <!-- XLST: connection details -->
+
+    <string name="conn_det">"接続詳細"</string>
+
+    <!-- XLST: authentication details -->
+
+    <string name="auth_det">"認証詳細"</string>
+
+
+
+    <!-- Custom Title Bar -->
+
+    <!-- Not intended for translation -->
+
+    
+
+    <!-- XTXT -->
+
+    <string name="ctb_document_name">"文書名"</string>
+
+    <!-- XMIT:menu item for settings -->
+
+    <string name="ctb_app_settings">"アプリケーション設定"</string>
+
+    <!-- added to be in sync with perforce strings to avoid compilation error , not used -->
+
+    <!-- XMIT:menu item for settings -->
+
+    <string name="ctb_settings">"設定"</string>
+
+    <!-- XTXT: used in custom title bar to select the report -->
+
+    <string name="ctb_reports">"レポート"</string>
+
+    <!-- XHED: heading for SUP COnnection window in phones -->
+
+    <string name="ctb_sup_con_set">"SUP 接続"</string>
+
+    <!-- XHED: heading for Connections Settings window in phones -->
+
+    <string name="ctb_con_set">"接続設定"</string>
+
+    <!-- XHED: heading for NetWork Settings window in phones -->
+
+    <string name="ctb_net_set">"ネットワーク設定"</string>
+
+    <!-- XHED: heading for Viewing  options in phones -->
+
+    <string name="ctb_view_set">"表示オプション"</string>
+
+    <!-- XHED: heading for Log Settings window in phones -->
+
+    <string name="ctb_log_set">"ログ設定"</string>
+
+    <!-- XHED: heading for creaing  connection window in phones -->
+
+    <string name="ctb_create_con">"接続登録"</string>
+
+
+
+    <!-- Dialog text -->
+
+    <!-- XTXT -->
+
+    <string name="table_actions">"テーブルアクション"</string>
+
+    <!-- XMSG -->
+
+    <string name="connected_already">"すでに接続されています"</string>
+
+    <!-- XBUT: log off -->
+
+    <string name="logout">"ログオフ"</string>
+
+    <!-- XBUT: log on -->
+
+    <string name="logon">"ログオン"</string>
+
+    <!-- XMSG -->
+
+    <string name="tap_string">"(順序を逆にするにはタップしてください)"</string>
+
+    <!-- XLST: choose yes or no to save Password -->
+
+    <string name="savepw">"パスワード保存"</string>
+
+    <!-- XTXT -->
+
+    <string name="off">"オフ"</string>
+
+    <!-- XTXT -->
+
+    <string name="error">"エラーメッセージ"</string>
+
+    <!-- XTXT -->
+
+    <string name="prompt_optional">"オプション"</string>
+
+    <!-- XHED: heading for logout dialog -->
+
+    <string name="logout_title">"ログアウト"</string>
+
+    <!-- XHED: title for drill options dailog -->
+
+    <string name="drill_options">"ドリルオプション"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="filter_clear">"クリア"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="filter_revert">"取消"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="no_filters">"フィルタ適用なし"</string>
+
+    <!-- XHED: txt in filter dialog -->
+
+    <string name="all_objects">"全オブジェクト"</string>
+
+
+
+    <!-- Annotations -->
+
+    <!-- XTXT -->
+
+    <string name="tap">"タップしてテキスト入力"</string>
+
+
+
+    <!-- Page Indicator -->
+
+    <!-- XTXT -->
+
+    <string name="page_indicator">"ページインジケータ"</string>
+
+
+
+    <!-- Session timeout -->
+
+    <!-- XTXT -->
+
+    <string name="reconnect">"再接続"</string>
+
+
+
+    <!-- Report Part Quick Action -->
+
+    <!-- XLST: full screen option in report part quick action dialog for tablets -->
+
+    <string name="full_screen">"全画面"</string>
+
+    <!-- XLST: exit full screen option in report part quick action dialog for tablets -->
+
+    <string name="exit_full_screen">"全画面を終了"</string>
+
+    <!-- XLST: filter option in report part quick action dialog for tablets -->
+
+    <string name="report_filter">"フィルタ"</string>
+
+    <!-- XMSG: related to Input control -->
+
+    <string name="object_not_supported">"オブジェクトタイプはサポートされていません"</string>
+
+    <!-- Content not supported strings -->
+
+    <!-- XMSG: related to charts -->
+
+    <string name="content_not_supported">"コンテンツはサポートされていません"</string>
+
+    <!-- XMSG: related to geo map -->
+
+    <string name="geomap_not_supported">"デバイスから必要なマップライブラリにアクセスできないため、地理マップを表示できません"</string>
+
+    <!-- XMSG: related to charts -->
+
+    <string name="content_data_exceeding_limit">"データ要素が多すぎるためチャートを表示できません"</string>
+
+    <!-- XMSG: related to section -->
+
+    <string name="refresh_to_view_content">"コンテンツを表示するにはリフレッシュしてください"</string>
+
+    <!-- XMSG:  google play services not available -->
+
+    <string name="google_play_services_not_available">"Google Play サービスは利用できません"</string>
+
+
+
+    <!-- XTXT -->
+
+    <string name="refresh_confirm_title">"文書リフレッシュ"</string>
+
+    <!-- XTXT -->
+
+    <string name="dril_temp_file_extension">".tmp"</string>
+
+    <!-- XHED:heading in home tab when you are connected and not downloaded any docs yet -->
+
+    <string name="no_downloaded_docs">"利用可能文書なし"</string>
+
+    <!-- XLST:shown in home tab when you have not downloaded any docs -->
+
+    <string name="add_doc">"文書追加"</string>
+
+
+
+    <!-- XBUT: Back in sections dialog -->
+
+    <string name="back">"前画面"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="page">"ページ"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="page_loading">"ページ..."</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="MultipleDimensions">"複数ディメンション"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="ALL">"すべて"</string>
+
+    <!-- XTXT: For mobile design report page navigator -->
+
+    <string name="link">"リンク"</string>
+
+
+
+    <!-- IC operators -->
+
+    <!-- XTXT -->
+
+    <string name="equal">"等しい"</string>
+
+    <!-- XTXT -->
+
+    <string name="in_list">"一覧内"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_equal">"等しくない"</string>
+
+    <!-- XTXT -->
+
+    <string name="greater">"より大きい"</string>
+
+    <!-- XTXT -->
+
+    <string name="greater_or_equal">"以上"</string>
+
+    <!-- XTXT -->
+
+    <string name="less">"より小さい"</string>
+
+    <!-- XTXT -->
+
+    <string name="between">"範囲内"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_between">"範囲外"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_in_list">"一覧外"</string>
+
+    <!-- XTXT -->
+
+    <string name="is_null">"Is Null"</string>
+
+    <!-- XTXT -->
+
+    <string name="like">"パターンと一致"</string>
+
+    <!-- XTXT -->
+
+    <string name="not_like">"パターンと一致しない"</string>
+
+    <!-- XTXT -->
+
+    <string name="both">"両方"</string>
+
+    <!-- XTXT -->
+
+    <string name="except">"除外"</string>
+
+    <!-- XTXT -->
+
+    <string name="less_or_equal">"以下"</string>
+
+
+
+    <!-- Application password strings -->
+
+    <!-- XTXT SAP BI password dialog header -->
+
+    <string name="app_enter_pwd">"アプリケーションパスワード"</string>
+
+    <!-- XTXT SAP BI password is mandatory by server -->
+
+    <string name="app_pwd_login">"BI プラットフォーム接続を確立するには、アプリケーションパスワードを設定する必要があります。 パスワードによってオフラインデータを保護することができます。 \n\n続行しますか。"</string>
+
+    <!-- XTXT SAP BI password limit text -->
+
+    <string name="app_enter_pwd_text">"パスワードは %1$d 文字以上でなければなりません"</string>
+
+    <!-- XTXT SAP BI re-enter password dialog -->
+
+    <string name="app_reenter_pwd">"アプリケーションパスワード確認"</string>
+
+    <!-- XTXT SAP BI re-enter password text -->
+
+    <string name="app_reenter_pwd_text">"アプリケーションパスワード確認"</string>
+
+    <!-- XTXT SAP BI password change dialog -->
+
+    <string name="app_cur_pwd">"パスワード変更"</string>
+
+    <!-- XTXT SAP BI password change text -->
+
+    <string name="app_cur_pwd_text">"現在のアプリケーションパスワードの入力"</string>
+
+    <!-- XTXT SAP BI disable password dialog -->
+
+    <string name="app_disable_pwd">"アプリケーションパスワード無効化"</string>
+
+    <!-- XTXT SAP BI new password dialog -->
+
+    <string name="app_new_pwd">"新しいアプリケーションパスワード"</string>
+
+
+
+    <!-- XBUT: Login button application password dialog -->
+
+    <string name="login_cmd">"続行"</string>
+
+    <!-- XBUT: Confirm button application passsword disable or change password dialog -->
+
+    <string name="confirm">"確認"</string>
+
+    <!-- XBUT: Next button to switch application passsword dialogs -->
+
+    <string name="next">"次へ"</string>
+
+    <!-- XTXT SAP BI password toggle text -->
+
+    <string name="use_app_pwd">"アプリケーションパスワード使用"</string>
+
+    <!-- XTXT SAP BI password change set text -->
+
+    <string name="app_pwd_set">"アプリケーションパスワード設定"</string>
+
+    <!-- XBUT SAP BI password change password -->
+
+    <string name="change_cmd">"変更"</string>
+
+    <!-- XTXT SAP BI password timeout -->
+
+    <string name="app_pwd_timeout">"パスワードタイムアウト"</string>
+
+    <!-- XTXT SAP BI password security lowered when selected value > previous value -->
+
+    <string name="app_pwd_security">"セキュリティ低下"</string>
+
+    <!-- XTXT SAP BI password security lowered text -->
+
+    <string name="app_pwd_security_text">"このアクションによりアプリケーションのセキュリティが低下します"</string>
+
+
+
+    <!-- Reset Application password strings -->
+
+    <!-- XTXT SAP BI application reset password -->
+
+    <string name="reset_application">"アプリケーションリセット"</string>
+
+    <!-- XTXT SAP BI reset password text -->
+
+    <string name="reset_app_text">"アプリケーションをリセットすると、接続詳細およびアプリケーション設定を含むすべてのローカルデータが削除されます。 リセット後は、アプリケーションパスワードを使用せずにアプリケーションにアクセスすることができます。\n\nアプリケーションのリセットを続行しますか。"</string>
+
+    <!-- XTXT SAP BI application reset password warning -->
+
+    <string name="reset_app_warning">"警告"</string>
+
+    <!-- XTXT SAP BI application reset password warning text -->
+
+    <string name="reset_app_warning_text">"正しくないアプリケーションパスワードが 9 回入力されました。 正しくないパスワードがもう 1 回入力されると、アプリケーションがリセットされ、接続詳細および設定を含むすべてのローカルデータが削除されます。\n\nリセット後にアプリケーションにアクセスするには、新規接続を確立して、有効なアプリケーションパスワードを入力してください。"</string>
+
+
+
+    <!-- Wrong Application password -->
+
+    <!-- XTXT SAP BI wrong password warning -->
+
+    <string name="wrong_pwd">"無効なパスワード"</string> 
+
+    <!-- XTXT SAP BI wrong password warning text -->
+
+    <string name="wrong_pwd_text">"正しくないパスワードが %1$d 回入力されました。 \n\nアプリケーションをリセットしますか。"</string>
+
+    <!-- XTXT Illegal access of application -->
+
+    <string name="app_exit_message_heaad">"不正なアプリケーションアクセス"</string>
+
+
+
+    <!-- XTXT SAP BI exit app message -->
+
+    <string name="app_pwd_exit_text">"アプリケーションは 5 秒後に終了します"</string>
+
+
+
+    <!-- Email options -->
+
+    <!-- XTXT -->
+
+    <string name="open_browser">"タップしてブラウザでレポートを開きます"</string>
+
+    <!-- XTXT -->
+
+    <string name="add_connection_android">"タップして SAP BI アプリケーション (Android) に接続を追加します"</string>
+
+    <!-- XTXT -->
+
+    <string name="add_connection_ios">"タップして SAP BI アプリケーション (iOS) に接続を追加します"</string>
+
+    <!-- XTXT -->
+
+    <string name="media_player_codecs">"メモ: このサウンドクリップを再生するには、使用できるメディアプレーヤの最新コーデックをダウンロード済であることを確認してください。"</string>
+
+    <!-- XTXT -->
+
+    <string name="sent_from">"Android デバイスから送信"</string>
+
+    <!-- XTXT -->
+
+    <string name="open_device_android">"タップして Android デバイスの SAP BI アプリケーションでレポートを開きます"</string>
+
+    <!-- XTXT -->
+
+    <string name="open_device_ios">"タップして iOS デバイスの SAP BI アプリケーションでレポートを開きます"</string>
+
+
+
+    <!-- Deleting documents -->
+
+    <!-- XTXT -->
+
+    <string name="doc_delete">"文書が削除されました"</string>
+
+    <!-- XTXT -->
+
+    <string name="doc_delete_fail">"文書を削除できませんでした"</string>
+
+
+
+    <!-- Sample Doc Names -->
+
+    <!-- XTXT -->
+
+    <string name="sample_doc1">"銀行管理サマリ"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc2">"ワークフォース分布の分析"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc3">"小売業ラウンチパッド"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc4">"販売収益性"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc5">"店舗責任者"</string>
+
+    <!-- XTXT -->
+
+    <string name="sample_doc6">"サステナビリティ"</string>
+
+    <!-- Categories -->
+
+    <!-- XTXT -->
+
+    <string name="category_all">"すべて"</string>
+
+    <!-- XTXT -->
+
+    <string name="category_others">"その他"</string>
+
+    <!-- XTXT if the document cannot be saved due to last refresh date + TTL being expired -->
+
+    <string name="doc_not_saved">"セキュリティ強化のために設定されたポリシーによって、この文書をダウンロードできません"</string>
+
+     <!-- XTXT -->
+
+  	<string name="open_doc_back_msg">"ホーム画面に戻ります"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_xcelsius">"ダウンロードしています。お待ちください..."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_update_xcelsius">"更新しています。お待ちください..."</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_update_xcelsius_backup">"文書のバックアップを取得できません。後で再試行してください。"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_failer_xcelsius">"操作を実行できません。後で再試行してください。"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_download_success">"ダウンロードが完了しました"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_download_failure">"ダウンロード中にエラーが発生しました"</string>
+
+
+
+    <!-- XMIT : menu item  used to collaborate with JAM -->
+
+    <string name="collaborate">"コラボレーション"</string>
+
+    <!-- XHED : menu item  used to collaborate with JAM -->
+
+    <string name="jam">"SAP Jam"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_recieve_oauthtoken">"SAP Jam サーバからのリクエストトークン取得中にエラーが発生しました"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_recieve_accesstoken">"SAP Jam サーバからのアクセストークン取得中にエラーが発生しました"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_groups_error">"SAP Jam サーバからのグループ取得中にエラーが発生しました"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_groups_exists_error">"同じ名称のグループがすでに存在します"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_create_groups_error">"グループ登録中にエラーが発生しました"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_upload_photo_error">"SAP Jam サーバへのスクリーンショットのアップロード中にエラーが発生しました"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_send_invite_error">"ユーザへの招待送信中にエラーが発生しました"</string>
+
+    <!-- XTXT -->
+
+    <string name="mesg_invalid_oauth_details">"OAuth 詳細が無効です。適切な OAuth 詳細を CMS で設定してください"</string>
+
+
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="jam_oauth_header">"SAP Jam ログイン"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="jam_sendtojam">"SAP Jam に送信"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="create_new_group">"新規グループ登録"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="edit_group">"グループ編集"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_name">"グループ名"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_objective">"目的"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="group_participants">"参加者"</string>
+
+    <!-- XTXT: heading for jam diaglog fragment -->
+
+    <string name="jam_current_groups">"現在のグループ"</string>
+
+    <!-- XTXT: text for posting the discussion -->
+
+    <string name="post">"投稿"</string>
+
+    <!-- XHED: heading for jam diaglog fragment -->
+
+    <string name="group_is_private">"非公開"</string>
+
+    <!-- XTXT: text for posting the discussion -->
+
+    <string name="you">"自分"</string>
+
+    <!-- XBUT: send button in send dialog -->
+
+    <string name="jam_Send">"送信"</string>
+
+    <!-- XMSG: message for Progress dialogs -->
+
+    <string name="uploading">"アップロード中..."</string>
+
+    <!-- XTXT: label for work phone number -->
+
+    <string name="home_lbl">"自宅"</string>
+
+    <!-- XTXT: label for home phone number -->
+
+    <string name="work_lbl">"勤務先"</string>
+
+    <!-- XTXT: label for mobile number -->
+
+    <string name="Mobile_lbl">"携帯電話"</string>
+
+    <!-- XHED: heading for user profile diaglog fragment -->
+
+    <string name="user_profile">"ユーザプロファイル"</string>
+
+    <!-- XHED: heading for user profile diaglog fragment -->
+
+    <string name="wait">"お待ちください..."</string>
+
+    <!-- XTXT: text for none -->
+
+    <string name="none">"なし"</string>
+
+    <!-- XTXT :AM I will be appeding this date based on format -->
+
+    <string name="AM">"AM"</string>
+
+    <!-- XTXT :PM I will be appeding this date based on format -->
+
+    <string name="PM">"PM"</string>
+
+
+
+    <!-- XTXT : Message to show in SSLConnectivityDialogFragment -->
+
+    <string name="ssl_alertmessge">"この接続は信頼できない可能性があります。続行しますか。"</string>
+
+    <!-- XHED : heading for SSLConnectivityDialogFragment -->
+
+    <string name="ssl_alert_title">"アラート"</string>
+
+    <!-- XTXT : Alert Message -->
+
+    <string name="sapbi_delete">"外部プログラムによって接続が削除されます。続行しますか。"</string>
+
+    <!-- XTXT : Alert Message -->
+
+    <string name="sapbi_modify">"外部プログラムによって接続が変更されます。続行しますか。"</string>
+
+    <!-- new connection for BOE -->
+
+    <string name="conn_server_URL">"サーバ URL"</string>
+
+    <!-- XTXT : CMS name -->
+
+    <string name="cms_name">"CMS 名"</string>
+
+    <!-- XTXT : authentication mode -->
+
+    <string name="auth_mode">"認証モード"</string>
+
+    <!-- XTXT : Default Connection -->
+
+    <string name="default_connect">"デフォルト接続"</string>
+
+    <!-- XTXT : Connection Details -->
+
+    <string name="connection_details">"接続詳細"</string>
+
+    <!-- XTXT : Authentication Details -->
+
+    <string name="authentication_details">"認証詳細"</string>
+
+    <!-- XTXT : Username -->
+
+    <string name="conn_username">"ユーザ名"</string>
+
+    <!-- XTXT : Password -->
+
+    <string name="conn_password">"パスワード"</string>
+
+    <!-- XTXT : Default connection -->
+
+    <string name="default_conn">"デフォルト接続"</string>
+
+    <!-- XTXT : Save password -->
+
+    <string name="save_pass">"パスワード保存"</string>
+
+    <!-- XTXT : Connection Type -->
+
+    <string name="conn_type">"接続タイプ"</string>
+
+    <!-- XTXT : Connection Type Phone -->
+
+    <string name="conn_type_phone">"接続タイプ"</string>
+
+    
+
+    <!-- Manage Connections -->
+
+    <!-- XTXT : Indicate Default connection -->
+
+    <string name="is_default_conn">"デフォルト"</string>
+
+
+
+    <!-- Connection Action Bar SAVE -->
+
+    <string name="connection_save">"保存"</string>
+
+    <!-- Connection Action Bar SHARE -->
+
+    <string name="connection_share">"共有"</string>
+
+    <!-- Connection Action Bar SAVE CONNECT -->
+
+    <string name="connection_saveconnect">"保存して接続"</string>
+
+
+
+    <!-- XTXT : BI Inbox -->
+
+    <string name="BIInbox">"BI 受信ボックス"</string>
+
+    <!-- XTXT : BI Inbox Option to make it read -->
+
+    <string name="mark_as_read">"既読に設定"</string>
+
+    <!-- XTXT : BI Inbox Option to make it unread -->
+
+    <string name="mark_as_unread">"未読に設定"</string>
+
+    <!-- Personal Categories Related Strings -->
+
+    <!-- XTXT : Manage Connections -->
+
+    <string name="manage_connections">"接続管理"</string>
+
+    <!-- XTXT : Saved Connections -->
+
+    <string name="saved_connections">"保存済接続"</string>
+
+    <!-- XTXT : Saved Connection -->
+
+    <string name="saved_connection">"保存済接続"</string>
+
+    <!-- XTXT : Manage Categories -->
+
+    <string name="manage_categories">"カテゴリ管理"</string>
+
+    <!-- XMSG: Add Default Category -->
+
+    <string name="add_default_category">"デフォルトカテゴリ設定"</string>
+
+    <!-- XMSG: Select Category as  Default-->
+
+    <string name="select_default_category">"デフォルトとして設定するカテゴリを選択してください"</string>
+
+    <!-- XTXT : Assign Categories -->
+
+    <string name="assign_categories">"カテゴリ割当"</string>
+
+    <!-- XTXT : Create New Category -->
+
+    <string name="create_new_category">"新規カテゴリ登録"</string>
+
+    <!-- XTXT : Edit Category -->
+
+    <string name="edit_category">"カテゴリ編集"</string>
+
+    <!-- XTXT : Delete Category -->
+
+    <string name="delete_category">"カテゴリ削除"</string>
+
+    <!-- XTXT :Category Exists Message -->
+
+    <string name="category_exist_message">"カテゴリ名はすでに存在します。別のカテゴリ名を入力してください"</string>
+
+    <!-- XTXT :Category Name Empty Message -->
+
+    <string name="category_empty_message">"カテゴリ名が空白です。別のカテゴリ名を入力してください"</string>
+
+    <!-- XTXT :Category Delete Message -->
+
+    <string name="category_delete_message">"カテゴリを削除しますか"</string>
+
+
+
+    <!-- XTXT : Items -->
+
+    <string name="items">"アイテム"</string>
+
+    <!-- XTXT : Get Started -->
+
+    <string name="get_started">"開始"</string>
+
+    <!-- XTXT : Whats new -->
+
+    <string name="whats_new">"新機能"</string>
+
+    <!-- XTXT : All Reports -->
+
+    <string name="all_reports">"全レポート"</string>
+
+    <!-- XTXT : Favorites -->
+
+    <string name="favorites">"お気に入り"</string>
+
+    <!-- XMIT : Add to Favorites -->
+
+    <string name="add_to_favorites">"お気に入りに追加"</string>
+
+    <!-- XMIT : Remove from Favorites -->
+
+    <string name="remove_from_favorites">"お気に入りから削除"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="endpoint_error">"エンドポイントプロキシをフェッチできませんでした。"</string>
+
+
+
+    <!-- XLBL : Type in Info Screen -->
+
+    <string name="type">"タイプ"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="webi_type">"Web Intelligence"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="dashboard_type">"ダッシュボード"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="designstudio_type">"分析アプリケーション"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="hyperlink_type">"ハイパーリンク"</string>
+
+    <!-- Not intended for translation -->
+
+    <string name="pdf_type">"PDF 文書"</string>    
+
+ 
+
+    <!-- Navigation Drawer Strings -->
+
+    <!-- XMSG -->
+
+    <string name="nav_open">"開く"</string>
+
+    <!-- XMSG -->
+
+     <string name="nav_close">"閉じる"</string>
+
+    
+
+    <!-- Table filter Message -->
+
+	<!-- XMSG -->
+
+	<string name="empty_data">"空白"</string>
+
+	
+
+	<!-- Notifications -->
+
+	<!-- XTXT -->
+
+	<string name="menu_notification">"通知"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updating">"文書の更新中です"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updating_single">"文書の更新中です"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_available">"更新が利用可能です"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_available_single">"更新が利用可能です"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_update_all">"すべて更新"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_cancel_all">"すべて中止"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updated_count">"文書が最近更新されました"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_updated_count_single">"文書が最近更新されました"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_clear_all">"すべてクリア"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_not_available">"通知はありません"</string>
+
+	<!-- XTXT -->
+
+	<string name="notification_Auto_Update_Is_Disabled">"この接続では自動更新は利用できません"</string>
+
+	<!-- XTXT -->
+
+	<string name="Minutes">"分"</string>
+
+	<!-- XBUT: AutoUpdate On button -->
+
+    <string name="toggle_on">"オン"</string>
+
+    <!-- XBUT: AutoUpdate Off button -->
+
+    <string name="toggle_off">"オフ"</string>
+
+    
+
+     <!-- Getting Started Message -->
+
+	<!-- XMSG -->
+
+	<string name="getting_started_trend_icons">"データを強調表示するにはトレンドアイコンを使用します。"</string>
+
+	<!-- XMSG: A styled string -->
+
+    <string name="getting_started_show_only_downloaded">"ダウンロード済レポートのみ表示のオプションを使用して、デバイスに追加されたすべての文書を参照します。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_personal_view">"すべてのアナリティクスアクションを保持してオフラインモードで照会するには、文書を個人ビューとして保存します。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_notification_badge">"新規文書インスタンスや変更された文書バージョンがサーバに登録されると、通知バッヂにより警告が通知されます。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_notification_panel">"通知パネルを使用して文書更新を簡単に管理することができます。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_display_category">"フラットリストまたはネストした構造でカテゴリを表示します。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_share_connection">"接続詳細をメールで共有します。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_bi_inbox_download">"BI 受信ボックス文書は、デバイスにダウンロードして既読または未読に設定することができます。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_dashboard">"SAP BusinessObjects Analysis アプリケーションを表示して操作することができます。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_bi_connection">"BI コンテンツにアクセスするには、利用可能な接続タイプのいずれかを使用して新規接続を登録します"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_geo">"関心のある個所 (POI) をタップして、関連する値の詳細情報を照会します。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_tablestyling">"テーブルセルのフォントスタイルをボールド、イタリックまたは下線にカスタマイズします。"</string>
+
+    <!-- XMSG: A styled string -->
+
+    <string name="getting_started_microbarchart">"ミクロ棒チャートをタップして、チャートをズームモードで表示します。"</string>
+
+   
+
+	<!-- XMSG -->
+
+	<string name="getting_started_toggle_group_by_sort">"グループ基準とソートオプションを切り替えることによって文書一覧を簡単に構成することができます。"</string>	
+
+	<!-- XMSG -->
+
+	<string name="getting_started_auto_update_wifi">"自動更新設定を使用して、Wi-Fi 接続が利用できる状態になった際にすべてのオフライン文書を自動的に更新します。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_default_filter">"地理分析文書のデフォルトのフィルタ値を設定します。"</string>
+
+	<!-- XMSG -->
+
+	<string name="getting_started_share_document_link">"現在のナビゲーションコンテキストを保持したまま、文書リンクをメールで共有します"</string>
+
+	<!-- XMSG -->
+
+	<string name="pdf_pop_up_select_app">"ビューアを選択してください"</string>
+
+	<!-- XMSG -->
+
+	<string name="pdf_pop_up_install_app">"ビューアがありません。文書を表示するには PDF ビューアをインストールしてください"</string>
+
+	
+
+	
+
+	
+
+	<!-- XMSG -->
+
+	<string name="splash_upgrade_docs">"文書をアップグレードしています..."</string>
+
+	<!-- XMSG -->
+
+	<string name="splash_docs_to_be_upgraded">"%1$s 文書がアップグレードされます"</string>
+
+	<!-- XMSG -->
+
+	<string name="splash_number_of_docs_upgraded">"%1$s/%2$s 文書がアップグレードされました..."</string>
+
+	
+
+	<!-- XMSG -->
+
+	<string name="cannot_expand_this_node">"このノードを展開できません"</string>
+
+
+
+    <!-- XMSG -->
+
+    <string name="certificate_error">"証明書エラーが発生しました"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_untrusted_error">"証明機関が信頼されていません"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_expired_error">"証明書の有効期限が切れています"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_idmismatch_error">"ホスト名が一致していません"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_notyetvalid_error">"証明書はまだ有効ではありません"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_invalid_error">"一般的なエラーが発生しました"</string>
+
+    <!-- XMSG -->
+
+    <string name="ssl_date_invalid_error">"証明書の日付が無効です"</string>
+
+	
+
+</resources>

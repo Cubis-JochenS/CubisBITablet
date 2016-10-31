@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/amc_connViewlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/amc_cnxamelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:visibility="visible" >
+
+        <!-- Connection Name -->
+
+        <TextView
+            style="@style/TextSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="@string/connection_name" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/amc_connname"
+            style="@style/TextSmall.EditTextBoxStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:layout_weight="0.50"
+            android:background="@drawable/editbox"
+            android:gravity="left|start"
+            android:hint="@string/required"
+            android:inputType="textNoSuggestions"
+            android:maxLength="20" >
+        </EditText>
+    </LinearLayout>
+
+    <View
+        style="@style/ConnectionLineSep"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" />
+
+    <LinearLayout
+        android:id="@+id/amc_mobileserverurllayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:visibility="visible" >
+
+        <!-- Mobile Server URL -->
+
+        <TextView
+            style="@style/TextSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="@string/conn_server_URL" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/amc_mobile_server_url"
+            style="@style/TextSmall.EditTextBoxStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:background="@drawable/editbox"
+            android:gravity="left|start"
+            android:hint="@string/required"
+            android:inputType="textNoSuggestions"
+            android:maxLength="281" >
+        </EditText>
+    </LinearLayout>
+
+    <View
+        style="@style/ConnectionLineSep"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" />
+
+    <LinearLayout
+        android:id="@+id/amc_usernamelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" >
+
+        <!-- User name -->
+
+        <TextView
+            style="@style/TextSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="@string/conn_username" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/amc_username"
+            style="@style/TextSmall.EditTextBoxStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:background="@drawable/editbox"
+            android:gravity="left|start"
+            android:hint="@string/required"
+            android:inputType="textFilter"
+            android:maxLength="100" >
+        </EditText>
+    </LinearLayout>
+
+    <View
+        style="@style/ConnectionLineSep"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" />
+
+    <LinearLayout
+        android:id="@+id/amc_pwdlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" >
+
+        <!-- Password -->
+
+        <TextView
+            style="@style/TextSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="@string/conn_password" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/amc_pwd"
+            style="@style/TextSmall.EditTextBoxStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:background="@drawable/editbox"
+            android:gravity="left|start"
+            android:inputType="textPassword" >
+        </EditText>
+    </LinearLayout>
+
+    <View
+        style="@style/ConnectionLineSep"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" />
+
+    <LinearLayout
+        android:id="@+id/default_conn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/TextSmall"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="@string/default_conn" >
+        </TextView>
+
+        <Switch
+            android:id="@+id/amc_defcnx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:minWidth="60dp"
+            android:switchTextAppearance="@style/SwitchTextAppearance"
+            android:textOff="@string/toggle_no"
+            android:textOn="@string/toggle_yes" >
+        </Switch>
+    </LinearLayout>
+
+    <View
+        style="@style/ConnectionLineSep"
+        android:paddingTop="15dp" />
+
+    <LinearLayout
+        android:id="@+id/savePass_conn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/TextSmall"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="@string/save_pass" >
+        </TextView>
+
+        <Switch
+            android:id="@+id/amc_rempwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="40dp"
+            android:minWidth="60dp"
+            android:switchTextAppearance="@style/SwitchTextAppearance"
+            android:textOff="@string/toggle_no"
+            android:textOn="@string/toggle_yes" >
+        </Switch>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/ac_separator_Savepasswordbelow"
+        style="@style/ConnectionLineSeperator"
+        android:layout_marginTop="40dp" >
+    </View>
+
+</LinearLayout>

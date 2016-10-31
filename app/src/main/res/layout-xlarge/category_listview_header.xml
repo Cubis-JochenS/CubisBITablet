@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_listview_header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/left_panel_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/favorites_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/settings_list_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        >
+
+        <ImageView
+            android:id="@+id/favorites_icon"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:contentDescription="inbox"
+            android:src="@drawable/home_list_favorite_normal" />
+
+        <TextView
+            android:id="@+id/favorites"
+            style="@style/TextMediumCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginEnd="5dip"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:text="@string/favorites"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/cl_separator_adv"
+        style="@style/CategoryLineSep" />
+
+    <LinearLayout
+        android:id="@+id/personalview_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/settings_list_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        >
+
+        <ImageView
+            android:id="@+id/personalview_icon"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:contentDescription="inbox"
+            android:src="@drawable/leftpanel_personal_view_normal" />
+
+        <TextView
+            android:id="@+id/personal_view"
+            style="@style/TextMediumCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginEnd="5dip"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:text="@string/personal_view_category"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/cl_separator_adv"
+        style="@style/CategoryLineSep" />
+
+    <LinearLayout
+        android:id="@+id/inbox_listview_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/settings_list_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        >
+
+        <ImageView
+            android:id="@+id/inbox_icon"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:contentDescription="inbox"
+            android:gravity="center_vertical"
+            android:src="@drawable/leftpanel_bi_inbox" />
+
+        <TextView
+            android:id="@+id/inbox_header"
+            style="@style/TextMediumCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="32dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginEnd="5dip"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:text="@string/BIInbox" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/cl_separator_adv"
+        style="@style/ConnectionLineSep"
+        android:alpha="0.10"
+        android:background="@color/left_panel_category_separator" />
+
+    <LinearLayout
+        android:id="@+id/categories_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/settings_list_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        >
+
+        <ImageView
+            android:id="@+id/all_reports"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:contentDescription="inbox"
+            android:gravity="center_vertical"
+            android:src="@drawable/leftpanel_all_reports" />
+
+        <TextView
+            android:id="@+id/category_header"
+            style="@style/TextMediumCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dip"
+            android:layout_marginEnd="5dip"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:text="@string/all_reports"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/cl_separator_adv"
+        style="@style/CategoryLineSep" />
+
+</LinearLayout>

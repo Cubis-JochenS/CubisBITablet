@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dc"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingRight="8dp"
+    android:paddingEnd="8dp"
+    android:paddingTop="8dp" >
+    
+       <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        android:layout_weight="0.7">
+
+        <ImageView
+            android:id="@+id/ctb_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/nav_back_button" />
+
+        <ImageView
+            android:id="@+id/ctb_appIcon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/appicon" />
+
+        <TextView
+            android:id="@+id/ctb_doc_name"
+            style="@style/TextMedium.SubHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="3dp"
+            android:singleLine="true"
+            android:text="@string/ctb_document_name"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/report_dropdown"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        android:layout_weight="0.3" >
+
+        <View
+            android:id="@+id/ctb_sep"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/ctb_report_name"
+            style="@style/TextMedium.SubHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:paddingTop="4dp"
+            android:singleLine="true"
+            android:text="@string/ctb_reports"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ctb_overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/custom_overflow"
+        />
+ 
+
+</LinearLayout>

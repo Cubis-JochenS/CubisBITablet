@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/item1" android:enabled="true" android:visible="true" android:title="Edit"></item>
+    <item android:id="@+id/item2" android:enabled="true" android:visible="true" android:title="Delete"></item>
+    <item android:id="@+id/item3" android:enabled="true" android:visible="true" android:title="Color"></item>
+    <item android:id="@+id/item4" android:enabled="true" android:visible="true" android:title="Record"></item>
+</menu>

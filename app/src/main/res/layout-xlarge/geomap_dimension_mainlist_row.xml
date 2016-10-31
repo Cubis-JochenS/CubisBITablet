@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/linearLayout1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+android:background="@drawable/map_dimension_summary_border">
+
+<Button
+    android:id="@+id/dimensionMainListItem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="15dp"
+    android:layout_marginEnd="15dp"
+    android:background="@color/black"
+    android:gravity="left|start|center_vertical"
+    android:textAlignment="viewStart"
+    android:textColor="@color/white" />
+
+<ImageView
+    android:id="@+id/rightArrowImg"
+    android:layout_width="8dp"
+    android:layout_height="12dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:contentDescription="@string/choose_value"
+    android:src="@drawable/quickactions_arrow_right" />
+
+</RelativeLayout>

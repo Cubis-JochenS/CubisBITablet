@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <!-- Server Error messages -->
+	<!-- XMSG -->
+    <string name="mob06004">"无法建立服务器连接；如果问题仍存在，请联系您的管理员 (MOB06004)"</string>
+	<!-- XMSG -->
+    <string name="mob06005">"无法建立服务器连接；请重试或联系您的管理员 (MOB06005)"</string>
+	<!-- XMSG -->
+    <string name="mob06006">"请求已超时；请重试或联系您的系统管理员 (MOB06006)"</string>
+	<!-- XMSG -->
+    <string name="mob06007">"请求无效；请验证连接详细信息或联系您的管理员 (MOB06007)"</string>
+	<!-- XMSG -->
+    <string name="mob06008">"您无权处理此请求 (MOB06008)"</string>
+	<!-- XMSG -->
+    <string name="mob06009">"请求无效；请验证连接详细信息或联系您的管理员 (MOB06009)"</string>
+	<!-- XMSG -->
+    <string name="mob06010">"处理请求时出现内部服务器错误；请重试或联系您的系统管理员 (MOB06010)"</string>
+	<!-- XMSG -->
+    <string name="mob06011">"缺少提示值；请为该提示至少选择一个值 (MOB06011)"</string>
+	<!-- XMSG -->
+    <string name="mob06021">"验证网络连接性 (MOB06021)"</string>
+	<!-- XMSG -->
+    <string name="mob06022">"处理客户端请求时出现内部服务器错误 (MOB06022)"</string>
+	<!-- XMSG -->
+    <string name="mob06031">"无法建立服务器连接；请重试或联系您的管理员 (MOB06031)"</string>
+     
+    <!-- Client Error messages -->
+	 <!-- XMSG -->
+    <string name="mob08001">"未在此设备上配置电子邮件 (MOB08001)"</string>
+	<!-- XMSG -->
+    <string name="mob08002">"处理请求时出现内部服务器错误；请联系您的管理员 (MOB08002)"</string>
+	<!-- XMSG -->
+    <string name="mob08003">"出现服务器错误，无法刷新文档；请重试 (MOB08003)"</string>
+	<!-- XMSG -->
+    <string name="mob08004">"未完成所有必填提示 (MOB08004)"</string>
+	<!-- XMSG -->
+    <string name="mob08005">"此提示不受支持 (MOB08005)"</string>
+	<!-- XMSG -->
+    <string name="mob08006">"请验证您的登入信息 (MOB08006)"</string>    
+	<!-- XMSG -->
+    <string name="mob08007">"应用不支持此服务器版本；请联系您的管理员 (MOB08007)"</string> 
+    <!-- XMSG -->
+    <string name="mob08008">"SUP 异常 (MOB08008)"</string>
+    <!-- XMSG -->
+    <!--  This is a client sid emessage as below for the document not  found in server 
+    for content types like XC where we don;t get XML response. This is the same message which comes from Webi server for doc not found-->
+    <string name="mob00006">"服务器中不存在文档。(MOB00006)"</string>
+    <!-- XMSG -->
+    <string name="mob06099">"我们遇到错误；请联系管理员"</string>
+     
+</resources>

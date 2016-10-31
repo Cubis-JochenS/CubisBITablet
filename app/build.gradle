@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+
+configurations {
+    all*.exclude group: 'com.android.support', module: 'support-v4'
+
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.3"
+
+    defaultConfig {
+        applicationId "com.sap.mobi"
+        minSdkVersion 13
+        targetSdkVersion 17
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    lintOptions {
+
+        checkReleaseBuilds false
+
+    }
+
+    productFlavors{
+        CubisBITablet {
+            applicationId "be.cubis.mobitablet"
+        }
+    }
+
+    dexOptions {
+
+        javaMaxHeapSize "4g"
+
+    }
+}
+
+dependencies {
+    compile files('libs/AfariaSLL-2.3.8.0.jar')
+    compile files('libs/ClientLib-2.3.8.0.jar')
+    compile files('libs/SAPBusinessObjectsMobileAndroidLibrary.jar')
+    compile files('libs/SDMCommon-2.3.8.0.jar')
+    compile files('libs/SDMConnectivity-2.3.8.0.jar')
+    compile files('libs/SMPRestClient-2.3.8.0.jar')
+    compile files('libs/SUPProxyClient-2.3.8.0.jar')
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/sqlcipher-android-3.2.0.jar')
+    compile files('libs/sup-client-util-2.3.8.0.jar')
+    compile 'com.google.android.gms:play-services:9.6.1'
+}
+
+task copyNativeLibs(type: Copy) {
+    from(new File(getProjectDir(), 'src/main/resources/native')) { include '**/*.so' }
+    into new File(buildDir, 'native')
+}
+tasks.withType(org.gradle.api.tasks.compile.JavaCompile) {
+    compileTask -> compileTask.dependsOn copyNativeLibs
+}
+clean.dependsOn 'cleanCopyNativeLibs'
+tasks.withType(com.android.build.gradle.tasks.PackageApplication) {
+    pkgTask ->
+        pkgTask.jniFolders = new HashSet()
+        pkgTask.jniFolders.add(new File(buildDir, 'native'))
+}

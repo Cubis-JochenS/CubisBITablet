@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background: #FFFFFF;
+	color:blue;
+}
+/*
+body > .toolbar {
+    border-bottom: 1px solid #31a9ef;
+    border-top: 1px solid #0076cb;
+    background: url(toolbar-blue.png) #0076cb repeat-x;
+}
+
+#backButton {
+	border-image: url(backButton-blue.png) 0 8 0 14;
+	-moz-border-image: url(backButton-blue.png) 0 8 0 14;
+	-webkit-border-image: url(backButton-blue.png) 0 8 0 14;
+}
+*/
+
+.ui-body-c {
+	color:blue;
+}
+.ui-body-b {
+	color:blue;
+}
+.ui-btn-up-b{
+	color:blue;
+}
+.ui-btn-hover-b {
+	color:blue;
+}
+.ui-btn-down-b {
+	color:blue;
+}
+
+.ui-btn-up-c{
+	color:blue;
+}
+.ui-btn-hover-c {
+	color:blue;
+}
+.ui-btn-down-c {
+	color:blue;
+}
+
+/*slider*/
+a.ui-btn-up-b{
+ background-image: -webkit-linear-gradient(top, #5f9cc5, #396b9e); 
+ background-color:#2567ab;
+}
+a.ui-btn-hover-b {
+	background: 			#4b88b6 !important;
+	background-image: -webkit-linear-gradient(top, #72b0d4, #4b88b6); 
+}
+a.ui-btn-down-b {
+	background: 			#4e89c5;
+	background-image: -webkit-linear-gradient(top, #396b9e, #4e89c5); /* Chrome 10+, Saf5.1+ */
+}
+.ui-body-c select{
+	color:blue;
+}
+
+/*DatePicker*/
+.ui-datepicker {
+	background: #b8d5ec;
+}
+
+.ui-datepicker-title {
+	color:blue;
+}
+.ui-datepicker-date-input
+{
+	color:blue;
+}
+ /*DigitPicker*/
+#MADigitPickerControl div.x-layout-box-left {
+background: -webkit-gradient(linear, left top, left bottom, from(rgb(96,96,144)), to(rgb(26,26,107)), color-stop(0.5, rgb(105,109,155)), color-stop(0.5, rgb(58,60,99)));
+}
+
+/*canvas related*/
+.chart {
+	background:#FFFFFF;
+	color:blue;
+}
+
+.chart_value_bubble {
+    background: #000000;
+	color: #008FD3;
+}
+
+.chart_range_selector_text {
+	color:blue;
+	font-size: 12px;
+	font-family:Helvetica;	
+}
+
+.chart_titlebar {
+	background: #008FD3
+}
+
+.chart_titlebar > .fullscreen_icon {
+	margin-top: 5px;
+	background: url(../../../css/images/fullscreen_icon.png) no-repeat;
+	cursor:pointer;
+}
+
+.chart_toolbar {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-bottom: 1px solid #82B9D8;
+	border-top: 1px solid #82B9D8;
+	background: url(chartToolbar-blue.png) #82B9D8 repeat-x;
+}
+
+.chart_toolbar  > .chart_button {
+	border-image: url(toolButton-blue.png) 0 5 0 5;
+	-moz-border-image: url(toolButton-blue.png) 0 5 0 5;
+	-webkit-border-image: url(toolButton-blue.png) 0 5 0 5;
+}
+
+.chart_toolbar > .table_button {
+	border: 0px;
+	background: url(../../../css/images/table_icon.png) no-repeat;
+}
+
+.chart_toolbar > .rangeselector_button {
+	border: 0px;
+	background: url(../../../css/images/rangeselector_icon.png) no-repeat;
+}
+
+.chart_toolbar > .share_button {
+	border: 0px;
+	background: url(../../../css/images/e-mail_icon.png) no-repeat;
+}
+
+.chart_toolbar > .whatif_button {
+	border: 0px;
+	background: url(../../../css/images/whatif_icon.png) no-repeat;
+}
+
+.chart_toolbar > .da_button {
+	border: 0px;
+	background: url(../../../css/images/da_icon.png) no-repeat;
+}
+
+.chart_toolbar h1 {
+	overflow: hidden;
+	margin:auto;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #F0AB00;
+	display:inline;
+}
+
+.chart_table {
+	background:#FFFFFF;
+	font-size: 14px;
+	font-family:Helvetica;
+	color:blue;	
+}
+
+.chart_table_dimension_title {
+	background:#A6DBDB;
+}
+
+.chart_table_row_header {
+	background:#A6DBDB;
+}
+
+.chart_table_column_headers {
+	background:#C2FFFF;
+}
+
+.chart_table_contents {
+	background:#C2FFFF;
+}
+
+input[type=date]::-webkit-inner-spin-button{-webkit-appearance: none;}
+
+.defaultFillPalette{
+}
+
+.defaultFillPalette  .color1{
+	color: #b8d5ec;
+}
+.defaultFillPalette  .color2{
+	color: #96c9ef;
+}
+.defaultFillPalette  .color3{
+	color: #65b7f4;
+}
+.defaultFillPalette  .color4{
+	color: #31a9ef;
+}
+.defaultFillPalette  .color5{
+	color: #1592e3;
+}
+.defaultFillPalette  .color6{
+	color: #0076cb;
+}
+.defaultFillPalette  .color7{
+	color: #0f4fa7;
+}
+.defaultFillPalette  .color8{
+	color: #003283;
+}
+.defaultFillPalette  .color9{
+	color: #00195a;
+}
+
+.defaultStrokePalette{
+}
+
+.defaultInsetShadowPalette{
+}

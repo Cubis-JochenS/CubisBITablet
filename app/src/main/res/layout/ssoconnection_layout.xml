@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/amc_ssolayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone"
+    
+     >
+
+    <LinearLayout
+        android:id="@+id/sso_header_bg_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="46dp"
+        android:background="@color/greydark" >
+    <TextView
+        android:id="@+id/sso_enabled_text"
+        style="@style/TextMediumTitle"
+        android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:gravity="left|start|center_vertical"
+             android:textAlignment="viewStart"
+            android:textAllCaps="true"
+        android:text="@string/label_sso_cookie_Based"
+        >
+    </TextView>
+
+   </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sso_authenticate_at_logon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+        <TextView
+            android:id="@+id/text_sso_authenticate_at_logon"
+            style="@style/TextMediumTitle"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/label_sso_authenticate_at_logon" >
+        </TextView>
+
+         <CheckBox
+            android:id="@+id/sso_authenticate_at_logon_tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/text_sso_authenticate_at_logon"
+            android:layout_alignEnd="@id/text_sso_authenticate_at_logon"
+            android:layout_centerVertical="true"
+            android:button="@drawable/checkbox"
+            android:contentDescription="@string/app_name"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sso_cookie_enabled"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+        <TextView
+            android:id="@+id/text_sso_cookie_enabled"
+            style="@style/TextMediumTitle"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/label_sso_cookie_enabled" >
+        </TextView>
+
+         <CheckBox
+            android:id="@+id/sso_cookie_enabled_tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/text_sso_cookie_enabled"
+            android:layout_alignEnd="@id/text_sso_cookie_enabled"
+            android:layout_centerVertical="true"
+            android:button="@drawable/checkbox"
+            android:contentDescription="@string/app_name"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sso_reauthenticate_at_logon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+        <TextView
+            android:id="@+id/text_sso_reauthenticate_at_logon"
+            style="@style/TextMediumTitle"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/label_sso_reauthenticate_at_logon" >
+        </TextView>
+
+         <CheckBox
+            android:id="@+id/sso_reauthenticate_at_logon_tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/text_sso_reauthenticate_at_logon"
+            android:layout_alignEnd="@id/text_sso_reauthenticate_at_logon"
+            android:layout_centerVertical="true"
+            android:button="@drawable/checkbox"
+            android:contentDescription="@string/app_name"
+            android:padding="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sso_save_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+        <TextView
+            android:id="@+id/text_sso_save_password"
+            style="@style/TextMediumTitle"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/save_password" >
+        </TextView>
+
+        <Switch
+            android:id="@+id/sso_rempwd_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/text_sso_save_password"
+            android:layout_alignEnd="@id/text_sso_save_password"
+            android:minWidth="80dp"
+            android:minHeight="18dp"
+            android:switchTextAppearance="@style/SwitchTextAppearance"
+            android:textOff="@string/toggle_no"
+            android:textOn="@string/toggle_yes" >
+        </Switch>
+    </RelativeLayout>
+
+</LinearLayout>

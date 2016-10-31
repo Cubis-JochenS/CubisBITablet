@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:id="@+id/import_layout"
+        android:layout_width="848dp"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/purewhite" >
+
+        <TextView
+            android:id="@+id/amc_serverurl_text"
+            style="@style/TextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/connection_server_URL" >
+        </TextView>
+
+        <Button
+            android:id="@+id/amc_fetchdetailsicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/amc_serverurl_text"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/button"
+            android:text="@string/import_txt" >
+        </Button>
+
+        <EditText
+            android:id="@+id/amc_serverurl"
+            style="@style/TextMedium.EditTextBoxStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amc_serverurl_text"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toLeftOf="@id/amc_fetchdetailsicon"
+            android:layout_marginStart="15dp"
+            android:layout_toStartOf="@id/amc_fetchdetailsicon"
+            android:background="@drawable/editbox"
+            android:singleLine="true" >
+        </EditText>
+
+        <ListView
+            android:id="@+id/amc_import_conns_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amc_fetchdetailsicon"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/lightgrey"
+            android:dividerHeight="0.10px"
+            android:paddingTop="5dp" >
+        </ListView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/leftShadowImport"
+        android:layout_width="25dp"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/import_layout"
+        android:layout_toStartOf="@id/import_layout"
+        android:background="@drawable/shadow_left"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        />
+
+    <LinearLayout
+        android:id="@+id/rightShadowImport"
+        android:layout_width="25dp"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/import_layout"
+        android:layout_toEndOf="@id/import_layout"
+        android:background="@drawable/shadow_right"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        />
+
+</RelativeLayout>

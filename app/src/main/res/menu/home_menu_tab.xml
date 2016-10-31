@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_changeview"
+        android:icon="@drawable/home_menu_cards_phone"
+        android:showAsAction="ifRoom"
+        android:title="@string/grid_menu">
+    </item>
+    <!-- change from settings to app settings -->
+    <item
+        android:id="@+id/menu_app_settings"
+        android:icon="@drawable/home_menu_settings"
+        android:showAsAction="ifRoom"
+        android:title="@string/ctb_settings">
+    </item>
+    <item
+        android:id="@+id/menu_srch"
+        android:icon="@drawable/home_menu_search_phone"
+        android:showAsAction="ifRoom"
+        android:title="@string/description_search">
+    </item>
+    <item android:id="@+id/menu_managecategories" android:title="@string/manage_categories" android:icon="@drawable/home_menu_manage_category" android:visible = "false" android:showAsAction="ifRoom"/>
+
+</menu>

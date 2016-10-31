@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- header -->
+
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/Header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            >
+
+            <Button
+                android:id="@+id/jam_sendBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/jam_Send" />
+
+            <TextView
+                android:id="@+id/send_header_text"
+                style="@style/TextMedium.Header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/jam_sendtojam"
+                android:textColor="@color/text_header" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/seperator1"
+            style="@style/DialogTitleSeperator" />
+    </LinearLayout>
+
+    <!-- content -->
+
+    <LinearLayout
+        android:id="@+id/Content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.965"
+        android:orientation="vertical" >
+
+        <!-- group name -->
+        <RelativeLayout
+            android:id="@+id/groupname_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            >
+
+            <TextView
+                style="@style/TextMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:text="@string/group_name"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/group_name"
+                style="@style/TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                 android:layout_margin="10dp"
+                android:inputType="textNoSuggestions" >
+            </TextView>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/hor_seperator"
+            style="@style/DialogFooterSeperator" />
+
+        <RelativeLayout
+            android:id="@+id/group_participants_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"   
+           android:orientation="horizontal"
+            android:layoutDirection="locale"
+            >
+
+            <!-- participant -->
+
+            <TextView
+                style="@style/TextMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:text="@string/group_participants"
+                android:textStyle="bold" >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/group_particpant"
+                style="@style/TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:inputType="textNoSuggestions" >
+            </TextView>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/hor_seperator"
+            style="@style/DialogFooterSeperator" />
+    
+
+    <RelativeLayout
+        android:id="@+id/group_description_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="locale">
+
+        <!-- group description -->
+
+        <TextView
+            style="@style/TextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/group_objective"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/group_description"
+            style="@style/TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:inputType="textNoSuggestions" >
+        </TextView>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/hor_seperator"
+        style="@style/DialogFooterSeperator" />
+
+
+<LinearLayout
+    android:id="@+id/customtext_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    android:layoutDirection="locale"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <!-- type your text -->
+
+    <EditText
+        android:id="@+id/custom_text"
+        style="@style/TextButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tap to Enter Text"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>
+
+
+<ImageView 
+    android:id="@+id/screenshot"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"/>
+
+</LinearLayout>
+
+</LinearLayout>

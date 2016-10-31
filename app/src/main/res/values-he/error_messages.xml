@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <!-- Server Error messages -->
+	<!-- XMSG -->
+    <string name="mob06004">"לא ניתן היה ליצור חיבור לשרת; פנה למנהל שלך אם הבעיה נמשכת(MOB06004)"</string>
+	<!-- XMSG -->
+    <string name="mob06005">"לא ניתן היה ליצור חיבור לשרת; נסה שוב או פנה למנהל שלך(MOB06005)"</string>
+	<!-- XMSG -->
+    <string name="mob06006">"בוצע Time Out לבקשה; נסה שוב או פנה למנהל המערכת שלך (MOB06006)"</string>
+	<!-- XMSG -->
+    <string name="mob06007">"הבקשה שלך אינה חוקית; אמת את פרטי החיבור או פנה למנהל שלך(MOB06007)"</string>
+	<!-- XMSG -->
+    <string name="mob06008">"אינך מורשה עבור בקשה זו(MOB06008)"</string>
+	<!-- XMSG -->
+    <string name="mob06009">"הבקשה שלך אינה חוקית; אמת את פרטי החיבור או פנה למנהל  שלך(MOB06009)"</string>
+	<!-- XMSG -->
+    <string name="mob06010">"שגיאת שרת פנימית אירעה בזמן עיבוד הבקשה שלך; נסה שוב או פנה למנהל המערכת שלך(MOB06010)"</string>
+	<!-- XMSG -->
+    <string name="mob06011">"ערך הזנה חסר; בחר לפחות ערך אחד עבור ההזנה(MOB06011)"</string>
+	<!-- XMSG -->
+    <string name="mob06021">"אמת קישוריות רשת(MOB06021)"</string>
+	<!-- XMSG -->
+    <string name="mob06022">"שגיאת שרת פנימית אירעה בזמן עיבוד בקשת הסביבה(MOB06022)"</string>
+	<!-- XMSG -->
+    <string name="mob06031">"לא ניתן היה ליצור חיבור לשרת; נסה שוב או פנה למנהל שלך(MOB06031)"</string>
+     
+    <!-- Client Error messages -->
+	 <!-- XMSG -->
+    <string name="mob08001">"לא נקבעה תצורה לדוא\"ל בהתקן זה(MOB08001)"</string>
+	<!-- XMSG -->
+    <string name="mob08002">"שגיאת שרת פנימית אירעה בזמן עיבוד הבקשה שלך; פנה למנהל שלך(MOB08002)"</string>
+	<!-- XMSG -->
+    <string name="mob08003">"שגיאת שרת מנעה את רענון המסמך; נסה שנית(MOB08003)"</string>
+	<!-- XMSG -->
+    <string name="mob08004">"לא כל הזנות החובה מולאו(MOB08004)"</string>
+	<!-- XMSG -->
+    <string name="mob08005">"ההזנה לא נתמכת(MOB08005)"</string>
+	<!-- XMSG -->
+    <string name="mob08006">"אמת את פרטי ההתחברות שלך(MOB08006)"</string>    
+	<!-- XMSG -->
+    <string name="mob08007">"גרסת שרת זו אינה נתמכת על-ידי היישום; פנה למנהל שלך(MOB08007)"</string> 
+    <!-- XMSG -->
+    <string name="mob08008">"חריגת SUP(MOB08008)"</string>
+    <!-- XMSG -->
+    <!--  This is a client sid emessage as below for the document not  found in server 
+    for content types like XC where we don;t get XML response. This is the same message which comes from Webi server for doc not found-->
+    <string name="mob00006">"מסמך זה לא קיים בשרת. (MOB00006)"</string>
+    <!-- XMSG -->
+    <string name="mob06099">"התגלתה שגיאה; פנה למנהל שלך"</string>
+     
+</resources>

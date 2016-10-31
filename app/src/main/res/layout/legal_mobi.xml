@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp" >
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+        android:layoutDirection="locale"
+		android:paddingTop="3dp"
+		android:paddingBottom="10dp"
+		android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+	   >
+	      <ImageView
+                android:id="@+id/eula_cnxicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|start"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:src="@drawable/settings_legal_sap_logo" >
+            </ImageView>
+	    
+	</LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+         >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+          <!-- 
+
+            <TextView
+                android:id="@+id/mobi_eulatext_title"
+                style="@style/TextMedium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="This is headline"
+                 >
+            </TextView> -->
+
+            <TextView
+                android:id="@+id/mobi_eulatext"
+                android:text="This is headline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

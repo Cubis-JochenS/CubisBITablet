@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smp_corpcnxlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/amc_hiddenviewslayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- HEADER CONNECTION DETAILS -->
+
+        <LinearLayout
+            android:id="@+id/smp_header_bg_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@color/greydark" >
+
+            <TextView
+                android:id="@+id/smp_configuration"
+                style="@style/TextMediumTitlePhone"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:gravity="left|start|center_vertical"
+                android:textAlignment="viewStart"
+                android:text="@string/conn_det"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
+        <!-- CONNECTION NAME -->
+
+        <LinearLayout
+            android:id="@+id/smp_cnxamelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:layout_below="@+id/smp_header_bg_layout"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <!-- Connection Name -->
+
+            <TextView
+                style="@style/TextMediumTitlePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom"
+                android:text="@string/connection_name" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/smp_connname"
+                style="@style/TextMedium.EditTextBoxStylePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/editbox"
+                android:gravity="bottom"
+                android:hint="@string/required"
+                android:imeOptions="actionNext"
+                android:inputType="textFilter"
+                android:maxLength="70"
+                android:text="@string/smp_connection" >
+            </EditText>
+        </LinearLayout>
+
+        <!-- SUP Configuration -->
+
+
+        <!-- SECURITY CONFIGURATION NAME -->
+
+        <LinearLayout
+            android:id="@+id/smp_security_config_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:layout_below="@+id/smp_cnxamelayout"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/TextMediumTitlePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom"
+                android:text="@string/security_configname" />
+
+            <EditText
+                android:id="@+id/smp_security_conf"
+                style="@style/TextMedium.EditTextBoxStylePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left|start"
+                android:background="@drawable/editbox"
+                android:gravity="bottom"
+                android:hint="@string/required"
+                android:inputType="textFilter" >
+            </EditText>
+        </LinearLayout>
+
+        <!-- adding for SUP server details -->
+
+
+        <!-- SERVER LAYOUT -->
+
+        <LinearLayout
+            android:id="@+id/smp_sup_server_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:layout_below="@+id/smp_security_config_layout"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/TextMediumTitlePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom"
+                android:text="@string/server" />
+
+            <EditText
+                android:id="@+id/smp_sup_server"
+                style="@style/TextMedium.EditTextBoxStylePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left|start"
+                android:background="@drawable/editbox"
+                android:gravity="bottom"
+                android:hint="@string/required"
+                android:inputType="textFilter" >
+            </EditText>
+        </LinearLayout>
+
+        <!-- PROXY LAYOUT -->
+
+        <LinearLayout
+            android:id="@+id/smp_proxy_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:layout_below="@+id/smp_sup_server_layout"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <TextView
+                android:id="@+id/textViewProxy"
+                style="@style/TextMediumTitlePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom"
+                android:text="@string/proxy" />
+
+            <EditText
+                android:id="@+id/smp_proxy"
+                style="@style/TextMedium.EditTextBoxStylePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left|start"
+                android:background="@drawable/editbox"
+                android:gravity="bottom"
+                android:hint="@string/required"
+                android:inputType="textFilter" >
+            </EditText>
+        </LinearLayout>
+
+        <!-- Adding Access Details -->
+        <!-- ACCESS DETAILS HEADER -->
+
+        <LinearLayout
+            android:id="@+id/smp_header1_bg_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:layout_below="@+id/smp_proxy_layout"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@color/greydark" >
+
+            <TextView
+                android:id="@+id/smp_access_detail"
+                style="@style/TextMediumTitlePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:gravity="left|start|center_vertical"
+                android:textAlignment="viewStart"
+                android:text="@string/auth_det"
+                android:textAllCaps="true" >
+            </TextView>
+        </LinearLayout>
+
+        <!-- USER NAME -->
+
+        <LinearLayout
+            android:id="@+id/smp_user_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:layout_below="@id/smp_header1_bg_layout"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <TextView
+                android:id="@+id/textViewuser"
+                style="@style/TextMediumTitlePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom"
+                android:text="@string/user_name" />
+
+            <EditText
+                android:id="@+id/smp_user"
+                style="@style/TextMedium.EditTextBoxStylePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left|start"
+                android:background="@drawable/editbox"
+                android:gravity="bottom"
+                android:hint="@string/required"
+                android:inputType="textFilter" >
+            </EditText>
+        </LinearLayout>
+
+        <!-- PASSWORD -->
+
+        <LinearLayout
+            android:id="@+id/smp_password_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:layout_below="@+id/smp_user_layout"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <TextView
+                android:id="@+id/textViewPass"
+                style="@style/TextMediumTitlePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left|start"
+                android:gravity="bottom"
+                android:text="@string/password" />
+
+            <EditText
+                android:id="@+id/smp_password"
+                style="@style/TextMedium.EditTextBoxStylePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left|start"
+                android:background="@drawable/editbox"
+                android:gravity="bottom"
+                android:inputType="textFilter"
+                android:password="true" >
+            </EditText>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/cl_smp__separator"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/smp_password_layout"
+            android:background="@color/lightgrey" >
+        </View>
+
+        <!-- DEFAULT CONNECTION -->
+
+        <LinearLayout
+            android:id="@+id/smp_default_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/cl_smp__separator"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <TextView
+                android:id="@+id/textViewDefault"
+                style="@style/TextMediumTitlePhone"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.65"
+                android:text="@string/set_as_default" />
+
+            <Switch
+                android:id="@+id/smp_default"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.35"
+                android:minHeight="28dp"
+                android:minWidth="90dp"
+                android:switchTextAppearance="@style/SwitchTextAppearance"
+                android:textOff="@string/toggle_no"
+                android:textOn="@string/toggle_yes" >
+            </Switch>
+        </LinearLayout>
+
+        <!-- SAVE PASSWORD -->
+
+        <LinearLayout
+            android:id="@+id/smp_savepassword_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/smp_default_layout"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <TextView
+                android:id="@+id/textViewSavePass"
+                style="@style/TextMediumTitlePhone"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.65"
+                android:text="@string/save_password" />
+
+            <Switch
+                android:id="@+id/smp_save_password"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.35"
+                android:minHeight="28dp"
+                android:minWidth="90dp"
+                android:switchTextAppearance="@style/SwitchTextAppearance"
+                android:textOff="@string/toggle_no"
+                android:textOn="@string/toggle_yes" >
+            </Switch>
+        </LinearLayout>
+
+        <!-- EXTRA SEPERATOR -->
+
+        <View
+            android:id="@+id/smp_separator_Savepasswordbelow"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/smp_savepassword_layout"
+            android:background="@color/lightgrey" >
+        </View>
+
+        <!-- ADDITIONAL AUTH CREDENTIALS -->
+
+        <LinearLayout
+            android:id="@+id/smp_add_cred"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:layout_below="@id/smp_separator_Savepasswordbelow"
+            android:orientation="horizontal"
+            android:layoutDirection="locale"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginBottom="15dp" >
+
+            <TextView
+                android:id="@+id/textViewcred"
+                style="@style/TextMediumTitlePhone"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.65"
+                android:text="@string/additional_authcred" />
+
+            <Switch
+                android:id="@+id/smp_add_cred_but"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="0.35"
+                android:minHeight="28dp"
+                android:minWidth="90dp"
+                android:switchTextAppearance="@style/SwitchTextAppearance"
+                android:textOff="@string/toggle_no"
+                android:textOn="@string/toggle_yes" >
+            </Switch>
+        </LinearLayout>
+
+        <!-- SHOW CRED LAYOUT -->
+
+        <LinearLayout
+            android:id="@+id/smp_show_cred_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/smp_add_cred"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/smp_boe_user_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="58dp"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp" >
+
+                <TextView
+                    android:id="@+id/textViewboeuser"
+                    style="@style/TextMediumTitlePhone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left|start"
+                    android:gravity="bottom"
+                    android:text="@string/user_name" />
+
+                <EditText
+                    android:id="@+id/smp_boe_user"
+                    style="@style/TextMedium.EditTextBoxStylePhone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left|start"
+                    android:background="@drawable/editbox"
+                    android:gravity="bottom"
+                    android:hint="@string/required"
+                    android:inputType="textFilter" >
+                </EditText>
+            </LinearLayout>
+
+            <!-- SMP BOE PASSWORD LAYOUT -->
+
+            <LinearLayout
+                android:id="@+id/smp_boe_pass_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="58dp"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"  >
+
+                <TextView
+                    android:id="@+id/textViewboePass"
+                    style="@style/TextMediumTitlePhone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left|start"
+                    android:gravity="bottom"
+                    android:text="@string/password" />
+
+                <EditText
+                    android:id="@+id/smp_boe_password"
+                    style="@style/TextMedium.EditTextBoxStylePhone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left|start"
+                    android:background="@drawable/editbox"
+                    android:gravity="bottom"
+                    android:inputType="textFilter"
+                    android:password="true" >
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- EXTRA SAPERATOR -->
+
+    </RelativeLayout>
+
+</LinearLayout>

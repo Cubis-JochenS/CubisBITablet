@@ -1,0 +1,151 @@
+<resources>
+
+    <!-- background color for home, settings screens -->
+    <color name="background">#F6F6F6</color>
+    <!-- category name text color in list or grid view -->
+    <color name="home_view_category_text">#0099cc</color>
+     <color name="connection_view_background">#fff3f3f3</color>
+    <!--  -->
+    <color name="home_view_inbox_unread">#009DE0</color>
+    <color name="home_view_section_bg">#FFFFFF</color>
+    <color name="home_view_section_text">#666666</color>
+    <color name="home_view_section_count_text">#777777</color>
+    <color name="home_view_doc_field_text">#000000</color>
+    <color name="home_view_date_field_text">#696969</color>
+    <color name="settings_view_text">#696969</color>
+    <color name="settings_view_separator">#dddddd</color>
+    <color name="settings_view_connection_status_text">#696969</color>
+    <!-- background color for left panel -->
+    <color name="left_panel_bg">#FFFFFF</color>
+    <color name="left_panel_header_text">#009DE0</color>
+    <color name="left_panel_text">#666666</color>
+    <color name="left_panel_selected_text">#FFFFFF</color>
+    <color name="left_panel_vertical_separator">#bfbfbf</color>
+    <color name="left_panel_category_separator">#000000</color>
+	 <color name="home_actionbar_connected">#009de0</color>
+	 <color name="home_actionbar_workoffline">#FF7878</color>
+	 <color name="home_actionbar_notconnected">#FF7878</color>
+    
+    <!-- background color for settings -->
+    <color name="settings_left_panel">#FFFFFF</color>
+    <color name="settings_left_panel_text">#666666</color>
+    <color name="settings_layout_background">#fff</color>
+    <color name="settings_background">#fefefe</color>
+    <color name="settings_details_background">#33EDEBF2</color>
+    
+
+    <!-- List View Colors -->
+    <color name="home_view_list_item_pressed_bg">#00a3d7</color>
+    <color name="home_view_list_item_selected_bg">#b2d0e5</color>
+    <color name="home_view_list_item_bg">#ffffff</color>
+    
+    <color name="greydark">#EEEEEE</color>
+    <color name="ghostwhite">#f8f8ff</color>
+    <color name="purewhite">#FFFFFE</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="semitransparent_grey">#77000000</color>
+    <color name="lightgrey">#dddddd</color>
+    <color name="white">#ffffff</color>
+    <color name="textColor">#fffafa</color>
+    <color name="mediumgrey">#CDCDCD</color>
+    <color name="dimgrey">#666666</color>
+    <color name="light_bg_grey">#e6e6e6</color>
+    <color name="whitesmoke">#f5f5f5</color>
+    <color name="gold">#f0ab00</color>
+    <color name="darkgrey">#151515</color>
+    <color name="blue">#0B0B3B</color>
+    <color name="sparklinegrpahcolor">#0099ff</color>
+    <color name="splashscreen_text">#ff333333</color>
+    <color name="light_gray">#736F6E </color>
+    <color name="dodger_blue">#1e90ff</color>
+    <color name="header_blue">#ebf3f8</color>
+    <color name="text_blue">#0062A9</color>
+    <color name="grey">#AAAAAA</color>
+    <color name="title_blue">#007cc0</color>
+    <color name="bg_grey">#f9f9f9</color>
+    <!-- List Colors -->	    
+    <color name="list_pressed">#00a3d7</color>
+    <color name="list_selected">#b2d0e5</color>
+    <color name="list_normal">#ffffff</color>
+    <!-- Text Colors -->
+    <color name="text_normal">#333333</color>
+    <color name="text_header">#0062A9</color>
+    <color name="text_subheader">#999999</color>
+    <color name="clear_button_color">#666666</color>
+
+    <!-- Table Colors -->
+    <!-- Graphite Colors -->
+    <color name="gr_table_bkg">#000000</color>
+    <color name="gr_table_border">#999999</color>
+    <color name="gr_header_bkg">#262626</color>
+    <color name="gr_header_text">#ffffff</color>
+    <color name="gr_cell_text">#ffffff</color>
+    <color name="gr_even_row">#595959</color>
+    <color name="gr_odd_row">#7f7f7f</color>
+    <color name="gr_cell_separator">#999999</color>
+    <color name="gr_end_shadow">#297f7f7f</color>
+    <color name="gr_start_shadow">#29000000</color>
+
+    <!-- Ivory Colors -->
+    <color name="iv_table_bkg">#ffffff</color>
+    <color name="iv_table_border">#bdbdbd</color>
+    <color name="iv_header_bkg">#d6d6d6</color>
+    <color name="iv_header_text">#000000</color>
+    <color name="iv_cell_text">#333333</color>
+    <color name="iv_even_row">#fafcff</color>
+    <color name="iv_odd_row">#f1f2f3</color>
+    <color name="iv_cell_separator">#bdbdbd</color>
+    <color name="iv_start_shadow">#80cccccc</color>
+    <color name="iv_end_shadow">#80f1f2f3</color>
+
+    <!-- Incase of drill and open doc -->
+    <color name="action_text">#278ae5</color>
+    
+	<!--Document Quick action text color -->
+    <color name="quicktext_small">#999999</color>
+    <color name="quicktext_medium">#666666</color>
+    <color name="quicktext_dark">#333333</color>
+    <color name="quickinfo_red">#ff0000</color>
+    <!-- List styling -->
+    <color name="list_text">#666666</color>
+    <color name="list_subtext">#2980c8</color>
+    <color name="list_smalltext">#888888</color>
+
+    <!-- annotation background colors: the sixth background is transparent i.e. no color -->
+    <color name="background1">#f8f4b3</color>
+    <color name="background2">#79d2f5</color>
+    <color name="background3">#ffd385</color>
+    <color name="background4">#ccafd3</color>
+    <color name="background5">#d0e187</color>
+
+    <!-- colors for annotations -->
+    <!-- paint colors -->
+    <color name="paint_white">#ffffff</color>
+    <color name="paint_black">#000000</color>
+    <color name="paint_red">#be1e2d</color>
+    <color name="paint_green">#009344</color>
+    <color name="paint_yellow">#ffdd17</color>
+    <color name="paint_blue">#0099cc</color>
+
+    <!-- New Colors for 6.0 -->
+    <color name="top_bar">#E5E5E5</color>
+    <color name="top_bar_conn">#f9f9f9</color>
+    <color name="highlight">#009DE0</color>
+    <color name="light_blue">#009de0</color>
+
+    <!-- Button Highlight color -->
+    <color name="button_highlight">#B3E6FF</color>
+
+    <!-- Document list view colors -->
+	<color name="document_list_pressed">#B3E6FF</color>
+	<color name="document_list_normal">#ffffff</color>
+	<!-- Notification panel colors -->
+	<color name="autoupdate_title">#666666</color>
+	<color name="autoupdate_subtitle">#999999</color>
+	
+	<!-- Splash Screen -->
+	<color name="layout_border">#C4C4C4</color>
+	<color name="splash_screen_bg">#0DB3E6FF</color>
+	<color name="splash_screen_text">#CCCCCC</color>
+</resources>

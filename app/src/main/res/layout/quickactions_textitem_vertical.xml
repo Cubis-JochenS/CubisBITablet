@@ -1,0 +1,24 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+    android:layoutDirection="locale"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:clickable="false"
+	android:focusable="false"
+	
+	android:background="@color/greydark">
+
+	<TextView 
+		android:id="@+id/tv_title"
+		android:layout_width="fill_parent" 
+		android:layout_height="40dp" 
+		android:gravity="center_vertical"
+		android:paddingLeft="24dp"
+        android:paddingStart="24dp"
+		android:textSize="12sp"
+		android:textAllCaps="true"
+		android:textColor="@color/dimgrey"
+		android:fontFamily="bold"/>
+									         
+</LinearLayout>         

@@ -1,0 +1,272 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1; maximum-scale=1; user-scalable=0; width=device-width;"/> 
+	<meta name="apple-mobile-web-app-capable" content="yes" /> 
+	<title>Interactive Legend</title>
+	<link rel="stylesheet" href="css/toolbar.css" type="text/css"/>
+	<link rel="stylesheet" href="css/default.css" type="text/css" class="ui-theme"/>	 
+	<script src="jquery-1.7.1.min.js"></script>	 
+	<script src="../scripts/jquery/jquery.glob.js"></script>
+	<script src="../scripts/jquery/locinfo/jQuery.glob.all.js"></script>
+	<script src='../scripts/sap.makit-3.0.min.js'></script>
+	<script src='../scripts/GlobalizedResource.js'></script>
+	
+	<script src="MyLayout.js"></script>
+	
+	<script type="text/javascript">
+	var mobiZoomLevel = 0; 
+	var dimention = "dimention";
+	var contentId;
+	var theme;
+	var themecss;
+	var chartType ;
+	var palletteInfo;
+	var prevSelectedItem = null;
+	var pageNo; 
+	var isRangeSelectorVisible; 
+	
+	function setPageNo(pNo, rangeSelectorVisible, legendVisible){
+		pageNo = pNo;
+		isRangeSelectorVisible = rangeSelectorVisible;
+		isLegendVisible = legendVisible;
+	}
+	
+	function setContentId(id){
+		contentId = id;
+	}
+	
+	window.onload = function(){setContentId(99); makeChart();}
+	function makeChart() {	
+		try {
+			arrange(1, 1);
+			$MA.Chart.setPieChartCategoryTextMaxLength(23);
+			
+			var mobiChart = new $MA.Chart("chart_1", true);
+			
+			//... load the theme css correctly
+			var fileref = document.createElement("link");
+			fileref.setAttribute("rel", "stylesheet");
+			fileref.setAttribute("type", "text/css");
+			fileref.setAttribute("class", "ui-theme");
+			
+			if(0 == window.makitConnecter.getTheme()) {
+				fileref.setAttribute("href", "../css/chart.css");
+			}else {
+				fileref.setAttribute("href", "css/black.css");
+			}
+			document.getElementsByTagName("head")[0].appendChild(fileref);
+			
+			if(0 == window.makitConnecter.getTheme()) {
+				var temp0 = document.getElementById("title");
+				temp0.style.color = '#003366';
+			}else {
+				var temp0 = document.getElementById("title");
+				temp0.style.color = '#ADD8E6';
+			}
+			
+			/*
+			get the chartMetaData XML data 
+			*/			
+			mobiChart.create(window.makitConnecter.getMicroChartMetaData());			
+			chartType = window.makitConnecter.getMicroChartType();
+			
+			mobiChart.showToolBar(false);
+			mobiChart.showValueBubble(false);
+			
+			var pallette = window.makitConnecter.getMicroChartPallette();
+			if(pallette != null && pallette != undefined && pallette != ""){
+				pallette = pallette + "" ;
+				palletteInfo = JSON.parse(pallette);
+				mobiChart.setPalette(palletteInfo);
+			}
+			
+			/*
+			Single tap event is binded for the customised action as requirred for the value bubble.
+			this inturn on Chart loads calls the onSingleTap method where implementation is written
+			*/
+			mobiChart.bind("tap", onSingleTap);
+			mobiChart.bind("titlechanged", onTitleChanged);
+			/*
+			MAKit sorts data  in lexical sorting.  This inturn leads to mismatch of what webi 
+			order. Avoid sorting by setting the sorting to none.
+			*/
+			mobiChart.setProperty("category.sortorder", "none");			
+			bubbleShapeExists = false;
+			bubbleHeightExists = false;
+			/*
+			Set the number of maximum visible measurable points within the 
+			range selector display. 
+			*/
+			mobiChart.setNumberOfVisibleCategories(300);
+			mobiChart.setShowDotsWidth(10);
+			
+			/*
+			Visibility of x-axis line and the label to be set based on x-axis visible property
+			*/
+			mobiChart.setProperty("category.showprimaryline", true);						
+			mobiChart.setProperty("category.showLabel", true);
+			mobiChart.setProperty("values.showprimaryline", true);
+			mobiChart.setProperty("values.showLabel", true);
+			
+			/*
+			Set device locale
+			*/
+			var lang = window.makitConnecter.getDeviceLang();
+			if(lang != null && lang != undefined){				
+				$MA.setLocale(lang);
+			}
+			/*
+			Measure value formatted to two digits next to decimals.
+			If one wants for three digits, then use rounded3  and so on...
+			*/
+			mobiChart.setProperty("values[0].format", "rounded2");
+			
+			/*
+			 To display the last label in the chart always which is getting plotted
+			*/
+			mobiChart.setProperty("category.displayLastLabel", true);
+			mobiChart.setZoomingLevel(mobiZoomLevel);
+			
+			var oriantation = window.makitConnecter.getOrientation();
+			var isTablet = window.makitConnecter.getIsTablet();
+			
+			var styleObj = {};
+			/*
+			 If the value is null, then don;t display 
+			*/				
+			styleObj.showNullValue = false ;
+			/*
+			If the chart type is not pie and bubble, to decide upon the range selector
+			we check the orirntation. For landscape orientation, we set the range selector to be false if 
+			the request is from a MObile device.  For mobile device, range selector is available for the 
+			portrait mode only
+			If Request is from a Tablet , we show the range selector for
+			landscape as well as portrait mode.
+			orientation  true: landscape   , false : portiat 
+			*/
+			/* If the charts are displayed from Geo Map Document then we show the range selector only in Full screen*/
+			if(oriantation){					
+				if(isTablet){
+					mobiChart.showRangeSelectorView(true);
+				}else{
+					mobiChart.showRangeSelectorView(false);
+				}
+				mobiChart.setLegendOffset(0, -150);
+			}
+			/*
+			  For mobile device : value bubble used for Portrait is a Top value bubble
+			  and for a landscape mode is floating top value bubble .
+			  In th case of tablet , Value bubble is always a Top value bubble .
+			  this is a bydesign requirement.
+			*/
+			
+			if(oriantation && !isTablet){
+				styleObj.style = "floattop";
+			}
+			else{
+				styleObj.style = "top";
+			}
+			
+			/*
+			 In the case of MD charts ,Don't show the value bubble points for which the dta ais missing,
+			 set the showNullValue as false ; By default, it is set to true 
+			*/					
+			styleObj.showCategoryText = true;
+			styleObj.showCategoryDisplayName = false;
+			styleObj.showValueDisplayName = false;
+			
+			if(chartType == 'line'){
+				styleObj.legendIconShape = "circle";
+			}
+			mobiChart.setValueBubbleStyle(styleObj);
+			mobiChart.refresh();
+		}catch(ex) {
+			console.log("Error : 01 MakeChart : " + ex + " " + ex.message);
+		}	
+	}	
+	
+	function onSingleTap(id, e) {
+		/*
+		 Single tap evenets to control the value bubble behaviour
+		*/
+		if ($MA(id).isValueBubbleVisible()){
+			if (prevSelectedItem == $MA(id).getSelectedCategory() ){
+				
+				var oriantation = window.makitConnecter.getOrientation();
+				var isTablet = window.makitConnecter.getIsTablet();
+				
+				if(oriantation && !isTablet){
+					$MA(id).showValueBubble(false);
+				}
+			}
+		}
+		else{
+			$MA(id).showValueBubble(true);
+		}
+		prevSelectedItem = $MA(id).getSelectedCategory();
+	}
+
+	
+	function onTitleChanged(id, title) {
+		var elem = document.getElementById("title");
+		/*
+		 * Ellipsizing the Title so that the title is occupied as part of one single line instead 
+		 * pushing the chart to multiple lines 
+		*/
+		elem.style.whiteSpace = 'nowrap';
+		elem.style.overflow = 'hidden';
+        elem.style.textOverflow = 'ellipsis';
+		elem.innerHTML = title;
+	}
+
+	function executeMAQuery(chartObj, name, args, graphName)
+	{
+		/*
+		This method gets fired internally when we create/load the chart metsa dtaa xml file		
+		*/
+		var dataTable; 
+		
+		// All querys required by chart should be handled here
+		if (name == "mobiquery"){
+			dataTable = setJsondataSet();
+		}
+		
+		chartObj.setDataTable(dataTable,graphName);
+	}
+	
+	function setJsondataSet(){
+		var dataTable = new $MA.DataTable();
+		
+		try{
+			if(mobiZoomLevel == -1){
+				mobiZoomLevel = 0 ;
+			}
+			var dataTable = new $MA.DataTable();			
+			dataTable.addColumn("dimension", "string"); 
+			dataTable.addColumn("product", "string");
+			dataTable.addColumn("revenue", "number");
+			dataTable.addColumn("displaytext", "string");
+			
+			var jsonArray = window.makitConnecter.loadMicroChartData();
+			var chartDataInJson = JSON.parse(jsonArray + "");
+			dataTable.addRows(chartDataInJson);
+		}
+		catch(ee){
+			console.log("Error : 01 MakeChart : " + ee );
+		}
+		return dataTable;
+	}
+
+	function onOrientationChanged() {		
+		arrange(1, 1, true);
+	}
+	</script>
+</head>
+<body>
+	<div id="title" style="text-align:left; padding-left:10px; font-family:arial; color:#003366; font-size:14px; font-weight:bold;"></div> 
+	<div id="contents">
+		<div id="chart_1"></div>
+    </div>
+</body>
+</html>

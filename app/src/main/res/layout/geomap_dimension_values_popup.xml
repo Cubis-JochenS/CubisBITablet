@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/DimensionValuePopUpView"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/map_dimension_summary_border"
+
+    android:orientation="vertical" >
+
+
+
+    
+
+
+
+
+
+
+
+        <RelativeLayout
+
+            android:id="@+id/DimensionsPopUpView"
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="wrap_content"
+
+            android:background="@color/black" >
+
+
+
+            <ImageView
+
+        android:id="@+id/backToDimensionsImageView1"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:contentDescription="@string/choose_value"
+		android:layoutDirection="locale"
+        android:src="@drawable/nav_back_button" 
+
+        android:layout_centerVertical="true"/>
+
+
+
+            <Button
+
+                android:id="@+id/backToDimensionsButton"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="50dp"
+
+                android:layout_marginLeft="5dp"
+
+                android:layout_toRightOf="@+id/backToDimensionsImageView1"
+
+                android:layout_marginStart="5dp"
+
+                android:layout_toEndOf="@+id/backToDimensionsImageView1"
+
+                android:alpha="100"
+
+                android:background="@color/transparent"
+
+                android:textSize="18sp"
+
+                android:textStyle="bold" 
+
+                android:layout_centerVertical="true"
+
+                android:textColor="@color/white"
+
+                android:ellipsize="end"
+
+                android:singleLine="true"/>
+
+            
+
+            
+
+            <CheckBox
+
+                android:id="@+id/dimensionAllValuesCheckbox"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentRight="true"
+
+                android:layout_alignParentEnd="true"
+
+                android:button="@drawable/geo_checkbox"
+
+                android:layout_centerVertical="true"/>
+
+
+
+            <TextView
+
+                android:id="@+id/dimensionAllText"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_toLeftOf="@+id/dimensionAllValuesCheckbox"
+
+                android:layout_toStartOf="@+id/dimensionAllValuesCheckbox"
+
+                android:text="@string/ALL"
+
+                android:textSize="12sp" 
+
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"/>
+
+            
+
+        </RelativeLayout>
+
+
+
+        <ListView
+
+            android:id="@+id/dimensionValueList"
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="wrap_content" >
+
+        </ListView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+	    <ListView
+	        android:id="@+id/homesamplelv"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="5dip"
+	        android:layout_marginRight="5dip" >
+
+	    </ListView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/hl_addconn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_below="@+id/linearLayout2">
+        <include
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="25dp"
+             layout="@layout/create_conn_layout" >
+        </include>
+</LinearLayout>
+    </RelativeLayout>

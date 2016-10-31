@@ -1,0 +1,7 @@
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checkMark="?android:attr/listChoiceIndicatorSingle"    
+    style="@style/ConnectionsList"/>
+<!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/layout/custom_single_choice_items.xml -->

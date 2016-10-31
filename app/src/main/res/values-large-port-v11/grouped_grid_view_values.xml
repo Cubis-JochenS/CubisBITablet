@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <integer name="gridview_item_count">2</integer>
+ <item name="gridview_blank_view_width" type="integer">35</item>
+ <item name="gridview_item_width" type="integer">260</item>
+ <item name="gridview_item_height" type="integer">224</item>
+</resources>

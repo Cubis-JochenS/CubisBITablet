@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ja/arrays.xml -->
+    <eat-comment/>
+    <string-array name="app_pwd_timeout_val">
+        <item>"常時"</item>
+        <item>"1 分"</item>
+        <item>"5 分"</item>
+        <item>"15 分"</item>
+        <item>"60 分"</item>
+        <item>"なし"</item>
+    </string-array>
+    <string-array name="log_level">
+        <item>"500 KB"</item>
+        <item>"1 MB"</item>
+        <item>"2 MB"</item>
+    </string-array>
+    <string-array name="offline_dataset_num">
+        <item>"50"</item>
+        <item>"100"</item>
+        <item>"200"</item>
+        <item>"500"</item>
+    </string-array>
+    <string-array name="sdk_offline_storage">
+        <item>"30 MB"</item>
+        <item>"50 MB"</item>
+        <item>"100 MB"</item>
+        <item>"200 MB"</item>
+    </string-array>
+    <string-array name="select_dialog_items2">
+        <item>"新規接続登録"</item>
+        <item>"サーバからインポート"</item>
+    </string-array>
+    <string-array name="select_dialog_items3">
+        <item>"いいえ"</item>
+        <item>"はい"</item>
+    </string-array>
+    <string-array name="select_dialog_items4">
+        <item>"編集"</item>
+        <item>"削除"</item>
+    </string-array>
+    <string-array name="select_dialog_items5">
+        <item>"再接続"</item>
+        <item>"オフライン作業"</item>
+    </string-array>
+    <string-array name="select_dialog_items6">
+        <item>"ログアウト"</item>
+    </string-array>
+    <string-array name="settings">
+        <item>"一般設定"</item>
+        <item>"表示オプション"</item>
+        <item>"クイックヒント"</item>
+        <item>"ログ"</item>
+        <item>"ダッシュボード"</item>
+        <item>"製品情報"</item>
+    </string-array>
+    <string-array name="sup_options">
+        <item>"編集"</item>
+        <item>"登録取消"</item>
+    </string-array>
+    <string-array name="theme">
+        <item>"アイボリー"</item>
+        <item>"グラファイト"</item>
+    </string-array>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="ALL">"すべて"</string>
+    <string name="AM">"AM"</string>
+    <string name="BIInbox">"BI 受信ボックス"</string>
+    <string name="Login_credentials">"ユーザ認証情報"</string>
+    <string name="Minutes">"分"</string>
+    <string name="Mobile_lbl">"携帯電話"</string>
+    <string name="MultipleDimensions">"複数ディメンション"</string>
+    <string name="PM">"PM"</string>
+    <string name="Reselect">"再度選択してください"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s、%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s、%2$s、%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="about">"製品情報"</string>
+    <string name="add_alias">"エイリアス追加"</string>
+    <string name="add_conn_connected">"ユーザがログインしている場合は接続を追加できません。ログアウトしてから再試行してください"</string>
+    <string name="add_connection_android">"タップして SAP BI アプリケーション (Android) に接続を追加します"</string>
+    <string name="add_connection_ios">"タップして SAP BI アプリケーション (iOS) に接続を追加します"</string>
+    <string name="add_default_category">"デフォルトカテゴリ設定"</string>
+    <string name="add_doc">"文書追加"</string>
+    <string name="add_existing_connection">"この接続はすでに存在しています"</string>
+    <string name="add_home">"ホーム追加"</string>
+    <string name="add_new_cnx">"接続追加"</string>
+    <string name="add_to_device">"デバイスに追加"</string>
+    <string name="add_to_favorites">"お気に入りに追加"</string>
+    <string name="additional_authcred">"追加認証情報"</string>
+    <string name="alias">"エイリアス"</string>
+    <string name="all_objects">"全オブジェクト"</string>
+    <string name="all_reports">"全レポート"</string>
+    <string name="all_values">"すべての値"</string>
+    <string name="annotations">"注釈"</string>
+    <string name="app_cur_pwd">"パスワード変更"</string>
+    <string name="app_cur_pwd_text">"現在のアプリケーションパスワードの入力"</string>
+    <string name="app_disable_pwd">"アプリケーションパスワード無効化"</string>
+    <string name="app_enter_pwd">"アプリケーションパスワード"</string>
+    <string name="app_enter_pwd_text">"パスワードは %1$d 文字以上でなければなりません"</string>
+    <string name="app_exit_message_heaad">"不正なアプリケーションアクセス"</string>
+    <string name="app_name">"SAP BI"</string>
+    <string name="app_new_pwd">"新しいアプリケーションパスワード"</string>
+    <string name="app_pwd">"アプリケーションパスワード入力"</string>
+    <string name="app_pwd_exit_text">"アプリケーションは 5 秒後に終了します"</string>
+    <string name="app_pwd_login">"BI プラットフォーム接続を確立するには、アプリケーションパスワードを設定する必要があります。 パスワードによってオフラインデータを保護することができます。 \n\n続行しますか。"</string>
+    <string name="app_pwd_security">"セキュリティ低下"</string>
+    <string name="app_pwd_security_text">"このアクションによりアプリケーションのセキュリティが低下します"</string>
+    <string name="app_pwd_set">"アプリケーションパスワード設定"</string>
+    <string name="app_pwd_timeout">"パスワードタイムアウト"</string>
+    <string name="app_reenter_pwd">"アプリケーションパスワード確認"</string>
+    <string name="app_reenter_pwd_text">"アプリケーションパスワード確認"</string>
+    <string name="application_related">"アプリケーション関連"</string>
+    <string name="applicationid">"アプリケーション ID"</string>
+    <string name="apply_filter">"フィルタ適用"</string>
+    <string name="assign_categories">"カテゴリ割当"</string>
+    <string name="auth_det">"認証詳細"</string>
+    <string name="auth_mode">"認証モード"</string>
+    <string name="auth_type">"認証タイプ"</string>
+    <string name="authentication_details">"認証詳細"</string>
+    <string name="author">"作成者"</string>
+    <string name="author1">"作成者"</string>
+    <string name="authored_by">"作成者"</string>
+    <string name="back">"前画面"</string>
+    <string name="basic_auth">"認証が必要です"</string>
+    <string name="between">"範囲内"</string>
+    <string name="bi_auto_update">"自動更新"</string>
+    <string name="bi_auto_update_Wifi_and_Cellular">"自動更新 (Wi-Fi およびモバイルデータの場合)"</string>
+    <string name="bi_auto_update_wiFi">"自動更新 (Wi-Fi の場合のみ)"</string>
+    <string name="black">"黒"</string>
+    <string name="blue">"青"</string>
+    <string name="blur">"ぼかし"</string>
+    <string name="both">"両方"</string>
+    <string name="browse">"ブラウズ"</string>
+    <string name="build">"ビルド:"</string>
+    <string name="cancel">"中止"</string>
+    <string name="cannot_expand_this_node">"このノードを展開できません"</string>
+    <string name="cannot_save_doc">"文書を保存できません"</string>
+    <string name="cannot_save_doc_connection_not_available">"文書を保存できません。 現時点で有効な接続が存在しないか、または文書がモバイルカテゴリに存在しない可能性があります。"</string>
+    <string name="cannot_save_doc_generic_error">"文書を保存できません。一般エラーが発生しました。"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-ja/values.xml -->
+    <eat-comment/>
+    <string msgid="4778414446709286370" name="cast_ad_label">"広告"</string>
+    <string msgid="366047012176970604" name="cast_casting_to_device">"「%1$s」にキャストしています"</string>
+    <string msgid="2888745622334830481" name="cast_closed_captions">"クローズド キャプション"</string>
+    <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"クローズド キャプションを使用できません"</string>
+    <string msgid="4431992200264667209" name="cast_disconnect">"接続を解除"</string>
+    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"広告の編集中…"</string>
+    <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"アルバムアート"</string>
+    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"ライブ ストリーム"</string>
+    <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"読み込んでいます…"</string>
+    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"スキップ"</string>
+    <string msgid="7884080323096468593" name="cast_forward">"早送り"</string>
+    <string msgid="6424889955881797947" name="cast_forward_10">"10 秒早送り"</string>
+    <string msgid="7868672855975238403" name="cast_forward_30">"30 秒早送り"</string>
+    <string msgid="6885943100773268783" name="cast_intro_overlay_button_text">"@android:string/ok"</string>
+    <string msgid="5637297909372905371" name="cast_mute">"ミュート"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/res/values-ja/values.xml -->
+    <eat-comment/>
+    <string msgid="5319032370587661362" name="cast_notification_connected_message">"<ns1:g id="NAME">%1$s</ns1:g> に接続しました"</string>
+    <string msgid="2758865089947797888" name="cast_notification_connecting_message">"<ns1:g id="NAME">%1$s</ns1:g> に接続しています"</string>
+    <string msgid="5232008641593292969" name="cast_notification_disconnect">"接続を解除"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-ja/values.xml -->
+    <eat-comment/>
+    <string msgid="5308503786390460607" name="cast_pause">"一時停止"</string>
+    <string msgid="5906987965619702702" name="cast_play">"再生"</string>
+    <string msgid="1739665135565985480" name="cast_rewind">"巻き戻し"</string>
+    <string msgid="6432793028560778843" name="cast_rewind_10">"10 秒巻き戻し"</string>
+    <string msgid="4677199707225681325" name="cast_rewind_30">"30 秒巻き戻し"</string>
+    <string msgid="9078075166993780241" name="cast_seek_bar">"再生スライダー"</string>
+    <string msgid="3991548379225047363" name="cast_skip_next">"次の項目にスキップ"</string>
+    <string msgid="8369073097776576935" name="cast_skip_prev">"前の項目にスキップ"</string>
+    <string msgid="9191388946729723891" name="cast_stop">"停止"</string>
+    <string msgid="1219622777438777099" name="cast_stop_live_stream">"ライブ ストリームを停止"</string>
+    <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"音声"</string>
+    <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"キャンセル"</string>
+    <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"トラック <ns1:g id="POSITION">%1$d</ns1:g>"</string>
+    <string msgid="5563446400083425854" name="cast_tracks_chooser_dialog_no_audio_tracks">"利用可能な音声トラックがありません"</string>
+    <string msgid="7413336699113748535" name="cast_tracks_chooser_dialog_no_text_tracks">"利用可能なテキスト トラックがありません"</string>
+    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"なし"</string>
+    <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"OK"</string>
+    <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"字幕"</string>
+    <string msgid="2913461521603516868" name="cast_unmute">"ミュートを解除"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="categories">"カテゴリ"</string>
+    <string name="category">"カテゴリ"</string>
+    <string name="category_all">"すべて"</string>
+    <string name="category_delete_message">"カテゴリを削除しますか"</string>
+    <string name="category_empty_message">"カテゴリ名が空白です。別のカテゴリ名を入力してください"</string>
+    <string name="category_exist_message">"カテゴリ名はすでに存在します。別のカテゴリ名を入力してください"</string>
+    <string name="category_others">"その他"</string>
+    <string name="cert_auth_cancelled">"取り消された証明書チェック"</string>
+    <string name="certificate_error">"証明書エラーが発生しました"</string>
+    <string name="change_cmd">"変更"</string>
+    <string name="change_view">"ビュー変更"</string>
+    <string name="choose_connection">"接続選択"</string>
+    <string name="choose_date">"日付選択"</string>
+    <string name="choose_value">"値選択"</string>
+    <string name="choose_values">"値選択"</string>
+    <string name="cms">"CMS"</string>
+    <string name="cms_name">"CMS 名"</string>
+    <string name="cnx_name_already_exists">"この接続名はすでに存在しています"</string>
+    <string name="collaborate">"コラボレーション"</string>
+    <string name="collapse_all">"全圧縮"</string>
+    <string name="column">"列"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-ja/values.xml -->
+    <eat-comment/>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"有効にする"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行には、Google Play開発者サービスの有効化が必要です。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play開発者サービスの有効化"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"インストール"</string>
+    <string msgid="1666261992894286769" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスが必要ですが、お使いのスマートフォンにはインストールされていません。"</string>
+    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play開発者サービスの入手"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play開発者サービスのエラー"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/res/values-ja/values.xml -->
+    <eat-comment/>
+    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」でGoogle Play開発者サービスに問題が発生しています。問題が解決しない場合は、デベロッパーにお問い合わせください。"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-ja/values.xml -->
+    <eat-comment/>
+    <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>に必要なGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは端末メーカーにお問い合わせください。"</string>
+    <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play開発者サービス"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスの更新が必要です。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play開発者サービスの更新"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。"</string>
+    <string msgid="2270671469198016014" name="common_google_play_services_updating_title">"Google Play開発者サービスの更新中"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"スマートフォンで開く"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"ログイン"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Googleにログイン"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="confirm">"確認"</string>
+    <string name="confirm_delete_all_connection">"すべての接続を削除しますか。"</string>
+    <string name="confirm_delete_connection">"選択した接続 %1$s を削除しますか。"</string>
+    <string name="confirm_delete_document">"文書を削除しますか。"</string>
+    <string name="confirm_deregister">"SUP から登録解除しますか。"</string>
+    <string name="confirm_logout_1">"この操作によりログオフされます"</string>
+    <string name="confirm_logout_2">"続行しますか。"</string>
+    <string name="confirm_save_password">"パスワードを保存しますか。"</string>
+    <string name="conn_det">"接続詳細"</string>
+    <string name="conn_password">"パスワード"</string>
+    <string name="conn_server_URL">"サーバ URL"</string>
+    <string name="conn_type">"接続タイプ"</string>
+    <string name="conn_type_phone">"接続タイプ"</string>
+    <string name="conn_username">"ユーザ名"</string>
+    <string name="connected">"接続済"</string>
+    <string name="connected_already">"すでに接続されています"</string>
+    <string name="connection">"新規接続"</string>
+    <string name="connection_details">"接続詳細"</string>
+    <string name="connection_name">"接続名"</string>
+    <string name="connection_options">"オプション"</string>
+    <string name="connection_related">"接続関連"</string>
+    <string name="connection_save">"保存"</string>
+    <string name="connection_saveconnect">"保存して接続"</string>
+    <string name="connection_server_URL">"接続サーバ URL"</string>
+    <string name="connection_share">"共有"</string>
+    <string name="connections">"接続"</string>
+    <string name="content_data_exceeding_limit">"データ要素が多すぎるためチャートを表示できません"</string>
+    <string name="content_not_supported">"コンテンツはサポートされていません"</string>
+    <string name="create_connection">"接続を登録して文書を表示"</string>
+    <string name="create_new_category">"新規カテゴリ登録"</string>
+    <string name="create_new_cnx">"新規接続登録"</string>
+    <string name="create_new_cnx_desc1">"および、文書をブラウズします。"</string>
+    <string name="create_new_cnx_desc2">"この操作は \'設定\' 画面でも行うことができます。"</string>
+    <string name="create_new_group">"新規グループ登録"</string>
+    <string name="crop">"切り抜き"</string>
+    <string name="ctb_app_settings">"アプリケーション設定"</string>
+    <string name="ctb_con_set">"接続設定"</string>
+    <string name="ctb_create_con">"接続登録"</string>
+    <string name="ctb_document_name">"文書名"</string>
+    <string name="ctb_log_set">"ログ設定"</string>
+    <string name="ctb_net_set">"ネットワーク設定"</string>
+    <string name="ctb_reports">"レポート"</string>
+    <string name="ctb_settings">"設定"</string>
+    <string name="ctb_sup_con_set">"SUP 接続"</string>
+    <string name="ctb_view_set">"表示オプション"</string>
+    <string name="customview">"カスタムビュー"</string>
+    <string name="dashboard">"ダッシュボード設定"</string>
+    <string name="dashboard_type">"ダッシュボード"</string>
+    <string name="date">"日付"</string>
+    <string name="date_modified">"変更日付"</string>
+    <string name="day">"日"</string>
+    <string name="days">"日"</string>
+    <string name="default_conn">"デフォルト接続"</string>
+    <string name="default_connect">"デフォルト接続"</string>
+    <string name="default_connection">"(デフォルト)"</string>
+    <string name="delete">"削除"</string>
+    <string name="delete_category">"カテゴリ削除"</string>
+    <string name="delete_conn_connected">"接続を削除できません。ログアウトして再試行してください"</string>
+    <string name="delete_conn_notexisting">"接続は存在しません"</string>
+    <string name="delete_connection">"接続削除"</string>
+    <string name="delete_document">"文書削除"</string>
+    <string name="deregister">"登録解除"</string>
+    <string name="deregister_with_sup">"SUP で登録解除しています..."</string>
+    <string name="deregistration_success">"登録解除が完了しました"</string>
+    <string name="description">"テキスト"</string>
+    <string name="description_home">"ホーム"</string>
+    <string name="description_search">"検索"</string>
+    <string name="designstudio_type">"分析アプリケーション"</string>
+    <string name="display_help_page">"ヘルプページ照会"</string>
+    <string name="doc_delete">"文書が削除されました"</string>
+    <string name="doc_delete_fail">"文書を削除できませんでした"</string>
+    <string name="doc_info_header">"文書情報"</string>
+    <string name="doc_metadata_not_found">"文書情報が見つかりませんでした。"</string>
+    <string name="doc_not_found">"文書を開くことができません"</string>
+    <string name="doc_not_saved">"セキュリティ強化のために設定されたポリシーによって、この文書をダウンロードできません"</string>
+    <string name="document_delete">"文書削除予定日時"</string>
+    <string name="document_inforation_not_available">"文書情報が利用できません。 現時点で有効な接続が存在しないか、または文書がモバイルカテゴリに存在しない可能性があります。"</string>
+    <string name="document_no_category">"文書はいずれのモバイルカテゴリにも割り当てられていません"</string>
+    <string name="document_title">"文書表題"</string>
+    <string name="done">"完了"</string>
+    <string name="download_failed">"文書を保存できません"</string>
+    <string name="downloaded_at">"ダウンロード日時"</string>
+    <string name="dril_temp_file_extension">".tmp"</string>
+    <string name="drill_down">"ドリルダウン先"</string>
+    <string name="drill_focus_in">"ドリルフォーカスイン"</string>
+    <string name="drill_focus_out">"ドリルフォーカスアウト"</string>
+    <string name="drill_from">"開始"</string>
+    <string name="drill_options">"ドリルオプション"</string>
+    <string name="drill_up">"ドリルアップ先"</string>
+    <string name="edit">"編集"</string>
+    <string name="edit_category">"カテゴリ編集"</string>
+    <string name="edit_cnx">"接続の編集"</string>
+    <string name="edit_filter">"フィルタ編集"</string>
+    <string name="edit_group">"グループ編集"</string>
+    <string name="email_menu">"メール"</string>
+    <string name="empty_data">"空白"</string>
+    <string name="empty_log">"ログなし"</string>
+    <string name="endpoint_error">"エンドポイントプロキシをフェッチできませんでした。"</string>
+    <string name="enter_alias">"エイリアス入力"</string>
+    <string name="enter_server_url">"サーバ URL 入力"</string>
+    <string name="enter_valid_url">"有効な URL を入力してください"</string>
+    <string name="equal">"等しい"</string>
+    <string name="erase">"消去"</string>
+    <string name="error">"エラーメッセージ"</string>
+    <string name="establish_connection">"接続を確立して文書をダウンロード"</string>
+    <string name="eula_accept">"承認"</string>
+    <string name="eula_mobi_updates"/>
+    <string name="eula_reject">"却下"</string>
+    <string name="eula_title">"エンドユーザライセンス契約"</string>
+    <string name="except">"除外"</string>
+    <string name="exist_conn">"既存の接続"</string>
+    <string name="existing_conn_header">"既存の接続"</string>
+    <string name="exit_full_screen">"全画面を終了"</string>
+    <string name="expand_all">"全展開"</string>
+    <string name="expires_in">"有効期限:"</string>
+    <string name="failure">"失敗"</string>
+    <string name="farmid">"ファーム ID"</string>
+    <string name="favorites">"お気に入り"</string>
+    <string name="filter_clear">"クリア"</string>
+    <string name="filter_menu">"フィルタ"</string>
+    <string name="filter_revert">"取消"</string>
+    <string name="first_time_work_offline">"オフラインモードでコンテンツにアクセスするには、サーバに初回ログインしてください"</string>
+    <string name="freeze">"固定"</string>
+    <string name="full_screen">"全画面"</string>
+    <string name="general_settings">"一般設定"</string>
+    <string name="generic_error">"依頼を処理できません。後で再試行してください。"</string>
+    <string name="geomap_not_supported">"デバイスから必要なマップライブラリにアクセスできないため、地理マップを表示できません"</string>
+    <string name="get_started">"開始"</string>
+    <string name="getting_started_auto_update_wifi">"自動更新設定を使用して、Wi-Fi 接続が利用できる状態になった際にすべてのオフライン文書を自動的に更新します。"</string>
+    <string name="getting_started_bi_connection">"BI コンテンツにアクセスするには、利用可能な接続タイプのいずれかを使用して新規接続を登録します"</string>
+    <string name="getting_started_bi_inbox_download">"BI 受信ボックス文書は、デバイスにダウンロードして既読または未読に設定することができます。"</string>
+    <string name="getting_started_dashboard">"SAP BusinessObjects Analysis アプリケーションを表示して操作することができます。"</string>
+    <string name="getting_started_default_filter">"地理分析文書のデフォルトのフィルタ値を設定します。"</string>
+    <string name="getting_started_display_category">"フラットリストまたはネストした構造でカテゴリを表示します。"</string>
+    <string name="getting_started_geo">"関心のある個所 (POI) をタップして、関連する値の詳細情報を照会します。"</string>
+    <string name="getting_started_microbarchart">"ミクロ棒チャートをタップして、チャートをズームモードで表示します。"</string>
+    <string name="getting_started_notification_badge">"新規文書インスタンスや変更された文書バージョンがサーバに登録されると、通知バッヂにより警告が通知されます。"</string>
+    <string name="getting_started_notification_panel">"通知パネルを使用して文書更新を簡単に管理することができます。"</string>
+    <string name="getting_started_personal_view">"すべてのアナリティクスアクションを保持してオフラインモードで照会するには、文書を個人ビューとして保存します。"</string>
+    <string name="getting_started_share_connection">"接続詳細をメールで共有します。"</string>
+    <string name="getting_started_share_document_link">"現在のナビゲーションコンテキストを保持したまま、文書リンクをメールで共有します"</string>
+    <string name="getting_started_show_only_downloaded">"ダウンロード済レポートのみ表示のオプションを使用して、デバイスに追加されたすべての文書を参照します。"</string>
+    <string name="getting_started_tablestyling">"テーブルセルのフォントスタイルをボールド、イタリックまたは下線にカスタマイズします。"</string>
+    <string name="getting_started_toggle_group_by_sort">"グループ基準とソートオプションを切り替えることによって文書一覧を簡単に構成することができます。"</string>
+    <string name="getting_started_trend_icons">"データを強調表示するにはトレンドアイコンを使用します。"</string>
+    <string name="google_play_services_not_available">"Google Play サービスは利用できません"</string>
+    <string name="graphite">"グラファイト"</string>
+    <string name="greater">"より大きい"</string>
+    <string name="greater_or_equal">"以上"</string>
+    <string name="green">"緑"</string>
+    <string name="grid_menu">"グリッド"</string>
+    <string name="grid_view">"グリッドビュー"</string>
+    <string name="gridview">"グリッド"</string>
+    <string name="group_is_private">"非公開"</string>
+    <string name="group_name">"グループ名"</string>
+    <string name="group_objective">"目的"</string>
+    <string name="group_participants">"参加者"</string>
+    <string name="group_reports_by">"次の基準でレポートをグループ化:"</string>
+    <string name="hide">"非表示"</string>
+    <string name="home">"ホーム"</string>
+    <string name="home_lbl">"自宅"</string>
+    <string name="hyperlink_type">"ハイパーリンク"</string>
+    <string name="imageeditor_title">"イメージエディタ"</string>
+    <string name="import_cnx">"URL を使用してインポート"</string>
+    <string name="import_txt">"インポート"</string>
+    <string name="in_list">"一覧内"</string>
+    <string name="info">"情報"</string>
+    <string name="input_control">"フィルタ"</string>
+    <string name="input_control_title">"フィルタ: 値選択"</string>
+    <string name="instance_file_extension">"_instance"</string>
+    <string name="is_default_conn">"デフォルト"</string>
+    <string name="is_null">"Is Null"</string>
+    <string name="items">"アイテム"</string>
+    <string name="ivory">"アイボリー"</string>
+    <string name="jam">"SAP Jam"</string>
+    <string name="jam_Send">"送信"</string>
+    <string name="jam_current_groups">"現在のグループ"</string>
+    <string name="jam_oauth_header">"SAP Jam ログイン"</string>
+    <string name="jam_sendtojam">"SAP Jam に送信"</string>
+    <string name="label_sso_authenticate_at_logon">"ログオン時に認証"</string>
+    <string name="label_sso_certificate">"SSO 有効 (証明書選択)"</string>
+    <string name="label_sso_cookie_Based">"SSO 有効"</string>
+    <string name="label_sso_cookie_enabled">"クッキー有効"</string>
+    <string name="label_sso_reauthenticate_at_logon">"ログオン時に再認証"</string>
+    <string name="legal">"法的"</string>
+    <string name="less">"より小さい"</string>
+    <string name="less_or_equal">"以下"</string>
+    <string name="like">"パターンと一致"</string>
+    <string name="limit">"制限"</string>
+    <string name="link">"リンク"</string>
+    <string name="list_view">"リストビュー"</string>
+    <string name="listview">"一覧"</string>
+    <string name="loading">"ロード中..."</string>
+    <string name="log">"ログ"</string>
+    <string name="log_clear_logs_confirm">"ログをクリアしますか。"</string>
+    <string name="log_clearlog">"ログクリア"</string>
+    <string name="log_enable">"ログ有効化"</string>
+    <string name="log_mail_subject">"MobiLogger ファイル"</string>
+    <string name="log_message">"ログを有効化しますか。"</string>
+    <string name="log_nologs_exists">"ログはすでにクリアされています"</string>
+    <string name="log_nologs_tosend">"送信できるログがありません"</string>
+    <string name="log_sendlog">"ログファイル送信"</string>
+    <string name="log_title">"ログ設定"</string>
+    <string name="login">"ログイン"</string>
+    <string name="login_cmd">"続行"</string>
+    <string name="login_mesg">"ログインしています。お待ちください..."</string>
+    <string name="login_mesglist">"文書を一覧表示しています..."</string>
+    <string name="login_string">"接続先:"</string>
+    <string name="logon">"ログオン"</string>
+    <string name="logout">"ログオフ"</string>
+    <string name="logout_title">"ログアウト"</string>
+    <string name="lov_error">"サーバから値一覧をフェッチできません。問題が解消されない場合は管理者に連絡してください"</string>
+    <string name="manage_categories">"カテゴリ管理"</string>
+    <string name="manage_connections">"接続管理"</string>
+    <string name="mark_as_read">"既読に設定"</string>
+    <string name="mark_as_unread">"未読に設定"</string>
+    <string name="media_player_codecs">"メモ: このサウンドクリップを再生するには、使用できるメディアプレーヤの最新コーデックをダウンロード済であることを確認してください。"</string>
+    <string name="mem_used">"0 MB/100 MB 使用済"</string>
+    <string name="menu_notification">"通知"</string>
+    <string name="mesg_already_downloaded">"この文書はすでにダウンロードされています"</string>
+    <string name="mesg_clearing_filters">"フィルタをクリアしています..."</string>
+    <string name="mesg_create_groups_error">"グループ登録中にエラーが発生しました"</string>
+    <string name="mesg_document_downloading">"文書のダウンロードがトリガされました。"</string>
+    <string name="mesg_dowloading_document_offline">"文書をホームにダウンロードしています..."</string>
+    <string name="mesg_download_failure">"ダウンロード中にエラーが発生しました"</string>
+    <string name="mesg_download_in_progress">"操作を実行できません。ダウンロードの処理中です"</string>
+    <string name="mesg_download_success">"ダウンロードが完了しました"</string>
+    <string name="mesg_downloading_pending_reports">"ダウンロードしています。お待ちください..."</string>
+    <string name="mesg_drill_down_document">"ドリルダウンしています..."</string>
+    <string name="mesg_drill_up_document">"ドリルアップしています..."</string>
+    <string name="mesg_failer_xcelsius">"操作を実行できません。後で再試行してください。"</string>
+    <string name="mesg_filtering_document">"文書をフィルタしています..."</string>
+    <string name="mesg_getting_content">"サーバからコンテンツを受信しています..."</string>
+    <string name="mesg_getting_prompts">"プロンプトをフェッチしています..."</string>
+    <string name="mesg_groups_error">"SAP Jam サーバからのグループ取得中にエラーが発生しました"</string>
+    <string name="mesg_groups_exists_error">"同じ名称のグループがすでに存在します"</string>
+    <string name="mesg_invalid_oauth_details">"OAuth 詳細が無効です。適切な OAuth 詳細を CMS で設定してください"</string>
+    <string name="mesg_logoff">"ログオフしています。お待ちください..."</string>
+    <string name="mesg_lov_document">"値の一覧をフェッチしています..."</string>
+    <string name="mesg_opening_document">"文書を開いています..."</string>
+    <string name="mesg_opening_report">"レポートを開いています..."</string>
+    <string name="mesg_processing_data">"データを処理しています..."</string>
+    <string name="mesg_prompt_document">"プロンプトを文書に割り当てています..."</string>
+    <string name="mesg_recieve_accesstoken">"SAP Jam サーバからのアクセストークン取得中にエラーが発生しました"</string>
+    <string name="mesg_recieve_oauthtoken">"SAP Jam サーバからのリクエストトークン取得中にエラーが発生しました"</string>
+    <string name="mesg_refresh_document">"文書をリフレッシュしています..."</string>
+    <string name="mesg_refresh_lov_document">"値の一覧をリフレッシュしています..."</string>
+    <string name="mesg_remove_sort_document">"ソートを削除しています..."</string>
+    <string name="mesg_send_invite_error">"ユーザへの招待送信中にエラーが発生しました"</string>
+    <string name="mesg_sorting_document">"文書をソートしています..."</string>
+    <string name="mesg_syncing_with_server">"サーバと同期しています..."</string>
+    <string name="mesg_update_xcelsius">"更新しています。お待ちください..."</string>
+    <string name="mesg_update_xcelsius_backup">"文書のバックアップを取得できません。後で再試行してください。"</string>
+    <string name="mesg_upload_photo_error">"SAP Jam サーバへのスクリーンショットのアップロード中にエラーが発生しました"</string>
+    <string name="mesg_xcelsius">"ダウンロードしています。お待ちください..."</string>
+    <string name="mesg_xcelsius_documentuncompatible">"リンクしている文書は現在のアプリケーションと互換ではないため、表示できません"</string>
+    <string name="mesg_xcelsius_initialize">"初期化"</string>
+    <string name="mesg_xcelsius_load">"ロード中"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ja/error_messages.xml -->
+    <eat-comment/>
+    <string name="mob00006">"文書がサーバに存在しません。(MOB00006)"</string>
+    <string name="mob06004">"サーバへの接続を確立できませんでした。問題が解消されない場合は管理者に連絡してください (MOB06004)"</string>
+    <string name="mob06005">"サーバへの接続を確立できませんでした。再試行するか、管理者に連絡してください (MOB06005)"</string>
+    <string name="mob06006">"要求がタイムアウトしました。再試行するか、管理者に連絡してください (MOB06006)"</string>
+    <string name="mob06007">"要求が無効です。接続詳細を確認するか、管理者に連絡してください (MOB06007)"</string>
+    <string name="mob06008">"この要求に対する権限がありません (MOB06008)"</string>
+    <string name="mob06009">"要求が無効です。接続詳細を確認するか、管理者に連絡してください (MOB06009)"</string>
+    <string name="mob06010">"要求を処理する際に内部サーバエラーが発生しました。再試行するか、システム管理者に連絡してください (MOB06010)"</string>
+    <string name="mob06011">"プロンプトの値がありません。プロンプトに対して値を少なくとも 1 つ選択してください (MOB06011)"</string>
+    <string name="mob06021">"ネットワーク接続を確認してください (MOB06021)"</string>
+    <string name="mob06022">"クライアント要求を処理する際に内部サーバエラーが発生しました (MOB06022)"</string>
+    <string name="mob06031">"サーバへの接続を確立できませんでした。再試行するか、管理者に連絡してください (MOB06031)"</string>
+    <string name="mob06099">"エラーが発生しました。管理者に連絡してください"</string>
+    <string name="mob08001">"このデバイスではメールが設定されていません (MOB08001)"</string>
+    <string name="mob08002">"要求を処理する際に内部サーバエラーが発生しました。管理者に連絡してください (MOB08002)"</string>
+    <string name="mob08003">"サーバエラーにより文書をリフレッシュできませんでした。再試行してください (MOB08003)"</string>
+    <string name="mob08004">"一部の必須プロンプトに値が入力されていません (MOB08004)"</string>
+    <string name="mob08005">"このプロンプトはサポートされていません (MOB08005)"</string>
+    <string name="mob08006">"ログイン情報を確認してください (MOB08006)"</string>
+    <string name="mob08007">"このサーババージョンはアプリケーションでサポートされていません。管理者に連絡してください (MOB08007)"</string>
+    <string name="mob08008">"SUP 例外 (MOB08008)"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="mobi_legal">"法令に基づく情報"</string>
+    <string name="mobile_server_URL">"モバイルサーバ URL"</string>
+    <string name="modified_at">"変更日時"</string>
+    <string name="modify_conn_connected">"接続を変更できません。ログアウトして再試行してください"</string>
+    <string name="modify_connection">"接続変更"</string>
+    <string name="more">"追加"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string msgid="3698378085901466129" name="mr_button_content_description">"キャストアイコン"</string>
+    <string msgid="6349900579507521956" name="mr_chooser_searching">"端末を検索しています"</string>
+    <string msgid="414301941546135990" name="mr_chooser_title">"キャストするデバイス"</string>
+    <string msgid="6422801843540543585" name="mr_controller_album_art">"アルバムアート"</string>
+    <string msgid="4868457957151124867" name="mr_controller_casting_screen">"画面をキャストしています"</string>
+    <string msgid="7333862312480583260" name="mr_controller_close_description">"閉じる"</string>
+    <string msgid="7924809056904240926" name="mr_controller_collapse_group">"折りたたむ"</string>
+    <string msgid="1227264889412989580" name="mr_controller_disconnect">"接続を解除"</string>
+    <string msgid="8062427022744266907" name="mr_controller_expand_group">"展開"</string>
+    <string msgid="5585418471741142924" name="mr_controller_no_info_available">"情報がありません"</string>
+    <string msgid="6547130360349182381" name="mr_controller_no_media_selected">"メディアが選択されていません"</string>
+    <string msgid="5451884435510905406" name="mr_controller_pause">"一時停止"</string>
+    <string msgid="683634565969987458" name="mr_controller_play">"再生"</string>
+    <string msgid="4570331844078181931" name="mr_controller_stop">"キャストを停止"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"システム"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"端末"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="msg_added_to_favourite">"お気に入りに追加されました"</string>
+    <string name="my_connections">"接続"</string>
+    <string name="name">"名称"</string>
+    <string name="nav_close">"閉じる"</string>
+    <string name="nav_open">"開く"</string>
+    <string name="network">"ネットワークオプション"</string>
+    <string name="network_notification_connected">"ネットワークを利用できます。オンラインモードで作業しますか。"</string>
+    <string name="network_notification_disconnected">"ネットワークを利用できません。オフラインモードで作業しますか。"</string>
+    <string name="network_options">"ネットワークオプション"</string>
+    <string name="new_txt">"新規"</string>
+    <string name="next">"次へ"</string>
+    <string name="no_active_connection_available">"このアクションを実行するには、有効な接続が必要です"</string>
+    <string name="no_conn">"接続が存在しません"</string>
+    <string name="no_connections">"接続が定義されていません。\n \n新規接続を登録するには、以下にジャンプしてください。 \nメニュー > 設定 > 接続"</string>
+    <string name="no_downloaded_docs">"利用可能文書なし"</string>
+    <string name="no_filters">"フィルタ適用なし"</string>
+    <string name="no_filters_saved">"フィルタが保存されていません"</string>
+    <string name="noconnections">"接続なし"</string>
+    <string name="none">"なし"</string>
+    <string name="not_between">"範囲外"</string>
+    <string name="not_connected">"接続"</string>
+    <string name="not_equal">"等しくない"</string>
+    <string name="not_in_list">"一覧外"</string>
+    <string name="not_like">"パターンと一致しない"</string>
+    <string name="not_recording">"録音の準備中..."</string>
+    <string name="notification_Auto_Update_Is_Disabled">"この接続では自動更新は利用できません"</string>
+    <string name="notification_available">"更新が利用可能です"</string>
+    <string name="notification_available_single">"更新が利用可能です"</string>
+    <string name="notification_cancel_all">"すべて中止"</string>
+    <string name="notification_clear_all">"すべてクリア"</string>
+    <string name="notification_not_available">"通知はありません"</string>
+    <string name="notification_update_all">"すべて更新"</string>
+    <string name="notification_updated_count">"文書が最近更新されました"</string>
+    <string name="notification_updated_count_single">"文書が最近更新されました"</string>
+    <string name="notification_updating">"文書の更新中です"</string>
+    <string name="notification_updating_single">"文書の更新中です"</string>
+    <string name="object_not_supported">"オブジェクトタイプはサポートされていません"</string>
+    <string name="off">"オフ"</string>
+    <string name="offline_alert">"オフラインアラート"</string>
+    <string name="offline_connection">"オフラインモードでは接続をインポートできません"</string>
+    <string name="offline_filter">"この操作はオフラインモードでは実行できません"</string>
+    <string name="ok">"OK"</string>
+    <string name="older">"それ以前"</string>
+    <string name="open_browser">"タップしてブラウザでレポートを開きます"</string>
+    <string name="open_device_android">"タップして Android デバイスの SAP BI アプリケーションでレポートを開きます"</string>
+    <string name="open_device_ios">"タップして iOS デバイスの SAP BI アプリケーションでレポートを開きます"</string>
+    <string name="open_doc_back_msg">"ホーム画面に戻ります"</string>
+    <string name="orientation_lock">"方向がロックされました。レポートに注釈を付けている間はデバイスの方向を変更することができません。"</string>
+    <string name="orientation_unlock">"方向がロック解除されました"</string>
+    <string name="osdeprecated">"このアプリケーションは Android バージョン 2.2 ではサポートされません"</string>
+    <string name="oshoneycombnotsupported">"%1$s アプリは Android OS バージョン 4.0 以上に対応しています。"</string>
+    <string name="osnotsupported">"このアプリケーションは Android 4.4 以上ではサポートされません"</string>
+    <string name="page">"ページ"</string>
+    <string name="page_indicator">"ページインジケータ"</string>
+    <string name="page_loading">"ページ..."</string>
+    <string name="paint">"描画"</string>
+    <string name="parent_doc_name">"上位文書名"</string>
+    <string name="password">"パスワード"</string>
+    <string name="pdf_pop_up_install_app">"ビューアがありません。文書を表示するには PDF ビューアをインストールしてください"</string>
+    <string name="pdf_pop_up_select_app">"ビューアを選択してください"</string>
+    <string name="pdf_type">"PDF 文書"</string>
+    <string name="per_view_storage">"個人ビューのストレージ"</string>
+    <string name="personal_view">"個人ビューのストレージ"</string>
+    <string name="personal_view_category">"個人ビュー"</string>
+    <string name="personal_view_create">"個人ビュー"</string>
+    <string name="personal_view_size_exceeding">"保存のための領域が不足しています。既存の個人ビューを削除して領域を確保するか、設定を使用して保管容量を増やしてください。"</string>
+    <string name="pg_show_add_home">"文書をダウンロードしてホームに追加しています..."</string>
+    <string name="pg_show_insatance">"最新インスタンスを取得しています..."</string>
+    <string name="pg_show_server_call">"サーバから詳細を取得しています..."</string>
+    <string name="pg_show_update">"文書を更新しています..."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/res/values-ja/values.xml -->
+    <eat-comment/>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"検索をクリア"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"検索"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="playing">"再生中..."</string>
+    <string name="port">"ポート"</string>
+    <string name="post">"投稿"</string>
+    <string name="previous">"前"</string>
+    <string name="prompt_add_values">"値追加"</string>
+    <string name="prompt_error">"すべての必須プロンプトが入力されていません"</string>
+    <string name="prompt_optional">"オプション"</string>
+    <string name="prompt_values">"プロンプト"</string>
+    <string name="proxy">"プロキシ"</string>
+    <string name="pv_create_title">"ビュー保存"</string>
+    <string name="pv_description">"個人ビューテキスト"</string>
+    <string name="pv_mem_usage">"(%1$s/%2$s 使用済)"</string>
+    <string name="pv_name">"個人ビュー名"</string>
+    <string name="pv_setting">"個人ビュー設定"</string>
+    <string name="pv_setting_limit_none">"なし"</string>
+    <string name="quick_hints">"クイックヒント"</string>
+    <string name="quickeref_txt1">"必要な文書を"<b>"長押し"</b>"すると、コンテキストメニューが表示されます。 オプションを"<b>"タップ"</b>"して、必要なアクションを実行します。"</string>
+    <string name="quickeref_txt10">"ブラースライダを"<b>"ドラッグ"</b>"し、共有前にレポートを変形させます。"</string>
+    <string name="quickeref_txt11">"それぞれの興味のある地点 (POI) を"<b>"タップ"</b>"し、関連する値を表示します。"</string>
+    <string name="quickeref_txt12">"値を"<b>"タップ"</b>"して、詳細情報を表示します。"</string>
+    <string name="quickeref_txt13">"矢印を"<b>"タップ"</b>"して、テーブルの階層データ内をナビゲートします。"</string>
+    <string name="quickeref_txt14">"製品階層プロンプトのポップアップで、矢印を"<b>"タップ"</b>"して階層内をナビゲートし、プロンプト値を選択します。"</string>
+    <string name="quickeref_txt15"><i>"表示/非表示"</i>"アイコンを"<b>"タップ"</b>"して、ダッシュボード表示中にアクションバーにアクセスします。"</string>
+    <string name="quickeref_txt16"><i>"固定"</i>"アイコンを"<b>"タップ"</b>"して、ダッシュボード表示時にアクションバーをロックします。"</string>
+    <string name="quickeref_txt2">"ページインジケータを"<b>"タップ"</b>"してページナビゲーションスライダを表示します。 この操作は、スマートフォンではシークバーを使用して行うことができます。"</string>
+    <string name="quickeref_txt3">"チャートを"<b>"ダブルタップ"</b>"するかテーブル (青色テキスト) を"<b>"もう一度タップ"</b>"してドリルします。"</string>
+    <string name="quickeref_txt4">"テーブルの列ヘッダを"<b>"ダブルタップ"</b>"して、"<i>"テーブルアクション"</i>"にアクセスします。"</string>
+    <string name="quickeref_txt5">"アイコンを"<b>"タップ"</b>"して、レポートの一部で必要なアクションを実行します。"</string>
+    <string name="quickeref_txt6"><i>"テーブルアクション"</i>"を選択して、列または行に対して、並べ替え、固定/固定解除または表示/非表示などのタスクを実行します。"</string>
+    <string name="quickeref_txt7"><i>"セクション"</i>"アイコンを"<b>"タップ"</b>"して、レポートで提供されているセクションオプションにアクセスします。"</string>
+    <string name="quickeref_txt8"><i>"セクション"</i>"ポップアップで、ラジオボタンを"<b>"タップ"</b>"してレポートのセクション情報を表示するか、または矢印を"<b>"タップ"</b>"してレポートの次レベルの情報を表示します。"</string>
+    <string name="quickeref_txt9"><i>"シェア"</i>"アイコンを"<b>"タップ"</b>"し、"<i>"注釈"</i>"を選択して共有前にレポートに注釈を付けます。"</string>
+    <string name="quickref_checkbox_text">"次回から表示しない"</string>
+    <string name="quickref_exitbutton_text">"終了"</string>
+    <string name="quickref_launch_text"><b>"SAP BusinessObjects Mobile"</b>" へようこそ。 このクイックヒントウィザードでは、アプリケーションの使用方法に関するヒントを参照することができます。"</string>
+    <string name="quickref_launchbutton_text">"クイックヒント表示"</string>
+    <string name="quickref_skipbutton_text">"スキップ"</string>
+    <string name="reconnect">"再接続"</string>
+    <string name="record">"音声メモ録音"</string>
+    <string name="recorded_file_attached">"録音したファイルはメールに添付されます。"</string>
+    <string name="recorded_file_deleted">"録音したファイルは削除されました。"</string>
+    <string name="recorded_file_not_attached">"録音したファイルは添付されていません。"</string>
+    <string name="recording">"録音中..."</string>
+    <string name="red">"赤"</string>
+    <string name="refresh">"リフレッシュ"</string>
+    <string name="refresh_confirm_msg">"リフレッシュすると、現在の文書のコンテキストが削除されます"</string>
+    <string name="refresh_confirm_title">"文書リフレッシュ"</string>
+    <string name="refresh_mesg">"文書一覧をリフレッシュしています..."</string>
+    <string name="refresh_to_view_content">"コンテンツを表示するにはリフレッシュしてください"</string>
+    <string name="register_with_sup">"SUP で登録しています..."</string>
+    <string name="registration_success">"登録が完了しました"</string>
+    <string name="remember_pwd">"パスワード保存"</string>
+    <string name="remove_document">"デバイスから削除"</string>
+    <string name="remove_filter">"フィルタ削除"</string>
+    <string name="remove_from_favorites">"お気に入りから削除"</string>
+    <string name="remove_sort">"ソート解除"</string>
+    <string name="report_filter">"フィルタ"</string>
+    <string name="report_list">"レポート"</string>
+    <string name="report_part_filter_menu">"レポートパーツフィルタ"</string>
+    <string name="report_part_menu">"メニュー"</string>
+    <string name="required">"必須"</string>
+    <string name="reset_app_text">"アプリケーションをリセットすると、接続詳細およびアプリケーション設定を含むすべてのローカルデータが削除されます。 リセット後は、アプリケーションパスワードを使用せずにアプリケーションにアクセスすることができます。\n\nアプリケーションのリセットを続行しますか。"</string>
+    <string name="reset_app_warning">"警告"</string>
+    <string name="reset_app_warning_text">"正しくないアプリケーションパスワードが 9 回入力されました。 正しくないパスワードがもう 1 回入力されると、アプリケーションがリセットされ、接続詳細および設定を含むすべてのローカルデータが削除されます。\n\nリセット後にアプリケーションにアクセスするには、新規接続を確立して、有効なアプリケーションパスワードを入力してください。"</string>
+    <string name="reset_application">"アプリケーションリセット"</string>
+    <string name="reset_cmd">"リセット"</string>
+    <string name="row">"行"</string>
+    <string name="sample">"サンプル"</string>
+    <string name="sample_doc1">"銀行管理サマリ"</string>
+    <string name="sample_doc2">"ワークフォース分布の分析"</string>
+    <string name="sample_doc3">"小売業ラウンチパッド"</string>
+    <string name="sample_doc4">"販売収益性"</string>
+    <string name="sample_doc5">"店舗責任者"</string>
+    <string name="sample_doc6">"サステナビリティ"</string>
+    <string name="sampledoc_header">"サンプル文書"</string>
+    <string name="sapbi_delete">"外部プログラムによって接続が削除されます。続行しますか。"</string>
+    <string name="sapbi_modify">"外部プログラムによって接続が変更されます。続行しますか。"</string>
+    <string name="save_cmd">"保存"</string>
+    <string name="save_error_string">"入力必須項目に情報を入力してください"</string>
+    <string name="save_pass">"パスワード保存"</string>
+    <string name="save_password">"パスワード保存"</string>
+    <string name="saved_connection">"保存済接続"</string>
+    <string name="saved_connections">"保存済接続"</string>
+    <string name="savepasswordforms">"管理者により設定されたポリシーによって CMS パスワードが保存されませんでした"</string>
+    <string name="savepw">"パスワード保存"</string>
+    <string name="search_hint">"検索"</string>
+    <string name="searchresults">"検索結果"</string>
+    <string name="sections">"セクション"</string>
+    <string name="security_configname">"セキュリティ設定"</string>
+    <string name="select_default_category">"デフォルトとして設定するカテゴリを選択してください"</string>
+    <string name="select_theme">"テーマ選択"</string>
+    <string name="send_cnx_options">"接続共有:"</string>
+    <string name="send_options">"スクリーンショット送信方法:"</string>
+    <string name="sender">"送信者"</string>
+    <string name="sent_at">"送信日時"</string>
+    <string name="sent_from">"Android デバイスから送信"</string>
+    <string name="server">"サーバ"</string>
+    <string name="session_timeout">"セッションがタイムアウトしました"</string>
+    <string name="set_as_default">"デフォルト接続"</string>
+    <string name="share_connection">"共有"</string>
+    <string name="show_downloaded">"ダウンロード済レポートのみ表示"</string>
+    <string name="skip">"スキップ"</string>
+    <string name="smp_config">"SMP 設定"</string>
+    <string name="smp_connection">"SMP 接続"</string>
+    <string name="smpcloud_connection">"SMP Cloud 接続"</string>
+    <string name="snapshot_drill">"このドリル操作は保存されません"</string>
+    <string name="snapshot_hierarchy">"個人ビュー文書では階層操作はサポートされていません"</string>
+    <string name="snapshot_name_exists">"別の名称を指定してください。この名称はすでに別の個人ビューで使用されています"</string>
+    <string name="snapshot_opendoc">"個人ビュー文書では、文書を開く URL 操作はサポートされていません"</string>
+    <string name="snapshot_rel">"個人ビュー文書ではレポートエレメントリンク操作はサポートされていません"</string>
+    <string name="sort">"ソート"</string>
+    <string name="sort_asc">"昇順"</string>
+    <string name="sort_desc">"降順"</string>
+    <string name="sorting_order">"ソート順序"</string>
+    <string name="splash_docs_to_be_upgraded">"%1$s 文書がアップグレードされます"</string>
+    <string name="splash_number_of_docs_upgraded">"%1$s/%2$s 文書がアップグレードされました..."</string>
+    <string name="splash_upgrade_docs">"文書をアップグレードしています..."</string>
+    <string name="ssl_alert_title">"アラート"</string>
+    <string name="ssl_alertmessge">"この接続は信頼できない可能性があります。続行しますか。"</string>
+    <string name="ssl_date_invalid_error">"証明書の日付が無効です"</string>
+    <string name="ssl_expired_error">"証明書の有効期限が切れています"</string>
+    <string name="ssl_idmismatch_error">"ホスト名が一致していません"</string>
+    <string name="ssl_invalid_error">"一般的なエラーが発生しました"</string>
+    <string name="ssl_notyetvalid_error">"証明書はまだ有効ではありません"</string>
+    <string name="ssl_untrusted_error">"証明機関が信頼されていません"</string>
+    <string name="sso_X509_Certificate_Title">"証明書エラー"</string>
+    <string name="sso_X509_Mandatory_certifcate">"この接続には証明書が必要です"</string>
+    <string name="sso_X509_authentication">"認証"</string>
+    <string name="sso_X509_certificate_invalid">"選択した証明書が無効であるか、破損している可能性があります。続行しますか。"</string>
+    <string name="sso_X509_certificate_not_required">"どの方法で接続にサインインしますか"</string>
+    <string name="sso_X509_certiifcate_unavailable">"SAP BusinessObjects Mobile の証明書がインストールされていません。続行しますか。"</string>
+    <string name="sso_X509_unauthorised_connection_sso">"SSO ではオフラインアクセスは無効です"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="success">"成功"</string>
+    <string name="sup_accessdetail">"アクセス詳細"</string>
+    <string name="sup_config">"SUP 設定"</string>
+    <string name="sup_configaration">"SUP 設定"</string>
+    <string name="sup_connection">"SUP 接続"</string>
+    <string name="sup_deregister">"登録解除"</string>
+    <string name="sup_deregister_success">"登録解除が完了しました"</string>
+    <string name="sup_error_HTTP">"HTTP エラー"</string>
+    <string name="sup_error_authentication">"認証エラー"</string>
+    <string name="sup_error_mobile_client">"モバイルクライアントでエラーが発生しました。"</string>
+    <string name="sup_error_network">"ネットワーク接続でエラーが発生しました"</string>
+    <string name="sup_error_parse">"サーバからの応答の解析中にエラーが発生しました"</string>
+    <string name="sup_error_unknown">"未知のエラーが発生しました。"</string>
+    <string name="sup_instructedbyadmin">"上述の値は管理者から指示があった場合にのみ変更してください"</string>
+    <string name="sup_register">"登録"</string>
+    <string name="sup_register_success">"登録が完了しました"</string>
+    <string name="sup_serverdetail">"SUP サーバ詳細"</string>
+    <string name="table_actions">"テーブルアクション"</string>
+    <string name="tap">"タップしてテキスト入力"</string>
+    <string name="tap_string">"(順序を逆にするにはタップしてください)"</string>
+    <string name="tap_to_connect">"タップして接続"</string>
+    <string name="temp_file_extension">"_temp"</string>
+    <string name="thismonth">"今月"</string>
+    <string name="thisweek">"今週"</string>
+    <string name="title">"表題"</string>
+    <string name="today">"本日"</string>
+    <string name="toggle_no">"いいえ"</string>
+    <string name="toggle_off">"オフ"</string>
+    <string name="toggle_on">"オン"</string>
+    <string name="toggle_yes">"はい"</string>
+    <string name="type">"タイプ"</string>
+    <string name="type_value">"値入力"</string>
+    <string name="unable_to_drill">"文書をドリルすることができません"</string>
+    <string name="unfreeze">"固定解除"</string>
+    <string name="unhide_all">"すべて表示"</string>
+    <string name="unknown_document_type">"選択した文書のタイプは定義されていません。"</string>
+    <string name="unwrap">"ラップ解除"</string>
+    <string name="update">"更新"</string>
+    <string name="update_available">": 利用可能な更新"</string>
+    <string name="update_document">"利用可能な更新"</string>
+    <string name="update_document_instance">"利用可能な更新およびインスタンス"</string>
+    <string name="update_instance">"利用可能インスタンス"</string>
+    <string name="uploading">"アップロード中..."</string>
+    <string name="url_start_string">"http://"</string>
+    <string name="use_app_pwd">"アプリケーションパスワード使用"</string>
+    <string name="user_name">"ユーザ名"</string>
+    <string name="user_profile">"ユーザプロファイル"</string>
+    <string name="version">"バージョン:"</string>
+    <string name="view">"表示"</string>
+    <string name="view_doc">"文書表示"</string>
+    <string name="view_doc_instance_online">"最新の利用可能インスタンスの表示"</string>
+    <string name="view_instance">"インスタンス表示"</string>
+    <string name="view_instance_download_message">"最新インスタンスをダウンロードしますか。"</string>
+    <string name="view_instance_title">"文書インスタンス表示"</string>
+    <string name="view_log">"ログ表示"</string>
+    <string name="viewing">"表示オプション"</string>
+    <string name="viewing_options">"文書表示オプション"</string>
+    <string name="wait">"お待ちください..."</string>
+    <string name="wait_string">"..."</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.1/res/values-ja/values.xml -->
+    <eat-comment/>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Googleで購入"</string>
+    <!-- From: file:/Users/Jochen/StudioProjects/CubisBITablet/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="webi_type">"Web Intelligence"</string>
+    <string name="whats_new">"新機能"</string>
+    <string name="white">"白"</string>
+    <string name="work_lbl">"勤務先"</string>
+    <string name="work_offline">"オフライン作業"</string>
+    <string name="wrap">"ラップ"</string>
+    <string name="wrong_pwd">"無効なパスワード"</string>
+    <string name="wrong_pwd_text">"正しくないパスワードが %1$d 回入力されました。 \n\nアプリケーションをリセットしますか。"</string>
+    <string name="xc_fitToScreen">"画面に合わせる"</string>
+    <string name="xc_fit_to_screen">"画面に合わせる"</string>
+    <string name="xc_hideToolBar">"ツールバー非表示"</string>
+    <string name="xc_offline_dataset">"オフラインデータセット数"</string>
+    <string name="xc_pin_unpin">"固定/解除"</string>
+    <string name="xc_sdk_storage">"SDK オフラインストレージ"</string>
+    <string name="xc_setting">"ダッシュボード設定"</string>
+    <string name="yellow">"黄"</string>
+    <string name="yesterday">"昨日"</string>
+    <string name="you">"自分"</string>
+</resources>

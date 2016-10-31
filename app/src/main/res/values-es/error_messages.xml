@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <!-- Server Error messages -->
+	<!-- XMSG -->
+    <string name="mob06004">"La conexión con el servidor no ha podido establecerse; contacte con su administrador si el problema persiste(MOB06004)"</string>
+	<!-- XMSG -->
+    <string name="mob06005">"La conexión con el servidor no ha podido establecerse; inténtelo de nuevo o contacte con su administrador(MOB06005)"</string>
+	<!-- XMSG -->
+    <string name="mob06006">"Timeout de petición; inténtelo de nuevo o contacte con su administrador(MOB06006)"</string>
+	<!-- XMSG -->
+    <string name="mob06007">"Su petición no es válida; verifique los detalles de conexión o contacte con su administrador(MOB06007)"</string>
+	<!-- XMSG -->
+    <string name="mob06008">"No tiene autorización para esta petición(MOB06008)"</string>
+	<!-- XMSG -->
+    <string name="mob06009">"Su petición no es válida; verifique los detalles de conexión o contacte con su administrador(MOB06009)"</string>
+	<!-- XMSG -->
+    <string name="mob06010">"Se ha producido un error interno al procesar su petición; inténtelo de nuevo o contacte con su administrador(MOB06010)"</string>
+	<!-- XMSG -->
+    <string name="mob06011">"Falta un valor de entrada; seleccione al menos un valor para dicha entrada(MOB06011)"</string>
+	<!-- XMSG -->
+    <string name="mob06021">"Verificar conectividad de red(MOB06021)"</string>
+	<!-- XMSG -->
+    <string name="mob06022">"Se ha produdido un error interno al procesar la petición de cliente(MOB06022)"</string>
+	<!-- XMSG -->
+    <string name="mob06031">"La conexión con el servidorno ha podido establecerse; inténtelo de nuevo o contacte con su administrador(MOB06031)"</string>
+     
+    <!-- Client Error messages -->
+	 <!-- XMSG -->
+    <string name="mob08001">"El correo electrónico no está configurado en este dispositivo(MOB08001)"</string>
+	<!-- XMSG -->
+    <string name="mob08002">"Se ha produdido un error interno al procesar su petición; contacte con su administrador(MOB08002)"</string>
+	<!-- XMSG -->
+    <string name="mob08003">"Un error de servidor ha evitado que se actualice el documento; inténtelo de nuevo(MOB08003)"</string>
+	<!-- XMSG -->
+    <string name="mob08004">"No todas las entradas obligatorias se han rellenado(MOB08004)"</string>
+	<!-- XMSG -->
+    <string name="mob08005">"Esta entrada no se soporta(MOB08005)"</string>
+	<!-- XMSG -->
+    <string name="mob08006">"Verifique su información de inicio de sesión(MOB08006)"</string>    
+	<!-- XMSG -->
+    <string name="mob08007">"La aplicación no soporta esta versión de servidor; contacte con su administrator(MOB08007)"</string> 
+    <!-- XMSG -->
+    <string name="mob08008">"Excepción SUP (MOB08008)"</string>
+    <!-- XMSG -->
+    <!--  This is a client sid emessage as below for the document not  found in server 
+    for content types like XC where we don;t get XML response. This is the same message which comes from Webi server for doc not found-->
+    <string name="mob00006">"El documento no existe en el servidor. (MOB00006)"</string>
+    <!-- XMSG -->
+    <string name="mob06099">"Se encontró un error; contacte con su administrador"</string>
+     
+</resources>

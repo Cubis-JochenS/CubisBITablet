@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:background="@color/bg_grey"
+     >
+<LinearLayout
+    android:layout_width="540dp"
+    android:layout_height="80dp"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingStart="16dp"
+    android:gravity="left|start|center_vertical"
+    android:textAlignment="viewStart"
+     >
+    <TextView
+        android:id="@+id/conn_type_name"
+        style="@style/TextSpinnerDropdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/conn_type_desc"
+        style="@style/TextSpinnerDropdownSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|start" />
+    </LinearLayout>
+    <LinearLayout 
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:gravity="right|end|center_vertical"
+        android:textAlignment="viewEnd"
+    android:layout_gravity="right|end|center_vertical"
+     >
+
+   <CheckedTextView
+        android:id="@+id/img_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right|end|center_vertical"
+       	android:checkMark="@drawable/button_checkmark" />
+   </LinearLayout>
+
+</LinearLayout>

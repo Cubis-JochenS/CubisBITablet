@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sml_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layoutDirection="locale"
+    android:background="@color/settings_layout_background" >
+
+    <FrameLayout
+        android:id="@+id/sml_settingslist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+   <!--  <LinearLayout
+        android:id="@+id/sml_border"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_border"
+        android:orientation="vertical" >
+
+    </LinearLayout> -->
+
+    <FrameLayout
+        android:id="@+id/sml_settingsdetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

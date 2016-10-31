@@ -1,0 +1,1072 @@
+<html>
+<head>
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width"/>
+<link rel='stylesheet' href='css/toolbar.css' type='text/css'/>
+<link rel="stylesheet" href="../css/chart.css" type="text/css" class="ui-theme"/>
+<!-- <link rel='stylesheet' href='css/black.css' type='text/css' class='ui-theme'/>  -->
+<script src="jquery-1.7.1.min.js"></script>
+<script src="../scripts/jquery/jquery.glob.js"></script>
+<script src="../scripts/jquery/locinfo/jQuery.glob.all.js"></script>
+<script src='../scripts/sap.makit-3.0.min.js'></script>
+<script src='../scripts/GlobalizedResource.js'></script>
+
+<script type='text/javascript'>
+		var pageNo, isRangeSelectorVisible, isLegendVisible = false, legIndex, longPressTimeInterval, theme;
+		var mobiZoomLevel, chartCount = 0;
+		var prevSelectedItem = null;
+		var previousOrientation = false;
+		var clrMap = null;
+		var currChartIndex = 0;
+		var jsonArray = null;
+		var chartDataInJson = null;
+		var palletteInfo = null;
+		var palletteInfoPrimary = null;
+		var palletteInfoSecondary = null;
+		var shapePalletteInfo = null;
+		var bubbleShapeExists = false;
+		var bubbleHeightExists = false;
+		var categoryLevel = 0;
+		var isHierarchyChart = false;
+		var chartType;
+		var currentPosition = 0;
+		var formatString = null;		
+		var pallette= null;
+		var pallettePrimary= null;
+		var palletteSecondary= null;
+
+		var chartMetaData= null;
+
+		var displayPercentForXAxis= null;
+		var shapePallette= null;
+		var displayPercentForYAxis= null;
+		var displayPercentForY2Axis= null;
+
+		var isxAxisVisible= true;
+		var isyAxisVisible= true;
+		var isy2AxisVisible= true;
+		var chartNameList= null;
+		var axisScaleValueStr = null;
+		var isMultiSeries = false;
+		var lang = null;
+		
+		/* function setPageNo(pNo, rangeSelectorVisible, legendVisible,orientation){
+			pageNo = pNo;
+			//console.log("Is range selector visible  : " + isRangeSelectorVisible);
+			isRangeSelectorVisible = rangeSelectorVisible;
+			//console.log("Is legend visible  : " + legendVisible);
+			isLegendVisible = legendVisible;
+			//previousOrientation = window.orientation;
+			previousOrientation = orientation;//window.makitConnecter.getOrientation();
+		} */
+		function setPageNo(pNo, rangeSelectorVisible, legendVisible){
+			pageNo = pNo;
+			//console.log("Is range selector visible  : " + isRangeSelectorVisible);
+			isRangeSelectorVisible = rangeSelectorVisible;
+			//console.log("Is legend visible  : " + legendVisible);
+			isLegendVisible = legendVisible;
+			//previousOrientation = window.orientation;
+			previousOrientation = window.makitConnecter.getOrientation();
+		}
+		/*
+		* <pageNoPH> is place holder for pageNo.<isRangeSelectorVisiblePH> is place holder for isRangeSelectorVisible. <isLegendVisisblePH> is placeholder for isLegendVisible
+		* All these values are dynamic and needs to be set on load of html page. 
+		* While loading, all these place holders will be replaced by actual values (string search for <xxPH> and replace with actual value)
+		* 
+		*/
+		window.onload = function(){setPageNo(<pageNoPH> , <isRangeSelectorVisiblePH>, <isLegendVisiblePH>); makeChart();} 
+		window.unload = function(){
+			document.getElementById('bodyId').innerHTML = '';
+		}
+		function makeChart(){
+			$MA.setImagesFolder("../images/");
+			try{
+				var layout = window.makitConnecter.getChartLayout(pageNo);
+				layout = layout + '';
+				layout = JSON.parse(layout);
+				chartCount = layout.charts.length;
+				AddContainers(layout);
+				//console.log(" TIME taken by AddContainer "+ (Date.now()-start)/1000);
+				for(var j = 0 ; j < chartCount; j++){
+					currChartIndex =0;
+					currentPosition = j;
+					bubbleShapeExists = false;
+					bubbleHeightExists = false;
+				//	var start = Date.now();
+					setChartProperties(pageNo,j);
+					if(pallette.length > 0){
+						palletteInfo = pallette;
+					}
+					/* if(pallette != null && pallette != undefined && pallette != ""){
+						pallette = pallette + "" ;
+						palletteInfo = JSON.parse(pallette);		
+					} */
+									
+					/* if(pallettePrimary != null && pallettePrimary != undefined && pallettePrimary != ""){
+						pallettePrimary = pallettePrimary + "" ;
+						palletteInfoPrimary = JSON.parse(pallettePrimary);
+					} */
+					palletteInfoPrimary = pallettePrimary;
+									
+					/* if(palletteSecondary != null && palletteSecondary != undefined && palletteSecondary != ""){
+						palletteSecondary = palletteSecondary +"";
+						palletteInfoSecondary = JSON.parse(palletteSecondary);
+					} */
+					palletteInfoSecondary = palletteSecondary;
+												
+					var mobiChart = new $MA.Chart("chart_" + j, true);
+					
+					if(mobiZoomLevel < 0) {
+						mobiZoomLevel = 0;
+					}
+					if(mobiZoomLevel < 0) {
+						mobiZoomLevel = 0;
+					}
+					
+					mobiChart.bind('initialized', onInitialized);
+					
+					if(chartType != 'bubble'){
+						mobiChart.setCategorySortOrder("none"); // None for No sorting by MAkit, ascending for Ascending
+					}
+					if(chartType == 'bubble'){
+						mobiChart.setBubbleMinSize(15);						
+						
+						
+						if(bubbleShapeExists){
+							/* shapePallette = shapePallette + "" ;
+							shapePalletteInfo = JSON.parse(shapePallette); */
+							shapePalletteInfo = shapePallette;
+						}
+						
+					
+					}
+					
+					
+					mobiChart.setProperty("category.displayLastLabel", true);
+					
+					mobiChart.setNumberOfVisibleCategories(300); 
+					//console.log("chartmetadata : "+chartMetaData);
+					
+					mobiChart.create(chartMetaData);				
+					mobiChart.bind("tap", onSingleTap);
+					mobiChart.bind("doubletap", onDoubleTap);
+						
+				
+					if(displayPercentForYAxis){
+						mobiChart.setProperty("values.percentage", "1");
+					}
+					
+					
+					if(displayPercentForY2Axis){						
+						mobiChart.setProperty("secondaryaxis.values.percentage", "1");
+					}
+					if(chartType == 'bubble'){
+				
+						if(displayPercentForXAxis){
+							mobiChart.setProperty("category.percentage", "1");
+						}
+					}
+					mobiChart.setShowDotsWidth(10);
+					mobiChart.setBarChartTableWidth("50%");
+					/*
+					Visibility of x-axis line and the label to be set based on x-axis visible property
+					*/
+					
+					if(!isxAxisVisible){
+						
+						mobiChart.setProperty("category.showprimaryline", false);						
+						mobiChart.setProperty("category.showLabel", false);
+						
+					}
+					/*
+					Visibility of y-axis line and the label to be set based on y-axis visible property
+					*/
+					
+					if(!isyAxisVisible){
+						
+						mobiChart.setProperty("values.showprimaryline", false);
+						mobiChart.setProperty("values.showLabel", false);
+					}
+					/*
+					Visibility of y-axis2 line and the label to be set based on y-axis visible property
+					*/
+					
+					if(!isy2AxisVisible){
+						mobiChart.setProperty("secondaryaxis.values.showprimaryline", false);
+						mobiChart.setProperty("secondaryaxis.values.showLabel", false);
+					}
+					/*
+					In Case of hierarchy chart, when the chart is loaded all the nodes should be expanded.
+					*/
+					if(isHierarchyChart){
+						mobiChart.expand(true);
+						mobiChart.refresh();
+					}	
+				//	mobiChart.setPalette(palletteInfo);
+				
+					
+					if(lang != null && lang != undefined){				
+						$MA.setLocale(lang);
+					}
+					/*
+					 Get min/max values for x-axis,yaxis1 and yaxis2 in the same order from axis scale values json array and
+					 set the min and max scale values for y-axis1. Other scale values are not supported as of now.
+					*/
+					
+				 	
+					if(axisScaleValueStr != null || axisScaleValueStr != undefined){				
+						//axisScaleValueStr = axisScaleValueStr+"";			
+						//console.log(" scale axis json "+axisScaleValueStr);
+					//	var axisScaleValues = JSON.parse(axisScaleValueStr);		
+						var axisScaleValues = axisScaleValueStr;
+						if(axisScaleValues[0] != null && axisScaleValues[0] != "null" && axisScaleValues[0] != undefined ){							
+							mobiChart.setProperty("category.min", axisScaleValues[0]);	
+						}
+						if(axisScaleValues[1] != null && axisScaleValues[1] != "null" && axisScaleValues[1] != undefined ){							
+							mobiChart.setProperty("category.max", axisScaleValues[1]);	
+						}
+						if(axisScaleValues[2] != null && axisScaleValues[2] != "null" && axisScaleValues[2] != undefined ){
+							mobiChart.setProperty("values.min", axisScaleValues[2]);
+						}
+						if(axisScaleValues[3] != null && axisScaleValues[3] != "null" && axisScaleValues[3] != undefined ){
+							mobiChart.setProperty("values.max", axisScaleValues[3]);
+						}
+						if(axisScaleValues[4] != null && axisScaleValues[4] != "null" && axisScaleValues[4] != undefined ){							
+							mobiChart.setProperty("secondaryaxis.values.min", axisScaleValues[4]);
+						}
+						if(axisScaleValues[5] != null && axisScaleValues[5] != "null" && axisScaleValues[5] != undefined ){							
+							mobiChart.setProperty("secondaryaxis.values.max", axisScaleValues[5]);
+						}
+					}	
+					var  format = "rounded2" ; // For value comma Formatting  roundedXX, e.g for 2 digits, rounded2
+					
+					var styleObj = {};
+					if(isHierarchyChart){
+						styleObj.categoriesDisplayOrder = "rootToLeaf"; 
+						mobiChart.setValueBubbleStyle(styleObj);
+					}
+					//console.log("rootToLeaf");
+					if(!isRangeSelectorVisible){
+						styleObj.style = "floattop";
+					}
+					else{
+						styleObj.style = "top";
+						mobiChart.showValueBubble(false);
+					}
+					styleObj.showNullValue = false ;
+					//styleObj.showValueOnPieChart  = true ;
+					/*
+					 This will enable the  Measure value in the Pie chart bubble
+					 define top if needed in top
+					*/
+					var orientation = window.makitConnecter.getOrientation();		
+					//console.log("orientation" + orientation);
+					if(orientation){
+						/*
+						In the  case of tablet, in a Mobi report designed page
+						if there is only one report part or in full screen , we wil show same behaviour as in 
+						means its a mobireport designedpage: here in portrait mode,value bubble  to be top and landscape to be right side
+						*/
+						if(chartCount == 1){
+							styleObj.position = "top";
+						}
+						else{
+							/*
+							 set the position as side if bubble needs to be side
+							 currently setitng back to top as requirred
+							*/
+							styleObj.position = "top";
+							}
+						
+					}
+					else{
+						styleObj.position = "top";
+					}
+					styleObj.showCategoryText = true;
+					/*
+						Displaying the value bubble emasure valeu what it determines only for buble chart 
+					*/
+					
+					if(chartType !='bubble'){
+						styleObj.showCategoryDisplayName = false;
+						styleObj.showValueDisplayName = false;
+					}
+					if(chartType == 'line' || chartType=='combined_bar_line' || chartType=='dual_combined_bar_line' || chartType=='dual_bar'){
+						styleObj.legendIconShape = "circle";
+					}
+					mobiChart.setValueBubbleStyle(styleObj);
+					if(mobiZoomLevel == -1){
+						mobiZoomLevel = 0 ;
+					}
+					mobiChart.setZoomingLevel(mobiZoomLevel);
+					mobiChart.refresh();
+					if(chartType != 'pie'){
+						mobiChart.showRangeSelectorView(isRangeSelectorVisible);
+						/*if(isRangeSelectorVisible){
+							mobiChart.setNumberOfVisibleCategories(300); // Number of visible categories
+						}
+						else{
+							mobiChart.setNumberOfVisibleCategories(53);
+						}
+						if(chartType == 'bar' || chartType == 'bubble'){
+							if(chartCount == 1){
+								mobiChart.setNumberOfVisibleCategories(300); // Number of visible categories
+							}
+							else{
+								mobiChart.setNumberOfVisibleCategories(53);
+							}
+						}
+						*/
+						
+						//mobiChart.setNumberOfVisibleCategories(300); 
+						mobiChart.refresh();
+					}
+					else{
+						//console.log("This is pie chart.");
+					}
+					
+				}
+				mobiChart.setProperty("values[0].format", format);
+				mobiChart.refresh();
+			}
+			catch(ee){
+				console.log("Error : 01 MakeChart : " + ee );
+				window.makitConnecter.logChartsData("makeChart for Tablet" +ee);
+			}
+			
+		}
+		var checkOrientation = function(){
+			//console.log("PAGE NO :: " + pageNo + "CHECK ORIENTATION ::: " + window.orientation);
+			var checkOri = window.makitConnecter.getOrientation();
+			if(checkOri !== previousOrientation){
+				previousOrientation = checkOri;
+				/* var layout = window.makitConnecter.getChartLayout(pageNo);
+				console.log("PAGE NO :: " + pageNo + "LAYOUT ORIENTATION" + layout);
+				layout = layout + '';
+				layout = layout;
+				layout = JSON.parse(layout);
+				chartCount = layout.charts.length;
+				resizeContainers(layout); */
+				makeChart();
+			}
+		};
+		window.addEventListener('resize', checkOrientation, false);
+		function resizeContainers(layout){
+			//console.log("resize container page no :: " + pageNo);
+			try{
+				for(var j = 0; j < chartCount; j++){
+					var height = Number(layout.charts[j].height);
+					var width = Number(layout.charts[j].width);
+					var left = Number(layout.charts[j].left);
+					var top = Number(layout.charts[j].top);
+					
+					var chartTopContainer = document.getElementById('chartTopContainer_' + j);
+					/* console.log("left :: " + left);
+					console.log("top :: " + top);
+					console.log("width :: " + width);
+					console.log("height :: " + height); */
+					if(window.makitConnecter.isRTL())
+					{
+                        chartTopContainer.style.right = left + 'px';
+					}
+					else
+					{
+					    chartTopContainer.style.left = left + 'px';
+					}
+
+					chartTopContainer.style.top = top + 'px';
+					chartTopContainer.style.width = width + 'px';
+					chartTopContainer.style.height = height + 'px';
+					
+					/* console.log("chartTopContainer.style.left" + chartTopContainer.style.left);
+					console.log("chartTopContainer.style.top" + chartTopContainer.style.top);
+					console.log("chartTopContainer.style.width" + chartTopContainer.style.width);
+					console.log("chartTopContainer.style.height" + chartTopContainer.style.height); */
+					
+					
+					var chartContainerSecLevel = document.getElementById('chartContainerSecLevel_' + j);
+					if(window.makitConnecter.isRTL())
+					{
+                        chartContainerSecLevel.style.right = (left + 5) + 'px';
+					}
+					else
+					{
+					    chartContainerSecLevel.style.left = (left + 5) + 'px';
+					}
+
+					chartContainerSecLevel.style.top = (top + 5) + 'px';
+					chartContainerSecLevel.style.width = (width - 10)+ 'px';
+					chartContainerSecLevel.style.height = (height - 10) + 'px';
+					
+					var menuOption =  document.getElementById('menu_' + j);
+					try{
+						menuOption.style.height = '32px';
+						menuOption.style.width = '32px';
+						if(window.makitConnecter.isRTL())
+                        {
+                            menuOption.style.right = (left + width - 36) + 'px';
+                        }
+                        else
+                        {
+                            menuOption.style.left = (left + width - 36) + 'px';
+                        }
+
+						menuOption.style.top = (top + 6) + 'px';
+					}
+					catch(e){
+						console.log("Menu can be zero for page :: " + pageNo);
+					}
+					var chartContainer =  document.getElementById('chartContainer_' + j);
+					    if(window.makitConnecter.isRTL())
+                        {
+                            chartContainer.style.right = (left + 10 ) + 'px';
+                        }
+                        else
+                        {
+                            chartContainer.style.left = (left + 10 ) + 'px';
+                        }
+
+					chartContainer.style.top = (top + 32) + 'px';
+					chartContainer.style.width = (width - 15) + 'px';
+					chartContainer.style.height = (height - 40) + 'px';
+					
+					var chart =  document.getElementById('chart_' + j);
+					 if(window.makitConnecter.isRTL())
+                        {
+                            chart.style.right = (left + 10 ) + 'px';
+                        }
+                        else
+                        {
+                            chart.style.left = (left + 10 ) + 'px';
+                        }
+
+					chart.style.top = (top + 32) + 'px';
+					chart.style.width = (width - 15) + 'px';
+					chart.style.height = (height - 40) + 'px';
+					$MA(chart.id).refresh();
+				}
+			}
+			catch(ee){
+				console.log("Error happened when resize :: " + ee);
+			}
+		}
+		var intervalId, menuIcon;
+		function AddContainers(layout)
+		{
+			try{
+				var allChartContainer = document.getElementById('all_chart_container');
+				//console.log("allChartContainer "+allChartContainer);
+				var isFullScreen = window.makitConnecter.isFullScreen();
+				//console.log("isFullScreen "+isFullScreen);
+				var actionOnReportPartPageNo = window.makitConnecter.getActionOnReportPartPageNo();
+				var reportPartCount= window.makitConnecter.getReportPartCount(pageNo);
+				var noOfReportParts = window.makitConnecter.noOfReportParts(pageNo);
+				
+				while (allChartContainer.firstChild){
+					allChartContainer.removeChild(allChartContainer.firstChild);
+				}
+				//chartCount = layout.charts.length;
+				for(var j = 0; j < chartCount; j++){
+					var height = Number(layout.charts[j].height);
+					var width = Number(layout.charts[j].width);
+					var left = Number(layout.charts[j].left);
+					var top = Number(layout.charts[j].top);
+					
+					var chartTopContainer = document.createElement('div');
+					chartTopContainer.id = 'chartTopContainer_' + j;
+					chartTopContainer.style.position = 'fixed';
+
+					    if(window.makitConnecter.isRTL())
+                        {
+                            chartTopContainer.style.right = left + 'px';
+                        }
+                        else
+                        {
+                            chartTopContainer.style.left = left + 'px';
+                        }
+					chartTopContainer.style.top = top + 'px';
+					chartTopContainer.style.width = width + 'px';
+					chartTopContainer.style.height = height + 'px';
+					
+					var chartContainerSecLevel = document.createElement('div');
+					chartContainerSecLevel.id = 'chartContainerSecLevel_' + j;
+					chartContainerSecLevel.style.position = 'fixed';
+					if(window.makitConnecter.isRTL())
+                        {
+                            chartContainerSecLevel.style.right = (left + 5) + 'px';
+                        }
+                        else
+                        {
+                           chartContainerSecLevel.style.left = (left + 5) + 'px';
+                        }
+
+					chartContainerSecLevel.style.top = (top + 5) + 'px';
+					chartContainerSecLevel.style.width = (width - 10)+ 'px';
+					chartContainerSecLevel.style.height = (height - 10) + 'px';
+					chartContainerSecLevel.style.border = "solid 1px #B0B0B0";
+					
+					var menuContainer = document.createElement('div');
+					var title = document.createElement('div');
+
+					    if(window.makitConnecter.isRTL())
+                        {
+                            title.style.textAlign = 'right';
+                        }
+                        else
+                        {
+                            title.style.position = 'relative';
+                           title.style.left = '5px';
+                           title.style.bottom = '5px';
+                        }
+
+					title.style.whiteSpace = 'nowrap';
+					title.style.overflow = 'hidden';
+					title.style.textOverflow = 'ellipsis';
+					title.style.fontSize = '1.5em';
+					title.innerHTML = layout.charts[j].title;
+					var menuOption = document.createElement('div');
+					menuOption.id = 'menu_' + j;
+					menuOption.style.height = '32px';
+					menuOption.style.width = '32px';
+					var isRTL = window.makitConnecter.isRTL();
+					if(isRTL)
+					{
+					    //menuOption.style.left = (left + 5) + 'px';
+					    menuOption.style.right = (left + width - 36) + 'px';
+					}
+					else
+					{
+					    menuOption.style.left = (left + width - 36) + 'px';
+					}
+					menuOption.style.top = (top + 6) + 'px';
+					menuOption.style.position = 'fixed';
+					menuOption.style.zIndex = '1000';
+					
+					menuOption.addEventListener('click',function(){
+						menuIcon = this;
+						intervalId = setTimeout(
+								function () {
+									var index = menuIcon.id.split('_');
+									var imgRects = menuIcon.getClientRects()[0];
+									var left = imgRects.left;
+									var top = imgRects.top;
+									window.makitConnecter.getChartMenuOption(pageNo, Number(index[1]), left, top);
+									clearTimeout(intervalId);
+								}, 200);}, false);
+					
+					var chartContainer = document.createElement('div');
+					
+					chartContainer.id = 'chartContainer_' + j;
+					chartContainer.style.position = 'fixed';
+					if(isRTL)
+					{
+					    chartContainer.style.right = (left + 10 ) + 'px';
+					}
+					else
+					{
+					    chartContainer.style.left = (left + 10 ) + 'px';
+					}
+					chartContainer.style.top = (top + 32) + 'px';
+					chartContainer.style.width = (width - 15) + 'px';
+					chartContainer.style.height = (height - 40) + 'px';
+					
+					var chart = document.createElement('div');
+					chart.id = 'chart_' + j;
+					chart.style.position = 'fixed';
+					if(isRTL)
+					{
+					    chart.style.right = (left + 10 ) + 'px';
+					}
+					else
+					{
+					    chart.style.left = (left + 10 ) + 'px';
+					}
+					chart.style.top = (top + 32) + 'px';
+					chart.style.width = (width - 15) + 'px';
+					chart.style.height = (height - 40) + 'px';
+					
+					chartContainer.appendChild(chart);
+					chartContainerSecLevel.appendChild(chartContainer);
+					menuContainer.appendChild(title);
+					//console.log('TESTING ASHISH : 0 '+actionOnReportPartPageNo+" page no "+pageNo);
+					if(layout.charts.length == 1){
+						if(isFullScreen){
+							//console.log('TESTING ASHISH : 1');
+							if(window.makitConnecter.hasReportPartAction(pageNo, j, -1)){
+								//console.log('TESTING ASHISH : 2');
+								if(isRTL)
+								{
+								    menuOption.style.backgroundImage = 'url(../images/action_32_rtl.png)';
+								}
+								else
+								{
+								    menuOption.style.backgroundImage = 'url(../images/action_32.png)';
+								}
+
+								menuContainer.appendChild(menuOption);
+							}
+							else if(actionOnReportPartPageNo == pageNo){
+								//console.log('TESTING ASHISH : 3 '+actionOnReportPartPageNo+" page no "+pageNo);
+								if(isRTL)
+								{
+								    menuOption.style.backgroundImage = 'url(../images/ic_reportpart_exitfull_rtl.png)';
+								}
+								else
+								{
+								    menuOption.style.backgroundImage = 'url(../images/ic_reportpart_exitfull.png)';
+								}
+									menuContainer.appendChild(menuOption);
+							}
+						}
+						else{
+							//console.log('TESTING ASHISH : 4');
+							if(reportPartCount > 1){
+							//	console.log('TESTING ASHISH : 5');
+								if(window.makitConnecter.hasReportPartAction(pageNo, j, -1)){
+                                    if(isRTL)
+                                    {
+                                        menuOption.style.backgroundImage = 'url(../images/ic_reportpart_actions_rtl.png)';
+                                    }
+                                    else
+                                    {
+                                        menuOption.style.backgroundImage = 'url(../images/ic_reportpart_actions.png)';
+                                    }
+									menuContainer.appendChild(menuOption);
+								}
+								else{
+								    if(isRTL)
+								    {
+								        menuOption.style.backgroundImage = 'url(../images/ic_reportpart_fullscreen_rtl.png)';
+								    }
+								    else
+								    {
+									    menuOption.style.backgroundImage = 'url(../images/ic_reportpart_fullscreen.png)';
+								    }
+									menuContainer.appendChild(menuOption);
+								}
+							}
+							else{
+							//	console.log('TESTING ASHISH : 6');
+								if(window.makitConnecter.hasReportPartAction(pageNo, j, -1)){
+									//console.log('TESTING ASHISH : 7');
+									if(isRTL)
+									{
+									    menuOption.style.backgroundImage = 'url(../images/ic_reportpartdatafilter_rtl.png)';
+									}
+									else
+									{
+									    menuOption.style.backgroundImage = 'url(../images/ic_reportpartdatafilter.png)';
+									}
+									menuContainer.appendChild(menuOption);
+								}
+								else if(noOfReportParts > 1){
+									//console.log('TESTING ASHISH : 8');
+									if(isRTL)
+									{
+									    menuOption.style.backgroundImage = 'url(../images/ic_reportpart_fullscreen_rtl.png)';
+									}
+									else
+									{
+									    menuOption.style.backgroundImage = 'url(../images/ic_reportpart_fullscreen.png)';
+									}
+									menuContainer.appendChild(menuOption);
+								}
+							}
+						}
+					}
+					else if (layout.charts.length > 1){
+						if(window.makitConnecter.hasReportPartAction(pageNo, j, -1)){
+						    if(isRTL)
+						    {
+						        menuOption.style.backgroundImage = 'url(../images/ic_reportpart_actions_rtl.png)';
+						    }
+						    else
+						    {
+						        menuOption.style.backgroundImage = 'url(../images/ic_reportpart_actions.png)';
+						    }
+							menuContainer.appendChild(menuOption);
+						}
+						else{
+						    if(isRTL)
+						    {
+						        menuOption.style.backgroundImage = 'url(../images/ic_reportpart_fullscreen_rtl.png)';
+						    }
+						    else
+						    {
+						        menuOption.style.backgroundImage = 'url(../images/ic_reportpart_fullscreen.png)';
+						    }
+							menuContainer.appendChild(menuOption);
+						}
+					}
+					chartContainerSecLevel.appendChild(menuContainer);
+					
+					chartTopContainer.appendChild(chartContainerSecLevel);
+					
+					allChartContainer.appendChild(chartTopContainer);
+				}
+			}
+			catch(ee){
+				console.log("Error : 02 AddContainers : " + ee );
+				window.makitConnecter.logChartsData("AddContainers for Tablet" +ee);
+			}
+		}
+		
+		function onSingleTap(id, e) {
+			if ($MA(id).isValueBubbleVisible()){
+				if (prevSelectedItem == $MA(id).getSelectedCategory() ){
+					if(!isRangeSelectorVisible){
+						$MA(id).showValueBubble(false);
+					}
+					
+				}
+			}
+			else{
+				$MA(id).showValueBubble(true);
+			}
+			prevSelectedItem = $MA(id).getSelectedCategory();
+		}
+		
+		function onDoubleTap(id) {
+			try{
+				var index = id.lastIndexOf('_');
+				var chartIndex = parseInt(id.substring(index + 1, id.length));
+				var isMultiMeasure = window.makitConnecter.isMultiMeasureChart(pageNo, chartIndex);
+				var chartType = window.makitConnecter.getChartType(pageNo, chartIndex); 
+				//console.log("$MA(id).getSelectedCategoryGroup() "+ $MA(id).getSelectedCategoryGroup());
+				if($MA(id).getSelectedCategoryGroup() == undefined || isHierarchyChart ){
+					/*
+					 *If the selected category group is undefined, there is no  infomation available on double tap 
+					 * and dont trigge any drill
+					*/
+				}
+				else{
+					
+					if($MA(id).getSelectedSeries() != undefined){
+						/*
+						Multi dimensional  charts double tap events
+						*/
+						var drillContext = "" ;
+						if(isMultiMeasure){
+							drillContext = $MA(id).getSelectedSeries() + ";;;" + $MA(id).getSelectedCategoryGroup() ;
+						}
+						else{
+							 drillContext = $MA(id).getSelectedSeries() + ";;;" + $MA(id).getSelectedCategoryGroup() ;
+						}
+						
+						window.makitConnecter.showDrillDialog(drillContext, chartIndex, pageNo);
+					}
+					else{
+						if(chartType == 'bubble'){
+							var chart = $MA(id);
+							var bubbleInfo = chart.getSelectedBubbleInfo();
+							var colorDisplayText = bubbleInfo.colorDisplayText;
+							var drillContext = colorDisplayText ;
+							
+							window.makitConnecter.showDrillDialog(drillContext,chartIndex,pageNo );
+						}
+						else{
+							var drillContext = $MA(id).getSelectedCategory() ;
+							
+							if(drillContext != 'Others'){
+								window.makitConnecter.showDrillDialog(drillContext,chartIndex,pageNo);
+							}
+						}
+						}
+				}
+				
+			}
+			catch(ee){
+				window.makitConnecter.logChartsData("onDoubleTap for Tablet" +ee);
+				console.log("Error : on Double Tap : " + ee );
+				
+			}
+		}
+		
+
+		function onTitleChanged(id, title) {
+			try{
+				//console.log('onTitleChanged method executed');
+				var elem = document.getElementById('title');
+				/*
+				 * Ellipsizing the Title so that the title is occupied as part of one single line instead 
+				 * pushing the chart to multiple lines 
+				*/
+				elem.style.whiteSpace = 'nowrap';
+				elem.style.overflow = 'hidden';
+		        elem.style.textOverflow = 'ellipsis';
+				elem.innerHTML = title;
+			}
+			catch(ee){
+				window.makitConnecter.logChartsData("onTitleChanged for Tablet" +ee);
+				console.log("Error : 04 OnTitleChanged : " + ee );
+				
+			}
+		}
+		function executeMAQuery(chartObj, name, args, graphName)
+		{
+			try{
+				var dataTable; 
+				dataTable = setChartDataSets(name);
+				chartObj.setDataTable(dataTable,graphName);
+				
+				//legendDisplay();
+			}
+			catch(ee){
+				console.log("Error : 05 ExecuteMAQuery : " + ee );
+				window.makitConnecter.logChartsData("executeMAQuery for Tablet" +ee);
+			}
+		}
+		function setChartDataSets(name){
+			try{
+				name = name.split('_');
+				legIndex = Number(name[1]);
+				var dataTable = new $MA.DataTable();
+				if(mobiZoomLevel < 0){
+					mobiZoomLevel = 0 ;
+				}
+		//		var chartType = window.makitConnecter.getChartType(Number(name[0]), legIndex);
+			//	var isMultiSeries = window.makitConnecter.ifMultiSeries(Number(name[0]), legIndex);
+				//console.log("is multi sereries "+isMultiSeries);
+				if(chartType == 'bubble'){
+					/*
+					* First Two data columns  are  for  plotting X axis value and its display value 
+					* next two columns are for Y axis plotitng Y axis value and its display value 
+					* next two columns are for Bubble width  plottting and display value
+					* Next column for applying Region Color
+					* Last column is for display for the Region color which would be the combination of dimensions
+					*/
+					
+					dataTable.addColumn("dimention0", "number"); // X Axis Indices
+					dataTable.addColumn("valuedisplaytext", "string");
+					dataTable.addColumn("revenue", "number");
+					dataTable.addColumn("displaytext", "string");
+					dataTable.addColumn("bubbleSize", "number");
+					dataTable.addColumn("bubblevaluedisplaytext", "string");
+					dataTable.addColumn("color", "String");
+					dataTable.addColumn("colorValue", "string");
+					/*
+					 * Bubble shape and height are optional parameters. Only if they exists the data should be added. 
+					 */
+					if(bubbleShapeExists){
+						dataTable.addColumn("shape", "string");
+				    	dataTable.addColumn("shapeValue", "string");
+					}					
+					if(bubbleHeightExists){
+						dataTable.addColumn("height", "number"); 
+						dataTable.addColumn("heightDisplayValueText", "string");
+					}
+				}else{
+					if(chartType=='combined_bar_line' || chartType=='dual_combined_bar_line' || chartType=='dual_bar'){
+						mobiZoomLevel =0;
+						isMultiSeries = true;
+					}
+					if(isHierarchyChart){
+						for( var i=0 ; i < categoryLevel ; i++){
+							dataTable.addColumn("dimention" + i, "string"); // X Axis Indices
+						}
+					}else{
+						for( var i=0 ; i <= mobiZoomLevel ; i++){
+							dataTable.addColumn("dimention" + i, "string");
+							//console.log("add column dim ::"+"dimention" + i);
+						}
+					}
+					//var isMultiSeries = window.makitConnecter.ifMultiSeries(Number(name[0]), legIndex);
+					if(isMultiSeries){
+						dataTable.addColumn("product", "string");
+						//console.log("add column product ::");
+					}
+					dataTable.addColumn('revenue', 'number');
+					//console.log("add column revenue ::");
+					dataTable.addColumn("displaytext", "string");
+					//console.log("add column displaytext ::");
+				}
+				var isSnap = false;
+				if(pageNo == 0){
+					if(legIndex == (chartCount - 1)){
+						isSnap = true;
+					}
+				}
+				if(currChartIndex==0){
+					jsonArray = window.makitConnecter.getChartData(Number(name[0]), legIndex, isSnap);
+					//console.log("json "+jsonArray);
+					jsonArray = jsonArray + '';
+					chartDataInJson = JSON.parse(jsonArray);
+				
+				}
+				//console.log("chartDataInJson ::"+chartDataInJson);
+				/*
+				*  For combination chart, data for each chart is stored in json array. chartDataInJson array contains a list of json array with data for corresponding charts.
+				*  ExecuteMAQuery method gets triggered for each chart. currChartIndex is used as a pointer to current chart. 
+				*/
+				if(chartType == 'combined_bar_line' ||chartType == 'dual_combined_bar_line' || chartType=='dual_bar'){
+					var chartData = chartDataInJson[currChartIndex];
+					dataTable.addRows(chartData);	
+					currChartIndex = currChartIndex + 1;
+					
+				}else{
+				dataTable.addRows(chartDataInJson);
+				//console.log("addRows chartDataInJson ::"+chartDataInJson);
+				}
+				return dataTable;
+			}
+			catch(ee){
+				window.makitConnecter.logChartsData("SetChartDataSets for Tablet" +ee);
+				console.log("Error : 06 SetChartDataSets : " + ee );
+			}
+		}
+		function removeRangeSelector(isRangeSelector, chartId){
+			var chart = $MA(chartId);
+			chart.showRangeSelectorView(isRangeSelector);
+			//console.log('Seting number of visible catogories for RS=='+isRangeSelector);
+			chart.setNumberOfVisibleCategories(10000); 
+			chart.refresh();
+			//console.log('Done with method removeRangeSelector ');
+		}
+
+		function onInitialized(id) {
+			//console.log("onInitialized " );
+			$MA(id).showToolBar(false);
+			//console.log("isRangeSelectorVisible=="+isRangeSelectorVisible)'
+			if(!isRangeSelectorVisible){
+				$MA(id).showValueBubble(false);
+			}
+			if(isLegendVisible){
+				//console.log("Trying to SET Legend");
+				var oriantation = window.makitConnecter.getOrientation();
+				if(oriantation){
+					$MA(id).setLegend('left');
+					//console.log("Orientation is landsacpe");
+				}
+				else{
+					$MA(id).setLegend('bottom');
+					//console.log("Orientation is pot.... ");
+				}
+			}
+			else{
+				$MA(id).setLegend('none');
+			}
+			/*
+			 * Dual axis charts can contain color palettes for primary axis / secondary axis. If primary axis / secondary axis color palettes exists set that else set default.
+			*/			
+			if(chartType=='combined_bar_line' || chartType=='dual_combined_bar_line'|| chartType=='dual_bar'){
+				if(palletteInfoSecondary != null && palletteInfoSecondary != undefined && palletteInfoSecondary.length>0 ){				
+					if(palletteInfoPrimary != null && palletteInfoPrimary != undefined && palletteInfoPrimary.length>0){						
+						$MA(id).setPalette(palletteInfoPrimary,"primaryaxis");
+					}else{
+						if(palletteInfo != null && palletteInfo != undefined){							
+							$MA(id).setPalette(palletteInfo);
+						}
+					}				
+						$MA(id).setPalette(palletteInfoSecondary,"secondaryaxis");						
+				}else{					
+					if(palletteInfo != null && palletteInfo != undefined){					
+						$MA(id).setPalette(palletteInfo);
+					}
+				}
+				
+			}else{				
+				if(palletteInfo != null && palletteInfo != undefined){
+					window.makitConnecter.logChartsData("palletteInfo for Tablet " +palletteInfo);
+					$MA(id).setPalette(palletteInfo);
+				}
+			}
+			
+			if(clrMap != null && clrMap != undefined && clrMap != "" ){			
+				//clrMap = clrMap + "" ;
+				//var colorMap = JSON.parse(clrMap);
+				var colorMap = clrMap;
+				
+				if(chartType=='combined_bar_line' || chartType=='dual_combined_bar_line'|| chartType=='dual_bar'){
+					var chartNameList = window.makitConnecter.getChartNameList(pageNo, currentPosition);
+					chartNameList = chartNameList+"";
+					var chartNameJson = JSON.parse(chartNameList);
+					for(var chartNameInd=0;chartNameInd<currChartIndex;chartNameInd++ ){				
+						//if(colorMap[chartNameInd].length>0){
+							$MA(id).setDataPointsColor(colorMap[chartNameInd],chartNameJson[chartNameInd]);		
+						//}
+					}				
+				}else{
+					$MA(id).setDataPointsColor(colorMap);
+				}
+				//$MA(id).setDataPointsColor(colorMap);
+			}
+			
+			if(formatString != null){
+				$MA(id).setTotalFormat(formatString);
+			}
+			/*
+			* Bubble shape is optional parameter in webi. If exists, then set the shape pallette.
+			*/
+			if(bubbleShapeExists){
+				$MA(id).setSymbolPalette(shapePalletteInfo);
+			}	
+			if(chartType=='pie') 
+				$MA(id).setMaxPies(32);	
+		}
+		//window.addEventListener('orientationchange', checkOrientation, false);
+		//set(checkOrientation, 250);
+		
+		//bhagya
+		
+	function setChartProperties(pageNo, j){
+		/*
+		Get the color pallette  for customizing the chart order for colors
+		The Pallette information passed is in Json Array format since JNI 
+		connector between java and the Html file doesnt accept 
+		anythign apart from primitinis and JSONArray. Parse the JSON data
+		and set this pallette info into the chart before the chart load/create method is called
+		*/
+		var chartProperties = window.makitConnecter.getChartProperties(pageNo,j);
+		chartProperties = chartProperties+'';
+		//console.log("chartProperties  ::  "+chartProperties);
+		chartProperties = JSON.parse(chartProperties);
+		
+		pallette = JSON.parse(chartProperties.pallette);//window.makitConnecter.getPallette(pageNo, j);
+		//console.log("pallette"+pallette);
+		pallettePrimary = JSON.parse(chartProperties.pallettePrimary);//window.makitConnecter.getPallettePrimary(pageNo, j);
+		//console.log("pallettePrimary "+pallettePrimary);
+		palletteSecondary = JSON.parse(chartProperties.palletteSecondary);//window.makitConnecter.getPalletteSecondary(pageNo, j);
+		clrMap = JSON.parse(chartProperties.clrMap);//window.makitConnecter.getClrMap(pageNo, j);
+		chartMetaData = chartProperties.chartMetaData;//window.makitConnecter.getChartMetaData(pageNo, j);
+		chartType = chartProperties.chartType;//window.makitConnecter.getChartType(pageNo, j);
+		isHierarchyChart=chartProperties.isHierarchyChart;//window.makitConnecter.getIsHierarchyChart(pageNo, j);	
+		isMultiSeries = chartProperties.isMultiSeries;//window.makitConnecter.ifMultiSeries(pageNo, j);
+		
+		/*
+		* For hierarchy charts, number of dimension columns to be added depends on the number of hierarchy levels.
+		* categoryLevel indicates the number of hierarchy levels.
+		*/	
+		if(isHierarchyChart){
+			categoryLevel = chartProperties.categoryLevel;//window.makitConnecter.getCategoryLevel(pageNo, j);	
+		}
+		mobiZoomLevel = chartProperties.mobiZoomLevel;//window.makitConnecter.getZoomLevel(pageNo, j);
+		if(chartType == 'bubble'){
+			bubbleShapeExists =  chartProperties.bubbleShapeExists;//window.makitConnecter.bubbleShapeExists(pageNo, j);
+
+			displayPercentForXAxis = chartProperties.displayPercentForXAxis;//window.makitConnecter.getDisplayPercentForXAxis(pageNo, j);
+			bubbleHeightExists =  chartProperties.bubbleHeightExists;//window.makitConnecter.bubbleHeightExists(pageNo, j);
+			if(bubbleShapeExists){
+				shapePallette = JSON.parse(chartProperties.shapePallette);//window.makitConnecter.getShapePallette(pageNo, j);
+			}	
+		}
+		if(chartType == 'waterfallcolumn' || chartType == 'waterfallbar' || chartType == 'hierarchywaterfallcolumn'){
+						formatString = chartProperties.formatString;//window.makitConnecter.getFormatString(pageNo, j);
+		}
+		displayPercentForYAxis = chartProperties.displayPercentForYAxis;//window.makitConnecter.getDisplayPercentForYAxis(pageNo, j);	
+		displayPercentForY2Axis = chartProperties.displayPercentForY2Axis;//window.makitConnecter.getDisplayPercentForY2Axis(pageNo, j);	
+		isxAxisVisible = chartProperties.isxAxisVisible;//window.makitConnecter.isxAxisVisible(pageNo, j);
+		isyAxisVisible = chartProperties.isyAxisVisible;//window.makitConnecter.isyAxisVisible(pageNo, j);
+		isy2AxisVisible = chartProperties.isy2AxisVisible;//window.makitConnecter.isyAxis2Visible(pageNo, j);
+		axisScaleValueStr = chartProperties.axisScaleValueStr;//window.makitConnecter.getChartAxisScaleValues(pageNo, j); 	
+		lang = chartProperties.lang;//window.makitConnecter.getDeviceLang();
+		/* if(chartType=='combined_bar_line' || chartType=='dual_combined_bar_line'|| chartType=='dual_bar'){
+					chartNameList = window.makitConnecter.getChartNameList(pageNo, currentPosition);
+		} */
+	}
+
+
+</script>
+</head>
+<body id='bodyId'>
+<div id='all_chart_container' style='width:100%; height:100%'></div>
+</body>
+</html>

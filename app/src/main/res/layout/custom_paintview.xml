@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+    android:layoutDirection="locale"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView
+        android:id="@+id/custom_paint"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="@drawable/annotate_pencil_blue_selected"
+        android:clickable="true"
+        />
+		    
+</LinearLayout>

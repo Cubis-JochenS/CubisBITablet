@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Connections>
+   <Connection>
+       <property key="NAME" value="BOE"/>
+       <property key="TYPE" value="1"/>
+       <property key="TYPE_STRING" value="BOEConnection"/>
+       <property key="DISPLAY_NAME" value="SAP BusinessObjects BI Platform"/>
+       <property key="DESCRIPTION" value="BusinessObjects Intelligence Platform 4.0 and XI 3.1"/>
+       <property key="CONN_CLASS" value="com.sap.mobi.connections.BOE.BOEConnection"/>
+       <property key="EXECUTOR_CLASS" value="com.sap.mobi.connections.BOE.BOELoginExecutor"/>
+       <property key="HANDLER_CLASS" value="com.sap.mobi.connections.BOE.BOELoginHandler"/>
+       <property key="VIEWER_CLASS" value="com.sap.mobi.ui.BOEConnectionFragment"/>
+   </Connection>
+   
+   <Connection>
+       <property key="NAME" value="SUP"/>
+       <property key="TYPE" value="4097"/>
+       <property key="TYPE_STRING" value="BOESUPConnection"/>
+       <property key="DISPLAY_NAME" value="SMP BOE Connection (Legacy)"/>
+       <property key="DESCRIPTION" value="Use this if you use IMO communication to connect through SAP Mobile Platform"/>
+       <property key="CONN_CLASS" value="com.sap.mobi.connections.SUP.SUPConnection"/>
+       <property key="EXECUTOR_CLASS" value="com.sap.mobi.connections.SUP.SUPLoginExecutor"/>
+       <property key="HANDLER_CLASS" value="com.sap.mobi.connections.SUP.SUPLoginHandler"/>
+       <property key="VIEWER_CLASS" value="com.sap.mobi.ui.SUPConnectionFragment"/>
+   </Connection>
+   <Connection>
+       <property key="NAME" value="SMP"/>
+       <property key="TYPE" value="4098"/>
+       <property key="TYPE_STRING" value="BOESMPConnection"/>
+       <property key="DISPLAY_NAME" value="SMP BOE Connection"/>
+       <property key="DESCRIPTION" value="REST-based communication to connect through SAP Mobile Platform"/>
+       <property key="CONN_CLASS" value="com.sap.mobi.connections.SMP.SMPConnection"/>
+       <property key="EXECUTOR_CLASS" value="com.sap.mobi.connections.SUP.SUPLoginExecutor"/>
+       <property key="HANDLER_CLASS" value="com.sap.mobi.connections.SUP.SUPLoginHandler"/>
+       <property key="VIEWER_CLASS" value="com.sap.mobi.ui.SMPConnectionFragment"/>
+   </Connection>
+   <Connection>
+       <property key="NAME" value="SMP Cloud"/>
+       <property key="TYPE" value="4099"/>
+       <property key="TYPE_STRING" value="BOESMPCloudConnection"/>
+       <property key="DISPLAY_NAME" value="SMP Cloud BOE Connection"/>
+       <property key="DESCRIPTION" value="Use this to connect through SAP Mobile Platform Cloud"/>
+       <property key="CONN_CLASS" value="com.sap.mobi.connections.SMP.SMPConnection"/>
+       <property key="EXECUTOR_CLASS" value="com.sap.mobi.connections.SUP.SUPLoginExecutor"/>
+       <property key="HANDLER_CLASS" value="com.sap.mobi.connections.SUP.SUPLoginHandler"/>
+       <property key="VIEWER_CLASS" value="com.sap.mobi.ui.SMPConnectionFragment"/>
+    </Connection>
+   <!--<Connection>
+       <property key="NAME" value="LUMIRA"/>
+       <property key="TYPE" value="4"/>
+       <property key="TYPE_STRING" value="HANABICloud"/>
+       <property key="DISPLAY_NAME" value="SAP Lumira Cloud"/>
+       <property key="CONN_CLASS" value="com.sap.mobi.connections.LUMIRA.PhotonConnection"/>
+       <property key="DESCRIPTION" value="Use this if you are an SAP Lumira Cloud user"/>
+       <property key="EXECUTOR_CLASS" value="com.sap.mobi.connections.LUMIRA.PhotonLoginExecutor"/>
+       <property key="HANDLER_CLASS" value="com.sap.mobi.connections.LUMIRA.PhotonLoginHandler"/>
+       <property key="VIEWER_CLASS" value="com.sap.mobi.ui.HavanaPhotonFragment"/>
+   </Connection>  --> 
+     
+</Connections>

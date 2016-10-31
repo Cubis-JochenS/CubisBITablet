@@ -1,0 +1,174 @@
+<!DOCTYPE html >
+<html>
+<head>
+		<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width" />
+	<link rel='stylesheet' href='css/toolbar.css' type='text/css'/>	   
+	<link rel="stylesheet" href="../css/chart.css" type="text/css" class="ui-theme"/> 
+	<!-- <link rel='stylesheet' href='css/black.css' type='text/css' class='ui-theme'/>  -->
+	<script src="jquery-1.7.1.min.js"></script>
+	<script src="../scripts/jquery/jquery.glob.js"></script>
+	<script src="../scripts/jquery/locinfo/jQuery.glob.all.js"></script>
+	<script src='../scripts/sap.makit-3.0.min.js'></script>
+	<script src='../scripts/GlobalizedResource.js'></script>
+</head>
+
+<body>
+
+<script src="MyLayout.js"></script>
+
+<script type="text/javascript">
+
+	window.onload = function() {
+		var chartType = "column";
+		var search = window.location.search.substring(1);
+
+		if (search != "") {
+			var queries = search.split("&");
+			if (queries.length > 0) {
+				var info = queries[0].split("=");
+				chartType = info[1];
+			}
+		}
+
+	//	arrange(1, 1);
+		var chart = new $MA.Chart("chart_1", true);
+		
+		chart.bind("titlechanged", onTitleChanged);
+		
+		
+		//var chartMetaData= "<Chart Name='chart_1' ChartType='column'  Title='Vacation and Accruals'><Category  DisplayText='valuedisplaytext' DisplayName = 'Cost Center'/><Series Column='product'/><Values><Value Expression='revenue' DisplayText = 'displaytext'  DisplayName = 'Avg Sick Days/Avg Vacation Accrual' /></Values><ZoomingLevels><ZoomingLevel CategoryColumn='dimention0' Title = 'Cost Center' Query='mobiquery'/></ZoomingLevels></Chart>";
+		//var chartMetaData= "<Chart Name='chart_1' ChartType='column'  Title=''>                     <Category  DisplayText='valuedisplaytext' />                           <Series Column='product'/><Values><Value Expression='revenue' DisplayText = 'displaytext' />                                                    </Values><ZoomingLevels><ZoomingLevel CategoryColumn='dimention0' Title = 'Year'         Query='mobiquery'/></ZoomingLevels></Chart>"
+		var	chartMetaData=" <Chart Name='chart_1' ChartType='column'  Title=''>						<Category DisplayText='valuedisplaytext' />								<Series Column='product'/><Values><Value Expression='revenue'  DisplayText = 'displaytext' />													</Values><ZoomingLevels><ZoomingLevel CategoryColumn='dimention0' Title = 'null' Query='mobiquery'/></ZoomingLevels></Chart>";
+							
+
+		
+		var palletteInfo = [3827096,15704658,38000,14506015,10628450,16698976,2585995,14315618,4486929,13117273,6096796,14931516,14329032,3375564,15843971,10778420,9616099,11943218,3460753,16743001,12605856,8647072,3716024,15512201,10830648,9621987,8788790,10599266,15501736,9387212,12708980,12035284];
+		palletteInfo = [10080513,15964930,10473452,4957959,16175411,13323564,13289402,886428,13489966,2388528,7134940,15430400,12172241,28115,4045183,10835092,88107,5093103,11479831,13932818,12307666,3183117,1944001,2770889,13736386,13391910,7520068,673949,9936035,954768,6365338];
+		
+		//chart.setCategorySortOrder("none");
+		chart.bind("tap", onSingleTap);
+		chart.bind("initialized", onInitialized);
+		chart.setPalette(palletteInfo);
+		chart.create(chartMetaData);
+				
+		
+		var styleObj = {};
+		styleObj.style = "top";
+		styleObj.showNullValue = false ;
+		chart.showValueBubble(false);
+		
+		/*
+		 In the case of MD charts ,Don't show the value bubble points for which the dta ais missing,
+		 set the showNullValue as false ; By default, it is set to true 
+		*/
+
+		chart.setValueBubbleStyle(styleObj);
+	}
+	function onInitialized(id) {
+			$MA(id).showToolBar(false);
+			//console.log("isRangeSelectorVisible=="+isRangeSelectorVisible)'
+		//	if(!isRangeSelectorVisible){
+				$MA(id).showValueBubble(false);
+			//}
+			var colorMap = [[2,"#ff00ff"]];
+		//$MA(id).setDataPointsColor(colorMap);
+		alert("in initialized");
+		var palletteInfo = palletteInfo = [10080513,15964930,10473452,4957959,16175411,13323564,13289402,886428,13489966,2388528,7134940,15430400,12172241,28115,4045183,10835092,88107,5093103,11479831,13932818,12307666,3183117,1944001,2770889,13736386,13391910,7520068,673949,9936035,954768,6365338];			
+		//	$MA(id).setPalette(palletteInfo);
+			
+		}
+	function onSingleTap(id, e) {
+		/*
+		 Single tap evenets to control the value bubble behaviour
+		*/
+		if ($MA(id).isValueBubbleVisible()){
+			if (prevSelectedItem == $MA(id).getSelectedCategory() ){
+				$MA(id).showValueBubble(false);
+			}
+		}
+		else{
+			$MA(id).showValueBubble(true);
+		}
+		prevSelectedItem = $MA(id).getSelectedCategory();
+	}
+
+	function executeMAQuery(chartObj, name, args) {
+		var dataTable;
+		if (name == "mobiquery")
+			dataTable = getProductRevenueByYearData();
+
+
+		chartObj.setDataTable(dataTable);
+	};
+	function getProductRevenueByYearData() {
+		var dataTable = new $MA.DataTable();
+		console.log("in method");
+		alert("in method");
+		dataTable.addColumn("dimention0", "string");
+		dataTable.addColumn("product", "string"); // Series 				}
+		dataTable.addColumn("revenue", "number");
+		dataTable.addColumn("displaytext", "string");
+		//myJsonData=[["100011","Avg Sick Days","2.78495","3"],["100011","Avg Vacation Accrual","16.0669","16"],["100012","Avg Sick Days","2.80392","3"],["100012","Avg Vacation Accrual","15.1877","15"],["100013","Avg Sick Days","2.80952","3"],["100013","Avg Vacation Accrual","15.1793","15"],["100014","Avg Sick Days","2.81095","3"],["100014","Avg Vacation Accrual","15.7023","16"],["100015","Avg Sick Days","2.80365","3"],["100015","Avg Vacation Accrual","15.1687","15"],["100016","Avg Sick Days","2.81982","3"],["100016","Avg Vacation Accrual","15.4302","15"],["100017","Avg Sick Days","2.77419","3"],["100017","Avg Vacation Accrual","14.5559","15"],["100018","Avg Sick Days","2.82143","3"],["100018","Avg Vacation Accrual","15.1924","15"],["100019","Avg Sick Days","2.875","3"],["100019","Avg Vacation Accrual","15.2971","15"],["100020","Avg Sick Days","2.70588","3"],["100020","Avg Vacation Accrual","15.732","16"]];
+		//myJsonData=[["2004","Year",7069238.2999999,"$7,069,238"],["2005","Year",1.32322459999999E7,"$13,232,246"],["2006","Year",1.08317844000007E7,"$10,831,784"]];
+		
+		myJsonData =[["2004","Q1\/2004","1036787.3","$1,036,787"],["2005","Q1\/2004","0","$0"],["2006","Q1\/2004","0","$0"],["2004","Q1\/2005","0","$0"],["2005","Q1\/2005","1236389.7","$1,236,390"],["2006","Q1\/2005","0","$0"],["2004","Q1\/2006","0","$0"],["2005","Q1\/2006","0","$0"],["2006","Q1\/2006","1070299","$1,070,299"],["2004","Q2\/2004","757858.900000003","$757,859"],["2005","Q2\/2004","0","$0"],["2006","Q2\/2004","0","$0"],["2004","Q2\/2005","0","$0"],["2005","Q2\/2005","1132666","$1,132,666"],["2006","Q2\/2005","0","$0"],["2004","Q2\/2006","0","$0"],["2005","Q2\/2006","0","$0"],["2006","Q2\/2006","995190.800000001","$995,191"],["2004","Q3\/2004","504468.099999999","$504,468"],["2005","Q3\/2004","0","$0"],["2006","Q3\/2004","0","$0"],["2004","Q3\/2005","0","$0"],["2005","Q3\/2005","1026132","$1,026,132"],["2006","Q3\/2005","0","$0"],["2004","Q3\/2006","0","$0"],["2005","Q3\/2006","0","$0"],["2006","Q3\/2006","1114149.30000001","$1,114,149"],["2004","Q4\/2004","926510.099999999","$926,510"],["2005","Q4\/2004","0","$0"],["2006","Q4\/2004","0","$0"],["2004","Q4\/2005","0","$0"],["2005","Q4\/2005","1792697.79999999","$1,792,698"],["2006","Q4\/2005","0","$0"],["2004","Q4\/2006","0","$0"],["2005","Q4\/2006","0","$0"],["2006","Q4\/2006","742914.099999999","$742,914"]];
+		
+
+		dataTable.addRows(myJsonData);
+		return dataTable;
+	}
+	function getFileName(chartType) {
+		switch (chartType) {
+		case "bar":
+			return "metadata/chart_ms_bar.xml";
+		case "hbar":
+			return "metadata/chart_ms_hbar.xml";
+		case "line":
+			return "metadata/chart_ms_line.xml";
+		case "bubble":
+			return "metadata/chart_ms_bubble.xml";
+		}
+	}
+
+	function onTitleChanged(id, title) {
+		alert("onTitleChanged title is "+title);
+		var elem = document.getElementById("title");			
+		elem.innerHTML = title;
+	}
+
+	function onOrientationChanged() {
+		arrange(1, 1, true);
+	}
+
+	function onThemeChanged() {
+		var elem = document.getElementById("theme");
+		var theme = elem.options[elem.selectedIndex].value;
+
+		updateCSS(theme, function(success, link) {
+			if (success) {
+				$MA.Chart.getStyles();
+				$MA("chart_1").applyCSS();
+			}
+		});
+	}
+	function goBack() {
+		var e = document.body;
+		document.body.parentNode.removeChild(document.body)
+		history.go(-1);
+	}
+</script>
+
+<div class="toolbar">
+<h1 id="title"></h1>
+<a id="backButton" class="button" onclick="goBack();" style="display: inline;">Back</a> <Select id="theme"
+	style="float: right; margin-top: 12px;" onchange="onThemeChanged()">
+	<Option value="Default">Default</Option>
+	<Option value="Blue">Blue</Option>
+	<Option value="Green">Green</Option>
+</Select></div>
+
+<div id="contents">
+<div id="chart_1"></div>
+</div>
+</body>
+</html>

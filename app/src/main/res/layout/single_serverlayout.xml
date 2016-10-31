@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/ssl_serverlayout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:padding="15px">
+
+	<ImageView android:id="@+id/ssl_cnxicon"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</ImageView>
+
+	<TextView android:id="@+id/ssl_cnxname" android:textColor="@color/textColor"
+		android:layout_toRightOf="@id/ssl_cnxicon" android:layout_toEndOf="@id/ssl_cnxicon" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_margin="5px"
+		android:paddingLeft="15px" android:paddingStart="15px" android:layout_alignWithParentIfMissing="true">
+	</TextView>
+
+	<TextView android:id="@+id/ssl_cnxdate" android:textColor="@color/textColor"
+		android:layout_toRightOf="@id/ssl_cnxname" android:layout_toEndOf="@id/ssl_cnxname" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_margin="5px"
+		android:textSize="16px" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"
+		android:gravity="right|end|center_vertical" android:textAlignment="viewEnd"  android:layout_alignTop="@id/ssl_cnxname"
+		android:layout_alignWithParentIfMissing="true">
+	</TextView>
+
+	<TextView android:id="@+id/ssl_cnxdesc" android:textColor="@color/textColor"
+		android:layout_toRightOf="@id/ssl_cnxicon" android:layout_toEndOf="@id/ssl_cnxicon" android:layout_below="@id/ssl_cnxname"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_margin="5px" android:textSize="16px"
+		android:paddingLeft="15px" android:paddingStart="15px">
+	</TextView>
+</RelativeLayout>

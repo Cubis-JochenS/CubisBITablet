@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quickeref_phonelandlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layoutDirection="locale"
+     >
+
+    <ImageView
+        android:id="@+id/quickeref_image1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.45"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/quickeref_text1"
+        android:layout_width="0dp"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:textColor="@color/darkgrey"
+        android:layout_height="match_parent"
+        android:layout_weight="0.55"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:gravity="center_vertical"/>
+
+</LinearLayout>

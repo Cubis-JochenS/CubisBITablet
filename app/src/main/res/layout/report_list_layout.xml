@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+ 	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/legallayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:background="@android:color/white">
+	
+   		<TextView android:id="@+id/report_dialog_header"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"             
+              android:text="@string/report_list"
+              style="@style/TextMedium" 
+        	  android:paddingBottom="12dp"
+              android:paddingLeft="10dp"
+              android:paddingTop="10dp"
+              android:textColor="@color/text_blue"
+              />
+ 
+		<View
+		    android:id="@+id/seperator"
+		    android:paddingLeft="8dp"
+		    android:paddingRight="8dp"
+		    style="@style/DialogTitleSeperator"/>    
+    
+	    <ListView
+	        android:id="@+id/reportList"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="3dp"
+	        android:cacheColorHint="@color/transparent" >
+	    </ListView>
+      
+</LinearLayout>

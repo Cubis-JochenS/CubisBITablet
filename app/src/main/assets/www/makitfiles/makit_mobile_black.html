@@ -1,0 +1,641 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1; maximum-scale=1; user-scalable=0; width=device-width;"/> 
+	<meta name="apple-mobile-web-app-capable" content="yes" /> 
+	<title>Interactive Legend</title>
+	<link rel="stylesheet" href="css/toolbar.css" type="text/css"/>
+	<!--  For default theme , use  href="../css/chart.css  -->	 
+	<link rel="stylesheet" href="css/black.css" type="text/css" class="ui-theme"/>
+	<script src="jquery-1.7.1.min.js"></script>	  
+	<script src="../scripts/jquery/jquery.glob.js"></script>
+	<script src="../scripts/jquery/locinfo/jQuery.glob.all.js"></script> 
+	<script src='../scripts/sap.makit-3.0.min.js'></script>
+	<script src='../scripts/GlobalizedResource.js'></script>
+	
+	<script src="MyLayout.js"></script>
+	
+	<script type="text/javascript">
+	var mobiZoomLevel; 
+	var dimention = "dimention";
+	var contentId;
+	var theme;
+	var themecss;
+	var chartType ;
+	var prevSelectedItem = null;
+	var clrMap = null;
+	var currChartIndex = 0
+	var bubbleShapeExists = false;
+	var bubbleHeightExists = false;
+	var categoryLevel = 0;
+	var isHierarchyChart = false;
+	var palletteInfo;
+	var palletteInfoPrimary = null;
+	var palletteInfoSecondary = null;
+	var formatString = null;
+	function setContentId(id){
+		contentId = id;
+	}
+	window.onload = function(){setContentId(<contentIdPH>); makeChart();} 
+	
+	function makeChart() {
+		try{
+			arrange(1, 1);
+			/*
+			 Set the maximum length of the Pie chart legends length to be used
+			*/
+			$MA.Chart.setPieChartCategoryTextMaxLength(23);
+			var mobiChart = new $MA.Chart("chart_1", true);
+			/*
+			get the chartMetaData XML data 
+			*/
+			var chartMetaData = window.makitConnecter.getChartMetaData(contentId);
+			isHierarchyChart=window.makitConnecter.getIsHierarchyChart(contentId);
+			/*
+			* For hierarchy charts, number of dimension columns to be added depends on the number of hierarchy levels.
+			* categoryLevel indicates the number of hierarchy levels.
+			*/
+			if(isHierarchyChart){
+				categoryLevel = window.makitConnecter.getCategoryLevel(contentId);	
+			}
+			chartType = window.makitConnecter.getChartType(contentId);
+			/*
+			Get the color pallette  for customizing the chart order for colors
+			The Pallette information passed is in Json Array format since JNI 
+			connector between java and the Html file doesnt accept 
+			anythign apart from primitinis and JSONArray. Parse the JSON data
+			and set this pallette info into the chart before the chart load/create method is called
+			*/
+			var pallette = window.makitConnecter.getPallette(contentId);
+			clrMap = window.makitConnecter.getClrMap(contentId);		
+			
+			/*
+			 Jsonarray needs to   be appended with an empty string required for
+			 android 2.2 and 2.3 framework.
+			*/
+			if(pallette != null && pallette != undefined && pallette != ""){
+				pallette = pallette + "" ;
+				palletteInfo = JSON.parse(pallette);
+			}
+			
+			var	pallettePrimary = window.makitConnecter.getPallettePrimary(contentId);
+			if(pallettePrimary != null && pallettePrimary != undefined && pallettePrimary != ""){
+				pallettePrimary = pallettePrimary + "" ;
+				palletteInfoPrimary = JSON.parse(pallettePrimary);
+			}
+				
+			var	palletteSecondary = window.makitConnecter.getPalletteSecondary(contentId);
+			if(palletteSecondary != null && palletteSecondary != undefined && palletteSecondary != ""){
+				palletteSecondary = palletteSecondary +"";
+				palletteInfoSecondary = JSON.parse(palletteSecondary);
+			}
+			/*
+			 zoomlevel is requiired since we are using the symantic charts 
+			 we need to set at what zooming level we are going to consume the chart to be displayed
+			*/
+			mobiZoomLevel = window.makitConnecter.getZoomLevel(contentId);
+			
+			mobiChart.bind('initialized', onInitialized);
+			mobiChart.bind("titlechanged", onTitleChanged);
+			/*
+			Apply the webi pallette info as received from Webi
+			*/
+		//	$MA.Chart.setPalette(palletteInfo);
+		//	mobiChart.setPalette(palletteInfo);
+			
+			/*
+			MAKit sorts data  in lexical sorting.  This inturn leads to mismatch of what webi 
+			order. Avoid sorting by setting the sorting to none.
+			*/
+			if(chartType != 'bubble'){
+				mobiChart.setCategorySortOrder("none");
+			}
+			bubbleShapeExists = false;
+			bubbleHeightExists = false;
+			if(chartType == 'bubble'){
+				mobiChart.setBubbleMinSize(15);
+				bubbleShapeExists =  window.makitConnecter.bubbleShapeExists(contentId);
+				bubbleHeightExists =  window.makitConnecter.bubbleHeightExists(contentId);
+			}
+			if(chartType == 'waterfallcolumn' || chartType == 'waterfallbar' || chartType == 'hierarchywaterfallcolumn'){
+				formatString = window.makitConnecter.getFormatString(contentId);
+			}
+			/*
+			Set the number of maximum visible measurable points within the 
+			range selector display. 
+			*/
+			mobiChart.setNumberOfVisibleCategories(300);
+			/*
+			create chart methos is called which inturn inturn calls the function executeMAQuery
+			wherein the data settting for the chart happens
+			*/
+			mobiChart.create(chartMetaData);
+			/*
+			Single tap event is binded for the customised action as requirred for the value bubble.
+			this inturn on Chart loads calls the onSingleTap method where implementation is written
+			*/
+			mobiChart.bind("tap", onSingleTap);
+			/*
+			Double tap event is binded for the customised action as requirred drill
+			this inturn on Chart loads calls the onDoubleTap method where implementation is written
+			*/
+			mobiChart.bind("doubletap", onDoubleTap);
+			
+			var displayPercentForYAxis = window.makitConnecter.getDisplayPercentForYAxis(contentId);
+			if(displayPercentForYAxis){
+				mobiChart.setProperty("values.percentage", "1");
+			}
+			var displayPercentForY2Axis = window.makitConnecter.getDisplayPercentForY2Axis(contentId);
+			if(displayPercentForY2Axis){						
+				mobiChart.setProperty("secondaryaxis.values.percentage", "1");
+			}
+			if(chartType == 'bubble'){
+				var displayPercentForXAxis = window.makitConnecter.getDisplayPercentForXAxis(contentId);
+				if(displayPercentForXAxis){
+					mobiChart.setProperty("category.percentage", "1");
+				}
+			}
+			mobiChart.setShowDotsWidth(10);
+			mobiChart.setBarChartTableWidth("50%");
+			/*
+			Visibility of x-axis line and the label to be set based on x-axis visible property
+			*/
+			if(!window.makitConnecter.isxAxisVisible(contentId)){
+				mobiChart.setProperty("category.showprimaryline", false);						
+				mobiChart.setProperty("category.showLabel", false);
+				
+			}
+			/*
+			Visibility of y-axis line and the label to be set based on y-axis visible property
+			*/
+			if(!window.makitConnecter.isyAxisVisible(contentId)){
+				
+				mobiChart.setProperty("values.showprimaryline", false);
+				mobiChart.setProperty("values.showLabel", false);
+			}
+			/*
+			Visibility of y-axis2 line and the label to be set based on y-axis visible property
+			*/
+			if(!window.makitConnecter.isyAxis2Visible(contentId)){
+				
+				mobiChart.setProperty("secondaryaxis.values.showprimaryline", false);
+				mobiChart.setProperty("secondaryaxis.values.showLabel", false);
+			}
+			/*
+			In Case of hierarchy chart, when the chart is loaded all the nodes should be expanded.
+			*/
+			if(isHierarchyChart){
+				mobiChart.expand(true);
+				mobiChart.refresh();
+			}		
+			/*
+			Set device locale
+			*/
+			var lang = window.makitConnecter.getDeviceLang();
+			if(lang != null && lang != undefined){				
+				$MA.setLocale(lang);
+			}
+			/*
+			Measure value formatted to two digits next to decimals.
+			If one wants for three digits, then use rounded3  and so on...
+			*/
+			var  format = "rounded2" ; 
+			mobiChart.setProperty("values[0].format", format);
+			/*
+			 To display the last label in the chart always which is getting plotted
+			*/
+			mobiChart.setProperty("category.displayLastLabel", true);
+			if(mobiZoomLevel == -1){
+				mobiZoomLevel = 0 ;
+			}
+			mobiChart.setZoomingLevel(mobiZoomLevel);
+
+			
+			var oriantation = window.makitConnecter.getOrientation();
+			var isTablet = window.makitConnecter.getIsTablet();
+			var oriantation = window.makitConnecter.getOrientation();
+			/*
+			 Get min/max values for x-axis,yaxis1 and yaxis2 in the same order from axis scale values json array and
+			 set the min and max scale values for y-axis1. Other scale values are not supported as of now.
+			*/
+			var axisScaleValueStr = window.makitConnecter.getChartAxisScaleValues(contentId); 		
+			if(axisScaleValueStr != null || axisScaleValueStr != undefined){				
+				axisScaleValueStr = axisScaleValueStr+"";				
+				var axisScaleValues = JSON.parse(axisScaleValueStr);				
+				if(axisScaleValues[0] != null){
+					mobiChart.setProperty("category.min", axisScaleValues[0]);	
+				}
+				if(axisScaleValues[1] != null){
+					mobiChart.setProperty("category.max", axisScaleValues[1]);	
+				}
+				if(axisScaleValues[2] != null){
+					mobiChart.setProperty("values.min", axisScaleValues[2]);
+				}
+				if(axisScaleValues[3] != null){
+					mobiChart.setProperty("values.max", axisScaleValues[3]);
+				}				
+				if(axisScaleValues[4] != null){
+					mobiChart.setProperty("secondaryaxis.values.min", axisScaleValues[4]);					
+				}
+				if(axisScaleValues[5] != null){
+					mobiChart.setProperty("secondaryaxis.values.max", axisScaleValues[5]);					
+				}		
+			}
+			if(chartType != 'pie'){
+				var styleObj = {};				
+				if(isHierarchyChart){
+					styleObj.categoriesDisplayOrder = "rootToLeaf"; 
+					mobiChart.setValueBubbleStyle(styleObj);
+				}
+				/*
+				 If the value is null, then don;t display 
+				*/
+				
+				styleObj.showNullValue = false ;
+				if(chartType != 'bubble'){
+					/*
+					If the chart type is not pie and bubble, to decide upon the range selector
+					we check the orirntation. For landscape orientation, we set the range selector to be false if 
+					the request is from a MObile device.  For mobile device, range selector is available for the 
+					portrait mode only
+					If Request is from a Tablet , we show the range selector for
+					landscape as well as portrait mode.
+					orientation  true: landscape   , false : portiat 
+					*/
+					/* If the charts are displayed from Geo Map Document then we show the range selector only in Full screen*/
+				var isDocFromGeo = window.makitConnecter.isDocformGeoMap();
+					
+				if(oriantation){
+					
+					if(isTablet){
+						if(isDocFromGeo){
+							var isGeoDocFullscreen =  window.makitConnecter.isGeofullscreen();
+							if(isGeoDocFullscreen){
+								mobiChart.showRangeSelectorView(true);
+							}else{
+								mobiChart.showRangeSelectorView(false);
+							}
+						}else{
+							mobiChart.showRangeSelectorView(true);
+						}
+					}
+					else{
+						mobiChart.showRangeSelectorView(false);
+						}
+					mobiChart.setLegendOffset(0, -150);
+				}else{
+					if(isDocFromGeo){
+						var isGeoDocFullscreen =  window.makitConnecter.isGeofullscreen();
+						if(isGeoDocFullscreen){
+							mobiChart.showRangeSelectorView(true);
+						}else{
+							mobiChart.showRangeSelectorView(false);
+						}
+					}
+				}
+				/*
+				  For mobile device : value bubble used for Portrait is a Top value bubble
+				  and for a landscape mode is floating top value bubble .
+				  In th case of tablet , Value bubble is always a Top value bubble .
+				  this is a bydesign requirement.
+				*/
+				
+				if(oriantation && !isTablet){
+					styleObj.style = "floattop";
+				}
+				else{
+					styleObj.style = "top";
+				}
+				/*
+				 In the case of MD charts ,Don't show the value bubble points for which the dta ais missing,
+				 set the showNullValue as false ; By default, it is set to true 
+				*/
+				styleObj.showNullValue = false ;
+				styleObj.showCategoryText = true;
+				styleObj.showCategoryDisplayName = false;
+				styleObj.showValueDisplayName = false;
+				}
+				if(chartType == 'line' || chartType=='combined_bar_line' || chartType=='dual_combined_bar_line' || chartType=='dual_bar'){
+					styleObj.legendIconShape = "circle";
+				}
+				mobiChart.setValueBubbleStyle(styleObj);
+			}
+			else if(chartType == 'pie')
+			{
+				var styleObj = {};
+				styleObj.showValueOnPieChart  = true ;
+				mobiChart.setLegend("bottom");
+				styleObj.position = "top";
+				styleObj.showNullValue = false ;
+				/*
+				 This will enable the  Measure value in the Pie chart bubble
+				 define top if needed in top
+				*/
+				mobiChart.setValueBubbleStyle(styleObj);
+				
+			}
+			mobiChart.refresh();
+			}
+		
+		catch(ee){
+			console.log("Error : 01 MakeChart : " + ee );
+			window.makitConnecter.logChartsData("makeChart for Mobile" +ee);
+		}
+	}
+	
+	function onSingleTap(id, e) {
+		/*
+		 Single tap evenets to control the value bubble behaviour
+		*/
+		if ($MA(id).isValueBubbleVisible()){
+			if (prevSelectedItem == $MA(id).getSelectedCategory() ){
+				var oriantation = window.makitConnecter.getOrientation();
+				var isTablet = window.makitConnecter.getIsTablet();
+				if(oriantation && !isTablet){
+					$MA(id).showValueBubble(false);
+				}
+			}
+		}
+		else{
+			$MA(id).showValueBubble(true);
+		}
+		prevSelectedItem = $MA(id).getSelectedCategory();
+	}
+
+	function onDoubleTap(id) {
+
+		/*
+		 Double tap event requirred for drill
+		*/
+		
+		var isMultiMeasure = window.makitConnecter.isMultiMeasureChart(contentId);
+		var triggerDrill = true ;
+		if(chartType == 'pie'){
+			window.makitConnecter.setPieChart(true);
+		}
+		else{
+			window.makitConnecter.setPieChart(false);
+			}
+		if($MA(id).getSelectedCategoryGroup() == undefined  || isHierarchyChart){
+			/*
+			 Don't trigger any operation if the value fetched 
+			 from the double tap event is not defined
+			*/
+		}
+		else{
+			if($MA(id).getSelectedSeries() != undefined){
+				/*
+				Multi dimensional  charts double tap events
+				*/
+				var drillContext = "" ;
+				if(isMultiMeasure){
+					if(chartType == 'bubble'){
+						var chart = $MA(id);
+						var bubbleInfo = chart.getSelectedBubbleInfo();
+						var colorDisplayText = bubbleInfo.colorDisplayText;
+						drillContext = colorDisplayText ;
+					}
+					else{
+						drillContext = $MA(id).getSelectedSeries() + ";;;" + $MA(id).getSelectedCategoryGroup() ;
+					}
+					
+				}
+				else{
+					 if(chartType == 'pie'){
+						 if($MA(id).getSelectedCategoryGroup() != 'Others'){
+						 	drillContext = $MA(id).getSelectedCategoryGroup() + "" ;
+						 }
+						 else{
+							 /*
+							 If double tap event is performed on Others category for a Pie chart
+							 don't trigger any drill operation as it doesn exists for this context
+							 */
+							 triggerDrill = false ;
+						 }
+					 }
+					 else{
+						 if(chartType == 'bubble'){
+							 var bubbleInfo = $MA(id).getSelectedBubbleInfo();
+							 drillContext = bubbleInfo.colorDisplayText;
+						 }
+						 else{
+					 		drillContext = $MA(id).getSelectedSeries() + ";;;" + $MA(id).getSelectedCategoryGroup() ;
+						 }
+					 }
+				}
+				if(triggerDrill){
+					/*
+					Passing the content ID as well along witht he drillContext
+					*/
+					window.makitConnecter.showDrillDialog(drillContext,contentId);
+				}
+			}
+			else{
+				/*
+				Pie chart Or Bubble chart : With the introduction of colors , series is not there for bubble chart as its not requirred .
+				*/
+				if(chartType == 'bubble'){
+					var chart = $MA(id);
+					var bubbleInfo = chart.getSelectedBubbleInfo();
+					var colorDisplayText = bubbleInfo.colorDisplayText;
+					var drillContext = colorDisplayText ;
+					window.makitConnecter.showDrillDialog(drillContext,contentId);
+				}
+				else{
+					var drillContext = $MA(id).getSelectedCategory() ;
+					window.makitConnecter.showDrillDialog(drillContext,contentId);
+				}
+				}
+		}
+	}
+
+	function onTitleChanged(id, title) {
+		var elem = document.getElementById("title");
+		/*
+		 * Ellipsizing the Title so that the title is occupied as part of one single line instead 
+		 * pushing the chart to multiple lines 
+		*/
+		elem.style.whiteSpace = 'nowrap';
+		elem.style.overflow = 'hidden';
+        elem.style.textOverflow = 'ellipsis';
+		elem.innerHTML = title;
+	}
+
+
+	function executeMAQuery(chartObj, name, args, graphName)
+	{
+		/*
+		This method gets fired internally when we create/load the chart metsa dtaa xml file
+		
+		*/
+		var dataTable; 
+		// All querys required by chart should be handled here
+		if (name == "mobiquery"){
+			dataTable = setJsondataSet();
+		}
+		
+		chartObj.setDataTable(dataTable, graphName);
+	}
+	function setJsondataSet(){
+		var dataTable = new $MA.DataTable();
+		try{
+			if(mobiZoomLevel == -1){
+				mobiZoomLevel = 0 ;
+			}
+			var dataTable = new $MA.DataTable();
+			var ifMultiSeries = window.makitConnecter.ifMultiSeries(contentId);
+			chartType = window.makitConnecter.getChartType(contentId);
+			if(chartType == 'bubble'){
+				/*
+				* First Two data columns  are  for  plotting X axis value and its display value 
+				* next two columns are for Y axis plotitng Y axis value and its display value 
+				* next two columns are for Bubble width  plottting and display value
+				* Next column for applying Region Color
+				* Last column is for display for the Region color which would be the combination of dimensions
+				*/
+				
+					dataTable.addColumn("dimention0", "number"); 
+					dataTable.addColumn("valuedisplaytext", "string");
+					dataTable.addColumn("revenue", "number");
+					dataTable.addColumn("displaytext", "string");
+					dataTable.addColumn("bubbleSize", "number");
+					dataTable.addColumn("bubblevaluedisplaytext", "string");
+					dataTable.addColumn("color", "String");
+					dataTable.addColumn("colorValue", "string");
+					/*
+					 * Bubble shape and height are optional parameters. Only if they exists the data should be added. 
+					 */
+					if(bubbleShapeExists){
+						dataTable.addColumn("shape", "string");
+				    	dataTable.addColumn("shapeValue", "string");
+					}					
+					if(bubbleHeightExists){
+						dataTable.addColumn("height", "number"); 
+						dataTable.addColumn("heightDisplayValueText", "string");
+					}
+				
+				
+			}else{
+				if(chartType=='combined_bar_line' || chartType=='dual_combined_bar_line' || chartType=='dual_bar'){
+					mobiZoomLevel =0;
+					ifMultiSeries = true;
+				}
+				if(isHierarchyChart){
+					for( var i=0 ; i < categoryLevel ; i++){
+						dataTable.addColumn("dimention" + i, "string"); // X Axis Indices
+					}
+				}else{
+					for( var i=0 ; i <= mobiZoomLevel ; i++){
+						dataTable.addColumn("dimention" + i, "string"); // X Axis Indices
+					}
+				}
+				if(ifMultiSeries){ 
+					/*
+					If it is a Multi dimensional chart, add this column
+					*/
+					dataTable.addColumn("product", "string"); // Series 
+				}
+					dataTable.addColumn("revenue", "number");
+					dataTable.addColumn("displaytext", "string");
+			}
+			var jsonArray = window.makitConnecter.loadChartData(contentId);
+			/*
+			below statement requirred to parse in Android 2.2 .
+			*/
+			jsonArray = jsonArray + "" ;
+			var chartDataInJson = JSON.parse(jsonArray);
+			/*
+			*  For combination chart, data for each chart is stored in json array. chartDataInJson array contains a list of json array with data for corresponding charts.
+			*  ExecuteMAQuery method gets triggered for each chart. currChartIndex is used as a pointer to current chart. 
+			*/
+			if(chartType == 'combined_bar_line' ||chartType == 'dual_combined_bar_line' || chartType=='dual_bar'){
+				var chartData = chartDataInJson[currChartIndex];
+				dataTable.addRows(chartData);	
+				currChartIndex = currChartIndex + 1;
+				
+			}else{
+				dataTable.addRows(chartDataInJson);
+			}
+			}
+			catch(ee){
+				window.makitConnecter.logChartsData("setJsondataSet for Mobile" +ee);
+			}
+		return dataTable;
+	}
+
+	function onOrientationChanged() {
+		
+		arrange(1, 1, true);
+	}
+	
+	function onInitialized(id) {
+		/*
+		Upon load, set the default MAKit Toolbar to false and the value bubbles to false 
+		*/
+		$MA(id).showToolBar(false);
+		$MA(id).showValueBubble(false);		
+		/*
+		 * Dual axis charts can contain color palettes for primary axis / secondary axis. If primary axis / secondary axis color palettes exists set that else set default.
+		*/			
+		if(chartType=='combined_bar_line' || chartType=='dual_combined_bar_line'|| chartType=='dual_bar'){
+			if(palletteInfoSecondary != null && palletteInfoSecondary != undefined && palletteInfoSecondary.length>0 ){				
+				if(palletteInfoPrimary != null && palletteInfoPrimary != undefined && palletteInfoPrimary.length>0){						
+					$MA(id).setPalette(palletteInfoPrimary,"primaryaxis");
+				}else{
+					if(palletteInfo != null && palletteInfo != undefined){							
+						$MA(id).setPalette(palletteInfo);
+					}
+				}				
+					$MA(id).setPalette(palletteInfoSecondary,"secondaryaxis");						
+			}else{					
+				if(palletteInfo != null && palletteInfo != undefined){					
+					$MA(id).setPalette(palletteInfo);
+				}
+			}
+			
+		}else{				
+			if(palletteInfo != null && palletteInfo != undefined){
+				window.makitConnecter.logChartsData("palletteInfo for Tablet " +palletteInfo);
+				$MA(id).setPalette(palletteInfo);
+			}
+		}
+		if(clrMap != null && clrMap != undefined && clrMap != "" ){
+			window.makitConnecter.logChartsData("clrMap for Tablet " +clrMap);
+			clrMap = clrMap + "" ;
+			var colorMap = JSON.parse(clrMap);
+			if(chartType=='combined_bar_line' || chartType=='dual_combined_bar_line'|| chartType=='dual_bar'){
+				var chartNameList = window.makitConnecter.getChartNameList(contentId);
+				chartNameList = chartNameList+"";
+				var chartNameJson = JSON.parse(chartNameList);
+				for(var chartNameInd=0;chartNameInd<currChartIndex;chartNameInd++ ){
+					window.makitConnecter.logChartsData("total chart "+currChartIndex+"clrMap for Tablet " +colorMap[chartNameInd].length+" chart "+chartNameJson[chartNameInd]+" curr chart index is "+chartNameInd);
+					if(colorMap[chartNameInd].length>0){
+						$MA(id).setDataPointsColor(colorMap[chartNameInd],chartNameJson[chartNameInd]);		
+					}
+				}				
+			}else{
+				$MA(id).setDataPointsColor(colorMap);
+			}
+			//$MA(id).setDataPointsColor(colorMap);
+		}
+		if(formatString != null){
+			$MA(id).setTotalFormat(formatString);
+		}
+		if(bubbleShapeExists){
+			var shapePallette = window.makitConnecter.getShapePallette(contentId);
+			shapePallette = shapePallette + "" ;
+			var shapePalletteInfo = JSON.parse(shapePallette);
+			$MA(id).setSymbolPalette(shapePalletteInfo);
+		}		
+		if(chartType=='pie') 
+			$MA(id).setMaxPies(32);	
+	}
+	</script>
+</head>
+<body>
+	<div id="title" style="text-align:left; padding-left:10px; font-family:arial; color:#ADD8E6; font-size:14px; font-weight:bold;"></div> 
+	<div id="contents">
+		<div id="chart_1"></div>
+    </div>
+</body>
+</html>

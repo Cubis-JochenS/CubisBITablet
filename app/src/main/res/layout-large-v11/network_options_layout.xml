@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logger_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="20dp" >
+
+    <RelativeLayout
+        android:id="@+id/workoffline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/ConnectionAddElements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="3dp"
+            android:text="@string/work_offline"
+            android:textColor="@color/settings_view_text" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/work_offline_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/checkbox"
+            android:minWidth="80dp" >
+        </CheckBox>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/cl_separator2"
+        style="@style/ConnectionLineSep"
+        android:layout_below="@id/workoffline"
+        android:background="@color/settings_view_separator"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+    </View>
+
+</RelativeLayout>

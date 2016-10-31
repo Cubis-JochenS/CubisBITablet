@@ -1,0 +1,59 @@
+-keep class com.sap.mobi.cache.MobiContext {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.sap.performance.android.lib.PhoneStateService { <init>(); }
+-keep class com.sap.mobi.MobiActivity { <init>(); }
+-keep class com.sap.mobi.ui.SplashActivity { <init>(); }
+-keep class com.sap.mobi.ui.HomeStartUpActivity { <init>(); }
+-keep class com.sap.mobi.ui.QuickRefActivity { <init>(); }
+-keep class com.sap.mobi.ui.HomeActivity { <init>(); }
+-keep class com.sap.mobi.viewer.xcelsius.XCDViewerActivity { <init>(); }
+-keep class com.sap.mobi.viewer.hyperlink.HyperlinkViewerActivity { <init>(); }
+-keep class com.sap.mobi.viewer.zen.ZenViewerActivity { <init>(); }
+-keep class com.sap.mobi.viewer.pdf.PdfViewerActivity { <init>(); }
+-keep class com.sap.mobi.ui.HomeActionBarActivity { <init>(); }
+-keep class com.sap.mobi.ui.BaseMultiPaneActivity { <init>(); }
+-keep class com.sap.mobi.ui.SettingsMultiPaneActivity { <init>(); }
+-keep class com.sap.mobi.ui.SettingsSinglePaneDetailsActivity { <init>(); }
+-keep class com.sap.mobi.ui.SettingsSinglePaneListActivity { <init>(); }
+-keep class com.sap.mobi.ui.MobiReportHolder { <init>(); }
+-keep class com.sap.mobi.annotations.ImageEditorActivity { <init>(); }
+-keep class com.sap.mobi.jam.JAMWebViewActivity { <init>(); }
+-keep class com.sap.mobi.annotations.CropEditorActivity { <init>(); }
+-keep class com.sap.mobi.geo.GeoMapActivity { <init>(); }
+-keep class com.sap.mobi.ui.FormWebViewActivity { <init>(); }
+-keep class com.sap.mobi.ui.InAppBrowsingActivity { <init>(); }
+-keep class com.sap.mobi.ui.AppPasswordSwitchActivity { <init>(); }
+-keep class com.sap.mobi.ui.ConnectionDetailsActivity { <init>(); }
+-keep class com.sap.mobi.ui.ImportConnectionActivity { <init>(); }
+-keep class com.sap.mobi.ui.ManageConnectionListActivity { <init>(); }
+-keep class com.sap.mobi.utils.ConnectivityReceiver { <init>(); }
+-keep class com.sap.mobi.providers.ModiDataDbProvider { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class com.google.android.gms.appinvite.PreviewActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+-keep class com.google.android.gms.cast.framework.media.MediaIntentReceiver { <init>(); }
+-keep class com.google.android.gms.cast.framework.media.MediaNotificationService { <init>(); }
+-keep class com.google.android.gms.cast.framework.ReconnectionService { <init>(); }
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+-keep class com.google.firebase.iid.FirebaseInstanceIdInternalReceiver { <init>(); }
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(); }
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+-keep class com.google.firebase.crash.internal.service.FirebaseCrashReceiverService { <init>(); }
+-keep class com.google.firebase.crash.internal.service.FirebaseCrashSenderService { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+-keep class com.google.android.gms.tagmanager.TagManagerService { <init>(); }
+-keep class com.google.android.gms.tagmanager.TagManagerPreviewActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

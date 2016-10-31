@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layoutDirection="locale"
+    >
+
+   <TextView
+        android:id="@+id/documentname"
+        android:layout_weight="0.6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingStart="20dp"
+        android:gravity="left|start"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="0dp"
+        style="@style/actionbarText"
+        android:text="Document Name" />  
+
+    <Spinner
+        android:id="@+id/reportspinner"
+        android:layout_weight="0.4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" 
+        android:gravity="left|start"
+        android:paddingLeft="-10dp"
+        android:paddingStart="-10dp"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="0dp"
+        android:spinnerMode="dropdown"
+        style="@style/SpinnerItemActionBar"
+        />
+
+</LinearLayout>

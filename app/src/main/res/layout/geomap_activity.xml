@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical" >
+
+   <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:id="@+id/geo_map"
+  	android:layout_width="match_parent"
+  	android:layout_height="match_parent"
+  	class="com.google.android.gms.maps.SupportMapFragment"/>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayoutSelectedMeasure"
+        android:layout_width="155dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:alpha="100"
+        android:background="@drawable/map_semitransparent_border" >
+
+        <View
+            android:id="@+id/selectedMeasureValueIcon"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:background="#f0600080" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="12dp"
+            android:layout_height="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/choose_value"
+            android:src="@drawable/quickactions_arrow_down" />
+
+        <Button
+            android:id="@+id/mapMeasureButton"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@+id/selectedMeasureValueIcon"
+            android:layout_toEndOf="@+id/selectedMeasureValueIcon"
+            android:layout_centerVertical="true"
+            android:alpha="100"
+            android:background="@color/transparent"
+            android:ellipsize="end"
+            android:gravity="left|start|center_vertical"
+            android:textAlignment="viewStart"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayoutSelectedDimension"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignLeft="@+id/relativeLayoutSelectedMeasure"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/relativeLayoutSelectedMeasure"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/relativeLayoutSelectedMeasure"
+        android:layout_marginTop="16dp"
+        android:alpha="100"
+        android:background="@drawable/map_semitransparent_border" >
+
+        <Button
+            android:id="@+id/mapDimensionButton"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/imageView2"
+            android:layout_marginStart="5dp"
+            android:layout_toStartOf="@+id/imageView2"
+            android:alpha="100"
+            android:background="@color/transparent"
+            android:ellipsize="end"
+            android:gravity="left|start|center_vertical"
+            android:textAlignment="viewStart"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="12dp"
+            android:layout_height="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/choose_value"
+            android:src="@drawable/quickactions_arrow_down" />
+    </RelativeLayout>
+
+</RelativeLayout>

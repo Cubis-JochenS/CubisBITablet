@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dnd_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:orientation="vertical">
+
+
+    <!-- header -->
+
+    <LinearLayout 
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.03"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dnd_header_text"
+            style="@style/TextMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="8dp"
+            android:text="@string/table_actions"
+            android:textColor="@color/text_header" />
+
+        <View
+            android:id="@+id/title_seperator"
+            style="@style/DialogTitleSeperator" />
+     
+    </LinearLayout>
+        
+	 <!-- Content -->
+           
+    <LinearLayout 
+        android:id="@+id/Header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.94"
+        android:orientation="vertical" >
+
+ 		<com.sap.mobi.utils.DnDListView
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:mobidndlv="http://schemas.android.com/apk/res-auto"
+			
+			android:id="@android:id/list"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:drawSelectorOnTop="false"
+			mobidndlv:grabber="@+id/hc_dnd_img"
+			mobidndlv:remove_mode="slideRight"/>   
+	
+	</LinearLayout>		  
+	 
+    
+    <!-- footer -->
+       
+    <LinearLayout 
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.03"
+        android:orientation="vertical" >   
+           
+	    <LinearLayout 
+	        android:id="@+id/footer_seperator"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	 	<View
+			    android:id="@+id/footer_seperator"
+				style="@style/DialogFooterSeperator"/>
+		
+		</LinearLayout>	        
+	   
+	    <LinearLayout
+	        android:id="@+id/conlist_multi_footer"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:orientation="horizontal"
+            android:layoutDirection="locale"
+            >
+	
+	        <Button
+	            android:id="@+id/dnd_pos"
+	            style="@style/TextSmall"
+	            android:layout_width="0px"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+	            android:layout_weight="0.45"
+	            android:background="@drawable/button_dialog"
+	            android:text="@string/ok" />
+	
+	        <ImageView
+	            android:id="@+id/ver_seperator"
+	            android:layout_width="2dp"
+	            android:layout_height="match_parent"
+	            android:background="@color/text_subheader" />
+	
+	        <Button
+	            android:id="@+id/dnd_neg"
+	            style="@style/TextSmall"
+	            android:layout_width="0px"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+	            android:layout_weight="0.45"
+	            android:background="@drawable/button_dialog"
+	            android:text="@string/cancel" />
+	    </LinearLayout>
+	    
+   </LinearLayout>	
+   	
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quickeref_tabportlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/quickeref_tabport_linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+         >
+
+        <ImageView
+            android:id="@+id/quickeref_image1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:padding="25dp"/>
+
+        <TextView
+            android:id="@+id/quickeref_text1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:typeface="sans"
+       		android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/darkgrey"
+            android:padding="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quickeref_tabport_linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layoutDirection="locale"
+         >
+
+        <ImageView
+            android:id="@+id/quickeref_image2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:padding="25dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/quickeref_text2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:typeface="sans"
+       		android:textSize="18sp"
+            android:padding="25dp"
+            android:layout_weight="1"
+            android:textColor="@color/darkgrey"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+</LinearLayout>

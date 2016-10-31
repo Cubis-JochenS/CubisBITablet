@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <!-- Server Error messages -->
+	<!-- XMSG -->
+    <string name="mob06004">"Nie można było utworzyć połączenia z serwerem; jeśli problem nie ustąpi, skontaktuj się z administratorem (MOB06004)"</string>
+	<!-- XMSG -->
+    <string name="mob06005">"Nie można było utworzyć połączenia z serwerem; spróbuj ponownie lub skontaktuj się z administratorem (MOB06005)"</string>
+	<!-- XMSG -->
+    <string name="mob06006">"Przekroczenie czasu żądania; spróbuj ponownie lub skontaktuj się z administratorem (MOB06006)"</string>
+	<!-- XMSG -->
+    <string name="mob06007">"Żądanie jest nieprawidłowe; zweryfikuj szczegóły połączenia lub skontaktuj się z administratorem (MOB06007)"</string>
+	<!-- XMSG -->
+    <string name="mob06008">"Brak uprawnień dla tego żądania (MOB06008)"</string>
+	<!-- XMSG -->
+    <string name="mob06009">"Żądanie jest nieprawidłowe; zweryfikuj szczegóły połączenia lub skontaktuj się z administratorem (MOB06009)"</string>
+	<!-- XMSG -->
+    <string name="mob06010">"Podczas przetwarzania żądania wystąpił błąd wewnętrzny serwera; spróbuj ponownie lub skontaktuj się z administratorem (MOB06010)"</string>
+	<!-- XMSG -->
+    <string name="mob06011">"Brak wartości monitu; wybierz co najmniej jedną wartość dla monitu (MOB06011)"</string>
+	<!-- XMSG -->
+    <string name="mob06021">"Zweryfikuj połączenie z siecią (MOB06021)"</string>
+	<!-- XMSG -->
+    <string name="mob06022">"Podczas przetwarzania żądania klienta wystąpił błąd wewnętrzny serwera (MOB06022)"</string>
+	<!-- XMSG -->
+    <string name="mob06031">"Nie można było utworzyć połączenia z serwerem; spróbuj ponownie lub skontaktuj się z administratorem (MOB06031)"</string>
+     
+    <!-- Client Error messages -->
+	 <!-- XMSG -->
+    <string name="mob08001">"E-mail nie jest skonfigurowany na tym urządzeniu (MOB08001)"</string>
+	<!-- XMSG -->
+    <string name="mob08002">"Podczas przetwarzania żądania wystąpił błąd wewnętrzny serwera; skontaktuj się z administratorem (MOB08002)"</string>
+	<!-- XMSG -->
+    <string name="mob08003">"Błąd serwera uniemożliwił odświeżenie dokumentu; spróbuj ponownie (MOB08003)"</string>
+	<!-- XMSG -->
+    <string name="mob08004">"Nie wypełniono wszystkich obowiązkowych monitów (MB08004)"</string>
+	<!-- XMSG -->
+    <string name="mob08005">"Ten monit nie jest obsługiwany (MB08005)"</string>
+	<!-- XMSG -->
+    <string name="mob08006">"Zweryfikuj informacje logowania (MOB08006)"</string>    
+	<!-- XMSG -->
+    <string name="mob08007">"Ta wersja serwera nie jest obsługiwana przez aplikację; skontaktuj się z administratorem (MOB08007)"</string> 
+    <!-- XMSG -->
+    <string name="mob08008">"Wyjątek SUP (MOB08008)"</string>
+    <!-- XMSG -->
+    <!--  This is a client sid emessage as below for the document not  found in server 
+    for content types like XC where we don;t get XML response. This is the same message which comes from Webi server for doc not found-->
+    <string name="mob00006">"Brak dokumentu na serwerze. (MOB00006)"</string>
+    <!-- XMSG -->
+    <string name="mob06099">"Napotkaliśmy błąd; skontaktuj się z administratorem"</string>
+     
+</resources>

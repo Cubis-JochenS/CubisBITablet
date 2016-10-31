@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+
+
+--><resources>
+
+    <!-- XLST: Different ways of creating connection -->
+    <string-array name="select_dialog_items2">
+        <item>"Utwórz nowe połączenie"</item>
+        <item>"Importuj z serwera"</item>
+    </string-array>
+
+    <!--
+     <string-array name="select_dialog_items3">
+        <item>None</item>
+        <item>Error</item>
+        <item>Information</item>
+        <item>Debug</item>
+        <item>Warning</item>
+     </string-array>
+
+
+
+    -->
+    <!-- XLST: Yes or No Options -->
+    <string-array name="select_dialog_items3">
+        <item>"Nie"</item>
+        <item>"Tak"</item>
+    </string-array>
+
+    <!-- XLST: To edit or delete an existing connection -->
+    <string-array name="select_dialog_items4">
+        <item>"Edycja"</item>
+        <item>"Usuń"</item>
+    </string-array>
+
+    <!-- XLST: Choose Reconnect or Work Offline -->
+    <string-array name="select_dialog_items5">
+        <item>"Połącz ponownie"</item>
+        <item>"Pracuj offline"</item>
+    </string-array>
+
+    <!-- XHED: header of Logout Dialog -->
+    <string-array name="select_dialog_items6">
+        <item>"Wyloguj"</item>
+    </string-array>
+
+    <!-- XLST: Choose Edit or DeRegister for SUP CONNECTION -->
+    <string-array name="sup_options">
+        <item>"Edycja"</item>
+        <item>"Wyrejestruj"</item>
+    </string-array>
+
+    <!-- Choose Log Level in Application Settings -->
+    <!-- Not intended for translation -->
+    <string-array name="log_level">
+        <item>"500 KB"</item>
+        <item>"1 MB"</item>
+        <item>"2 MB"</item>
+    </string-array>
+
+    <!-- XLST: Below are the various options available for users in the Settings page -->
+	<string-array name="settings">
+        <item>"Ustawienia ogólne"</item>
+        <item>"Opcje wyświetlania"</item>
+        <item>"Teksty objaśniające"</item>
+        <item>"Logi"</item>
+        <item>"Pulpit"</item>
+        <item>"Informacje"</item>
+    </string-array>
+    <!-- XLST: Choose either of the themes for the application -->
+    <string-array name="theme">
+        <item>"Kość słoniowa"</item>
+        <item>"Grafit"</item>
+    </string-array>
+    
+    <!-- XLST: Offline Dataset Number -->
+	<!-- Not intended for translation -->
+    <string-array name="offline_dataset_num">
+        <item>"50"</item>
+        <item>"100"</item>
+        <item>"200"</item>
+        <item>"500"</item>
+    </string-array>
+
+     <!-- XLST: SDK Offline Storage -->
+	 <!-- Not intended for translation -->
+    <string-array name="sdk_offline_storage">
+        <item>"30 MB"</item>
+        <item>"50 MB"</item>
+        <item>"100 MB"</item>
+        <item>"200 MB"</item>
+    </string-array>
+    
+    <!-- XLST: App Password Timeout Options -->
+    <string-array name="app_pwd_timeout_val">
+        <item>"Zawsze"</item>
+        <item>"1 minuta"</item>
+        <item>"5 minut"</item>
+        <item>"15 minut"</item>
+        <item>"60 minut"</item>
+        <item>"Nigdy"</item>
+    </string-array>
+
+</resources>

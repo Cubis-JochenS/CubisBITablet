@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="15dp"
+    android:paddingStart="15dp"
+     >
+
+    <TextView
+        android:id="@+id/conn_type_name"
+        style="@style/TextSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      />
+    
+	<TextView
+        android:id="@+id/conn_type_desc"
+        style="@style/TextExtraSmall"
+        android:layout_toLeftOf="@+id/img_radio"
+        android:layout_toStartOf="@+id/img_radio"
+        android:layout_below="@+id/conn_type_name"
+        android:gravity="left|start"
+        android:textAlignment="viewStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       />
+	
+    <CheckedTextView
+        android:id="@+id/img_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+       	android:checkMark="@drawable/button_checkmark" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	font-family: Helvetica;
+	background: #000000;
+}
+
+.chart {
+	background:#000000;
+	color: #FFFFFF;
+}
+
+.chart_value_bubble {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.chart_range_selector_text {
+	font-size: 12px;
+	font-family:Helvetica;
+	color:#000000;
+}
+
+.chart_toolbar {
+	background: black;
+}
+
+.chart_table {
+	background:#000000;
+	color:#FFFFFF;
+	font-size: 14px;
+}
+
+.chart_table_dimension_title {
+	background:#222222;
+}
+
+.chart_table_row_header {
+	background:#222222;
+}
+
+.chart_table_column_headers {
+	background:#777777;
+}
+
+.chart_table_contents {
+	background:#777777;
+}
